@@ -21,3 +21,13 @@ age = 23
 message = "Happy " + str(age) + "rd Birthday!"
 print(message)
 
+# 除法
+print(3/2) # 1.5
+
+# 整除
+print(3//2) # 1
+
+# 取余
+print(3%2) # 1
+
+print(2.3 + 2) # 4.3
