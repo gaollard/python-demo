@@ -17,3 +17,6 @@ def hello_world(request):
     # 打印 url 所有参数
     print(request.GET.items())
     return HttpResponse("Hello, World!")
+
+def query_params(request):
+    return HttpResponse("query_params")
