@@ -138,3 +138,79 @@ def submit_form_view(request):
     """
     
     return HttpResponse(response_content)
+
+def test_middleware(request):
+    """测试中间件功能的视图"""
+    logger.info("测试中间件视图被调用")
+    
+    # 获取请求信息
+    client_ip = request.META.get('REMOTE_ADDR', 'Unknown')
+    user_agent = request.META.get('HTTP_USER_AGENT', 'Unknown')
+    
+    response_content = f"""
+    <html>
+    <head>
+        <title>中间件测试</title>
+        <style>
+            body {{ font-family: Arial, sans-serif; max-width: 800px; margin: 50px auto; padding: 20px; }}
+            .info {{ background-color: #f0f8ff; padding: 20px; border-radius: 8px; margin-bottom: 20px; }}
+            .header {{ background-color: #e8f5e8; padding: 15px; border-radius: 8px; }}
+            h1 {{ color: #333; }}
+            .field {{ margin-bottom: 10px; }}
+            .label {{ font-weight: bold; }}
+            .value {{ color: #666; }}
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>中间件功能测试</h1>
+            <p>这个页面用于测试我们添加的自定义中间件功能</p>
+        </div>
+        
+        <div class="info">
+            <h2>请求信息</h2>
+            <div class="field">
+                <span class="label">请求方法:</span> <span class="value">{request.method}</span>
+            </div>
+            <div class="field">
+                <span class="label">请求路径:</span> <span class="value">{request.path}</span>
+            </div>
+            <div class="field">
+                <span class="label">客户端IP:</span> <span class="value">{client_ip}</span>
+            </div>
+            <div class="field">
+                <span class="label">用户代理:</span> <span class="value">{user_agent}</span>
+            </div>
+            <div class="field">
+                <span class="label">请求时间:</span> <span class="value">{request.META.get('REQUEST_TIME', 'Unknown')}</span>
+            </div>
+        </div>
+        
+        <div class="info">
+            <h2>中间件功能说明</h2>
+            <ul>
+                <li><strong>RequestLoggingMiddleware:</strong> 记录每个请求的详细信息，包括处理时间</li>
+                <li><strong>SecurityHeadersMiddleware:</strong> 添加安全相关的HTTP头</li>
+                <li><strong>RateLimitMiddleware:</strong> 限制请求频率（每分钟最多100次）</li>
+                <li><strong>CustomErrorMiddleware:</strong> 自定义错误处理</li>
+            </ul>
+        </div>
+        
+        <div class="info">
+            <h2>测试链接</h2>
+            <p><a href="/polls/hello">Hello World</a> - 测试基本功能</p>
+            <p><a href="/polls/preview">表单预览</a> - 测试表单功能</p>
+            <p><a href="/polls/test_middleware">刷新此页面</a> - 查看中间件日志</p>
+        </div>
+    </body>
+    </html>
+    """
+    
+    return HttpResponse(response_content)
+
+def trigger_error(request):
+    """触发错误的视图，用于测试错误处理中间件"""
+    logger.info("触发错误视图被调用")
+    
+    # 故意引发一个异常来测试错误处理中间件
+    raise Exception("这是一个测试异常，用于测试CustomErrorMiddleware")
