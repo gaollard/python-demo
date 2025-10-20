@@ -7,5 +7,6 @@ urlpatterns = [
     path('submit_form', views.submit_form),
     path('get_only', views.get_only_view),
     path('post_only', views.post_only_view),
-    path('get_post', views.get_post_view),
+    path('preview', views.preview_view, name='preview_view'),
+    path('submit_form_view', views.submit_form_view, name='submit_form_view'),
 ]
