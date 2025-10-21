@@ -20,3 +20,30 @@ pip freeze > requirements.txt 命令主要用于将当前 Python 环境中已安
 2。
 
 通过这种方式，requirements.txt 文件有效保证了项目在不同环境下的依赖一致性，避免了因库版本不同可能导致的各种问题，极大提升了项目协作和部署的效率
+
+## 后台运行
+1. 使用&在Unix-like系统（如Linux或MacOS）
+在命令行中，你可以通过在命令末尾添加&来将Python脚本放到后台运行。例如：
+
+```
+python your_script.py &
+```
+
+2. 使用nohup命令
+nohup命令可以在Unix-like系统中用于运行命令，使得该命令在用户注销后仍然继续运行。例如：
+```
+nohup python your_script.py &
+```
+这样即使你关闭了终端，脚本也会继续运行。nohup命令的输出默认会重定向到nohup.out文件中。
+
+4. 使用Python的subprocess模块
+如果你希望在Python脚本内部启动另一个Python脚本或任何其他程序，可以使用subprocess模块。例如：
+
+```python
+import subprocess
+
+subprocess.Popen(['python', 'your_script.py'])
+```
+
+这会以子进程的方式启动你的脚本，并且父进程可以继续执行。
+
