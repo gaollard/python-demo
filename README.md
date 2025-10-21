@@ -13,4 +13,10 @@ Python提供了三种并发的工具：多线程（threading）、多进程（pr
 pip freeze > requirements.txt
 ```
 
-pip freeze > requirements.txt 命令主要用于将当前 Python 环境中已安装的所有第三方包及其精确版本号，导出并保存到一个名为 requirements.txt 的文本文件中
+pip freeze > requirements.txt 命令主要用于将当前 Python 环境中已安装的所有第三方包及其精确版本号，导出并保存到一个名为 requirements.txt 的文本文件中。
+
+这个文件在 Python 项目开发中扮演着重要角色。它详细记录了项目运行所依赖的库及其特定版本，例如 Django==4.2.7
+1。当其他人获取你的项目代码，或者在新的环境（如部署服务器、另一台开发机）中需要配置项目时，只需运行 pip install -r requirements.txt 命令，就能一键安装文件中列出的所有依赖包，从而快速复现出与开发时一致的运行环境
+2。
+
+通过这种方式，requirements.txt 文件有效保证了项目在不同环境下的依赖一致性，避免了因库版本不同可能导致的各种问题，极大提升了项目协作和部署的效率
