@@ -47,3 +47,5 @@ subprocess.Popen(['python', 'your_script.py'])
 
 这会以子进程的方式启动你的脚本，并且父进程可以继续执行。
 
+## 作用域
+在Python中，只有模块（module）、函数（def）和类（class）会创建新的作用域。if、for、while等流程控制语句不会创建独立的作用域，在其中定义的变量属于其所在的作用域（通常是函数作用域或全局作用域）。
