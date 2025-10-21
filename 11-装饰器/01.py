@@ -11,26 +11,3 @@ def say_hello():
 
 # 调用被装饰的函数
 say_hello()
-
-
-class MyApp():
-    def __init__(self):
-        self.routes = {}
-
-    def get(self, path):
-        def decorator(func):
-            self.register(path, func, method="GET")
-            return func
-        return decorator
-    def register(self, path, func, method):
-        self.routes[path] = func
-        print("register route:", path, "method:", method, "func:", func.__name__)
-
-app = MyApp()
-
-@app.get("/")
-def sleep():
-    print("sleep")
-    return {"Hello": "World"}
-
-# sleep()
