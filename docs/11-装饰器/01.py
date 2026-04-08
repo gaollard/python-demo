@@ -1,8 +1,9 @@
 def simple_decorator(func):
+    print("simple_decorator_call")
     def wrapper():
-        print("函数执行前")
+        print("wrapper 函数执行前")
         func()
-        print("函数执行后")
+        print("wrapper 函数执行后")
     return wrapper
 
 @simple_decorator
