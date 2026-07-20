@@ -160,8 +160,8 @@
     "hash": "71c3a85c8ca9248143e54e7edeab868c"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5217\u8868/12.\u62fc\u63a5.py": {
-    "mtime": 1784469353.0894523,
-    "hash": "18736a91d0128baca0e04d866ec83af4"
+    "mtime": 1784469507.916123,
+    "hash": "5d184387d66184c46299e45220aa9113"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5217\u8868/01.\u5b9a\u4e49.py": {
     "mtime": 1760696739.6714804,
@@ -170,6 +170,10 @@
   "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5217\u8868/10.\u590d\u5236.py": {
     "mtime": 1760698289.1980565,
     "hash": "171b6073f87bf440a361c32e06e76bfe"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5217\u8868/13.\u5217\u8868\u63a8\u5bfc\u5f0f.py": {
+    "mtime": 1784469669.634583,
+    "hash": "100b1490f306e9f2d6639e51b519c132"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5217\u8868/07.\u904d\u5386.py": {
     "mtime": 1760697683.367088,
@@ -327,6 +331,34 @@
     "mtime": 1760882761.0990922,
     "hash": "36c00b9df46aa84898bd4245866dccad"
   },
+  "/Users/xiong.gao/code/GITHUB/pythons/03-http\u6846\u67b6/example.py": {
+    "mtime": 1784511123.9001017,
+    "hash": "da3ae67f819f53dc9b4bdc05dfd67311"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/03-http\u6846\u67b6/minihttp/server.py": {
+    "mtime": 1784511123.9000323,
+    "hash": "8a3c0efb602f85c5ebd1bea6123cb688"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/03-http\u6846\u67b6/minihttp/request.py": {
+    "mtime": 1784511078.0730295,
+    "hash": "b2c53e0fb1837b7c98e9617418b30fda"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/03-http\u6846\u67b6/minihttp/__init__.py": {
+    "mtime": 1784511057.098147,
+    "hash": "72aff5e92629d463fb7f41f54d0d0eb4"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/03-http\u6846\u67b6/minihttp/response.py": {
+    "mtime": 1784511087.8676727,
+    "hash": "d43aaaf10b0869b27a4b2e2c7bc1f8d3"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/03-http\u6846\u67b6/minihttp/app.py": {
+    "mtime": 1784511113.4803028,
+    "hash": "c820cba7326cc5eab13fc92ecb5f8ec2"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/03-http\u6846\u67b6/minihttp/router.py": {
+    "mtime": 1784511088.2181754,
+    "hash": "f4e5848c9c42a813fb69d3af107be4e2"
+  },
   "/Users/xiong.gao/code/GITHUB/pythons/project/fastapi-demo/main.py": {
     "mtime": 1761019645.3848982,
     "hash": "c8a835cc7f082c5d2d9f08057471b858"
@@ -423,6 +455,18 @@
     "mtime": 1784113974.1353447,
     "hash": "46e53a7a97d115590b284c7f16a06001"
   },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/15-\u5143\u7ec4/02.\u5143\u7ec4\u7684\u7ec4\u5305\u548c\u89e3\u5305.md": {
+    "mtime": 1784470372.017467,
+    "hash": "5b8bd7a2b2a92bfad0abf8887b01389e"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/15-\u5143\u7ec4/01.\u5143\u7ec4\u548c\u5217\u8868\u7684\u533a\u522b.md": {
+    "mtime": 1784470192.7324116,
+    "hash": "ba279b0da2b81ad060c792883a9dc8fe"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/03-http\u6846\u67b6/README.md": {
+    "mtime": 1784511151.462731,
+    "hash": "d87456244eb1d794f9b526e1698cd7fb"
+  },
   "/Users/xiong.gao/code/GITHUB/pythons/project/fastapi-demo/requirements.txt": {
     "mtime": 1761019797.3947978,
     "hash": "f11a3bb6a6f3c6b689a42256287b9337"
@@ -439,6 +483,10 @@
     "mtime": 1760927576.1873298,
     "hash": "153c0b384773153d8888a6682d3b4d5b"
   },
+  "/Users/xiong.gao/code/GITHUB/pythons/01-docs/05.\u5217\u8868\u63a8\u5bfc.md": {
+    "mtime": 1784469733.9287088,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
   "/Users/xiong.gao/code/GITHUB/pythons/01-docs/04.\u89e3\u5305.md": {
     "mtime": 1784468956.3535905,
     "hash": "c56ebdb7d71f52ad98bdc0037526604a"
@@ -450,6 +498,10 @@
   "/Users/xiong.gao/code/GITHUB/pythons/01-docs/01.python-m-\u7684\u4f5c\u7528.md": {
     "mtime": 1784436140.6472306,
     "hash": "e7604acf42cd864adc5dfdf6feac111e"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/01-docs/06.\u5185\u7f6e\u6a21\u5757.md": {
+    "mtime": 1784510891.7741284,
+    "hash": "9a997beae840d865d9416d652a12f8f4"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/01-docs/01\u6570\u636e\u5b58\u50a8\u8fd0\u7b97/07.random.md": {
     "mtime": 1784467929.9698234,
