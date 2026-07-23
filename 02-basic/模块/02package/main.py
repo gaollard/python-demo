@@ -8,9 +8,14 @@ my_fun.say_goodbye()
 
 print(circle_area(10))
 
+# 导入db目录下的connect.py文件
 from core.db.connect import db_connect
 print(db_connect())
 
 # logger 目录不是包，不能直接导入
 from core.logger.console import log
 log("test")
+
+# 导入db目录下的__init__.py文件
+import core.db as db
+print(db.connect.db_connect())
