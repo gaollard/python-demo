@@ -1,0 +1,5 @@
+__version__ = "1.0.0"
+__author__ = "Airtlab"
+__email__ = "john.doe@example.com"
+__license__ = "MIT"
+__copyright__ = "Copyright 2026 Airtlab"
