@@ -44,8 +44,8 @@
     "hash": "df1a580305192cee7f1f236e8a6c9e67"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/02-basic/\u7c7b\u578b\u6ce8\u89e3/03.\u51fd\u6570\u7c7b\u578b\u6ce8\u89e3.py": {
-    "mtime": 1784731611.3837457,
-    "hash": "f14a448750b4ea2661ee063e4f7e848e"
+    "mtime": 1784731645.4481864,
+    "hash": "a3bda829b5234ed3996b722304994c2a"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/02-basic/\u7c7b\u578b\u6ce8\u89e3/01.\u7c7b\u578b\u6ce8\u89e3.py": {
     "mtime": 1784729998.908008,
@@ -198,6 +198,18 @@
   "/Users/xiong.gao/code/GITHUB/pythons/02-basic/11-\u6587\u4ef6/04.file_not_exist.py": {
     "mtime": 1760882881.6284454,
     "hash": "640022052ab534b93465eb0d985c4ceb"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/\u6a21\u5757/01module1/circle_func.py": {
+    "mtime": 1784732216.207768,
+    "hash": "b96781048c15a17c2b1452a45e113707"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/\u6a21\u5757/01module1/main.py": {
+    "mtime": 1784732583.0245142,
+    "hash": "aefe8de9405fffe60bf62facef0fd1bc"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/\u6a21\u5757/02random/main.py": {
+    "mtime": 1784814419.6896317,
+    "hash": "a9e491bdb28b7fc3b1563a04075490da"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/02-basic/13-JSON/02.load.py": {
     "mtime": 1760883424.1980784,
@@ -579,9 +591,17 @@
     "mtime": 1784468672.09086,
     "hash": "21fc2a309fc7a26da8473b6c60435bce"
   },
+  "/Users/xiong.gao/code/GITHUB/pythons/01-docs/11.\u6a21\u5757.md": {
+    "mtime": 1784814122.4181688,
+    "hash": "df365e53524dd6e64e90fe0a877221f1"
+  },
   "/Users/xiong.gao/code/GITHUB/pythons/01-docs/07.\u53ef\u54c8\u5e0c.md": {
     "mtime": 1784641030.3244498,
     "hash": "654307bd69bace03722d04b6e270c2c9"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/01-docs/12.\u5185\u7f6e\u6a21\u5757\u6709\u54ea\u4e9b.md": {
+    "mtime": 1784814219.994703,
+    "hash": "ee2659a195a80ac553eb947ba7c3f84e"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/01-docs/01.python-m-\u7684\u4f5c\u7528.md": {
     "mtime": 1784436140.6472306,
