@@ -3,341 +3,413 @@
     "mtime": 1761060230.6062398,
     "hash": "2ca324db696847d401a422d0e4a06721"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/12-\u5f02\u5e38/01.py": {
-    "mtime": 1760882732.0771964,
-    "hash": "f11493f3e2517887255e60bc4027f968"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/12-\u5f02\u5e38/03.catch.py": {
-    "mtime": 1760882827.7409587,
-    "hash": "8064f43e344687c0e6c005e1be97d5cd"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/12-\u5f02\u5e38/02.catch.py": {
-    "mtime": 1760882761.0990922,
-    "hash": "36c00b9df46aa84898bd4245866dccad"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/00-\u57fa\u7840/04.\u6570\u5b57.py": {
-    "mtime": 1760696523.8137493,
-    "hash": "8cb6fd4d50632ea54b723843ee84d05c"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/00-\u57fa\u7840/01.hello.py": {
-    "mtime": 1760695216.180874,
-    "hash": "6ab7818ed8233066b973b65004dc12a4"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/00-\u57fa\u7840/02.\u4f7f\u7528\u53d8\u91cf.py": {
-    "mtime": 1775659079.9000683,
-    "hash": "44c20faceaa6e4340a4139a7a8342999"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/00-\u57fa\u7840/05.\u4ee3\u7801\u683c\u5f0f.py": {
-    "mtime": 1784460462.4787614,
-    "hash": "f34c7d3c1f4933927c88bdb7fe7bd66b"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/00-\u57fa\u7840/03.\u5b57\u7b26\u4e32.py": {
-    "mtime": 1760696152.3459795,
-    "hash": "cc7a3e78da2aa107857df2fe949a480d"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/10-\u7c7b/01.class.py": {
-    "mtime": 1760843605.3038156,
-    "hash": "3fb6be5386ca695ed44a4b3ac35a705e"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/\u7c7b\u578b\u6ce8\u89e3/02.\u51fd\u6570\u7c7b\u578b\u6ce8\u89e3 copy.py": {
-    "mtime": 1784731034.6782892,
-    "hash": "df1a580305192cee7f1f236e8a6c9e67"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/\u7c7b\u578b\u6ce8\u89e3/03.\u51fd\u6570\u7c7b\u578b\u6ce8\u89e3.py": {
-    "mtime": 1784731645.4481864,
-    "hash": "a3bda829b5234ed3996b722304994c2a"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/\u7c7b\u578b\u6ce8\u89e3/01.\u7c7b\u578b\u6ce8\u89e3.py": {
-    "mtime": 1784729998.908008,
-    "hash": "c788fa3096c6c84e64f444676ea14d33"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/01-\u8fd0\u7b97\u7b26/04.\u6bd4\u8f83\u8fd0\u7b97\u7b26.py": {
-    "mtime": 1784437058.586483,
-    "hash": "787a347054eab0d7eb80489598fa3275"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/01-\u8fd0\u7b97\u7b26/06.getattr.py": {
-    "mtime": 1775660429.7089376,
-    "hash": "df2f15c1de951a0f4f729a59f881ff51"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/01-\u8fd0\u7b97\u7b26/05.\u903b\u8f91\u8fd0\u7b97\u7b26.py": {
-    "mtime": 1784460393.1981072,
-    "hash": "2080fd047bf03fbf3a1efaa610cd90b8"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/01-\u8fd0\u7b97\u7b26/01.py": {
-    "mtime": 1784436682.43716,
-    "hash": "7da254994cbf3f2ab92362336940ce03"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/01-\u8fd0\u7b97\u7b26/02.\u7b97\u672f\u8fd0\u7b97\u7b26.py": {
-    "mtime": 1784436847.3011343,
-    "hash": "1a7dc222909e27bad23e5e9c7317cec0"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/01-\u8fd0\u7b97\u7b26/03.\u8d4b\u503c\u8fd0\u7b97.py": {
-    "mtime": 1784436978.6469905,
-    "hash": "3dfa4cd1ede486ac824e8e638790e600"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5217\u8868/09.\u5207\u7247.py": {
-    "mtime": 1760698169.5858178,
-    "hash": "9600bcff719fdbb8e4a8a1a0dee2db25"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5217\u8868/02.\u8bbf\u95ee.py": {
-    "mtime": 1760696800.5463893,
-    "hash": "a9f5990806c63d9699f284f8c3ae6657"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5217\u8868/04.\u6e05\u7a7a.py": {
-    "mtime": 1760697174.773246,
-    "hash": "71c3a85c8ca9248143e54e7edeab868c"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5217\u8868/12.\u62fc\u63a5.py": {
-    "mtime": 1784469507.916123,
-    "hash": "5d184387d66184c46299e45220aa9113"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5217\u8868/01.\u5b9a\u4e49.py": {
-    "mtime": 1760696739.6714804,
-    "hash": "a9f5990806c63d9699f284f8c3ae6657"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5217\u8868/10.\u590d\u5236.py": {
-    "mtime": 1760698289.1980565,
-    "hash": "171b6073f87bf440a361c32e06e76bfe"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5217\u8868/13.\u5217\u8868\u63a8\u5bfc\u5f0f.py": {
-    "mtime": 1784469669.634583,
-    "hash": "100b1490f306e9f2d6639e51b519c132"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5217\u8868/07.\u904d\u5386.py": {
-    "mtime": 1760697683.367088,
-    "hash": "a1dafa2f063c91db187c674b4588b472"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5217\u8868/06.\u6392\u5e8f.py": {
-    "mtime": 1760697340.9173217,
-    "hash": "567e9b7d25b1db5a40546a8441008e20"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5217\u8868/11.\u5143\u7ec4.py": {
-    "mtime": 1760699245.0573187,
-    "hash": "16c8e8a7f71e5013e256162c5c4087fd"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5217\u8868/03.\u4fee\u6539.py": {
-    "mtime": 1760697154.6630387,
-    "hash": "71c3a85c8ca9248143e54e7edeab868c"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5217\u8868/05.\u5220\u9664.py": {
-    "mtime": 1760697213.4271107,
-    "hash": "21889555facdf1ba0cb77c722ed58ce5"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5217\u8868/08.range.py": {
-    "mtime": 1760697909.9150386,
-    "hash": "ef7ac50c7a38057e88ad7c297429afaa"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/14-\u88c5\u9970\u5668/01.py": {
-    "mtime": 1775660744.4321785,
-    "hash": "1d8fc0955905ed5bbaf743738866a218"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/14-\u88c5\u9970\u5668/03.py": {
-    "mtime": 1761021165.6819785,
-    "hash": "9e1dc7e75b246d52a4b6b33e958911b3"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/14-\u88c5\u9970\u5668/02.py": {
-    "mtime": 1775660857.4644768,
-    "hash": "c61e8115da8ca01ea54b492f490ad3a4"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/15-\u7ec8\u7aef\u8f93\u5165\u8f93\u51fa/01.py": {
-    "mtime": 1784436631.4880168,
-    "hash": "f96f4172a8835d6c54872f2027163227"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/05-\u5b57\u5178/04.\u5b57\u5178\u5e38\u7528\u64cd\u4f5c.py": {
-    "mtime": 1784641935.536303,
-    "hash": "326d852efbf04d4dd755d44bfd8d95fb"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/05-\u5b57\u5178/03.\u5b57\u5178\u904d\u5386.py": {
-    "mtime": 1784641789.3662038,
-    "hash": "9c26ffdd96835e4a7b4fb0e3add65b39"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/05-\u5b57\u5178/02.\u5b57\u5178\u5408\u5e76.py": {
-    "mtime": 1784641419.9555776,
-    "hash": "f3bf0df62658b4ea28b5ed98da28924b"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/05-\u5b57\u5178/05.\u8d2d\u7269\u8f66\u6848\u4f8b.py": {
-    "mtime": 1784642149.9431126,
-    "hash": "780fb2ded67de48c2b924e33d20a0eec"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/05-\u5b57\u5178/01.\u5b57\u5178\u5b9a\u4e49.py": {
-    "mtime": 1784641651.9262457,
-    "hash": "a5850df1c82e6fa0fffb6979310047d2"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/02-\u5b57\u7b26\u4e32/02.\u5e38\u89c1\u64cd\u4f5c.py": {
-    "mtime": 1775659247.2261198,
-    "hash": "7f92eb77953a894b55cc3854acfe1c5f"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/02-\u5b57\u7b26\u4e32/03.\u9ad8\u7ea7\u64cd\u4f5c.py": {
-    "mtime": 1775659325.7038891,
-    "hash": "5de7dc8cd901eba84d47ec5d8d246f97"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/02-\u5b57\u7b26\u4e32/01.\u5206\u5272.py": {
-    "mtime": 1760883238.2998843,
-    "hash": "1dec4b7e3a806dbd80d6117f720e0f21"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/02-\u5b57\u7b26\u4e32/05.\u6253\u5370.py": {
-    "mtime": 1784435883.174191,
-    "hash": "7fe90af9e06991dd0625b83eb14fc002"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/02-\u5b57\u7b26\u4e32/04.\u62fc\u63a5.py": {
-    "mtime": 1784436200.5647082,
-    "hash": "834e4c44f2ee9f565c2539592cba1970"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/11-\u6587\u4ef6/01.read.py": {
-    "mtime": 1760843751.0119,
-    "hash": "e6d4c3c27136f79aaf077c81506f20bb"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/11-\u6587\u4ef6/02.write.py": {
-    "mtime": 1760882608.9331913,
-    "hash": "a257b8760f4995e7e7a36187e32802fb"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/11-\u6587\u4ef6/03.append.py": {
-    "mtime": 1760882642.9683204,
-    "hash": "b4a9e4f71889e83b7379fa18c9888e1a"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/11-\u6587\u4ef6/04.file_not_exist.py": {
-    "mtime": 1760882881.6284454,
-    "hash": "640022052ab534b93465eb0d985c4ceb"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/\u6a21\u5757/01module1/circle_func.py": {
-    "mtime": 1784732216.207768,
-    "hash": "b96781048c15a17c2b1452a45e113707"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/\u6a21\u5757/01module1/main.py": {
-    "mtime": 1784732583.0245142,
-    "hash": "aefe8de9405fffe60bf62facef0fd1bc"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/\u6a21\u5757/02random/main.py": {
-    "mtime": 1784814419.6896317,
-    "hash": "a9e491bdb28b7fc3b1563a04075490da"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/13-JSON/02.load.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/16-JSON/02.load.py": {
     "mtime": 1760883424.1980784,
     "hash": "6c24518ff1588d5c0239d4885d9fb6ae"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/13-JSON/01.write.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/16-JSON/01.write.py": {
     "mtime": 1760883353.4427989,
     "hash": "c4767c9e8920eef6dc153f85aa72da9f"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/16-\u7f51\u7edc/02.udp.py": {
-    "mtime": 1760930838.3165293,
-    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/02-\u8fd0\u7b97\u7b26/04.\u6bd4\u8f83\u8fd0\u7b97\u7b26.py": {
+    "mtime": 1784437058.586483,
+    "hash": "787a347054eab0d7eb80489598fa3275"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/16-\u7f51\u7edc/01.tcp.py": {
-    "mtime": 1760930967.9249432,
-    "hash": "993aa47f41d327a55032938a74df6eca"
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/02-\u8fd0\u7b97\u7b26/06.getattr.py": {
+    "mtime": 1775660429.7089376,
+    "hash": "df2f15c1de951a0f4f729a59f881ff51"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/16-\u7f51\u7edc/03.http-server.py": {
-    "mtime": 1761056368.1654098,
-    "hash": "2ca324db696847d401a422d0e4a06721"
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/02-\u8fd0\u7b97\u7b26/05.\u903b\u8f91\u8fd0\u7b97\u7b26.py": {
+    "mtime": 1784460393.1981072,
+    "hash": "2080fd047bf03fbf3a1efaa610cd90b8"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/06-\u96c6\u5408Set/01.py": {
-    "mtime": 1784641238.4732645,
-    "hash": "52d9e4bfdc83888bcf340aec15b0b207"
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/02-\u8fd0\u7b97\u7b26/01.py": {
+    "mtime": 1784436682.43716,
+    "hash": "7da254994cbf3f2ab92362336940ce03"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u51fd\u6570/10.\u9ed8\u8ba4\u53c2\u6570.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/02-\u8fd0\u7b97\u7b26/02.\u7b97\u672f\u8fd0\u7b97\u7b26.py": {
+    "mtime": 1784436847.3011343,
+    "hash": "1a7dc222909e27bad23e5e9c7317cec0"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/02-\u8fd0\u7b97\u7b26/03.\u8d4b\u503c\u8fd0\u7b97.py": {
+    "mtime": 1784436978.6469905,
+    "hash": "3dfa4cd1ede486ac824e8e638790e600"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/13-\u7c7b\u578b\u6ce8\u89e3/02.\u51fd\u6570\u7c7b\u578b\u6ce8\u89e3 copy.py": {
+    "mtime": 1784731034.6782892,
+    "hash": "df1a580305192cee7f1f236e8a6c9e67"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/13-\u7c7b\u578b\u6ce8\u89e3/03.\u51fd\u6570\u7c7b\u578b\u6ce8\u89e3.py": {
+    "mtime": 1784731645.4481864,
+    "hash": "a3bda829b5234ed3996b722304994c2a"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/13-\u7c7b\u578b\u6ce8\u89e3/01.\u7c7b\u578b\u6ce8\u89e3.py": {
+    "mtime": 1784729998.908008,
+    "hash": "c788fa3096c6c84e64f444676ea14d33"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/17-\u88c5\u9970\u5668/01.py": {
+    "mtime": 1775660744.4321785,
+    "hash": "1d8fc0955905ed5bbaf743738866a218"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/17-\u88c5\u9970\u5668/03.py": {
+    "mtime": 1761021165.6819785,
+    "hash": "9e1dc7e75b246d52a4b6b33e958911b3"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/17-\u88c5\u9970\u5668/02.py": {
+    "mtime": 1775660857.4644768,
+    "hash": "c61e8115da8ca01ea54b492f490ad3a4"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/01-\u57fa\u7840/04.\u6570\u5b57.py": {
+    "mtime": 1760696523.8137493,
+    "hash": "8cb6fd4d50632ea54b723843ee84d05c"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/01-\u57fa\u7840/01.hello.py": {
+    "mtime": 1760695216.180874,
+    "hash": "6ab7818ed8233066b973b65004dc12a4"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/01-\u57fa\u7840/02.\u4f7f\u7528\u53d8\u91cf.py": {
+    "mtime": 1775659079.9000683,
+    "hash": "44c20faceaa6e4340a4139a7a8342999"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/01-\u57fa\u7840/05.\u4ee3\u7801\u683c\u5f0f.py": {
+    "mtime": 1784460462.4787614,
+    "hash": "f34c7d3c1f4933927c88bdb7fe7bd66b"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/01-\u57fa\u7840/03.\u5b57\u7b26\u4e32.py": {
+    "mtime": 1760696152.3459795,
+    "hash": "cc7a3e78da2aa107857df2fe949a480d"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5b57\u7b26\u4e32/02.\u5e38\u89c1\u64cd\u4f5c.py": {
+    "mtime": 1775659247.2261198,
+    "hash": "7f92eb77953a894b55cc3854acfe1c5f"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5b57\u7b26\u4e32/03.\u9ad8\u7ea7\u64cd\u4f5c.py": {
+    "mtime": 1775659325.7038891,
+    "hash": "5de7dc8cd901eba84d47ec5d8d246f97"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5b57\u7b26\u4e32/01.\u5206\u5272.py": {
+    "mtime": 1760883238.2998843,
+    "hash": "1dec4b7e3a806dbd80d6117f720e0f21"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5b57\u7b26\u4e32/05.\u6253\u5370.py": {
+    "mtime": 1784435883.174191,
+    "hash": "7fe90af9e06991dd0625b83eb14fc002"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/03-\u5b57\u7b26\u4e32/04.\u62fc\u63a5.py": {
+    "mtime": 1784436200.5647082,
+    "hash": "834e4c44f2ee9f565c2539592cba1970"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/10-\u51fd\u6570/10.\u9ed8\u8ba4\u53c2\u6570.py": {
     "mtime": 1784645004.0023024,
     "hash": "73b44d481eec595641425a721b43f34b"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u51fd\u6570/05.\u51fd\u6570\u8bf4\u660e\u6587\u6863.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/10-\u51fd\u6570/05.\u51fd\u6570\u8bf4\u660e\u6587\u6863.py": {
     "mtime": 1784643727.1478844,
     "hash": "baa4d0dc8792fc7a1b9528090f5e2971"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u51fd\u6570/13.\u533f\u540d\u51fd\u6570.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/10-\u51fd\u6570/13.\u533f\u540d\u51fd\u6570.py": {
     "mtime": 1784646317.465801,
     "hash": "9b1c31189f3c6c986b725d325900fe0e"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u51fd\u6570/12.\u53c2\u6570\u4f5c\u4e3a\u53c2\u6570.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/10-\u51fd\u6570/12.\u53c2\u6570\u4f5c\u4e3a\u53c2\u6570.py": {
     "mtime": 1784646061.5539858,
     "hash": "7dafa650a6ba38544b02f773c007e734"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u51fd\u6570/04.\u51fd\u6570\u8fd4\u56de\u5143\u7ec4.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/10-\u51fd\u6570/04.\u51fd\u6570\u8fd4\u56de\u5143\u7ec4.py": {
     "mtime": 1784643368.6849778,
     "hash": "9a7e0d08a22e2f0c385d2f3fe2b97876"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u51fd\u6570/08.\u5168\u5c40VS\u5c40\u90e8-global.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/10-\u51fd\u6570/08.\u5168\u5c40VS\u5c40\u90e8-global.py": {
     "mtime": 1784644675.4937437,
     "hash": "b8189733391b3269b9cb769eb5ee7c8f"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u51fd\u6570/02.\u5e26\u53c2\u6570\u51fd\u6570.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/10-\u51fd\u6570/02.\u5e26\u53c2\u6570\u51fd\u6570.py": {
     "mtime": 1784643172.5549188,
     "hash": "a3f5d998e0dc8bd035bcf076ac43bdf7"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u51fd\u6570/06.\u51fd\u6570\u7684\u5d4c\u5957\u8c03\u7528.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/10-\u51fd\u6570/06.\u51fd\u6570\u7684\u5d4c\u5957\u8c03\u7528.py": {
     "mtime": 1784643859.2976053,
     "hash": "be0b65a067959ff390d71ccbb82ae1ed"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u51fd\u6570/07.\u53d8\u91cf\u4f5c\u7528\u57df.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/10-\u51fd\u6570/07.\u53d8\u91cf\u4f5c\u7528\u57df.py": {
     "mtime": 1784644454.4528193,
     "hash": "d0e19795c3057603ad9bb5deb8abee8a"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u51fd\u6570/03.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/10-\u51fd\u6570/03.py": {
     "mtime": 1784644249.9796095,
     "hash": "33615c6214a34c8d44650b15f1e3af1c"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u51fd\u6570/09.\u5173\u952e\u5b57\u53c2\u6570.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/10-\u51fd\u6570/09.\u5173\u952e\u5b57\u53c2\u6570.py": {
     "mtime": 1784644964.8142495,
     "hash": "fc56179f3b15c6233dd6370221fa7cbe"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u51fd\u6570/01.\u65e0\u53c2\u51fd\u6570.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/10-\u51fd\u6570/01.\u65e0\u53c2\u51fd\u6570.py": {
     "mtime": 1784643179.137693,
     "hash": "2b36b7e113b684c221a03cdb175f9ec1"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u51fd\u6570/14.\u9012\u5f52.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/10-\u51fd\u6570/14.\u9012\u5f52.py": {
     "mtime": 1784646404.963509,
     "hash": "92e8d2a980058c8d998f6de7f213b14a"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u51fd\u6570/11.\u4e0d\u5b9a\u957f\u53c2\u6570.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/10-\u51fd\u6570/11.\u4e0d\u5b9a\u957f\u53c2\u6570.py": {
     "mtime": 1784645347.625303,
     "hash": "24f7da3ec4ccc4bf9769a751dc4dda52"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u51fd\u6570/\u52a8\u6001\u51fd\u6570/01.eval.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/10-\u51fd\u6570/\u52a8\u6001\u51fd\u6570/01.eval.py": {
     "mtime": 1784642809.9489303,
     "hash": "e356671dc520ed7b6a669415ff8b4e97"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u51fd\u6570/\u52a8\u6001\u51fd\u6570/02.\u5b57\u7b26\u4e32\u8f6c\u51fd\u6570-\u51fd\u6570\u5b57\u5178.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/10-\u51fd\u6570/\u52a8\u6001\u51fd\u6570/02.\u5b57\u7b26\u4e32\u8f6c\u51fd\u6570-\u51fd\u6570\u5b57\u5178.py": {
     "mtime": 1761055848.0396035,
     "hash": "2f40aca94049a990a9ed22a89949c5ba"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u51fd\u6570/\u52a8\u6001\u51fd\u6570/03.\u5b57\u7b26\u4e32\u8f6c\u51fd\u6570.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/10-\u51fd\u6570/\u52a8\u6001\u51fd\u6570/03.\u5b57\u7b26\u4e32\u8f6c\u51fd\u6570.py": {
     "mtime": 1761055860.1940699,
     "hash": "dab88a10443fb874ea64aad6fe451b8a"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/07-\u89e3\u5305/02.\u51fd\u6570\u4f20\u53c2\u89e3\u5305.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/14-\u6587\u4ef6/01.read.py": {
+    "mtime": 1760843751.0119,
+    "hash": "e6d4c3c27136f79aaf077c81506f20bb"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/14-\u6587\u4ef6/02.write.py": {
+    "mtime": 1760882608.9331913,
+    "hash": "a257b8760f4995e7e7a36187e32802fb"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/14-\u6587\u4ef6/03.append.py": {
+    "mtime": 1760882642.9683204,
+    "hash": "b4a9e4f71889e83b7379fa18c9888e1a"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/14-\u6587\u4ef6/04.file_not_exist.py": {
+    "mtime": 1760882881.6284454,
+    "hash": "640022052ab534b93465eb0d985c4ceb"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/08-\u89e3\u5305/02.\u51fd\u6570\u4f20\u53c2\u89e3\u5305.py": {
     "mtime": 1784469094.834201,
     "hash": "323833177cc3ead44da397996cfcc132"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/07-\u89e3\u5305/01.\u5e8f\u5217\u89e3\u5305.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/08-\u89e3\u5305/01.\u5e8f\u5217\u89e3\u5305.py": {
     "mtime": 1784469099.0388854,
     "hash": "0168f87cbb30f7d470d99981834e33dd"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/08-\u6d41\u7a0b\u63a7\u5236/06.for.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/07-\u96c6\u5408Set/01.py": {
+    "mtime": 1784641238.4732645,
+    "hash": "52d9e4bfdc83888bcf340aec15b0b207"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/18-\u7ec8\u7aef\u8f93\u5165\u8f93\u51fa/01.py": {
+    "mtime": 1784436631.4880168,
+    "hash": "f96f4172a8835d6c54872f2027163227"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u6d41\u7a0b\u63a7\u5236/06.for.py": {
     "mtime": 1784467399.037463,
     "hash": "4d33a963753f789dbef0154bd26563ba"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/08-\u6d41\u7a0b\u63a7\u5236/04.match_case.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u6d41\u7a0b\u63a7\u5236/04.match_case.py": {
     "mtime": 1784460643.840983,
     "hash": "235d87000c06da1634b3c432cb7c166a"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/08-\u6d41\u7a0b\u63a7\u5236/01.if.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u6d41\u7a0b\u63a7\u5236/01.if.py": {
     "mtime": 1760699469.9362187,
     "hash": "ed0c5437634af0148a052381140b39f5"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/08-\u6d41\u7a0b\u63a7\u5236/05.while.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u6d41\u7a0b\u63a7\u5236/05.while.py": {
     "mtime": 1784467264.962757,
     "hash": "edd3d06217e4e917ca28fa069b0bac6d"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/08-\u6d41\u7a0b\u63a7\u5236/07.for.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u6d41\u7a0b\u63a7\u5236/07.for.py": {
     "mtime": 1784467646.3421001,
     "hash": "9d7577b5f7d769140d522d02c0bd46a1"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/08-\u6d41\u7a0b\u63a7\u5236/02.in-not-in.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u6d41\u7a0b\u63a7\u5236/02.in-not-in.py": {
     "mtime": 1760699491.2628317,
     "hash": "ed0c5437634af0148a052381140b39f5"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/08-\u6d41\u7a0b\u63a7\u5236/03.\u6d4b\u8bd5\u591a\u4e2a\u6761\u4ef6.py": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/09-\u6d41\u7a0b\u63a7\u5236/03.\u6d4b\u8bd5\u591a\u4e2a\u6761\u4ef6.py": {
     "mtime": 1760699807.0514312,
     "hash": "d6a96a85f9e44d5bc47c87f004d6d26e"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/12-\u6a21\u5757/01module1/circle_func.py": {
+    "mtime": 1784732216.207768,
+    "hash": "b96781048c15a17c2b1452a45e113707"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/12-\u6a21\u5757/01module1/test.py": {
+    "mtime": 1784814769.815153,
+    "hash": "9843ea55a623f6175049524091532269"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/12-\u6a21\u5757/01module1/__.py": {
+    "mtime": 1784815132.1914508,
+    "hash": "081bbc902714c7c17e0bc3b77b2c3ecc"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/12-\u6a21\u5757/01module1/main.py": {
+    "mtime": 1784814668.304516,
+    "hash": "aefe8de9405fffe60bf62facef0fd1bc"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/12-\u6a21\u5757/01module1/core/logger.py": {
+    "mtime": 1784815147.9357471,
+    "hash": "4b12aa85762a80e64449eb31136ce1a2"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/12-\u6a21\u5757/02random/main.py": {
+    "mtime": 1784814479.4757795,
+    "hash": "6d47fd250547e0761d79ceb180063c7d"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/12-\u6a21\u5757/03package/main.py": {
+    "mtime": 1784818344.7461407,
+    "hash": "6fdb92ea758ab1dc7438ddf5a50a8bc7"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/12-\u6a21\u5757/03package/core/logger/console.py": {
+    "mtime": 1784817494.971106,
+    "hash": "3748564dfd56e6d8db2738d70bc8e520"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/12-\u6a21\u5757/03package/core/db/connect.py": {
+    "mtime": 1784817467.6172755,
+    "hash": "20e7614af05e747f1e9b5198ca871ead"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/12-\u6a21\u5757/03package/core/db/__init__.py": {
+    "mtime": 1784818415.2679906,
+    "hash": "d1d737080202dc743e74a24344d04bdc"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/12-\u6a21\u5757/03package/utils/my_fun.py": {
+    "mtime": 1784817307.6841419,
+    "hash": "05d2897c4245baed5783095f8eadf526"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/12-\u6a21\u5757/03package/utils/circle_func.py": {
+    "mtime": 1784817095.98933,
+    "hash": "b96781048c15a17c2b1452a45e113707"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/12-\u6a21\u5757/03package/utils/__init__.py": {
+    "mtime": 1784817269.2183871,
+    "hash": "aa6f7b26877f88c713859176f44a360d"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/19-\u7f51\u7edc/02.udp.py": {
+    "mtime": 1760930838.3165293,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/19-\u7f51\u7edc/01.tcp.py": {
+    "mtime": 1760930967.9249432,
+    "hash": "993aa47f41d327a55032938a74df6eca"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/19-\u7f51\u7edc/03.http-server.py": {
+    "mtime": 1761056368.1654098,
+    "hash": "2ca324db696847d401a422d0e4a06721"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/06-\u5b57\u5178/04.\u5b57\u5178\u5e38\u7528\u64cd\u4f5c.py": {
+    "mtime": 1784641935.536303,
+    "hash": "326d852efbf04d4dd755d44bfd8d95fb"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/06-\u5b57\u5178/03.\u5b57\u5178\u904d\u5386.py": {
+    "mtime": 1784641789.3662038,
+    "hash": "9c26ffdd96835e4a7b4fb0e3add65b39"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/06-\u5b57\u5178/02.\u5b57\u5178\u5408\u5e76.py": {
+    "mtime": 1784641419.9555776,
+    "hash": "f3bf0df62658b4ea28b5ed98da28924b"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/06-\u5b57\u5178/05.\u8d2d\u7269\u8f66\u6848\u4f8b.py": {
+    "mtime": 1784642149.9431126,
+    "hash": "780fb2ded67de48c2b924e33d20a0eec"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/06-\u5b57\u5178/01.\u5b57\u5178\u5b9a\u4e49.py": {
+    "mtime": 1784641651.9262457,
+    "hash": "a5850df1c82e6fa0fffb6979310047d2"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/11-\u7c7b/06.\u9b54\u6cd5\u65b9\u6cd52.py": {
+    "mtime": 1784819875.846563,
+    "hash": "48494cf4037946e2a973097ea2e66d7b"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/11-\u7c7b/02.__init__\u65b9\u6cd5.py": {
+    "mtime": 1784819058.415962,
+    "hash": "e9c4cc0e6532b2c01e19288da69307a5"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/11-\u7c7b/03.\u52a8\u6001\u5c5e\u6027.py": {
+    "mtime": 1784818929.9177,
+    "hash": "f50a8f4efa96bfb45e74c5f707c6cd05"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/11-\u7c7b/07.\u5b9e\u4f8b\u5c5e\u6027\u548c\u7c7b\u5c5e\u6027.py": {
+    "mtime": 1784904653.274185,
+    "hash": "726f69973fb78b4bf75b0076dc57f183"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/11-\u7c7b/04.\u9b54\u6cd5\u65b9\u6cd51.py": {
+    "mtime": 1784819676.0099185,
+    "hash": "2e5e9d109175e3f2c6c2dc3919ad3bbc"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/11-\u7c7b/01.class.py": {
+    "mtime": 1784819090.9657352,
+    "hash": "bd68a337fa0bc8d53cb43c59f9abee8b"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/11-\u7c7b/05.\u9b54\u6cd5\u65b9\u6cd52.py": {
+    "mtime": 1784819837.380871,
+    "hash": "48494cf4037946e2a973097ea2e66d7b"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/11-\u7c7b/08.\u7ee7\u627f.py": {
+    "mtime": 1784904804.6392932,
+    "hash": "699551d88c25fa21296d6489a2296f1f"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/11-\u7c7b/02.\u5bf9\u8c61\u5185\u7f6e\u5c5e\u6027.py": {
+    "mtime": 1784818871.7981331,
+    "hash": "0e7edcd914d0cb6c2b20cd6850fb5c95"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/04-\u5217\u8868/09.\u5207\u7247.py": {
+    "mtime": 1760698169.5858178,
+    "hash": "9600bcff719fdbb8e4a8a1a0dee2db25"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/04-\u5217\u8868/02.\u8bbf\u95ee.py": {
+    "mtime": 1760696800.5463893,
+    "hash": "a9f5990806c63d9699f284f8c3ae6657"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/04-\u5217\u8868/04.\u6e05\u7a7a.py": {
+    "mtime": 1760697174.773246,
+    "hash": "71c3a85c8ca9248143e54e7edeab868c"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/04-\u5217\u8868/12.\u62fc\u63a5.py": {
+    "mtime": 1784469507.916123,
+    "hash": "5d184387d66184c46299e45220aa9113"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/04-\u5217\u8868/01.\u5b9a\u4e49.py": {
+    "mtime": 1760696739.6714804,
+    "hash": "a9f5990806c63d9699f284f8c3ae6657"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/04-\u5217\u8868/10.\u590d\u5236.py": {
+    "mtime": 1760698289.1980565,
+    "hash": "171b6073f87bf440a361c32e06e76bfe"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/04-\u5217\u8868/13.\u5217\u8868\u63a8\u5bfc\u5f0f.py": {
+    "mtime": 1784469669.634583,
+    "hash": "100b1490f306e9f2d6639e51b519c132"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/04-\u5217\u8868/07.\u904d\u5386.py": {
+    "mtime": 1760697683.367088,
+    "hash": "a1dafa2f063c91db187c674b4588b472"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/04-\u5217\u8868/06.\u6392\u5e8f.py": {
+    "mtime": 1760697340.9173217,
+    "hash": "567e9b7d25b1db5a40546a8441008e20"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/04-\u5217\u8868/11.\u5143\u7ec4.py": {
+    "mtime": 1760699245.0573187,
+    "hash": "16c8e8a7f71e5013e256162c5c4087fd"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/04-\u5217\u8868/03.\u4fee\u6539.py": {
+    "mtime": 1760697154.6630387,
+    "hash": "71c3a85c8ca9248143e54e7edeab868c"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/04-\u5217\u8868/05.\u5220\u9664.py": {
+    "mtime": 1760697213.4271107,
+    "hash": "21889555facdf1ba0cb77c722ed58ce5"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/04-\u5217\u8868/08.range.py": {
+    "mtime": 1760697909.9150386,
+    "hash": "ef7ac50c7a38057e88ad7c297429afaa"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/15-\u5f02\u5e38/01.py": {
+    "mtime": 1760882732.0771964,
+    "hash": "f11493f3e2517887255e60bc4027f968"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/15-\u5f02\u5e38/03.catch.py": {
+    "mtime": 1760882827.7409587,
+    "hash": "8064f43e344687c0e6c005e1be97d5cd"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/15-\u5f02\u5e38/02.catch.py": {
+    "mtime": 1760882761.0990922,
+    "hash": "36c00b9df46aa84898bd4245866dccad"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/03-http\u6846\u67b6/example.py": {
     "mtime": 1784512564.7526813,
@@ -539,17 +611,17 @@
     "mtime": 1761060335.5881155,
     "hash": "97b2e89fc7f4174d6b07ddfb884bc67f"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/04-\u5143\u7ec4/02.\u5143\u7ec4\u7684\u7ec4\u5305\u548c\u89e3\u5305.md": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/07-\u96c6\u5408Set/\u96c6\u5408.md": {
+    "mtime": 1784640631.5796556,
+    "hash": "017e9fc9b86b7e7c82684f35fc21d941"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/05-\u5143\u7ec4/02.\u5143\u7ec4\u7684\u7ec4\u5305\u548c\u89e3\u5305.md": {
     "mtime": 1784470372.017467,
     "hash": "5b8bd7a2b2a92bfad0abf8887b01389e"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/04-\u5143\u7ec4/01.\u5143\u7ec4\u548c\u5217\u8868\u7684\u533a\u522b.md": {
+  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/05-\u5143\u7ec4/01.\u5143\u7ec4\u548c\u5217\u8868\u7684\u533a\u522b.md": {
     "mtime": 1784470192.7324116,
     "hash": "ba279b0da2b81ad060c792883a9dc8fe"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/02-basic/06-\u96c6\u5408Set/\u96c6\u5408.md": {
-    "mtime": 1784640631.5796556,
-    "hash": "017e9fc9b86b7e7c82684f35fc21d941"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/03-http\u6846\u67b6/README.md": {
     "mtime": 1784512590.1174688,
@@ -583,6 +655,10 @@
     "mtime": 1784641522.8695953,
     "hash": "31426538501f8bb358df295e89b671d0"
   },
+  "/Users/xiong.gao/code/GITHUB/pythons/01-docs/15.\u6a21\u5757-package.md": {
+    "mtime": 1784818562.2378416,
+    "hash": "b85195f6b02680ce3a54cce2f3d9a6a1"
+  },
   "/Users/xiong.gao/code/GITHUB/pythons/01-docs/04.\u89e3\u5305.md": {
     "mtime": 1784468956.3535905,
     "hash": "c56ebdb7d71f52ad98bdc0037526604a"
@@ -590,6 +666,14 @@
   "/Users/xiong.gao/code/GITHUB/pythons/01-docs/03.\u5185\u7f6e\u51fd\u6570.md": {
     "mtime": 1784468672.09086,
     "hash": "21fc2a309fc7a26da8473b6c60435bce"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/01-docs/14.\u6a21\u5757__all__.md": {
+    "mtime": 1784815604.2047348,
+    "hash": "499b11d6fd62e6a185e8fb805d1726ed"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/01-docs/13.\u6a21\u5757\u5185\u7f6e\u53d8\u91cf.md": {
+    "mtime": 1784814905.6562283,
+    "hash": "7df447f203e6fa28d20ab387cb7a218d"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/01-docs/11.\u6a21\u5757.md": {
     "mtime": 1784814122.4181688,

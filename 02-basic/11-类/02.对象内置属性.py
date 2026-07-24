@@ -14,11 +14,14 @@ my_dog = Dog('willie', 6)
 my_dog.sit()
 my_dog.roll_over()
 
-# 继承
-class GuiBi(Dog):
-    def __init__(self, name, age):
-        super().__init__(name, age)
-        self.color = 'red'
+# __dict__ 属性返回一个字典，包含了对象的所有属性
+print(my_dog.__dict__)
 
-my_guibi = GuiBi('willie', 6)
-print(my_guibi.color)
+# __class__ 属性返回对象的类
+print(my_dog.__class__) # <class '__main__.Dog'>
+
+# __module__ 属性返回对象所属的模块
+print(my_dog.__module__) # __main__
+
+# __doc__ 属性返回对象的文档字符串
+print(my_dog.__doc__) # None
