@@ -1,0 +1,874 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "01.py",
+      "file_type": "code",
+      "source_file": "01.py",
+      "source_location": "L1",
+      "id": "01_py",
+      "community": 13,
+      "norm_label": "01.py"
+    },
+    {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L1",
+      "id": "main_py",
+      "community": 2,
+      "norm_label": "main.py"
+    },
+    {
+      "label": "list_models()",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L28",
+      "id": "01_streamlit_main_list_models",
+      "community": 2,
+      "norm_label": "list_models()"
+    },
+    {
+      "label": "\u672c\u5730 Ollama \u804a\u5929 Demo\uff08Streamlit\uff09\u3002  \u8bf4\u660e\uff1a - \u901a\u8fc7 Ollama \u7684 OpenAI \u517c\u5bb9\u63a5\u53e3\u8c03\u7528\u672c\u5730\u6a21\u578b - Streamlit \u6bcf",
+      "file_type": "rationale",
+      "source_file": "main.py",
+      "source_location": "L1",
+      "id": "01_streamlit_main_rationale_1",
+      "community": 2,
+      "norm_label": "\u672c\u5730 ollama \u804a\u5929 demo(streamlit)\u3002  \u8bf4\u660e: - \u901a\u8fc7 ollama \u7684 openai \u517c\u5bb9\u63a5\u53e3\u8c03\u7528\u672c\u5730\u6a21\u578b - streamlit \u6bcf"
+    },
+    {
+      "label": "\u4ece Ollama \u62c9\u53d6\u672c\u5730\u6a21\u578b\uff1b\u8fc7\u6ee4\u6389 embedding \u6a21\u578b\u3002\u5931\u8d25\u5219\u7528\u9ed8\u8ba4\u5217\u8868\u3002",
+      "file_type": "rationale",
+      "source_file": "main.py",
+      "source_location": "L29",
+      "id": "01_streamlit_main_rationale_29",
+      "community": 2,
+      "norm_label": "\u4ece ollama \u62c9\u53d6\u672c\u5730\u6a21\u578b;\u8fc7\u6ee4\u6389 embedding \u6a21\u578b\u3002\u5931\u8d25\u5219\u7528\u9ed8\u8ba4\u5217\u8868\u3002"
+    },
+    {
+      "label": "doc.md",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L1",
+      "id": "doc_md",
+      "community": 0,
+      "norm_label": "doc.md"
+    },
+    {
+      "label": "Streamlit",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L3",
+      "id": "01_streamlit_doc_streamlit",
+      "community": 0,
+      "norm_label": "streamlit"
+    },
+    {
+      "label": "\u6838\u5fc3\u6982\u5ff5",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L9",
+      "id": "01_streamlit_doc_\u6838\u5fc3\u6982\u5ff5",
+      "community": 0,
+      "norm_label": "\u6838\u5fc3\u6982\u5ff5"
+    },
+    {
+      "label": "code:block1 (\u6d4f\u89c8\u5668\u64cd\u4f5c\uff08\u6539\u63a7\u4ef6 / \u70b9\u6309\u94ae\uff09)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L22",
+      "id": "01_streamlit_doc_codeblock_1",
+      "community": 0,
+      "norm_label": "code:block1 (\u6d4f\u89c8\u5668\u64cd\u4f5c(\u6539\u63a7\u4ef6 / \u70b9\u6309\u94ae))"
+    },
+    {
+      "label": "\u4e3a\u4ec0\u4e48\u9700\u8981 Streamlit",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L39",
+      "id": "01_streamlit_doc_\u4e3a\u4ec0\u4e48\u9700\u8981_streamlit",
+      "community": 3,
+      "norm_label": "\u4e3a\u4ec0\u4e48\u9700\u8981 streamlit"
+    },
+    {
+      "label": "code:python (# \u7ec8\u7aef\u811a\u672c\uff1a\u53ea\u80fd\u6539\u53c2\u6570\u518d\u8dd1)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L52",
+      "id": "01_streamlit_doc_codeblock_2",
+      "community": 3,
+      "norm_label": "code:python (# \u7ec8\u7aef\u811a\u672c:\u53ea\u80fd\u6539\u53c2\u6570\u518d\u8dd1)"
+    },
+    {
+      "label": "code:python (# Streamlit\uff1a\u6d4f\u89c8\u5668\u91cc\u62d6\u6ed1\u5757\uff0c\u7acb\u523b\u770b\u5230\u7ed3\u679c)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L58",
+      "id": "01_streamlit_doc_codeblock_3",
+      "community": 3,
+      "norm_label": "code:python (# streamlit:\u6d4f\u89c8\u5668\u91cc\u62d6\u6ed1\u5757,\u7acb\u523b\u770b\u5230\u7ed3\u679c)"
+    },
+    {
+      "label": "\u5b89\u88c5\u4e0e\u542f\u52a8",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L66",
+      "id": "01_streamlit_doc_\u5b89\u88c5\u4e0e\u542f\u52a8",
+      "community": 4,
+      "norm_label": "\u5b89\u88c5\u4e0e\u542f\u52a8"
+    },
+    {
+      "label": "code:bash (python -m pip install streamlit)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L68",
+      "id": "01_streamlit_doc_codeblock_4",
+      "community": 4,
+      "norm_label": "code:bash (python -m pip install streamlit)"
+    },
+    {
+      "label": "code:bash (streamlit run app.py --server.port 8501)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L76",
+      "id": "01_streamlit_doc_codeblock_5",
+      "community": 4,
+      "norm_label": "code:bash (streamlit run app.py --server.port 8501)"
+    },
+    {
+      "label": "\u6700\u5c0f\u5e94\u7528",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L83",
+      "id": "01_streamlit_doc_\u6700\u5c0f\u5e94\u7528",
+      "community": 5,
+      "norm_label": "\u6700\u5c0f\u5e94\u7528"
+    },
+    {
+      "label": "code:python (# app.py)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L85",
+      "id": "01_streamlit_doc_codeblock_6",
+      "community": 5,
+      "norm_label": "code:python (# app.py)"
+    },
+    {
+      "label": "code:bash (streamlit run app.py)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L94",
+      "id": "01_streamlit_doc_codeblock_7",
+      "community": 5,
+      "norm_label": "code:bash (streamlit run app.py)"
+    },
+    {
+      "label": "\u5e38\u7528\u5c55\u793a",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L98",
+      "id": "01_streamlit_doc_\u5e38\u7528\u5c55\u793a",
+      "community": 0,
+      "norm_label": "\u5e38\u7528\u5c55\u793a"
+    },
+    {
+      "label": "code:python (import streamlit as st)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L100",
+      "id": "01_streamlit_doc_codeblock_8",
+      "community": 0,
+      "norm_label": "code:python (import streamlit as st)"
+    },
+    {
+      "label": "\u5e38\u7528\u8f93\u5165\u63a7\u4ef6",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L118",
+      "id": "01_streamlit_doc_\u5e38\u7528\u8f93\u5165\u63a7\u4ef6",
+      "community": 9,
+      "norm_label": "\u5e38\u7528\u8f93\u5165\u63a7\u4ef6"
+    },
+    {
+      "label": "code:python (import streamlit as st)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L120",
+      "id": "01_streamlit_doc_codeblock_9",
+      "community": 9,
+      "norm_label": "code:python (import streamlit as st)"
+    },
+    {
+      "label": "\u5e03\u5c40",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L141",
+      "id": "01_streamlit_doc_\u5e03\u5c40",
+      "community": 6,
+      "norm_label": "\u5e03\u5c40"
+    },
+    {
+      "label": "code:python (import streamlit as st)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L143",
+      "id": "01_streamlit_doc_codeblock_10",
+      "community": 6,
+      "norm_label": "code:python (import streamlit as st)"
+    },
+    {
+      "label": "code:python (import streamlit as st)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L168",
+      "id": "01_streamlit_doc_codeblock_11",
+      "community": 6,
+      "norm_label": "code:python (import streamlit as st)"
+    },
+    {
+      "label": "session_state\uff1a\u8de8\u6b21\u91cd\u8dd1\u7684\u72b6\u6001",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L179",
+      "id": "01_streamlit_doc_session_state_\u8de8\u6b21\u91cd\u8dd1\u7684\u72b6\u6001",
+      "community": 7,
+      "norm_label": "session_state:\u8de8\u6b21\u91cd\u8dd1\u7684\u72b6\u6001"
+    },
+    {
+      "label": "code:python (import streamlit as st)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L183",
+      "id": "01_streamlit_doc_codeblock_12",
+      "community": 7,
+      "norm_label": "code:python (import streamlit as st)"
+    },
+    {
+      "label": "code:python (import streamlit as st)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L200",
+      "id": "01_streamlit_doc_codeblock_13",
+      "community": 7,
+      "norm_label": "code:python (import streamlit as st)"
+    },
+    {
+      "label": "\u7f13\u5b58\uff1a\u522b\u5728\u6bcf\u6b21 rerun \u91cc\u91cd\u7b97",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L209",
+      "id": "01_streamlit_doc_\u7f13\u5b58_\u522b\u5728\u6bcf\u6b21_rerun_\u91cc\u91cd\u7b97",
+      "community": 1,
+      "norm_label": "\u7f13\u5b58:\u522b\u5728\u6bcf\u6b21 rerun \u91cc\u91cd\u7b97"
+    },
+    {
+      "label": "`@st.cache_data` \u2014\u2014 \u7f13\u5b58\u300c\u6570\u636e\u300d",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L213",
+      "id": "01_streamlit_doc_st_cache_data_\u7f13\u5b58_\u6570\u636e",
+      "community": 1,
+      "norm_label": "`@st.cache_data` \u2014\u2014 \u7f13\u5b58\u300c\u6570\u636e\u300d"
+    },
+    {
+      "label": "code:python (import streamlit as st)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L217",
+      "id": "01_streamlit_doc_codeblock_14",
+      "community": 1,
+      "norm_label": "code:python (import streamlit as st)"
+    },
+    {
+      "label": "`@st.cache_resource` \u2014\u2014 \u7f13\u5b58\u300c\u8d44\u6e90 / \u8fde\u63a5\u300d",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L229",
+      "id": "01_streamlit_doc_st_cache_resource_\u7f13\u5b58_\u8d44\u6e90_\u8fde\u63a5",
+      "community": 1,
+      "norm_label": "`@st.cache_resource` \u2014\u2014 \u7f13\u5b58\u300c\u8d44\u6e90 / \u8fde\u63a5\u300d"
+    },
+    {
+      "label": "code:python (import streamlit as st)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L233",
+      "id": "01_streamlit_doc_codeblock_15",
+      "community": 1,
+      "norm_label": "code:python (import streamlit as st)"
+    },
+    {
+      "label": "\u8868\u5355\uff1a\u4e00\u6b21\u63d0\u4ea4\u591a\u4e2a\u8f93\u5165",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L254",
+      "id": "01_streamlit_doc_\u8868\u5355_\u4e00\u6b21\u63d0\u4ea4\u591a\u4e2a\u8f93\u5165",
+      "community": 0,
+      "norm_label": "\u8868\u5355:\u4e00\u6b21\u63d0\u4ea4\u591a\u4e2a\u8f93\u5165"
+    },
+    {
+      "label": "code:python (import streamlit as st)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L258",
+      "id": "01_streamlit_doc_codeblock_16",
+      "community": 0,
+      "norm_label": "code:python (import streamlit as st)"
+    },
+    {
+      "label": "\u6587\u4ef6\u4e0a\u4f20\u4e0e\u4e0b\u8f7d",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L273",
+      "id": "01_streamlit_doc_\u6587\u4ef6\u4e0a\u4f20\u4e0e\u4e0b\u8f7d",
+      "community": 10,
+      "norm_label": "\u6587\u4ef6\u4e0a\u4f20\u4e0e\u4e0b\u8f7d"
+    },
+    {
+      "label": "code:python (import streamlit as st)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L275",
+      "id": "01_streamlit_doc_codeblock_17",
+      "community": 10,
+      "norm_label": "code:python (import streamlit as st)"
+    },
+    {
+      "label": "\u7b80\u5355\u56fe\u8868\u793a\u4f8b",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L291",
+      "id": "01_streamlit_doc_\u7b80\u5355\u56fe\u8868\u793a\u4f8b",
+      "community": 11,
+      "norm_label": "\u7b80\u5355\u56fe\u8868\u793a\u4f8b"
+    },
+    {
+      "label": "code:python (import streamlit as st)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L293",
+      "id": "01_streamlit_doc_codeblock_18",
+      "community": 11,
+      "norm_label": "code:python (import streamlit as st)"
+    },
+    {
+      "label": "\u591a\u9875\u9762\u5e94\u7528",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L309",
+      "id": "01_streamlit_doc_\u591a\u9875\u9762\u5e94\u7528",
+      "community": 12,
+      "norm_label": "\u591a\u9875\u9762\u5e94\u7528"
+    },
+    {
+      "label": "code:block19 (myapp/)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L313",
+      "id": "01_streamlit_doc_codeblock_19",
+      "community": 12,
+      "norm_label": "code:block19 (myapp/)"
+    },
+    {
+      "label": "\u548c\u300c\u666e\u901a Web \u6846\u67b6\u300d\u5dee\u5728\u54ea",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L325",
+      "id": "01_streamlit_doc_\u548c_\u666e\u901a_web_\u6846\u67b6_\u5dee\u5728\u54ea",
+      "community": 0,
+      "norm_label": "\u548c\u300c\u666e\u901a web \u6846\u67b6\u300d\u5dee\u5728\u54ea"
+    },
+    {
+      "label": "\u5e38\u89c1\u5751",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L337",
+      "id": "01_streamlit_doc_\u5e38\u89c1\u5751",
+      "community": 0,
+      "norm_label": "\u5e38\u89c1\u5751"
+    },
+    {
+      "label": "\u6700\u5c0f\u53ef\u8fd0\u884c\u770b\u677f\u9aa8\u67b6",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L357",
+      "id": "01_streamlit_doc_\u6700\u5c0f\u53ef\u8fd0\u884c\u770b\u677f\u9aa8\u67b6",
+      "community": 8,
+      "norm_label": "\u6700\u5c0f\u53ef\u8fd0\u884c\u770b\u677f\u9aa8\u67b6"
+    },
+    {
+      "label": "code:python (# app.py)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L359",
+      "id": "01_streamlit_doc_codeblock_20",
+      "community": 8,
+      "norm_label": "code:python (# app.py)"
+    },
+    {
+      "label": "code:bash (streamlit run app.py)",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L397",
+      "id": "01_streamlit_doc_codeblock_21",
+      "community": 8,
+      "norm_label": "code:bash (streamlit run app.py)"
+    },
+    {
+      "label": "\u5ef6\u4f38\u9605\u8bfb",
+      "file_type": "document",
+      "source_file": "doc.md",
+      "source_location": "L401",
+      "id": "01_streamlit_doc_\u5ef6\u4f38\u9605\u8bfb",
+      "community": 0,
+      "norm_label": "\u5ef6\u4f38\u9605\u8bfb"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "main_py",
+      "target": "01_streamlit_main_list_models"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "01_streamlit_main_rationale_1",
+      "target": "main_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "01_streamlit_main_rationale_29",
+      "target": "01_streamlit_main_list_models",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "doc_md",
+      "target": "01_streamlit_doc_streamlit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_streamlit",
+      "target": "01_streamlit_doc_\u6838\u5fc3\u6982\u5ff5"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_streamlit",
+      "target": "01_streamlit_doc_\u4e3a\u4ec0\u4e48\u9700\u8981_streamlit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_streamlit",
+      "target": "01_streamlit_doc_\u5b89\u88c5\u4e0e\u542f\u52a8"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_streamlit",
+      "target": "01_streamlit_doc_\u6700\u5c0f\u5e94\u7528"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_streamlit",
+      "target": "01_streamlit_doc_\u5e38\u7528\u5c55\u793a"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L118",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_streamlit",
+      "target": "01_streamlit_doc_\u5e38\u7528\u8f93\u5165\u63a7\u4ef6"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L141",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_streamlit",
+      "target": "01_streamlit_doc_\u5e03\u5c40"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L179",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_streamlit",
+      "target": "01_streamlit_doc_session_state_\u8de8\u6b21\u91cd\u8dd1\u7684\u72b6\u6001"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L209",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_streamlit",
+      "target": "01_streamlit_doc_\u7f13\u5b58_\u522b\u5728\u6bcf\u6b21_rerun_\u91cc\u91cd\u7b97"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L254",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_streamlit",
+      "target": "01_streamlit_doc_\u8868\u5355_\u4e00\u6b21\u63d0\u4ea4\u591a\u4e2a\u8f93\u5165"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L273",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_streamlit",
+      "target": "01_streamlit_doc_\u6587\u4ef6\u4e0a\u4f20\u4e0e\u4e0b\u8f7d"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L291",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_streamlit",
+      "target": "01_streamlit_doc_\u7b80\u5355\u56fe\u8868\u793a\u4f8b"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L309",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_streamlit",
+      "target": "01_streamlit_doc_\u591a\u9875\u9762\u5e94\u7528"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L325",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_streamlit",
+      "target": "01_streamlit_doc_\u548c_\u666e\u901a_web_\u6846\u67b6_\u5dee\u5728\u54ea"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L337",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_streamlit",
+      "target": "01_streamlit_doc_\u5e38\u89c1\u5751"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L357",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_streamlit",
+      "target": "01_streamlit_doc_\u6700\u5c0f\u53ef\u8fd0\u884c\u770b\u677f\u9aa8\u67b6"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L401",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_streamlit",
+      "target": "01_streamlit_doc_\u5ef6\u4f38\u9605\u8bfb"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_\u6838\u5fc3\u6982\u5ff5",
+      "target": "01_streamlit_doc_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_\u4e3a\u4ec0\u4e48\u9700\u8981_streamlit",
+      "target": "01_streamlit_doc_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_\u4e3a\u4ec0\u4e48\u9700\u8981_streamlit",
+      "target": "01_streamlit_doc_codeblock_3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_\u5b89\u88c5\u4e0e\u542f\u52a8",
+      "target": "01_streamlit_doc_codeblock_4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_\u5b89\u88c5\u4e0e\u542f\u52a8",
+      "target": "01_streamlit_doc_codeblock_5"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_\u6700\u5c0f\u5e94\u7528",
+      "target": "01_streamlit_doc_codeblock_6"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_\u6700\u5c0f\u5e94\u7528",
+      "target": "01_streamlit_doc_codeblock_7"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_\u5e38\u7528\u5c55\u793a",
+      "target": "01_streamlit_doc_codeblock_8"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L120",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_\u5e38\u7528\u8f93\u5165\u63a7\u4ef6",
+      "target": "01_streamlit_doc_codeblock_9"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L143",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_\u5e03\u5c40",
+      "target": "01_streamlit_doc_codeblock_10"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L168",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_\u5e03\u5c40",
+      "target": "01_streamlit_doc_codeblock_11"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L183",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_session_state_\u8de8\u6b21\u91cd\u8dd1\u7684\u72b6\u6001",
+      "target": "01_streamlit_doc_codeblock_12"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L200",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_session_state_\u8de8\u6b21\u91cd\u8dd1\u7684\u72b6\u6001",
+      "target": "01_streamlit_doc_codeblock_13"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L213",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_\u7f13\u5b58_\u522b\u5728\u6bcf\u6b21_rerun_\u91cc\u91cd\u7b97",
+      "target": "01_streamlit_doc_st_cache_data_\u7f13\u5b58_\u6570\u636e"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L229",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_\u7f13\u5b58_\u522b\u5728\u6bcf\u6b21_rerun_\u91cc\u91cd\u7b97",
+      "target": "01_streamlit_doc_st_cache_resource_\u7f13\u5b58_\u8d44\u6e90_\u8fde\u63a5"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L217",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_st_cache_data_\u7f13\u5b58_\u6570\u636e",
+      "target": "01_streamlit_doc_codeblock_14"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L233",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_st_cache_resource_\u7f13\u5b58_\u8d44\u6e90_\u8fde\u63a5",
+      "target": "01_streamlit_doc_codeblock_15"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L258",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_\u8868\u5355_\u4e00\u6b21\u63d0\u4ea4\u591a\u4e2a\u8f93\u5165",
+      "target": "01_streamlit_doc_codeblock_16"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L275",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_\u6587\u4ef6\u4e0a\u4f20\u4e0e\u4e0b\u8f7d",
+      "target": "01_streamlit_doc_codeblock_17"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L293",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_\u7b80\u5355\u56fe\u8868\u793a\u4f8b",
+      "target": "01_streamlit_doc_codeblock_18"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L313",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_\u591a\u9875\u9762\u5e94\u7528",
+      "target": "01_streamlit_doc_codeblock_19"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L359",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_\u6700\u5c0f\u53ef\u8fd0\u884c\u770b\u677f\u9aa8\u67b6",
+      "target": "01_streamlit_doc_codeblock_20"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "doc.md",
+      "source_location": "L397",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_streamlit_doc_\u6700\u5c0f\u53ef\u8fd0\u884c\u770b\u677f\u9aa8\u67b6",
+      "target": "01_streamlit_doc_codeblock_21"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "caa1d732eda6bf6fbbee19f97f3701a3b5f208a7"
+}
