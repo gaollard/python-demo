@@ -1,16 +1,16 @@
 # Graph Report - pythons  (2026-07-24)
 
 ## Corpus Check
-- 180 files · ~24,953 words
+- 182 files · ~25,070 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1118 nodes · 814 edges · 376 communities (337 shown, 39 thin omitted)
+- 1125 nodes · 821 edges · 378 communities (339 shown, 39 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.66)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `72490912`
+- Built from commit: `ac01830e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -74,29 +74,30 @@
 - [[_COMMUNITY_Community 59|Community 59]]
 - [[_COMMUNITY_Community 60|Community 60]]
 - [[_COMMUNITY_Community 61|Community 61]]
-- [[_COMMUNITY_Community 64|Community 64]]
+- [[_COMMUNITY_Community 62|Community 62]]
 - [[_COMMUNITY_Community 65|Community 65]]
 - [[_COMMUNITY_Community 66|Community 66]]
-- [[_COMMUNITY_Community 68|Community 68]]
-- [[_COMMUNITY_Community 70|Community 70]]
-- [[_COMMUNITY_Community 72|Community 72]]
-- [[_COMMUNITY_Community 76|Community 76]]
-- [[_COMMUNITY_Community 78|Community 78]]
-- [[_COMMUNITY_Community 80|Community 80]]
-- [[_COMMUNITY_Community 82|Community 82]]
+- [[_COMMUNITY_Community 67|Community 67]]
+- [[_COMMUNITY_Community 69|Community 69]]
+- [[_COMMUNITY_Community 71|Community 71]]
+- [[_COMMUNITY_Community 73|Community 73]]
+- [[_COMMUNITY_Community 77|Community 77]]
+- [[_COMMUNITY_Community 79|Community 79]]
+- [[_COMMUNITY_Community 81|Community 81]]
 - [[_COMMUNITY_Community 83|Community 83]]
 - [[_COMMUNITY_Community 84|Community 84]]
-- [[_COMMUNITY_Community 87|Community 87]]
-- [[_COMMUNITY_Community 106|Community 106]]
+- [[_COMMUNITY_Community 85|Community 85]]
+- [[_COMMUNITY_Community 88|Community 88]]
 - [[_COMMUNITY_Community 107|Community 107]]
 - [[_COMMUNITY_Community 108|Community 108]]
 - [[_COMMUNITY_Community 109|Community 109]]
 - [[_COMMUNITY_Community 110|Community 110]]
-- [[_COMMUNITY_Community 132|Community 132]]
-- [[_COMMUNITY_Community 194|Community 194]]
-- [[_COMMUNITY_Community 195|Community 195]]
-- [[_COMMUNITY_Community 334|Community 334]]
-- [[_COMMUNITY_Community 335|Community 335]]
+- [[_COMMUNITY_Community 111|Community 111]]
+- [[_COMMUNITY_Community 133|Community 133]]
+- [[_COMMUNITY_Community 196|Community 196]]
+- [[_COMMUNITY_Community 197|Community 197]]
+- [[_COMMUNITY_Community 336|Community 336]]
+- [[_COMMUNITY_Community 337|Community 337]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `MiniHTTP` - 18 edges
@@ -122,7 +123,7 @@
 - `MiniHTTP` --uses--> `MethodNotAllowed`  [INFERRED]
   03-http框架/minihttp/app.py → 03-http框架/minihttp/router.py
 
-## Communities (376 total, 39 thin omitted)
+## Communities (378 total, 39 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.05
@@ -189,24 +190,24 @@ Cohesion: 0.15
 Nodes (12): code:python (# demo.py), code:bash (python demo.py          # 输出：__main__), code:python (# 在任意 .py 文件中), code:python (import math), code:python (# m.py), code:python (import m), `__dict__`：模块的命名空间, `__name__` 最常用 (+4 more)
 
 ### Community 16 - "Community 16"
-Cohesion: 0.17
-Nodes (11): access_log(), boom(), echo(), get_user(), hello(), 迷你 HTTP 框架示例。  运行：     cd 03-http框架     python example.py  测试：     curl http://1, 访问日志中间件：先放行到内层，再根据响应状态打印一行。, 演示查询参数：dict 返回值会自动转成 JSON。 (+3 more)
+Cohesion: 0.18
+Nodes (8): index(), 首页：直接返回 HTML Response。, html_response(), HTTP 响应对象与常用响应构造函数。  组装后的字节流形态：      HTTP/1.1 200 OK\\r\\n     Content-Type: app, 封装状态码、响应头与响应体，最终通过 to_bytes() 写出到 socket。, 设置或覆盖单个响应头（如 405 时的 Allow）。, 拼成符合 HTTP/1.1 的完整响应字节：状态行 + 头部 + 空行 + body。, Response
 
 ### Community 17 - "Community 17"
 Cohesion: 0.23
 Nodes (6): MiniHTTP, 迷你 HTTP 框架，风格类似 Flask：          app = MiniHTTP("demo")          @app.get("/"), 迷你 HTTP 框架，风格类似 Flask：          app = MiniHTTP("demo")          @app.get("/"), 通用路由装饰器；get/post/... 都是它的语法糖。, 注册中间件：middleware(request, call_next) -> Response, 注册中间件：middleware(request, call_next) -> Response。          先注册的中间件在最外层（先看到请求、最后看
 
 ### Community 18 - "Community 18"
-Cohesion: 0.18
-Nodes (8): index(), 首页：直接返回 HTML Response。, html_response(), HTTP 响应对象与常用响应构造函数。  组装后的字节流形态：      HTTP/1.1 200 OK\\r\\n     Content-Type: app, 封装状态码、响应头与响应体，最终通过 to_bytes() 写出到 socket。, 设置或覆盖单个响应头（如 405 时的 Allow）。, 拼成符合 HTTP/1.1 的完整响应字节：状态行 + 头部 + 空行 + body。, Response
+Cohesion: 0.17
+Nodes (11): access_log(), boom(), echo(), get_user(), hello(), 迷你 HTTP 框架示例。  运行：     cd 03-http框架     python example.py  测试：     curl http://1, 访问日志中间件：先放行到内层，再根据响应状态打印一行。, 演示查询参数：dict 返回值会自动转成 JSON。 (+3 more)
 
 ### Community 19 - "Community 19"
-Cohesion: 0.22
-Nodes (8): plain(), 演示显式构造 text Response。, 路由匹配 → 调 handler → 规范化返回值。, 把 handler 的多种返回值约定转成统一的 Response。          - Response          → 原样         - (b, 入口：包一层中间件链，再交给 _dispatch；未捕获异常统一 500。, json_response(), JSON 响应；ensure_ascii=False 保留中文可读性。, text_response()
-
-### Community 20 - "Community 20"
 Cohesion: 0.18
 Nodes (6): 封装一次 HTTP 请求的解析结果，供路由处理函数使用。, 取某个查询参数的第一个值（多值时常用这种简化接口）。, 解析 application/x-www-form-urlencoded 表单。, 将请求体解析为 JSON（application/json）。, 解析 application/x-www-form-urlencoded 表单（每个字段取首值）。, Request
+
+### Community 20 - "Community 20"
+Cohesion: 0.22
+Nodes (8): plain(), 演示显式构造 text Response。, 路由匹配 → 调 handler → 规范化返回值。, 把 handler 的多种返回值约定转成统一的 Response。          - Response          → 原样         - (b, 入口：包一层中间件链，再交给 _dispatch；未捕获异常统一 500。, json_response(), JSON 响应；ensure_ascii=False 保留中文可读性。, text_response()
 
 ### Community 21 - "Community 21"
 Cohesion: 0.29
@@ -273,26 +274,30 @@ Cohesion: 0.33
 Nodes (4): getProductPrice(), getProductPrice3(), 返回姓名、朋友列表和其他信息      :param name: 姓名     :param args: 不定长位置参数，朋友名称，如 "朋友1", "朋友2", :param args: 每个参数都是商品信息 ("苹果", 200, 2) => 名称，价格，数量
 
 ### Community 50 - "Community 50"
-Cohesion: 0.33
-Nodes (5): code:shell (./ll_env/bin/python -m pip install Django), code:shell (./ll_env/bin/django-admin startproject hello_world .), code:shell (./ll_env/bin/python manage.py runserver), code:shell (python manage.py startapp polls), code:block5 (app_name/)
+Cohesion: 0.47
+Nodes (3): A, B, C
 
 ### Community 51 - "Community 51"
 Cohesion: 0.33
+Nodes (5): code:shell (./ll_env/bin/python -m pip install Django), code:shell (./ll_env/bin/django-admin startproject hello_world .), code:shell (./ll_env/bin/python manage.py runserver), code:shell (python manage.py startapp polls), code:block5 (app_name/)
+
+### Community 52 - "Community 52"
+Cohesion: 0.33
 Nodes (4): getProductPrice(), getProductPrice3(), 返回姓名、朋友列表和其他信息      :param name: 姓名     :param args: 不定长位置参数，朋友名称，如 "朋友1", "朋友2", :param args: 每个参数都是商品信息 ("苹果", 200, 2) => 名称，价格，数量
 
-### Community 55 - "Community 55"
+### Community 56 - "Community 56"
 Cohesion: 0.6
 Nodes (3): add(), greet(), multiply()
 
-### Community 58 - "Community 58"
+### Community 59 - "Community 59"
 Cohesion: 0.4
 Nodes (4): 阻塞启动内置 socket 服务器（Ctrl+C 结束）。, 阻塞式启动 TCP 服务器；每个连接在独立线程中处理。      SO_REUSEADDR：进程退出后端口可立即再绑定（开发时常用）。     daemon 线, 阻塞式启动 TCP 服务器；每个连接在独立线程中处理。, serve()
 
-### Community 59 - "Community 59"
+### Community 60 - "Community 60"
 Cohesion: 0.4
 Nodes (4): 内置模块有哪些, 模块的定义, 模块的导入, 软件包 package
 
-### Community 60 - "Community 60"
+### Community 61 - "Community 61"
 Cohesion: 0.4
 Nodes (4): 修改已有全局变量, 可变对象：改内容不需要 global, 在函数里「创建」全局变量（模块里原先没有也可以）, 正确：
 
@@ -304,10 +309,12 @@ Nodes (4): 修改已有全局变量, 可变对象：改内容不需要 global, �
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `MiniHTTP` connect `Community 17` to `Community 1`, `Community 18`, `Community 19`, `Community 20`, `Community 23`, `Community 58`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
+- **Why does `MiniHTTP` connect `Community 17` to `Community 1`, `Community 16`, `Community 19`, `Community 20`, `Community 23`, `Community 59`?**
+  _High betweenness centrality (0.007) - this node is a cross-community bridge._
+- **Why does `Request` connect `Community 19` to `Community 17`, `Community 22`, `Community 23`?**
+  _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **Why does `MethodNotAllowed` connect `Community 1` to `Community 17`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
+  _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **Are the 4 inferred relationships involving `MiniHTTP` (e.g. with `Request` and `Response`) actually correct?**
   _`MiniHTTP` has 4 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 2 inferred relationships involving `Response` (e.g. with `AppProtocol` and `MiniHTTP`) actually correct?**
@@ -316,5 +323,3 @@ _Questions this graph is uniquely positioned to answer:_
   _281 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.05 - nodes in this community are weakly interconnected._
-- **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
