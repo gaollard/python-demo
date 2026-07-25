@@ -19,3 +19,13 @@ print("6", gbk)                 # 与 utf-8 字节不同
 print("7", gbk.decode("gbk"))   # 你好 Python
 
 print("8", data[:6].decode("utf-8", errors="ignore"))   # 你好
+
+
+# 字符串转 base64
+import base64
+
+base64_data = base64.b64encode(data)
+print("9", base64_data)
+
+# base64 转字符串
+print("10", base64.b64decode(base64_data).decode("utf-8"))
