@@ -1,0 +1,168 @@
+/* 设计令牌：暖色工业 / 编辑排版；组件 Less 继承这些变量 */
+
+:root {
+  --text: #5c5a67;
+  --text-h: #14121a;
+  --text-muted: #8a8794;
+  --bg: #f6f4ef;
+  --bg-elevated: #fffdfb;
+  --border: #e2dfdb;
+  --border-strong: #c9c4bc;
+  --code-bg: #ebe7e0;
+  /** 琥珀强调 — 替代易显「AI 感」的紫渐变 */
+  --accent: #c2410c;
+  --accent-bright: #ea580c;
+  --accent-bg: rgba(194, 65, 12, 0.12);
+  --accent-border: rgba(234, 88, 12, 0.45);
+  --on-accent: #fff7ed;
+  --social-bg: rgba(235, 231, 224, 0.85);
+  --shadow:
+    rgba(20, 18, 26, 0.08) 0 18px 40px -12px,
+    rgba(20, 18, 26, 0.05) 0 8px 16px -8px;
+  --glow: rgba(234, 88, 12, 0.22);
+
+  --error-text: #b91c1c;
+  --error-bg: rgba(185, 28, 28, 0.08);
+  --error-border: rgba(185, 28, 28, 0.25);
+
+  --font-display: 'Syne', system-ui, sans-serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --stagger-step: 55ms;
+
+  font: 17px/155% var(--font-body);
+  letter-spacing: 0.01em;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+}
+
+/** 暗色令牌写在 html.theme-dark 上（嵌套 :root 无效） */
+html.theme-dark {
+  color-scheme: dark;
+
+  --text: #9d9aa8;
+  --text-h: #f4f2f8;
+  --text-muted: #6b6877;
+  /** 暗色页背景：修正原先误设为 #fff 的问题 */
+  --bg: #0a0b0f;
+  --bg-elevated: #12131a;
+  --border: #272831;
+  --border-strong: #3d404f;
+  --code-bg: #15161e;
+  --accent: #fb923c;
+  --accent-bright: #fdba74;
+  --accent-bg: rgba(251, 146, 60, 0.14);
+  --accent-border: rgba(253, 186, 116, 0.45);
+  --on-accent: #1c0a00;
+  --social-bg: rgba(30, 31, 40, 0.72);
+  --shadow: 0 24px 80px -20px rgba(0, 0, 0, 0.55);
+  --glow: rgba(251, 146, 60, 0.18);
+
+  --error-text: #fca5a5;
+  --error-bg: rgba(248, 113, 113, 0.12);
+  --error-border: rgba(248, 113, 113, 0.35);
+}
+
+html.theme-dark .home__column--social .home__link-icon {
+  filter: invert(1) brightness(2);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(ellipse 120% 80% at 15% -10%, var(--glow), transparent 52%),
+    radial-gradient(ellipse 90% 60% at 92% 8%, rgba(120, 90, 200, 0.06), transparent 45%);
+}
+
+html.theme-dark body {
+  background-image:
+    radial-gradient(ellipse 100% 70% at 12% 0%, var(--glow), transparent 55%),
+    radial-gradient(ellipse 80% 50% at 88% 15%, rgba(99, 102, 241, 0.07), transparent 50%);
+}
+
+/** 胶片颗粒感（轻），增强氛围而非遮挡内容 */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  z-index: 9999;
+}
+
+html.theme-dark body::after {
+  opacity: 0.055;
+}
+
+#root {
+  width: 100%;
+  max-width: min(1180px, 100%);
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 0;
+}
+
+h1,
+h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--text-h);
+}
+
+h1 {
+  font-size: clamp(2rem, 4.5vw, 3.25rem);
+  letter-spacing: -0.03em;
+  line-height: 1.08;
+  margin: 0;
+}
+
+h2 {
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin: 0 0 8px;
+}
+
+p {
+  margin: 0;
+}
+
+code {
+  font-family: var(--mono);
+  display: inline-flex;
+  border-radius: 6px;
+  color: var(--text-h);
+  font-size: 0.88em;
+  line-height: 135%;
+  padding: 4px 10px;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+}

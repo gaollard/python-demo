@@ -1,0 +1,53 @@
+/* 认证页：对角分割氛围 + 表单聚焦 */
+
+.layout-auth {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  min-height: 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      linear-gradient(115deg, transparent 0%, transparent 42%, color-mix(in srgb, var(--accent) 12%, transparent) 42.2%, transparent 42.5%),
+      radial-gradient(ellipse 70% 50% at 0% 100%, var(--glow), transparent 55%);
+    opacity: 0.9;
+    z-index: 0;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40%;
+    pointer-events: none;
+    background: linear-gradient(to top, color-mix(in srgb, var(--bg) 96%, var(--accent) 4%), transparent);
+    z-index: 0;
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  @media (min-width: 900px) {
+    padding: 48px 32px;
+    align-items: center;
+  }
+
+  @media (max-width: 899px) {
+    padding: 28px 16px 40px;
+    align-items: center;
+  }
+}
