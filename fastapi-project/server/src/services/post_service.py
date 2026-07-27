@@ -2,8 +2,11 @@ from fastapi import HTTPException, status
 from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from ..core.logging import get_logger
 from ..models import Post, PostFavorite, PostLike, User
 from ..schemas import AuthorOut, InteractionOut, PostCreate, PostDetail, PostListItem
+
+logger = get_logger(__name__)
 
 
 def _to_list_item(post: Post) -> PostListItem:
@@ -49,6 +52,7 @@ async def create_post(db: AsyncSession, user: User, payload: PostCreate) -> Post
     await db.commit()
     await db.refresh(post)
     post.author = user
+    logger.info("Post created id=%s user_id=%s title=%s", post.id, user.id, post.title)
     return _to_detail(post, liked=False, favorited=False)
 
 
@@ -82,6 +86,7 @@ async def get_post_detail(
 ) -> PostDetail:
     post = await db.scalar(select(Post).where(Post.id == post_id))
     if post is None:
+        logger.warning("Post not found id=%s", post_id)
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Post not found")
 
     liked: bool | None = None
@@ -125,6 +130,7 @@ async def like_post(db: AsyncSession, user: User, post_id: int) -> InteractionOu
         post.like_count += 1
         await db.commit()
         await db.refresh(post)
+        logger.info("Post liked post_id=%s user_id=%s", post_id, user.id)
 
     return InteractionOut(
         post_id=post_id,
@@ -143,6 +149,7 @@ async def unlike_post(db: AsyncSession, user: User, post_id: int) -> Interaction
         post.like_count = max(post.like_count - 1, 0)
         await db.commit()
         await db.refresh(post)
+        logger.info("Post unliked post_id=%s user_id=%s", post_id, user.id)
 
     return InteractionOut(
         post_id=post_id,
@@ -164,6 +171,7 @@ async def favorite_post(db: AsyncSession, user: User, post_id: int) -> Interacti
         post.favorite_count += 1
         await db.commit()
         await db.refresh(post)
+        logger.info("Post favorited post_id=%s user_id=%s", post_id, user.id)
 
     return InteractionOut(
         post_id=post_id,
@@ -185,6 +193,7 @@ async def unfavorite_post(db: AsyncSession, user: User, post_id: int) -> Interac
         post.favorite_count = max(post.favorite_count - 1, 0)
         await db.commit()
         await db.refresh(post)
+        logger.info("Post unfavorited post_id=%s user_id=%s", post_id, user.id)
 
     return InteractionOut(
         post_id=post_id,

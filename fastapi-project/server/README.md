@@ -58,7 +58,7 @@ src/
   database.py        # 异步引擎 / Session
   redis_client.py    # 异步 Redis 客户端 / 连接池
   dependencies.py    # JWT 鉴权依赖
-  core/              # 配置、安全、统一响应
+  core/              # 配置、日志、安全、统一响应
   models/            # SQLAlchemy ORM
   schemas/           # Pydantic 入参/出参
   services/          # 业务逻辑
@@ -69,7 +69,7 @@ sql/schema.sql       # MySQL 建表脚本
 
 ## 环境变量
 
-见 `.env.example`：`DB_*`、`REDIS_*` 与 `JWT_*`。
+见 `.env.example`：`DB_*`、`REDIS_*`、`JWT_*` 与 `LOG_LEVEL`。
 
 业务代码中注入 Redis：
 

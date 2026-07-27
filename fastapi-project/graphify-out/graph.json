@@ -9,7 +9,7 @@
       "source_file": "server/src/database.py",
       "source_location": "L1",
       "id": "server_src_database_py",
-      "community": 1,
+      "community": 2,
       "norm_label": "database.py"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "server/src/database.py",
       "source_location": "L29",
       "id": "src_database_get_db",
-      "community": 1,
+      "community": 2,
       "norm_label": "get_db()"
     },
     {
@@ -36,70 +36,70 @@
       "source_file": "server/src/redis_client.py",
       "source_location": "L1",
       "id": "server_src_redis_client_py",
-      "community": 6,
+      "community": 1,
       "norm_label": "redis_client.py"
     },
     {
       "label": "init_redis()",
       "file_type": "code",
       "source_file": "server/src/redis_client.py",
-      "source_location": "L9",
+      "source_location": "L12",
       "id": "src_redis_client_init_redis",
-      "community": 6,
+      "community": 1,
       "norm_label": "init_redis()"
     },
     {
       "label": "close_redis()",
       "file_type": "code",
       "source_file": "server/src/redis_client.py",
-      "source_location": "L30",
+      "source_location": "L44",
       "id": "src_redis_client_close_redis",
-      "community": 6,
+      "community": 1,
       "norm_label": "close_redis()"
     },
     {
       "label": "get_redis_client()",
       "file_type": "code",
       "source_file": "server/src/redis_client.py",
-      "source_location": "L41",
+      "source_location": "L56",
       "id": "src_redis_client_get_redis_client",
-      "community": 6,
+      "community": 1,
       "norm_label": "get_redis_client()"
     },
     {
       "label": "get_redis()",
       "file_type": "code",
       "source_file": "server/src/redis_client.py",
-      "source_location": "L47",
+      "source_location": "L62",
       "id": "src_redis_client_get_redis",
-      "community": 6,
+      "community": 1,
       "norm_label": "get_redis()"
     },
     {
       "label": "Create the shared async Redis client (call once on app startup).",
       "file_type": "rationale",
       "source_file": "server/src/redis_client.py",
-      "source_location": "L10",
-      "id": "src_redis_client_rationale_10",
-      "community": 6,
+      "source_location": "L13",
+      "id": "src_redis_client_rationale_13",
+      "community": 1,
       "norm_label": "create the shared async redis client (call once on app startup)."
     },
     {
       "label": "Close Redis client and connection pool on app shutdown.",
       "file_type": "rationale",
       "source_file": "server/src/redis_client.py",
-      "source_location": "L31",
-      "id": "src_redis_client_rationale_31",
-      "community": 6,
+      "source_location": "L45",
+      "id": "src_redis_client_rationale_45",
+      "community": 1,
       "norm_label": "close redis client and connection pool on app shutdown."
     },
     {
       "label": "FastAPI dependency that yields the shared Redis client.",
       "file_type": "rationale",
       "source_file": "server/src/redis_client.py",
-      "source_location": "L48",
-      "id": "src_redis_client_rationale_48",
-      "community": 6,
+      "source_location": "L63",
+      "id": "src_redis_client_rationale_63",
+      "community": 1,
       "norm_label": "fastapi dependency that yields the shared redis client."
     },
     {
@@ -108,43 +108,52 @@
       "source_file": "server/src/main.py",
       "source_location": "L1",
       "id": "server_src_main_py",
-      "community": 6,
+      "community": 1,
       "norm_label": "main.py"
     },
     {
       "label": "lifespan()",
       "file_type": "code",
       "source_file": "server/src/main.py",
-      "source_location": "L20",
+      "source_location": "L26",
       "id": "src_main_lifespan",
-      "community": 6,
+      "community": 1,
       "norm_label": "lifespan()"
+    },
+    {
+      "label": "log_requests()",
+      "file_type": "code",
+      "source_file": "server/src/main.py",
+      "source_location": "L74",
+      "id": "src_main_log_requests",
+      "community": 1,
+      "norm_label": "log_requests()"
     },
     {
       "label": "health()",
       "file_type": "code",
       "source_file": "server/src/main.py",
-      "source_location": "L52",
+      "source_location": "L89",
       "id": "src_main_health",
-      "community": 6,
+      "community": 1,
       "norm_label": "health()"
     },
     {
       "label": "http_exception_handler()",
       "file_type": "code",
       "source_file": "server/src/main.py",
-      "source_location": "L67",
+      "source_location": "L107",
       "id": "src_main_http_exception_handler",
-      "community": 6,
+      "community": 1,
       "norm_label": "http_exception_handler()"
     },
     {
       "label": "validation_exception_handler()",
       "file_type": "code",
       "source_file": "server/src/main.py",
-      "source_location": "L78",
+      "source_location": "L125",
       "id": "src_main_validation_exception_handler",
-      "community": 6,
+      "community": 1,
       "norm_label": "validation_exception_handler()"
     },
     {
@@ -153,7 +162,7 @@
       "source_file": "server/src/dependencies.py",
       "source_location": "L1",
       "id": "server_src_dependencies_py",
-      "community": 1,
+      "community": 2,
       "norm_label": "dependencies.py"
     },
     {
@@ -162,7 +171,7 @@
       "source_file": "server/src/dependencies.py",
       "source_location": "L14",
       "id": "src_dependencies_get_current_user",
-      "community": 1,
+      "community": 2,
       "norm_label": "get_current_user()"
     },
     {
@@ -171,7 +180,7 @@
       "source_file": "server/src/dependencies.py",
       "source_location": "L44",
       "id": "src_dependencies_get_optional_user",
-      "community": 1,
+      "community": 2,
       "norm_label": "get_optional_user()"
     },
     {
@@ -180,7 +189,7 @@
       "source_file": "server/src/routers/auth.py",
       "source_location": "L1",
       "id": "server_src_routers_auth_py",
-      "community": 1,
+      "community": 2,
       "norm_label": "auth.py"
     },
     {
@@ -189,7 +198,7 @@
       "source_file": "server/src/routers/auth.py",
       "source_location": "L13",
       "id": "routers_auth_register",
-      "community": 1,
+      "community": 2,
       "norm_label": "register()"
     },
     {
@@ -198,7 +207,7 @@
       "source_file": "server/src/routers/auth.py",
       "source_location": "L19",
       "id": "routers_auth_login",
-      "community": 1,
+      "community": 2,
       "norm_label": "login()"
     },
     {
@@ -207,7 +216,7 @@
       "source_file": "server/src/routers/me.py",
       "source_location": "L1",
       "id": "server_src_routers_me_py",
-      "community": 1,
+      "community": 2,
       "norm_label": "me.py"
     },
     {
@@ -216,7 +225,7 @@
       "source_file": "server/src/routers/me.py",
       "source_location": "L19",
       "id": "routers_me_my_posts",
-      "community": 1,
+      "community": 2,
       "norm_label": "my_posts()"
     },
     {
@@ -225,7 +234,7 @@
       "source_file": "server/src/routers/me.py",
       "source_location": "L42",
       "id": "routers_me_my_favorites",
-      "community": 1,
+      "community": 2,
       "norm_label": "my_favorites()"
     },
     {
@@ -234,7 +243,7 @@
       "source_file": "server/src/routers/posts.py",
       "source_location": "L1",
       "id": "server_src_routers_posts_py",
-      "community": 1,
+      "community": 2,
       "norm_label": "posts.py"
     },
     {
@@ -243,7 +252,7 @@
       "source_file": "server/src/routers/posts.py",
       "source_location": "L20",
       "id": "routers_posts_list_posts",
-      "community": 1,
+      "community": 2,
       "norm_label": "list_posts()"
     },
     {
@@ -252,7 +261,7 @@
       "source_file": "server/src/routers/posts.py",
       "source_location": "L37",
       "id": "routers_posts_get_post",
-      "community": 1,
+      "community": 2,
       "norm_label": "get_post()"
     },
     {
@@ -261,7 +270,7 @@
       "source_file": "server/src/routers/posts.py",
       "source_location": "L47",
       "id": "routers_posts_create_post",
-      "community": 1,
+      "community": 2,
       "norm_label": "create_post()"
     },
     {
@@ -270,7 +279,7 @@
       "source_file": "server/src/routers/posts.py",
       "source_location": "L57",
       "id": "routers_posts_like_post",
-      "community": 1,
+      "community": 2,
       "norm_label": "like_post()"
     },
     {
@@ -279,7 +288,7 @@
       "source_file": "server/src/routers/posts.py",
       "source_location": "L67",
       "id": "routers_posts_unlike_post",
-      "community": 1,
+      "community": 2,
       "norm_label": "unlike_post()"
     },
     {
@@ -288,7 +297,7 @@
       "source_file": "server/src/routers/posts.py",
       "source_location": "L77",
       "id": "routers_posts_favorite_post",
-      "community": 1,
+      "community": 2,
       "norm_label": "favorite_post()"
     },
     {
@@ -297,7 +306,7 @@
       "source_file": "server/src/routers/posts.py",
       "source_location": "L87",
       "id": "routers_posts_unfavorite_post",
-      "community": 1,
+      "community": 2,
       "norm_label": "unfavorite_post()"
     },
     {
@@ -315,7 +324,7 @@
       "source_file": "server/src/routers/uploads.py",
       "source_location": "L1",
       "id": "server_src_routers_uploads_py",
-      "community": 1,
+      "community": 2,
       "norm_label": "uploads.py"
     },
     {
@@ -324,8 +333,44 @@
       "source_file": "server/src/routers/uploads.py",
       "source_location": "L14",
       "id": "routers_uploads_upload_images",
-      "community": 1,
+      "community": 2,
       "norm_label": "upload_images()"
+    },
+    {
+      "label": "logging.py",
+      "file_type": "code",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L1",
+      "id": "server_src_core_logging_py",
+      "community": 1,
+      "norm_label": "logging.py"
+    },
+    {
+      "label": "setup_logging()",
+      "file_type": "code",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L7",
+      "id": "core_logging_setup_logging",
+      "community": 1,
+      "norm_label": "setup_logging()"
+    },
+    {
+      "label": "get_logger()",
+      "file_type": "code",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L34",
+      "id": "core_logging_get_logger",
+      "community": 1,
+      "norm_label": "get_logger()"
+    },
+    {
+      "label": "Configure root logging once for the application.",
+      "file_type": "rationale",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L8",
+      "id": "core_logging_rationale_8",
+      "community": 1,
+      "norm_label": "configure root logging once for the application."
     },
     {
       "label": "config.py",
@@ -333,7 +378,7 @@
       "source_file": "server/src/core/config.py",
       "source_location": "L1",
       "id": "server_src_core_config_py",
-      "community": 6,
+      "community": 1,
       "norm_label": "config.py"
     },
     {
@@ -342,7 +387,7 @@
       "source_file": "server/src/core/config.py",
       "source_location": "L9",
       "id": "core_config_settings",
-      "community": 6,
+      "community": 1,
       "norm_label": "settings"
     },
     {
@@ -351,16 +396,16 @@
       "source_file": "",
       "source_location": "",
       "id": "basesettings",
-      "community": 6,
+      "community": 1,
       "norm_label": "basesettings"
     },
     {
       "label": "get_settings()",
       "file_type": "code",
       "source_file": "server/src/core/config.py",
-      "source_location": "L43",
+      "source_location": "L44",
       "id": "core_config_get_settings",
-      "community": 6,
+      "community": 1,
       "norm_label": "get_settings()"
     },
     {
@@ -423,7 +468,7 @@
       "source_file": "server/src/core/response.py",
       "source_location": "L1",
       "id": "server_src_core_response_py",
-      "community": 1,
+      "community": 2,
       "norm_label": "response.py"
     },
     {
@@ -432,7 +477,7 @@
       "source_file": "server/src/core/response.py",
       "source_location": "L8",
       "id": "core_response_apiresponse",
-      "community": 1,
+      "community": 2,
       "norm_label": "apiresponse"
     },
     {
@@ -441,7 +486,7 @@
       "source_file": "",
       "source_location": "",
       "id": "basemodel",
-      "community": 1,
+      "community": 2,
       "norm_label": "basemodel"
     },
     {
@@ -450,7 +495,7 @@
       "source_file": "server/src/core/response.py",
       "source_location": "L14",
       "id": "core_response_pagedata",
-      "community": 1,
+      "community": 2,
       "norm_label": "pagedata"
     },
     {
@@ -459,7 +504,7 @@
       "source_file": "server/src/core/response.py",
       "source_location": "L21",
       "id": "core_response_ok",
-      "community": 1,
+      "community": 2,
       "norm_label": "ok()"
     },
     {
@@ -468,7 +513,7 @@
       "source_file": "server/src/core/response.py",
       "source_location": "L25",
       "id": "core_response_fail",
-      "community": 6,
+      "community": 1,
       "norm_label": "fail()"
     },
     {
@@ -477,7 +522,7 @@
       "source_file": "server/src/models/post.py",
       "source_location": "L1",
       "id": "server_src_models_post_py",
-      "community": 4,
+      "community": 6,
       "norm_label": "post.py"
     },
     {
@@ -486,7 +531,7 @@
       "source_file": "server/src/models/post.py",
       "source_location": "L10",
       "id": "models_post_post",
-      "community": 4,
+      "community": 6,
       "norm_label": "post"
     },
     {
@@ -495,7 +540,7 @@
       "source_file": "",
       "source_location": "",
       "id": "base",
-      "community": 4,
+      "community": 6,
       "norm_label": "base"
     },
     {
@@ -504,7 +549,7 @@
       "source_file": "",
       "source_location": "",
       "id": "timestampmixin",
-      "community": 4,
+      "community": 6,
       "norm_label": "timestampmixin"
     },
     {
@@ -513,7 +558,7 @@
       "source_file": "server/src/models/post.py",
       "source_location": "L24",
       "id": "models_post_postlike",
-      "community": 4,
+      "community": 6,
       "norm_label": "postlike"
     },
     {
@@ -522,7 +567,7 @@
       "source_file": "server/src/models/post.py",
       "source_location": "L38",
       "id": "models_post_postfavorite",
-      "community": 4,
+      "community": 6,
       "norm_label": "postfavorite"
     },
     {
@@ -531,7 +576,7 @@
       "source_file": "server/src/models/user.py",
       "source_location": "L1",
       "id": "server_src_models_user_py",
-      "community": 4,
+      "community": 6,
       "norm_label": "user.py"
     },
     {
@@ -540,7 +585,7 @@
       "source_file": "server/src/models/user.py",
       "source_location": "L7",
       "id": "models_user_user",
-      "community": 4,
+      "community": 6,
       "norm_label": "user"
     },
     {
@@ -549,7 +594,7 @@
       "source_file": "server/src/models/__init__.py",
       "source_location": "L1",
       "id": "server_src_models_init_py",
-      "community": 4,
+      "community": 6,
       "norm_label": "__init__.py"
     },
     {
@@ -558,7 +603,7 @@
       "source_file": "server/src/models/base.py",
       "source_location": "L1",
       "id": "server_src_models_base_py",
-      "community": 4,
+      "community": 6,
       "norm_label": "base.py"
     },
     {
@@ -567,7 +612,7 @@
       "source_file": "server/src/models/base.py",
       "source_location": "L7",
       "id": "models_base_base",
-      "community": 4,
+      "community": 6,
       "norm_label": "base"
     },
     {
@@ -576,7 +621,7 @@
       "source_file": "",
       "source_location": "",
       "id": "declarativebase",
-      "community": 4,
+      "community": 6,
       "norm_label": "declarativebase"
     },
     {
@@ -585,7 +630,7 @@
       "source_file": "server/src/models/base.py",
       "source_location": "L11",
       "id": "models_base_timestampmixin",
-      "community": 4,
+      "community": 6,
       "norm_label": "timestampmixin"
     },
     {
@@ -594,7 +639,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L1",
       "id": "server_src_schemas_auth_py",
-      "community": 1,
+      "community": 2,
       "norm_label": "auth.py"
     },
     {
@@ -603,7 +648,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L10",
       "id": "schemas_auth_userregister",
-      "community": 1,
+      "community": 2,
       "norm_label": "userregister"
     },
     {
@@ -612,7 +657,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L15",
       "id": "schemas_auth_userlogin",
-      "community": 1,
+      "community": 2,
       "norm_label": "userlogin"
     },
     {
@@ -621,7 +666,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L20",
       "id": "schemas_auth_userout",
-      "community": 1,
+      "community": 2,
       "norm_label": "userout"
     },
     {
@@ -639,7 +684,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L34",
       "id": "schemas_auth_postcreate",
-      "community": 1,
+      "community": 2,
       "norm_label": "postcreate"
     },
     {
@@ -648,7 +693,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L41",
       "id": "schemas_auth_strip_text",
-      "community": 1,
+      "community": 2,
       "norm_label": "strip_text()"
     },
     {
@@ -657,7 +702,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L49",
       "id": "schemas_auth_validate_images",
-      "community": 1,
+      "community": 2,
       "norm_label": "validate_images()"
     },
     {
@@ -666,7 +711,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L63",
       "id": "schemas_auth_authorout",
-      "community": 4,
+      "community": 6,
       "norm_label": "authorout"
     },
     {
@@ -675,7 +720,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L70",
       "id": "schemas_auth_postlistitem",
-      "community": 1,
+      "community": 2,
       "norm_label": "postlistitem"
     },
     {
@@ -684,7 +729,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L82",
       "id": "schemas_auth_imageuploadout",
-      "community": 1,
+      "community": 2,
       "norm_label": "imageuploadout"
     },
     {
@@ -693,7 +738,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L86",
       "id": "schemas_auth_postdetail",
-      "community": 1,
+      "community": 2,
       "norm_label": "postdetail"
     },
     {
@@ -702,7 +747,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L92",
       "id": "schemas_auth_interactionout",
-      "community": 4,
+      "community": 6,
       "norm_label": "interactionout"
     },
     {
@@ -711,7 +756,7 @@
       "source_file": "server/src/schemas/__init__.py",
       "source_location": "L1",
       "id": "server_src_schemas_init_py",
-      "community": 1,
+      "community": 2,
       "norm_label": "__init__.py"
     },
     {
@@ -727,7 +772,7 @@
       "label": "register_user()",
       "file_type": "code",
       "source_file": "server/src/services/auth_service.py",
-      "source_location": "L10",
+      "source_location": "L13",
       "id": "services_auth_service_register_user",
       "community": 1,
       "norm_label": "register_user()"
@@ -736,7 +781,7 @@
       "label": "login_user()",
       "file_type": "code",
       "source_file": "server/src/services/auth_service.py",
-      "source_location": "L28",
+      "source_location": "L33",
       "id": "services_auth_service_login_user",
       "community": 1,
       "norm_label": "login_user()"
@@ -747,106 +792,106 @@
       "source_file": "server/src/services/post_service.py",
       "source_location": "L1",
       "id": "server_src_services_post_service_py",
-      "community": 4,
+      "community": 6,
       "norm_label": "post_service.py"
     },
     {
       "label": "_to_list_item()",
       "file_type": "code",
       "source_file": "server/src/services/post_service.py",
-      "source_location": "L9",
+      "source_location": "L12",
       "id": "services_post_service_to_list_item",
-      "community": 4,
+      "community": 6,
       "norm_label": "_to_list_item()"
     },
     {
       "label": "_to_detail()",
       "file_type": "code",
       "source_file": "server/src/services/post_service.py",
-      "source_location": "L21",
+      "source_location": "L24",
       "id": "services_post_service_to_detail",
-      "community": 4,
+      "community": 6,
       "norm_label": "_to_detail()"
     },
     {
       "label": "create_post()",
       "file_type": "code",
       "source_file": "server/src/services/post_service.py",
-      "source_location": "L41",
+      "source_location": "L44",
       "id": "services_post_service_create_post",
-      "community": 4,
+      "community": 6,
       "norm_label": "create_post()"
     },
     {
       "label": "list_posts()",
       "file_type": "code",
       "source_file": "server/src/services/post_service.py",
-      "source_location": "L55",
+      "source_location": "L59",
       "id": "services_post_service_list_posts",
-      "community": 4,
+      "community": 6,
       "norm_label": "list_posts()"
     },
     {
       "label": "get_post_detail()",
       "file_type": "code",
       "source_file": "server/src/services/post_service.py",
-      "source_location": "L78",
+      "source_location": "L82",
       "id": "services_post_service_get_post_detail",
-      "community": 4,
+      "community": 6,
       "norm_label": "get_post_detail()"
     },
     {
       "label": "_get_post_or_404()",
       "file_type": "code",
       "source_file": "server/src/services/post_service.py",
-      "source_location": "L111",
+      "source_location": "L116",
       "id": "services_post_service_get_post_or_404",
-      "community": 4,
+      "community": 6,
       "norm_label": "_get_post_or_404()"
     },
     {
       "label": "like_post()",
       "file_type": "code",
       "source_file": "server/src/services/post_service.py",
-      "source_location": "L118",
+      "source_location": "L123",
       "id": "services_post_service_like_post",
-      "community": 4,
+      "community": 6,
       "norm_label": "like_post()"
     },
     {
       "label": "unlike_post()",
       "file_type": "code",
       "source_file": "server/src/services/post_service.py",
-      "source_location": "L136",
+      "source_location": "L142",
       "id": "services_post_service_unlike_post",
-      "community": 4,
+      "community": 6,
       "norm_label": "unlike_post()"
     },
     {
       "label": "favorite_post()",
       "file_type": "code",
       "source_file": "server/src/services/post_service.py",
-      "source_location": "L154",
+      "source_location": "L161",
       "id": "services_post_service_favorite_post",
-      "community": 4,
+      "community": 6,
       "norm_label": "favorite_post()"
     },
     {
       "label": "unfavorite_post()",
       "file_type": "code",
       "source_file": "server/src/services/post_service.py",
-      "source_location": "L175",
+      "source_location": "L183",
       "id": "services_post_service_unfavorite_post",
-      "community": 4,
+      "community": 6,
       "norm_label": "unfavorite_post()"
     },
     {
       "label": "list_my_favorites()",
       "file_type": "code",
       "source_file": "server/src/services/post_service.py",
-      "source_location": "L196",
+      "source_location": "L205",
       "id": "services_post_service_list_my_favorites",
-      "community": 4,
+      "community": 6,
       "norm_label": "list_my_favorites()"
     },
     {
@@ -864,25 +909,25 @@
       "source_file": "server/src/services/upload_service.py",
       "source_location": "L1",
       "id": "server_src_services_upload_service_py",
-      "community": 6,
+      "community": 1,
       "norm_label": "upload_service.py"
     },
     {
       "label": "resolve_upload_dir()",
       "file_type": "code",
       "source_file": "server/src/services/upload_service.py",
-      "source_location": "L16",
+      "source_location": "L19",
       "id": "services_upload_service_resolve_upload_dir",
-      "community": 6,
+      "community": 1,
       "norm_label": "resolve_upload_dir()"
     },
     {
       "label": "save_images()",
       "file_type": "code",
       "source_file": "server/src/services/upload_service.py",
-      "source_location": "L25",
+      "source_location": "L28",
       "id": "services_upload_service_save_images",
-      "community": 6,
+      "community": 1,
       "norm_label": "save_images()"
     },
     {
@@ -963,7 +1008,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L1",
       "id": "client_src_apis_request_ts",
-      "community": 5,
+      "community": 4,
       "norm_label": "request.ts"
     },
     {
@@ -972,7 +1017,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L11",
       "id": "apis_request_ibaseres",
-      "community": 0,
+      "community": 4,
       "norm_label": "ibaseres"
     },
     {
@@ -981,7 +1026,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L18",
       "id": "apis_request_bizapierror",
-      "community": 5,
+      "community": 0,
       "norm_label": "bizapierror"
     },
     {
@@ -990,7 +1035,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L21",
       "id": "apis_request_bizapierror_constructor",
-      "community": 5,
+      "community": 0,
       "norm_label": ".constructor()"
     },
     {
@@ -999,7 +1044,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L31",
       "id": "apis_request_biz_success_codes",
-      "community": 5,
+      "community": 4,
       "norm_label": "biz_success_codes"
     },
     {
@@ -1008,7 +1053,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L33",
       "id": "apis_request_isbizsuccess",
-      "community": 5,
+      "community": 4,
       "norm_label": "isbizsuccess()"
     },
     {
@@ -1017,7 +1062,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L37",
       "id": "apis_request_isenvelope",
-      "community": 5,
+      "community": 4,
       "norm_label": "isenvelope()"
     },
     {
@@ -1026,7 +1071,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L45",
       "id": "apis_request_envelopemessage",
-      "community": 5,
+      "community": 4,
       "norm_label": "envelopemessage()"
     },
     {
@@ -1035,7 +1080,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L49",
       "id": "apis_request_rejectifbizfailed",
-      "community": 5,
+      "community": 4,
       "norm_label": "rejectifbizfailed()"
     },
     {
@@ -1044,7 +1089,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L58",
       "id": "apis_request_attachauthheader",
-      "community": 5,
+      "community": 4,
       "norm_label": "attachauthheader()"
     },
     {
@@ -1053,7 +1098,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L69",
       "id": "apis_request_httpclient",
-      "community": 5,
+      "community": 4,
       "norm_label": "httpclient"
     },
     {
@@ -1062,7 +1107,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L98",
       "id": "apis_request_irequestoptions",
-      "community": 5,
+      "community": 4,
       "norm_label": "irequestoptions"
     },
     {
@@ -1071,7 +1116,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L102",
       "id": "apis_request_request",
-      "community": 5,
+      "community": 4,
       "norm_label": "request()"
     },
     {
@@ -1080,7 +1125,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L145",
       "id": "apis_request_notifyglobalerror",
-      "community": 5,
+      "community": 4,
       "norm_label": "notifyglobalerror()"
     },
     {
@@ -1188,7 +1233,7 @@
       "source_file": "client/src/apis/auth.ts",
       "source_location": "L1",
       "id": "client_src_apis_auth_ts",
-      "community": 5,
+      "community": 4,
       "norm_label": "auth.ts"
     },
     {
@@ -1197,7 +1242,7 @@
       "source_file": "client/src/apis/auth.ts",
       "source_location": "L4",
       "id": "apis_auth_login",
-      "community": 5,
+      "community": 4,
       "norm_label": "login()"
     },
     {
@@ -1215,7 +1260,7 @@
       "source_file": "client/src/types/api.ts",
       "source_location": "L1",
       "id": "client_src_types_api_ts",
-      "community": 0,
+      "community": 4,
       "norm_label": "api.ts"
     },
     {
@@ -1224,7 +1269,7 @@
       "source_file": "client/src/types/api.ts",
       "source_location": "L3",
       "id": "types_api_loginpayload",
-      "community": 5,
+      "community": 4,
       "norm_label": "loginpayload"
     },
     {
@@ -1233,7 +1278,7 @@
       "source_file": "client/src/types/api.ts",
       "source_location": "L8",
       "id": "types_api_registerpayload",
-      "community": 5,
+      "community": 4,
       "norm_label": "registerpayload"
     },
     {
@@ -1242,7 +1287,7 @@
       "source_file": "client/src/types/api.ts",
       "source_location": "L13",
       "id": "types_api_iuserinfo",
-      "community": 5,
+      "community": 4,
       "norm_label": "iuserinfo"
     },
     {
@@ -1251,7 +1296,7 @@
       "source_file": "client/src/types/api.ts",
       "source_location": "L19",
       "id": "types_api_loginresdata",
-      "community": 5,
+      "community": 4,
       "norm_label": "loginresdata"
     },
     {
@@ -1260,7 +1305,7 @@
       "source_file": "client/src/types/api.ts",
       "source_location": "L27",
       "id": "types_api_authorinfo",
-      "community": 0,
+      "community": 4,
       "norm_label": "authorinfo"
     },
     {
@@ -1287,7 +1332,7 @@
       "source_file": "client/src/types/api.ts",
       "source_location": "L48",
       "id": "types_api_postcreatepayload",
-      "community": 0,
+      "community": 4,
       "norm_label": "postcreatepayload"
     },
     {
@@ -1305,7 +1350,7 @@
       "source_file": "client/src/types/api.ts",
       "source_location": "L58",
       "id": "types_api_interactionresult",
-      "community": 0,
+      "community": 4,
       "norm_label": "interactionresult"
     },
     {
@@ -1431,7 +1476,7 @@
       "source_file": "client/src/utils/auth.ts",
       "source_location": "L1",
       "id": "client_src_utils_auth_ts",
-      "community": 5,
+      "community": 4,
       "norm_label": "auth.ts"
     },
     {
@@ -1440,7 +1485,7 @@
       "source_file": "client/src/utils/auth.ts",
       "source_location": "L3",
       "id": "utils_auth_getauthtoken",
-      "community": 5,
+      "community": 4,
       "norm_label": "getauthtoken()"
     },
     {
@@ -1449,7 +1494,7 @@
       "source_file": "client/src/utils/auth.ts",
       "source_location": "L7",
       "id": "utils_auth_setauthtoken",
-      "community": 5,
+      "community": 4,
       "norm_label": "setauthtoken()"
     },
     {
@@ -1458,7 +1503,7 @@
       "source_file": "client/src/utils/auth.ts",
       "source_location": "L11",
       "id": "utils_auth_removeauthtoken",
-      "community": 5,
+      "community": 4,
       "norm_label": "removeauthtoken()"
     },
     {
@@ -1773,7 +1818,7 @@
       "source_file": "client/src/store/user-store.ts",
       "source_location": "L1",
       "id": "client_src_store_user_store_ts",
-      "community": 5,
+      "community": 4,
       "norm_label": "user-store.ts"
     },
     {
@@ -1782,7 +1827,7 @@
       "source_file": "client/src/store/user-store.ts",
       "source_location": "L8",
       "id": "store_user_store_readstoreduser",
-      "community": 5,
+      "community": 4,
       "norm_label": "readstoreduser()"
     },
     {
@@ -1791,7 +1836,7 @@
       "source_file": "client/src/store/user-store.ts",
       "source_location": "L18",
       "id": "store_user_store_writestoreduser",
-      "community": 5,
+      "community": 4,
       "norm_label": "writestoreduser()"
     },
     {
@@ -1800,7 +1845,7 @@
       "source_file": "client/src/store/user-store.ts",
       "source_location": "L26",
       "id": "store_user_store_iuserstore",
-      "community": 5,
+      "community": 4,
       "norm_label": "iuserstore"
     },
     {
@@ -1811,6 +1856,15 @@
       "id": "store_user_store_useuserstore",
       "community": 0,
       "norm_label": "useuserstore"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 17,
+      "norm_label": "readme.md"
     },
     {
       "label": "README.md",
@@ -1917,7 +1971,7 @@
       "source_file": "server/docs/01-\u4ecb\u7ecd.md",
       "source_location": "L1",
       "id": "server_docs_01_\u4ecb\u7ecd_md",
-      "community": 17,
+      "community": 18,
       "norm_label": "01-\u4ecb\u7ecd.md"
     },
     {
@@ -1926,7 +1980,7 @@
       "source_file": "server/docs/05.\u4f9d\u8d56\u56fa\u5b9a.md",
       "source_location": "L1",
       "id": "server_docs_05_\u4f9d\u8d56\u56fa\u5b9a_md",
-      "community": 18,
+      "community": 19,
       "norm_label": "05.\u4f9d\u8d56\u56fa\u5b9a.md"
     },
     {
@@ -1935,7 +1989,7 @@
       "source_file": "server/docs/06-\u4f7f\u7528env\u6587\u4ef6.md",
       "source_location": "L1",
       "id": "server_docs_06_\u4f7f\u7528env\u6587\u4ef6_md",
-      "community": 19,
+      "community": 20,
       "norm_label": "06-\u4f7f\u7528env\u6587\u4ef6.md"
     },
     {
@@ -1944,7 +1998,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L1",
       "id": "server_docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_md",
-      "community": 3,
+      "community": 5,
       "norm_label": "04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md"
     },
     {
@@ -1953,7 +2007,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L1",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_fastapi_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5",
-      "community": 3,
+      "community": 5,
       "norm_label": "fastapi \u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5"
     },
     {
@@ -1962,7 +2016,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L9",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_1_\u4ece\u6700\u5c0f\u5230\u89c4\u8303_\u6309\u89c4\u6a21\u6f14\u8fdb",
-      "community": 3,
+      "community": 5,
       "norm_label": "1. \u4ece\u6700\u5c0f\u5230\u89c4\u8303:\u6309\u89c4\u6a21\u6f14\u8fdb"
     },
     {
@@ -1971,7 +2025,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L22",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_2_\u5b98\u65b9\u63a8\u8350\u7684\u591a\u6587\u4ef6\u7ed3\u6784_\u8d77\u6b65\u7248",
-      "community": 3,
+      "community": 5,
       "norm_label": "2. \u5b98\u65b9\u63a8\u8350\u7684\u591a\u6587\u4ef6\u7ed3\u6784(\u8d77\u6b65\u7248)"
     },
     {
@@ -1980,7 +2034,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L26",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_codeblock_1",
-      "community": 3,
+      "community": 5,
       "norm_label": "code:text (.)"
     },
     {
@@ -1989,7 +2043,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L49",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_codeblock_2",
-      "community": 3,
+      "community": 5,
       "norm_label": "code:shell (fastapi dev app/main.py)"
     },
     {
@@ -1998,7 +2052,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L57",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_3_\u4e2d\u578b\u9879\u76ee\u63a8\u8350\u7ed3\u6784_\u4e1a\u52a1\u5206\u5c42",
-      "community": 3,
+      "community": 5,
       "norm_label": "3. \u4e2d\u578b\u9879\u76ee\u63a8\u8350\u7ed3\u6784(\u4e1a\u52a1\u5206\u5c42)"
     },
     {
@@ -2007,7 +2061,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L61",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_codeblock_3",
-      "community": 3,
+      "community": 5,
       "norm_label": "code:text (my_fastapi_project/)"
     },
     {
@@ -2016,7 +2070,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L100",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_\u5404\u5c42\u804c\u8d23",
-      "community": 3,
+      "community": 5,
       "norm_label": "\u5404\u5c42\u804c\u8d23"
     },
     {
@@ -2025,7 +2079,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L113",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_codeblock_4",
-      "community": 3,
+      "community": 5,
       "norm_label": "code:text (routers \u2192 services \u2192 models / \u5916\u90e8 api)"
     },
     {
@@ -2034,7 +2088,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L123",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_4_\u5173\u952e\u6587\u4ef6\u793a\u4f8b",
-      "community": 3,
+      "community": 5,
       "norm_label": "4. \u5173\u952e\u6587\u4ef6\u793a\u4f8b"
     },
     {
@@ -2043,7 +2097,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L125",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_app_main_py_\u6c47\u603b\u8def\u7531",
-      "community": 3,
+      "community": 5,
       "norm_label": "`app/main.py`:\u6c47\u603b\u8def\u7531"
     },
     {
@@ -2052,7 +2106,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L127",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_codeblock_5",
-      "community": 3,
+      "community": 5,
       "norm_label": "code:python (from fastapi import fastapi)"
     },
     {
@@ -2061,7 +2115,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L143",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_app_routers_users_py_apirouter_\u62c6\u5206",
-      "community": 3,
+      "community": 5,
       "norm_label": "`app/routers/users.py`:apirouter \u62c6\u5206"
     },
     {
@@ -2070,7 +2124,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L145",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_codeblock_6",
-      "community": 3,
+      "community": 5,
       "norm_label": "code:python (from fastapi import apirouter, depends)"
     },
     {
@@ -2079,7 +2133,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L164",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_app_schemas_user_py_\u8bf7\u6c42_\u54cd\u5e94\u6a21\u578b\u5206\u79bb",
-      "community": 3,
+      "community": 5,
       "norm_label": "`app/schemas/user.py`:\u8bf7\u6c42 / \u54cd\u5e94\u6a21\u578b\u5206\u79bb"
     },
     {
@@ -2088,7 +2142,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L166",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_codeblock_7",
-      "community": 3,
+      "community": 5,
       "norm_label": "code:python (from pydantic import basemodel, emailstr)"
     },
     {
@@ -2097,7 +2151,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L183",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_app_dependencies_py_\u5171\u4eab\u4f9d\u8d56",
-      "community": 3,
+      "community": 5,
       "norm_label": "`app/dependencies.py`:\u5171\u4eab\u4f9d\u8d56"
     },
     {
@@ -2106,7 +2160,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L185",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_codeblock_8",
-      "community": 3,
+      "community": 5,
       "norm_label": "code:python (from collections.abc import generator)"
     },
     {
@@ -2115,7 +2169,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L201",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_5_\u5b9e\u8df5\u5efa\u8bae",
-      "community": 3,
+      "community": 5,
       "norm_label": "5. \u5b9e\u8df5\u5efa\u8bae"
     },
     {
@@ -2124,7 +2178,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L203",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_\u5305\u4e0e\u5bfc\u5165",
-      "community": 3,
+      "community": 5,
       "norm_label": "\u5305\u4e0e\u5bfc\u5165"
     },
     {
@@ -2133,7 +2187,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L208",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_\u8def\u7531\u7ec4\u7ec7",
-      "community": 3,
+      "community": 5,
       "norm_label": "\u8def\u7531\u7ec4\u7ec7"
     },
     {
@@ -2142,7 +2196,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L214",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_schema_\u4e0e_model",
-      "community": 3,
+      "community": 5,
       "norm_label": "schema \u4e0e model"
     },
     {
@@ -2151,7 +2205,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L219",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_\u914d\u7f6e\u4e0e\u5bc6\u94a5",
-      "community": 3,
+      "community": 5,
       "norm_label": "\u914d\u7f6e\u4e0e\u5bc6\u94a5"
     },
     {
@@ -2160,7 +2214,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L224",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_\u6d4b\u8bd5",
-      "community": 3,
+      "community": 5,
       "norm_label": "\u6d4b\u8bd5"
     },
     {
@@ -2169,7 +2223,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L229",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_\u4f9d\u8d56\u7ba1\u7406",
-      "community": 3,
+      "community": 5,
       "norm_label": "\u4f9d\u8d56\u7ba1\u7406"
     },
     {
@@ -2178,7 +2232,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L236",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_6_\u5e38\u89c1\u53cd\u6a21\u5f0f",
-      "community": 3,
+      "community": 5,
       "norm_label": "6. \u5e38\u89c1\u53cd\u6a21\u5f0f"
     },
     {
@@ -2187,7 +2241,7 @@
       "source_file": "server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md",
       "source_location": "L246",
       "id": "docs_04_\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5_7_\u4e0e\u672c\u4ed3\u5e93_fastapi_demo_\u7684\u5173\u7cfb",
-      "community": 3,
+      "community": 5,
       "norm_label": "7. \u4e0e\u672c\u4ed3\u5e93 `fastapi-demo` \u7684\u5173\u7cfb"
     },
     {
@@ -2196,7 +2250,7 @@
       "source_file": "server/docs/03-\u5b98\u65b9\u6587\u6863.md",
       "source_location": "L1",
       "id": "server_docs_03_\u5b98\u65b9\u6587\u6863_md",
-      "community": 20,
+      "community": 21,
       "norm_label": "03-\u5b98\u65b9\u6587\u6863.md"
     },
     {
@@ -2448,7 +2502,7 @@
       "source_file": "prd/README.md",
       "source_location": "L1",
       "id": "prd_readme_md",
-      "community": 2,
+      "community": 3,
       "norm_label": "readme.md"
     },
     {
@@ -2457,7 +2511,7 @@
       "source_file": "prd/README.md",
       "source_location": "L1",
       "id": "prd_readme_\u8bba\u575b\u7cfb\u7edf_prd",
-      "community": 2,
+      "community": 3,
       "norm_label": "\u8bba\u575b\u7cfb\u7edf prd"
     },
     {
@@ -2466,7 +2520,7 @@
       "source_file": "prd/README.md",
       "source_location": "L7",
       "id": "prd_readme_1_\u80cc\u666f\u4e0e\u76ee\u6807",
-      "community": 2,
+      "community": 3,
       "norm_label": "1. \u80cc\u666f\u4e0e\u76ee\u6807"
     },
     {
@@ -2475,7 +2529,7 @@
       "source_file": "prd/README.md",
       "source_location": "L9",
       "id": "prd_readme_1_1_\u80cc\u666f",
-      "community": 2,
+      "community": 3,
       "norm_label": "1.1 \u80cc\u666f"
     },
     {
@@ -2484,7 +2538,7 @@
       "source_file": "prd/README.md",
       "source_location": "L13",
       "id": "prd_readme_1_2_\u76ee\u6807",
-      "community": 2,
+      "community": 3,
       "norm_label": "1.2 \u76ee\u6807"
     },
     {
@@ -2493,7 +2547,7 @@
       "source_file": "prd/README.md",
       "source_location": "L19",
       "id": "prd_readme_1_3_\u975e\u76ee\u6807_\u672c\u671f\u4e0d\u505a",
-      "community": 2,
+      "community": 3,
       "norm_label": "1.3 \u975e\u76ee\u6807(\u672c\u671f\u4e0d\u505a)"
     },
     {
@@ -2502,7 +2556,7 @@
       "source_file": "prd/README.md",
       "source_location": "L31",
       "id": "prd_readme_2_\u7528\u6237\u4e0e\u573a\u666f",
-      "community": 2,
+      "community": 3,
       "norm_label": "2. \u7528\u6237\u4e0e\u573a\u666f"
     },
     {
@@ -2511,7 +2565,7 @@
       "source_file": "prd/README.md",
       "source_location": "L33",
       "id": "prd_readme_2_1_\u89d2\u8272",
-      "community": 2,
+      "community": 3,
       "norm_label": "2.1 \u89d2\u8272"
     },
     {
@@ -2520,7 +2574,7 @@
       "source_file": "prd/README.md",
       "source_location": "L40",
       "id": "prd_readme_2_2_\u6838\u5fc3\u7528\u6237\u65c5\u7a0b",
-      "community": 2,
+      "community": 3,
       "norm_label": "2.2 \u6838\u5fc3\u7528\u6237\u65c5\u7a0b"
     },
     {
@@ -2529,7 +2583,7 @@
       "source_file": "prd/README.md",
       "source_location": "L42",
       "id": "prd_readme_codeblock_1",
-      "community": 2,
+      "community": 3,
       "norm_label": "code:text (\u6ce8\u518c\u8d26\u53f7)"
     },
     {
@@ -2538,7 +2592,7 @@
       "source_file": "prd/README.md",
       "source_location": "L56",
       "id": "prd_readme_3_\u529f\u80fd\u9700\u6c42",
-      "community": 2,
+      "community": 3,
       "norm_label": "3. \u529f\u80fd\u9700\u6c42"
     },
     {
@@ -2547,7 +2601,7 @@
       "source_file": "prd/README.md",
       "source_location": "L58",
       "id": "prd_readme_3_1_\u7528\u6237\u6ce8\u518c",
-      "community": 2,
+      "community": 3,
       "norm_label": "3.1 \u7528\u6237\u6ce8\u518c"
     },
     {
@@ -2556,7 +2610,7 @@
       "source_file": "prd/README.md",
       "source_location": "L69",
       "id": "prd_readme_3_2_\u7528\u6237\u767b\u5f55",
-      "community": 2,
+      "community": 3,
       "norm_label": "3.2 \u7528\u6237\u767b\u5f55"
     },
     {
@@ -2565,7 +2619,7 @@
       "source_file": "prd/README.md",
       "source_location": "L79",
       "id": "prd_readme_3_3_\u67e5\u770b\u5e16\u5b50",
-      "community": 2,
+      "community": 3,
       "norm_label": "3.3 \u67e5\u770b\u5e16\u5b50"
     },
     {
@@ -2574,7 +2628,7 @@
       "source_file": "prd/README.md",
       "source_location": "L81",
       "id": "prd_readme_3_3_1_\u5e16\u5b50\u5217\u8868",
-      "community": 2,
+      "community": 3,
       "norm_label": "3.3.1 \u5e16\u5b50\u5217\u8868"
     },
     {
@@ -2583,7 +2637,7 @@
       "source_file": "prd/README.md",
       "source_location": "L90",
       "id": "prd_readme_3_3_2_\u5e16\u5b50\u8be6\u60c5",
-      "community": 2,
+      "community": 3,
       "norm_label": "3.3.2 \u5e16\u5b50\u8be6\u60c5"
     },
     {
@@ -2592,7 +2646,7 @@
       "source_file": "prd/README.md",
       "source_location": "L98",
       "id": "prd_readme_3_4_\u53d1\u5e03\u5e16\u5b50",
-      "community": 2,
+      "community": 3,
       "norm_label": "3.4 \u53d1\u5e03\u5e16\u5b50"
     },
     {
@@ -2601,7 +2655,7 @@
       "source_file": "prd/README.md",
       "source_location": "L108",
       "id": "prd_readme_3_4_1_\u5e16\u5b50\u56fe\u7247\u4e0a\u4f20",
-      "community": 2,
+      "community": 3,
       "norm_label": "3.4.1 \u5e16\u5b50\u56fe\u7247\u4e0a\u4f20"
     },
     {
@@ -2610,7 +2664,7 @@
       "source_file": "prd/README.md",
       "source_location": "L120",
       "id": "prd_readme_3_5_\u70b9\u8d5e",
-      "community": 2,
+      "community": 3,
       "norm_label": "3.5 \u70b9\u8d5e"
     },
     {
@@ -2619,7 +2673,7 @@
       "source_file": "prd/README.md",
       "source_location": "L130",
       "id": "prd_readme_3_6_\u6536\u85cf",
-      "community": 2,
+      "community": 3,
       "norm_label": "3.6 \u6536\u85cf"
     },
     {
@@ -2628,7 +2682,7 @@
       "source_file": "prd/README.md",
       "source_location": "L141",
       "id": "prd_readme_3_7_\u6211\u7684\u5185\u5bb9_\u5efa\u8bae\u672c\u671f\u5305\u542b",
-      "community": 2,
+      "community": 3,
       "norm_label": "3.7 \u6211\u7684\u5185\u5bb9(\u5efa\u8bae\u672c\u671f\u5305\u542b)"
     },
     {
@@ -2637,7 +2691,7 @@
       "source_file": "prd/README.md",
       "source_location": "L150",
       "id": "prd_readme_4_api_\u4e00\u89c8",
-      "community": 2,
+      "community": 3,
       "norm_label": "4. api \u4e00\u89c8"
     },
     {
@@ -2646,7 +2700,7 @@
       "source_file": "prd/README.md",
       "source_location": "L169",
       "id": "prd_readme_codeblock_2",
-      "community": 2,
+      "community": 3,
       "norm_label": "code:json ({)"
     },
     {
@@ -2655,7 +2709,7 @@
       "source_file": "prd/README.md",
       "source_location": "L181",
       "id": "prd_readme_5_\u6570\u636e\u6a21\u578b_\u8349\u6848",
-      "community": 2,
+      "community": 3,
       "norm_label": "5. \u6570\u636e\u6a21\u578b(\u8349\u6848)"
     },
     {
@@ -2664,7 +2718,7 @@
       "source_file": "prd/README.md",
       "source_location": "L183",
       "id": "prd_readme_5_1_user_tab_\u7528\u6237",
-      "community": 2,
+      "community": 3,
       "norm_label": "5.1 `user_tab` \u7528\u6237"
     },
     {
@@ -2673,7 +2727,7 @@
       "source_file": "prd/README.md",
       "source_location": "L195",
       "id": "prd_readme_5_2_post_tab_\u5e16\u5b50",
-      "community": 2,
+      "community": 3,
       "norm_label": "5.2 `post_tab` \u5e16\u5b50"
     },
     {
@@ -2682,7 +2736,7 @@
       "source_file": "prd/README.md",
       "source_location": "L209",
       "id": "prd_readme_5_3_post_like_tab_\u70b9\u8d5e\u5173\u7cfb",
-      "community": 2,
+      "community": 3,
       "norm_label": "5.3 `post_like_tab` \u70b9\u8d5e\u5173\u7cfb"
     },
     {
@@ -2691,7 +2745,7 @@
       "source_file": "prd/README.md",
       "source_location": "L219",
       "id": "prd_readme_5_4_post_favorite_tab_\u6536\u85cf\u5173\u7cfb",
-      "community": 2,
+      "community": 3,
       "norm_label": "5.4 `post_favorite_tab` \u6536\u85cf\u5173\u7cfb"
     },
     {
@@ -2700,7 +2754,7 @@
       "source_file": "prd/README.md",
       "source_location": "L231",
       "id": "prd_readme_6_\u975e\u529f\u80fd\u9700\u6c42",
-      "community": 2,
+      "community": 3,
       "norm_label": "6. \u975e\u529f\u80fd\u9700\u6c42"
     },
     {
@@ -2709,7 +2763,7 @@
       "source_file": "prd/README.md",
       "source_location": "L244",
       "id": "prd_readme_7_\u9a8c\u6536\u6807\u51c6",
-      "community": 2,
+      "community": 3,
       "norm_label": "7. \u9a8c\u6536\u6807\u51c6"
     },
     {
@@ -2718,7 +2772,7 @@
       "source_file": "prd/README.md",
       "source_location": "L258",
       "id": "prd_readme_8_\u91cc\u7a0b\u7891\u5efa\u8bae",
-      "community": 2,
+      "community": 3,
       "norm_label": "8. \u91cc\u7a0b\u7891\u5efa\u8bae"
     },
     {
@@ -2727,7 +2781,7 @@
       "source_file": "prd/README.md",
       "source_location": "L270",
       "id": "prd_readme_9_\u5f00\u653e\u95ee\u9898",
-      "community": 2,
+      "community": 3,
       "norm_label": "9. \u5f00\u653e\u95ee\u9898"
     },
     {
@@ -2783,6 +2837,33 @@
       "id": "client_readme_\u811a\u672c",
       "community": 11,
       "norm_label": "\u811a\u672c"
+    },
+    {
+      "label": "Create the shared async Redis client (call once on app startup).",
+      "file_type": "rationale",
+      "source_file": "server/src/redis_client.py",
+      "source_location": "L10",
+      "community": 1,
+      "norm_label": "create the shared async redis client (call once on app startup).",
+      "id": "src_redis_client_rationale_10"
+    },
+    {
+      "label": "Close Redis client and connection pool on app shutdown.",
+      "file_type": "rationale",
+      "source_file": "server/src/redis_client.py",
+      "source_location": "L31",
+      "community": 1,
+      "norm_label": "close redis client and connection pool on app shutdown.",
+      "id": "src_redis_client_rationale_31"
+    },
+    {
+      "label": "FastAPI dependency that yields the shared Redis client.",
+      "file_type": "rationale",
+      "source_file": "server/src/redis_client.py",
+      "source_location": "L48",
+      "community": 1,
+      "norm_label": "fastapi dependency that yields the shared redis client.",
+      "id": "src_redis_client_rationale_48"
     }
   ],
   "links": [
@@ -2869,8 +2950,19 @@
       "source_file": "server/src/redis_client.py",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_src_redis_client_py",
-      "target": "server_src_core_config_py",
+      "target": "server_src_core_config_py"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/redis_client.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "server_src_redis_client_py",
+      "target": "server_src_core_logging_py",
       "confidence_score": 1.0
     },
     {
@@ -2879,9 +2971,9 @@
       "source_file": "server/src/redis_client.py",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_src_redis_client_py",
-      "target": "src_redis_client_init_redis",
-      "confidence_score": 1.0
+      "target": "src_redis_client_init_redis"
     },
     {
       "relation": "contains",
@@ -2889,9 +2981,9 @@
       "source_file": "server/src/redis_client.py",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_src_redis_client_py",
-      "target": "src_redis_client_close_redis",
-      "confidence_score": 1.0
+      "target": "src_redis_client_close_redis"
     },
     {
       "relation": "contains",
@@ -2899,9 +2991,9 @@
       "source_file": "server/src/redis_client.py",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_src_redis_client_py",
-      "target": "src_redis_client_get_redis_client",
-      "confidence_score": 1.0
+      "target": "src_redis_client_get_redis_client"
     },
     {
       "relation": "contains",
@@ -2909,9 +3001,9 @@
       "source_file": "server/src/redis_client.py",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_src_redis_client_py",
-      "target": "src_redis_client_get_redis",
-      "confidence_score": 1.0
+      "target": "src_redis_client_get_redis"
     },
     {
       "relation": "imports_from",
@@ -2920,17 +3012,28 @@
       "source_file": "server/src/main.py",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_src_main_py",
-      "target": "server_src_redis_client_py",
+      "target": "server_src_redis_client_py"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/redis_client.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "src_redis_client_init_redis",
+      "target": "src_redis_client_close_redis",
       "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "server/src/redis_client.py",
-      "source_location": "L10",
+      "source_location": "L13",
       "weight": 1.0,
-      "source": "src_redis_client_rationale_10",
+      "source": "src_redis_client_rationale_13",
       "target": "src_redis_client_init_redis",
       "confidence_score": 1.0
     },
@@ -2960,9 +3063,19 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "server/src/redis_client.py",
-      "source_location": "L31",
+      "source_location": "L10",
       "weight": 1.0,
-      "source": "src_redis_client_rationale_31",
+      "confidence_score": 1.0,
+      "source": "src_redis_client_rationale_10",
+      "target": "src_redis_client_init_redis"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/redis_client.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "src_redis_client_rationale_45",
       "target": "src_redis_client_close_redis",
       "confidence_score": 1.0
     },
@@ -2978,14 +3091,34 @@
       "target": "src_redis_client_close_redis"
     },
     {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/redis_client.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_redis_client_rationale_31",
+      "target": "src_redis_client_close_redis"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "server/src/redis_client.py",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_redis_client_get_redis",
-      "target": "src_redis_client_get_redis_client",
+      "target": "src_redis_client_get_redis_client"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/redis_client.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "src_redis_client_rationale_63",
+      "target": "src_redis_client_get_redis",
       "confidence_score": 1.0
     },
     {
@@ -2994,9 +3127,9 @@
       "source_file": "server/src/redis_client.py",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_redis_client_rationale_48",
-      "target": "src_redis_client_get_redis",
-      "confidence_score": 1.0
+      "target": "src_redis_client_get_redis"
     },
     {
       "relation": "imports_from",
@@ -3008,6 +3141,17 @@
       "confidence_score": 1.0,
       "source": "server_src_main_py",
       "target": "server_src_core_config_py"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "server_src_main_py",
+      "target": "server_src_core_logging_py",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3040,6 +3184,16 @@
       "confidence_score": 1.0,
       "source": "server_src_main_py",
       "target": "src_main_lifespan"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/main.py",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "server_src_main_py",
+      "target": "src_main_log_requests",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3518,6 +3672,80 @@
       "weight": 1.0,
       "source": "routers_uploads_upload_images",
       "target": "schemas_auth_imageuploadout"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "server_src_core_logging_py",
+      "target": "core_logging_setup_logging",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "server_src_core_logging_py",
+      "target": "core_logging_get_logger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/core/__init__.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "server_src_core_init_py",
+      "target": "server_src_core_logging_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/services/auth_service.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "server_src_services_auth_service_py",
+      "target": "server_src_core_logging_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/services/post_service.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "server_src_services_post_service_py",
+      "target": "server_src_core_logging_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/services/upload_service.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "server_src_services_upload_service_py",
+      "target": "server_src_core_logging_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "core_logging_rationale_8",
+      "target": "core_logging_setup_logging",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7341,9 +7569,9 @@
       "source_file": "server/README.md",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_readme_\u73af\u5883\u53d8\u91cf",
-      "target": "server_readme_codeblock_5",
-      "confidence_score": 1.0
+      "target": "server_readme_codeblock_5"
     },
     {
       "relation": "contains",
@@ -8227,5 +8455,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "02be417c83c25d95d111ab4e4cfa214575763cb4"
+  "built_at_commit": "14e0f7763213aff1e6670f402f2e3cad51b5024d"
 }

@@ -4,6 +4,9 @@ from pathlib import Path
 from fastapi import HTTPException, UploadFile, status
 
 from ..core.config import Settings
+from ..core.logging import get_logger
+
+logger = get_logger(__name__)
 
 ALLOWED_CONTENT_TYPES = {
     "image/jpeg": ".jpg",
@@ -62,5 +65,7 @@ async def save_images(files: list[UploadFile], settings: Settings) -> list[str]:
         dest = upload_dir / filename
         dest.write_bytes(data)
         urls.append(f"{settings.media_url_prefix.rstrip('/')}/uploads/{filename}")
+        logger.info("Image saved file=%s size=%s", filename, len(data))
 
+    logger.info("Uploaded %s image(s)", len(urls))
     return urls

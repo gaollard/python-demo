@@ -2,14 +2,18 @@ from fastapi import HTTPException, status
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from ..core.logging import get_logger
 from ..core.security import create_access_token, hash_password, verify_password
 from ..models import User
 from ..schemas import TokenOut, UserOut, UserRegister
+
+logger = get_logger(__name__)
 
 
 async def register_user(db: AsyncSession, payload: UserRegister) -> UserOut:
     exists = await db.scalar(select(User.id).where(User.username == payload.username))
     if exists is not None:
+        logger.warning("Register failed: username already exists username=%s", payload.username)
         raise HTTPException(
             status_code=status.HTTP_409_CONFLICT,
             detail="Username already exists",
@@ -22,12 +26,14 @@ async def register_user(db: AsyncSession, payload: UserRegister) -> UserOut:
     db.add(user)
     await db.commit()
     await db.refresh(user)
+    logger.info("User registered id=%s username=%s", user.id, user.username)
     return UserOut.model_validate(user)
 
 
 async def login_user(db: AsyncSession, username: str, password: str) -> TokenOut:
     user = await db.scalar(select(User).where(User.username == username))
     if user is None or not verify_password(password, user.password_hash):
+        logger.warning("Login failed username=%s", username)
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Incorrect username or password",
@@ -35,6 +41,7 @@ async def login_user(db: AsyncSession, username: str, password: str) -> TokenOut
         )
 
     token = create_access_token(subject=str(user.id))
+    logger.info("User logged in id=%s username=%s", user.id, user.username)
     return TokenOut(
         access_token=token,
         user=UserOut.model_validate(user),

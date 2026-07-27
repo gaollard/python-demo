@@ -25,6 +25,7 @@ class Settings(BaseSettings):
 
     app_title: str = "Forum API"
     app_version: str = "0.1.0"
+    log_level: str = "INFO"
 
     # Local media uploads (relative to server/ by default)
     upload_dir: str = "uploads"
