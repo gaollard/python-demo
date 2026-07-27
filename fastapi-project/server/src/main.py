@@ -3,19 +3,22 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
+from fastapi.staticfiles import StaticFiles
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
 from .core.config import get_settings
 from .core.response import fail
 from .database import engine
 from .models import Base
-from .routers import auth, me, posts
+from .routers import auth, me, posts, uploads
+from .services.upload_service import resolve_upload_dir
 
 
 @asynccontextmanager
 async def lifespan(_: FastAPI):
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
+    resolve_upload_dir(settings)
     yield
 
 
@@ -29,6 +32,14 @@ app = FastAPI(
 app.include_router(auth.router, prefix="/api/v1")
 app.include_router(posts.router, prefix="/api/v1")
 app.include_router(me.router, prefix="/api/v1")
+app.include_router(uploads.router, prefix="/api/v1")
+
+upload_dir = resolve_upload_dir(settings)
+app.mount(
+    f"{settings.media_url_prefix.rstrip('/')}/uploads",
+    StaticFiles(directory=str(upload_dir)),
+    name="media",
+)
 
 
 @app.get("/")

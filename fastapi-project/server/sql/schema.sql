@@ -19,6 +19,7 @@ CREATE TABLE IF NOT EXISTS post_tab (
     user_id BIGINT NOT NULL,
     title VARCHAR(100) NOT NULL,
     content TEXT NOT NULL,
+    images JSON NOT NULL DEFAULT (JSON_ARRAY()),
     like_count INT NOT NULL DEFAULT 0,
     favorite_count INT NOT NULL DEFAULT 0,
     created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,

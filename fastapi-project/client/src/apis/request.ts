@@ -122,6 +122,14 @@ export const request = async <T>(
     config.data = {}
   }
 
+  // FormData 需由浏览器设置 multipart boundary，去掉默认 JSON Content-Type
+  if (typeof FormData !== 'undefined' && config.data instanceof FormData) {
+    config.headers = {
+      ...config.headers,
+      'Content-Type': undefined,
+    }
+  }
+
   try {
     const response = await httpClient.request(config)
     return response.data as IBaseRes<T>

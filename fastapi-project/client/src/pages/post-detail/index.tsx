@@ -161,6 +161,25 @@ export function PostDetailPage() {
               ))}
             </div>
 
+            {post.images && post.images.length > 0 ? (
+              <div
+                className="post-detail__images post-detail__reveal"
+                style={{ animationDelay: 'calc(var(--stagger-step) * 1.5)' }}
+              >
+                {post.images.map((src) => (
+                  <a
+                    key={src}
+                    className="post-detail__image"
+                    href={src}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={src} alt="" loading="lazy" />
+                  </a>
+                ))}
+              </div>
+            ) : null}
+
             <footer
               className="post-detail__actions post-detail__reveal"
               style={{ animationDelay: 'calc(var(--stagger-step) * 2)' }}

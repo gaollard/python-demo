@@ -11,6 +11,7 @@ def _to_list_item(post: Post) -> PostListItem:
         id=post.id,
         title=post.title,
         author=AuthorOut(id=post.author.id, username=post.author.username),
+        images=list(post.images or []),
         like_count=post.like_count,
         favorite_count=post.favorite_count,
         created_at=post.created_at,
@@ -27,6 +28,7 @@ def _to_detail(
         id=post.id,
         title=post.title,
         content=post.content,
+        images=list(post.images or []),
         author=AuthorOut(id=post.author.id, username=post.author.username),
         like_count=post.like_count,
         favorite_count=post.favorite_count,
@@ -41,6 +43,7 @@ async def create_post(db: AsyncSession, user: User, payload: PostCreate) -> Post
         user_id=user.id,
         title=payload.title,
         content=payload.content,
+        images=payload.images,
     )
     db.add(post)
     await db.commit()

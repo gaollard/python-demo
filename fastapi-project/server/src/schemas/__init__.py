@@ -1,5 +1,6 @@
 from .auth import (
     AuthorOut,
+    ImageUploadOut,
     InteractionOut,
     PostCreate,
     PostDetail,
@@ -20,4 +21,5 @@ __all__ = [
     "PostListItem",
     "PostDetail",
     "InteractionOut",
+    "ImageUploadOut",
 ]

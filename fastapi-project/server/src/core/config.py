@@ -26,6 +26,12 @@ class Settings(BaseSettings):
     app_title: str = "Forum API"
     app_version: str = "0.1.0"
 
+    # Local media uploads (relative to server/ by default)
+    upload_dir: str = "uploads"
+    media_url_prefix: str = "/media"
+    upload_max_files: int = 9
+    upload_max_bytes: int = 5 * 1024 * 1024  # 5MB
+
 
 @lru_cache
 def get_settings() -> Settings:

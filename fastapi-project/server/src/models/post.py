@@ -1,6 +1,7 @@
 from datetime import datetime
+from typing import Any
 
-from sqlalchemy import DateTime, ForeignKey, Integer, String, Text, UniqueConstraint, func
+from sqlalchemy import JSON, DateTime, ForeignKey, Integer, String, Text, UniqueConstraint, func
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from .base import Base, TimestampMixin
@@ -13,6 +14,7 @@ class Post(Base, TimestampMixin):
     user_id: Mapped[int] = mapped_column(ForeignKey("user_tab.id"), index=True)
     title: Mapped[str] = mapped_column(String(100))
     content: Mapped[str] = mapped_column(Text)
+    images: Mapped[list[Any]] = mapped_column(JSON, default=list, server_default="[]")
     like_count: Mapped[int] = mapped_column(Integer, default=0, server_default="0")
     favorite_count: Mapped[int] = mapped_column(Integer, default=0, server_default="0")
 

@@ -33,6 +33,7 @@ export type PostListItem = {
   id: number
   title: string
   author: AuthorInfo
+  images?: string[]
   like_count: number
   favorite_count: number
   created_at: string
@@ -47,6 +48,11 @@ export type PostDetail = PostListItem & {
 export type PostCreatePayload = {
   title: string
   content: string
+  images?: string[]
+}
+
+export type ImageUploadResult = {
+  urls: string[]
 }
 
 export type InteractionResult = {
