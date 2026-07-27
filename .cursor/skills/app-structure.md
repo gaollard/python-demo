@@ -58,41 +58,43 @@ app-client/
 
 路由集中在 `src/App.tsx` 的 `<Routes>`：
 
-- `/`：`Home`（当前含 Vite/React 演示内容）
+- `/`：帖子列表（`Home`）
 - `/login`：`Login`
 - `/register`：`Register`
-- `/profile`：`Profile`
+- `/profile`：我的帖子 / 我的收藏（`Profile`）
+- `/posts/new`：发帖（需登录）
+- `/posts/:id`：帖子详情（点赞 / 收藏）
 
 新增路由：在 `App.tsx` 增加 `<Route>`，并实现对应 `pages/` 下页面；若需布局，用现有 Layout 包裹页面内容。
 
 ## HTTP 与后端约定
 
-- src/apis 目录存放接口
-- src/types/apis.ts 存放接口的出入参
+- `src/apis` 目录存放接口（`auth.ts` / `posts.ts` / `me.ts`）
+- `src/types/api.ts` 存放接口的出入参
 
 ### 开发代理
 
-`vite.config.ts` 将 **`/api`** 代理到环境变量 **`VITE_API_URL`**；未设置时默认为 `http://localhost:3000`。前端 Axios `baseURL` 为 **`/api`**，因此浏览器请求形如 `/api/auth/login`，由 Vite 转发到后端根路径下的 `/api`（按你后端实际挂载调整）。
+`vite.config.ts` 将 **`/api`** 代理到环境变量 **`VITE_API_URL`**；未设置时默认为 `http://localhost:8000`。前端 Axios `baseURL` 为 **`/api/v1`**，因此浏览器请求形如 `/api/v1/auth/login`，由 Vite 转发到 Forum API。
 
 ### 响应壳 `IBaseRes<T>`
 
 `request.ts` 约定后端 JSON 形如：
 
 ```ts
-{ code: string; msg: string; data: T }
+{ code: number | string; message: string; data: T }
 ```
 
-- HTTP 2xx 且 **`code`** 属于成功集合（当前含 `'0'`、`'200'`、`'00000'`，可按后端在 `BIZ_SUCCESS_CODES` 扩充）视为业务成功。
+- HTTP 2xx 且 **`code`** 属于成功集合（当前含 `0`/`'0'`、`'200'`、`'00000'`，可按后端在 `BIZ_SUCCESS_CODES` 扩充）视为业务成功。
 - 业务失败会抛出 **`BizApiError`**（可与 Axios 错误区分）。
 - 页面或 `apis/*.ts` 中取业务数据应使用返回值的 **`data` 字段**（即 envelope 里的 `data`，类型参数 `T`）。
 
-鉴权：`request` 拦截器从 `getAuthToken()` 读取 token，设置 **`Authorization: Bearer <token>`**。
+鉴权：`request` 拦截器从 `getAuthToken()` 读取 token，设置 **`Authorization: Bearer <token>`**。登录成功后写入 `access_token`，用户信息缓存在 `localStorage`（`forum_user`）。
 
 ### 新增 API
 
 1. 在 `apis/<domain>.ts` 中编写函数，内部调用 `request<T>(path, options)`。
 2. `method` 默认 POST；GET 需显式 `method: 'GET'`。
-3. 路径为 **`/api` 之后的相对路径**（例如 `/auth/login`），不要重复写 `/api` 前缀（已由 `baseURL` 承担）。
+3. 路径为 **`/api/v1` 之后的相对路径**（例如 `/auth/login`），不要重复写 `/api/v1` 前缀（已由 `baseURL` 承担）。
 
 ## 本地鉴权辅助
 

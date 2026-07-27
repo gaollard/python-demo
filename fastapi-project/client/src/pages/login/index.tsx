@@ -1,56 +1,59 @@
-import { type FormEvent, useState } from 'react'
-import { isAxiosError } from 'axios'
-import { Link, useNavigate } from 'react-router-dom'
-import { setAuthToken } from '../../utils/auth'
+import { type FormEvent, useEffect, useState } from 'react'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { AuthLayout } from '../../layout/AuthLayout'
-import { login as loginRequest } from '../../apis/auth'
+import { useUserStore } from '../../store/user-store'
+import { getApiErrorMessage } from '../../utils/api-error'
 import './index.less'
 
-function isValidEmail(value: string): boolean {
-  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value.trim())
-}
+const USERNAME_RE = /^[a-zA-Z0-9_]{3,32}$/
 
 export function Login() {
   const navigate = useNavigate()
-  const [email, setEmail] = useState('')
+  const location = useLocation()
+  const { login, loggingIn, hydrated, hydrate, token } = useUserStore()
+  const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
-  const [remember, setRemember] = useState(true)
-  const [submitting, setSubmitting] = useState(false)
   const [error, setError] = useState<string | null>(null)
+
+  const from =
+    (location.state as { from?: string } | null)?.from &&
+    typeof (location.state as { from?: string }).from === 'string'
+      ? (location.state as { from: string }).from
+      : '/'
+
+  useEffect(() => {
+    if (!hydrated) hydrate()
+  }, [hydrated, hydrate])
+
+  useEffect(() => {
+    if (hydrated && token) {
+      navigate(from, { replace: true })
+    }
+  }, [hydrated, token, navigate, from])
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault()
     setError(null)
 
-    const trimmed = email.trim()
+    const trimmed = username.trim()
     if (!trimmed || !password) {
-      setError('请填写邮箱和密码')
+      setError('请填写用户名和密码')
       return
     }
-    if (!isValidEmail(trimmed)) {
-      setError('请输入有效的邮箱地址')
+    if (!USERNAME_RE.test(trimmed)) {
+      setError('用户名需为 3–32 位字母、数字或下划线')
+      return
+    }
+    if (password.length < 6 || password.length > 64) {
+      setError('密码长度为 6–64 位')
       return
     }
 
-    setSubmitting(true)
     try {
-      const res = await loginRequest({ email: trimmed, password })
-      const token = res.data?.token
-      if (token) {
-        setAuthToken(token)
-      }
-      navigate('/', { replace: true })
+      await login({ username: trimmed, password })
+      navigate(from, { replace: true })
     } catch (err: unknown) {
-      let msg = '登录失败，请检查账号密码或稍后重试'
-      if (isAxiosError(err)) {
-        const data = err.response?.data as { message?: string } | undefined
-        if (data?.message) msg = data.message
-        else if (err.code === 'ECONNABORTED') msg = '请求超时，请稍后重试'
-        else if (!err.response) msg = '网络异常，请检查连接后重试'
-      }
-      setError(msg)
-    } finally {
-      setSubmitting(false)
+      setError(getApiErrorMessage(err, '登录失败，请检查账号密码或稍后重试'))
     }
   }
 
@@ -59,24 +62,24 @@ export function Login() {
       <div className="auth">
         <p className="auth__eyebrow">欢迎回来</p>
         <h1 className="auth__title">登录</h1>
-        <p className="auth__lead">使用邮箱与密码登录你的账户</p>
+        <p className="auth__lead">使用用户名与密码登录论坛</p>
 
         <form className="auth__form" onSubmit={handleSubmit} noValidate>
           {error ? <p className="auth__error">{error}</p> : null}
 
           <div className="auth__field">
-            <label className="auth__label" htmlFor="login-email">
-              邮箱
+            <label className="auth__label" htmlFor="login-username">
+              用户名
             </label>
             <input
-              id="login-email"
+              id="login-username"
               className="auth__input"
-              type="email"
-              name="email"
-              autoComplete="email"
-              placeholder="you@example.com"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              type="text"
+              name="username"
+              autoComplete="username"
+              placeholder="your_name"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
             />
           </div>
 
@@ -96,19 +99,8 @@ export function Login() {
             />
           </div>
 
-          <div className="auth__row">
-            <label className="auth__remember">
-              <input
-                type="checkbox"
-                checked={remember}
-                onChange={(e) => setRemember(e.target.checked)}
-              />
-              在此设备保持登录
-            </label>
-          </div>
-
-          <button className="auth__submit" type="submit" disabled={submitting}>
-            {submitting ? '登录中…' : '登录'}
+          <button className="auth__submit" type="submit" disabled={loggingIn}>
+            {loggingIn ? '登录中…' : '登录'}
           </button>
         </form>
 

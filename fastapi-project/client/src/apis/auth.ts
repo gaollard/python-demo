@@ -1,4 +1,4 @@
-import type { LoginPayload, LoginResData, IUserInfo } from '../types/api'
+import type { LoginPayload, LoginResData, RegisterPayload, IUserInfo } from '../types/api'
 import { request, type IBaseRes } from './request'
 
 export async function login(payload: LoginPayload) {
@@ -9,9 +9,10 @@ export async function login(payload: LoginPayload) {
   return response as IBaseRes<LoginResData>
 }
 
-export async function fetchProfile() {
-  const response = await request<IUserInfo | null>('/auth/me', {
-    method: 'GET',
+export async function register(payload: RegisterPayload) {
+  const response = await request<IUserInfo>('/auth/register', {
+    method: 'POST',
+    data: payload,
   })
-  return response as IBaseRes<IUserInfo | null>
+  return response as IBaseRes<IUserInfo>
 }

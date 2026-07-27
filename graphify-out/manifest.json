@@ -567,94 +567,6 @@
     "mtime": 1784991256.269327,
     "hash": "fb372801e190b1676ebb9c87e55a4191"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/database.py": {
-    "mtime": 1785163506.4197106,
-    "hash": "8966361fec0b7b4b238b7e757d4b96b4"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/__init__.py": {
-    "mtime": 1785032183.423649,
-    "hash": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/main.py": {
-    "mtime": 1785163534.7257128,
-    "hash": "4f5e91958763b3d0f6969d725e463b86"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/dependencies.py": {
-    "mtime": 1785163508.3849006,
-    "hash": "3bacd47e80e02106eb3ae821f29b7a52"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/routers/auth.py": {
-    "mtime": 1785163527.9119763,
-    "hash": "20b58cf753835e55acd7eb15f2a89e10"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/routers/me.py": {
-    "mtime": 1785163531.261376,
-    "hash": "d442f971b7e9eb5185d10268b5a9d633"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/routers/posts.py": {
-    "mtime": 1785163530.887145,
-    "hash": "82960189f115953ea7cb2ff032b6271d"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/routers/__init__.py": {
-    "mtime": 1785163534.326215,
-    "hash": "1e5bee63605f9fc695ed999474af8e21"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/core/config.py": {
-    "mtime": 1785163480.5086052,
-    "hash": "97c6dff11041deecbaec3e2c7ccb2b8d"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/core/security.py": {
-    "mtime": 1785163482.0510008,
-    "hash": "97e7c965d95ef637df8ad302039b1752"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/core/__init__.py": {
-    "mtime": 1785163484.1063328,
-    "hash": "f6e4700358840d919b6d11d710c7468b"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/core/response.py": {
-    "mtime": 1785163483.0211623,
-    "hash": "7f25d9e623a43082bb3b7a20b3dc7b61"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/models/post.py": {
-    "mtime": 1785163492.350677,
-    "hash": "48777d15843ae8615ba0f5aaa6a0092d"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/models/user.py": {
-    "mtime": 1785163491.741738,
-    "hash": "9f5bca85da56a3c877c2261be6846f74"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/models/__init__.py": {
-    "mtime": 1785163495.4072094,
-    "hash": "105698c003d0df6b5f4d923989cbab9b"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/models/base.py": {
-    "mtime": 1785163484.463114,
-    "hash": "03332a3b460db693c6144f7f3687afb2"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/schemas/auth.py": {
-    "mtime": 1785163496.3251932,
-    "hash": "9772a5419ae26646f2845557c9021599"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/schemas/__init__.py": {
-    "mtime": 1785163496.6879127,
-    "hash": "f7df0c31becb6b2580668a37008e72a6"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/services/auth_service.py": {
-    "mtime": 1785163517.4267142,
-    "hash": "8c1903e1581f91396c1954e990db78a9"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/services/post_service.py": {
-    "mtime": 1785163543.2176592,
-    "hash": "26de8fcb5d299ffd0e3a17abc781244e"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/src/services/__init__.py": {
-    "mtime": 1785163517.5448842,
-    "hash": "aa088183c53dd15555f42fec0023fb91"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/sql/schema.sql": {
-    "mtime": 1785163548.1917775,
-    "hash": "328ff953fe442e6aec90549f84efb30b"
-  },
   "/Users/xiong.gao/code/GITHUB/pythons/06-python100/02/21.py": {
     "mtime": 1784114093.9393487,
     "hash": "c7a6620aeae0785d66c5add23d0c14a1"
@@ -742,6 +654,202 @@
   "/Users/xiong.gao/code/GITHUB/pythons/05-\u5de5\u5177/01-streamlit/main.py": {
     "mtime": 1784988896.963648,
     "hash": "cd50117beaf126eb874b16a90e6f259d"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/database.py": {
+    "mtime": 1785163506.4197106,
+    "hash": "8966361fec0b7b4b238b7e757d4b96b4"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/__init__.py": {
+    "mtime": 1785032183.423649,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/main.py": {
+    "mtime": 1785163534.7257128,
+    "hash": "4f5e91958763b3d0f6969d725e463b86"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/dependencies.py": {
+    "mtime": 1785163508.3849006,
+    "hash": "3bacd47e80e02106eb3ae821f29b7a52"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/routers/auth.py": {
+    "mtime": 1785163527.9119763,
+    "hash": "20b58cf753835e55acd7eb15f2a89e10"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/routers/me.py": {
+    "mtime": 1785163531.261376,
+    "hash": "d442f971b7e9eb5185d10268b5a9d633"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/routers/posts.py": {
+    "mtime": 1785163530.887145,
+    "hash": "82960189f115953ea7cb2ff032b6271d"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/routers/__init__.py": {
+    "mtime": 1785163534.326215,
+    "hash": "1e5bee63605f9fc695ed999474af8e21"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/core/config.py": {
+    "mtime": 1785163480.5086052,
+    "hash": "97c6dff11041deecbaec3e2c7ccb2b8d"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/core/security.py": {
+    "mtime": 1785163482.0510008,
+    "hash": "97e7c965d95ef637df8ad302039b1752"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/core/__init__.py": {
+    "mtime": 1785163484.1063328,
+    "hash": "f6e4700358840d919b6d11d710c7468b"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/core/response.py": {
+    "mtime": 1785163483.0211623,
+    "hash": "7f25d9e623a43082bb3b7a20b3dc7b61"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/models/post.py": {
+    "mtime": 1785163492.350677,
+    "hash": "48777d15843ae8615ba0f5aaa6a0092d"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/models/user.py": {
+    "mtime": 1785163491.741738,
+    "hash": "9f5bca85da56a3c877c2261be6846f74"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/models/__init__.py": {
+    "mtime": 1785163495.4072094,
+    "hash": "105698c003d0df6b5f4d923989cbab9b"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/models/base.py": {
+    "mtime": 1785163484.463114,
+    "hash": "03332a3b460db693c6144f7f3687afb2"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/schemas/auth.py": {
+    "mtime": 1785163496.3251932,
+    "hash": "9772a5419ae26646f2845557c9021599"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/schemas/__init__.py": {
+    "mtime": 1785163496.6879127,
+    "hash": "f7df0c31becb6b2580668a37008e72a6"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/services/auth_service.py": {
+    "mtime": 1785163517.4267142,
+    "hash": "8c1903e1581f91396c1954e990db78a9"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/services/post_service.py": {
+    "mtime": 1785163543.2176592,
+    "hash": "26de8fcb5d299ffd0e3a17abc781244e"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/src/services/__init__.py": {
+    "mtime": 1785163517.5448842,
+    "hash": "aa088183c53dd15555f42fec0023fb91"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/sql/schema.sql": {
+    "mtime": 1785163548.1917775,
+    "hash": "328ff953fe442e6aec90549f84efb30b"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/eslint.config.js": {
+    "mtime": 1785164251.0179913,
+    "hash": "b8893da386a89dfd3672dad848f4ec7e"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/vite.config.ts": {
+    "mtime": 1785164584.926081,
+    "hash": "5d046eed3aed4b3e8815f6da9a7608ce"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/App.tsx": {
+    "mtime": 1785164584.3541346,
+    "hash": "a2772dc120f50dd9cc309ad4f00d856b"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/main.tsx": {
+    "mtime": 1785164251.0224564,
+    "hash": "31bd90057b43e1c98b48611f2d7ef4cb"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/apis/request.ts": {
+    "mtime": 1785164412.6295319,
+    "hash": "b8c34582538f131260fd7082dea7d992"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/apis/posts.ts": {
+    "mtime": 1785164421.9927754,
+    "hash": "842109c03ea65509b0f505df6fbea254"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/apis/me.ts": {
+    "mtime": 1785164428.302225,
+    "hash": "6ea1152c48a960259de91d5eeee0f5ba"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/apis/auth.ts": {
+    "mtime": 1785164419.2809422,
+    "hash": "bfeac10f4f920820280b37009259404c"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/types/api.ts": {
+    "mtime": 1785164410.285639,
+    "hash": "15c6e40ba9f9287c16da8075b58606c7"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/layout/AuthLayout.tsx": {
+    "mtime": 1785164680.150279,
+    "hash": "20fa81de2284eb5de5fca6aa478d6e01"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/layout/BasicLayout.tsx": {
+    "mtime": 1785164884.6026478,
+    "hash": "409865822615e2e170674f3b301d4022"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/utils/date.ts": {
+    "mtime": 1785164251.02458,
+    "hash": "d1e1a0241a8153456e3950a3f3bae679"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/utils/api-error.ts": {
+    "mtime": 1785164414.326459,
+    "hash": "89572a01f308f7e56b76b78a41740d38"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/utils/auth.ts": {
+    "mtime": 1785164251.0244486,
+    "hash": "2ade85a49ae36049de36a287114640b1"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/components/CopyButton/index.tsx": {
+    "mtime": 1785164251.0210147,
+    "hash": "95791d8a7b74bd3c050d215f99a21109"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/components/CopyButton/copy.ts": {
+    "mtime": 1785164251.020664,
+    "hash": "78daa1552fa81f5302e1e72cabb149fd"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/components/CopyButton/icons.tsx": {
+    "mtime": 1785164251.02078,
+    "hash": "0da42951d0eea1b4e36065d87fe3b8f5"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/components/Empty/index.tsx": {
+    "mtime": 1785164251.02145,
+    "hash": "3d84462f46bb82b94dcd56b277d62603"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/components/Empty/icons.tsx": {
+    "mtime": 1785164251.021213,
+    "hash": "54f4c7014f5138f9bc3e1880e062e791"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/components/PostList/index.tsx": {
+    "mtime": 1785164671.082454,
+    "hash": "6118ce4487ec2a5799a61c9d264eefb9"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/pages/home/index.tsx": {
+    "mtime": 1785164625.6571243,
+    "hash": "4bb23ae84e601ce12b6df3f23a09765d"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/pages/register/index.tsx": {
+    "mtime": 1785164649.9377105,
+    "hash": "b95069b66578919f0883fcb75f737aac"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/pages/profile/index.tsx": {
+    "mtime": 1785164650.292886,
+    "hash": "de949aeca56cac8e85dd43fab7125603"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/pages/post-create/index.tsx": {
+    "mtime": 1785164637.300653,
+    "hash": "6c58e2f91a512ecd16268877dbc7e32a"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/pages/post-detail/index.tsx": {
+    "mtime": 1785164696.3830652,
+    "hash": "c20c184541f05f8ad7020ca607ef3dc3"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/pages/login/index.tsx": {
+    "mtime": 1785164643.2081156,
+    "hash": "7551524861dedffe2a63d6e5009de569"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/store/user-store.ts": {
+    "mtime": 1785164608.5225737,
+    "hash": "6a00a3753dbdb9ff1d94f4fd750d996a"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/03-\u5de5\u7a0b/01pypi/main.py": {
     "mtime": 1784973275.5322137,
@@ -927,46 +1035,6 @@
     "mtime": 1784990545.5980344,
     "hash": "83aba351b5562f2490dd97df6653fc55"
   },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/requirements.txt": {
-    "mtime": 1785163571.2535784,
-    "hash": "261661b160c23abe7be2c76f05dbe8e0"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/README.md": {
-    "mtime": 1785163571.604695,
-    "hash": "87571766a8d26f8b9b392fdb36138e06"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/docs/01-\u4ecb\u7ecd.md": {
-    "mtime": 1785031023.8616388,
-    "hash": "9d39e17361a1b11f5af67223dc89e3d5"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/docs/05.\u4f9d\u8d56\u56fa\u5b9a.md": {
-    "mtime": 1785032364.4597797,
-    "hash": "d26cfd4c5a840542ecf4b20a6424fddc"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/docs/06-\u4f7f\u7528env\u6587\u4ef6.md": {
-    "mtime": 1785034009.7720296,
-    "hash": "d41d8cd98f00b204e9800998ecf8427e"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md": {
-    "mtime": 1785032030.2071724,
-    "hash": "95343c130fe83998e38ccc794feadcc8"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/docs/03-\u5b98\u65b9\u6587\u6863.md": {
-    "mtime": 1785031555.6408463,
-    "hash": "89299908181165314abe261fc17e1414"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/docs/07-pymysql-vs-aiomysql.md": {
-    "mtime": 1785034783.3489754,
-    "hash": "51c126eb8fd79e923be7201b5461a68e"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/docs/02-\u5b89\u88c5.md": {
-    "mtime": 1785033022.1590638,
-    "hash": "85813f237983212c0d5aa87fbbdd39fa"
-  },
-  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-demo/prd/README.md": {
-    "mtime": 1785163380.701764,
-    "hash": "a2a74be350bacedb5cfbf3f6ebf1043f"
-  },
   "/Users/xiong.gao/code/GITHUB/pythons/06-python100/README.md": {
     "mtime": 1784113974.1353447,
     "hash": "46e53a7a97d115590b284c7f16a06001"
@@ -974,6 +1042,54 @@
   "/Users/xiong.gao/code/GITHUB/pythons/05-\u5de5\u5177/01-streamlit/doc.md": {
     "mtime": 1784982823.7710247,
     "hash": "8e3ba98d8c79ecc261295748206f80ff"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/requirements.txt": {
+    "mtime": 1785163571.2535784,
+    "hash": "261661b160c23abe7be2c76f05dbe8e0"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/README.md": {
+    "mtime": 1785163571.604695,
+    "hash": "87571766a8d26f8b9b392fdb36138e06"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/docs/01-\u4ecb\u7ecd.md": {
+    "mtime": 1785031023.8616388,
+    "hash": "9d39e17361a1b11f5af67223dc89e3d5"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/docs/05.\u4f9d\u8d56\u56fa\u5b9a.md": {
+    "mtime": 1785032364.4597797,
+    "hash": "d26cfd4c5a840542ecf4b20a6424fddc"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/docs/06-\u4f7f\u7528env\u6587\u4ef6.md": {
+    "mtime": 1785034009.7720296,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/docs/04-\u76ee\u5f55\u7ed3\u6784\u6700\u4f73\u5b9e\u8df5.md": {
+    "mtime": 1785032030.2071724,
+    "hash": "95343c130fe83998e38ccc794feadcc8"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/docs/03-\u5b98\u65b9\u6587\u6863.md": {
+    "mtime": 1785031555.6408463,
+    "hash": "89299908181165314abe261fc17e1414"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/docs/07-pymysql-vs-aiomysql.md": {
+    "mtime": 1785034783.3489754,
+    "hash": "51c126eb8fd79e923be7201b5461a68e"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/server/docs/02-\u5b89\u88c5.md": {
+    "mtime": 1785033022.1590638,
+    "hash": "85813f237983212c0d5aa87fbbdd39fa"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/prd/README.md": {
+    "mtime": 1785163380.701764,
+    "hash": "a2a74be350bacedb5cfbf3f6ebf1043f"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/index.html": {
+    "mtime": 1785164812.5607648,
+    "hash": "07e339270aeec121b8841271c891d20f"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/README.md": {
+    "mtime": 1785164673.4013546,
+    "hash": "2010e983e9628c006316c98231dcba61"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/03-\u5de5\u7a0b/01pypi/doc.md": {
     "mtime": 1784972960.223237,
@@ -1102,6 +1218,26 @@
   "/Users/xiong.gao/code/GITHUB/pythons/django-demo/2090267746155371565.pdf": {
     "mtime": 1760927639.597832,
     "hash": "ac2f40f413c2c1ff4443d4bf13fb7b62"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/public/icons.svg": {
+    "mtime": 1785164251.0188735,
+    "hash": "3b4fcfcf393eca4d264dca4a4663bc37"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/public/favicon.svg": {
+    "mtime": 1785164251.0187335,
+    "hash": "7e840862161341271697daa99a40d76b"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/assets/hero.png": {
+    "mtime": 1785164251.0198643,
+    "hash": "5cf2b0762834cdddc0dd3ec1397b5011"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/assets/vite.svg": {
+    "mtime": 1785164251.0203624,
+    "hash": "9960a24288958394ac50e57ff638b036"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/fastapi-project/client/src/assets/react.svg": {
+    "mtime": 1785164251.0201817,
+    "hash": "f0402b67b6ce880f65666bb49e841696"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/django-demo/WechatIMG15.jpeg": {
     "mtime": 1760932367.202533,

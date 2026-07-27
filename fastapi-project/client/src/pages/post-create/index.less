@@ -1,0 +1,127 @@
+.post-create__cancel {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 10px 4px;
+
+  &:hover {
+    color: var(--text-h);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+
+.post-create__form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.post-create__field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.post-create__label {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-h);
+}
+
+.post-create__input,
+.post-create__textarea {
+  font: inherit;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text-h);
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.25s ease;
+
+  &::placeholder {
+    color: var(--text-muted);
+    opacity: 0.85;
+  }
+
+  &:hover {
+    border-color: var(--border-strong);
+  }
+
+  &:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow:
+      0 0 0 3px var(--accent-bg),
+      0 12px 32px -16px var(--glow);
+  }
+}
+
+.post-create__textarea {
+  resize: vertical;
+  min-height: 220px;
+  line-height: 1.65;
+}
+
+.post-create__hint {
+  font-size: 12px;
+  font-family: var(--mono);
+  color: var(--text-muted);
+  align-self: flex-end;
+}
+
+.post-create__error {
+  margin: 0;
+  padding: 12px 14px;
+  font-size: 14px;
+  color: var(--error-text);
+  background: var(--error-bg);
+  border: 1px solid var(--error-border);
+  border-radius: 10px;
+}
+
+.post-create__submit {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  padding: 14px 18px;
+  border: 1px solid color-mix(in srgb, var(--accent) 55%, transparent);
+  border-radius: 12px;
+  cursor: pointer;
+  color: var(--on-accent);
+  background: linear-gradient(165deg, var(--accent-bright), var(--accent));
+  align-self: flex-start;
+  min-width: 140px;
+  transition:
+    transform 0.2s var(--ease-out-expo),
+    filter 0.2s ease,
+    opacity 0.2s ease;
+
+  &:hover:not(:disabled) {
+    filter: brightness(1.05);
+    transform: translateY(-2px);
+  }
+
+  &:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+    transform: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--accent-bright);
+    outline-offset: 3px;
+  }
+}
+
+.post-create__status {
+  margin: 48px auto;
+  text-align: center;
+  color: var(--text-muted);
+}

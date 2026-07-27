@@ -7,10 +7,10 @@ import axios, {
 } from 'axios'
 import { getAuthToken } from '../utils/auth'
 
-/** 与后端约定的统一响应壳 */
+/** 与后端约定的统一响应壳：`{ code, message, data }` */
 export interface IBaseRes<T> {
-  code: string
-  msg: string
+  code: number | string
+  message: string
   data: T
 }
 
@@ -18,10 +18,10 @@ export interface IBaseRes<T> {
 export class BizApiError extends Error {
   readonly code: string
   readonly payload: unknown
-  constructor(code: string, message: string, payload?: unknown) {
+  constructor(code: string | number, message: string, payload?: unknown) {
     super(message)
     this.name = 'BizApiError'
-    this.code = code
+    this.code = String(code)
     this.payload = payload ?? undefined
     Object.setPrototypeOf(this, BizApiError.prototype)
   }
@@ -30,27 +30,29 @@ export class BizApiError extends Error {
 /** 视为成功的业务码，可按后端约定增删 */
 const BIZ_SUCCESS_CODES = new Set(['0', '200', '00000'])
 
-export function isBizSuccess(code: string): boolean {
-  return BIZ_SUCCESS_CODES.has(code)
+export function isBizSuccess(code: number | string): boolean {
+  return BIZ_SUCCESS_CODES.has(String(code))
 }
 
 function isEnvelope(x: unknown): x is IBaseRes<unknown> {
   if (typeof x !== 'object' || x === null) return false
   const o = x as Record<string, unknown>
-  return (
-    typeof o.code === 'string' &&
-    typeof o.msg === 'string' &&
-    'data' in o
-  )
+  const hasCode = typeof o.code === 'string' || typeof o.code === 'number'
+  const hasMessage = typeof o.message === 'string' || typeof o.msg === 'string'
+  return hasCode && hasMessage && 'data' in o
+}
+
+function envelopeMessage(body: IBaseRes<unknown> & { msg?: string }): string {
+  return body.message || body.msg || '请求失败'
 }
 
 function rejectIfBizFailed(body: unknown): void {
   if (isEnvelope(body) && !isBizSuccess(body.code)) {
-    throw new BizApiError(body.code, body.msg, body.data)
+    throw new BizApiError(body.code, envelopeMessage(body), body.data)
   }
 }
 
-const BASE_URL = '/api'
+const BASE_URL = '/api/v1'
 const TIMEOUT_MS = 15_000
 
 function attachAuthHeader(config: InternalAxiosRequestConfig) {
@@ -94,31 +96,44 @@ httpClient.interceptors.response.use(
 )
 
 interface IRequestOptions extends AxiosRequestConfig {
-  showGlobalError?: boolean;
+  showGlobalError?: boolean
 }
 
-export const request = async <T>(url: string, options?: IRequestOptions): Promise<IBaseRes<T>> => {
-  const opts = options ?? {};
-  const method = opts.method || 'POST';
-  const showGlobalError = opts.showGlobalError || false;
-  const data = opts.data || {};
+export const request = async <T>(
+  url: string,
+  options?: IRequestOptions
+): Promise<IBaseRes<T>> => {
+  const opts = options ?? {}
+  const method = (opts.method || 'POST').toUpperCase()
+  const showGlobalError = opts.showGlobalError || false
+
+  const config: AxiosRequestConfig = {
+    ...opts,
+    url,
+    method,
+  }
+
+  // GET/DELETE 默认不带 body，避免空对象干扰查询参数
+  if (method === 'GET' || method === 'DELETE') {
+    if (opts.data === undefined) {
+      delete config.data
+    }
+  } else if (opts.data === undefined) {
+    config.data = {}
+  }
+
   try {
-    const response = await httpClient.request({
-      ...opts,
-      url,
-      method,
-      data,
-    });
-    return response.data as IBaseRes<T>;
+    const response = await httpClient.request(config)
+    return response.data as IBaseRes<T>
   } catch (error: unknown) {
     if (showGlobalError) {
-      const msg = error instanceof Error ? error.message : '请求失败';
-      notifyGlobalError(msg);
+      const msg = error instanceof Error ? error.message : '请求失败'
+      notifyGlobalError(msg)
     }
-    throw error;
+    throw error
   }
 }
 
 function notifyGlobalError(message: string) {
-  throw new Error(message);
+  throw new Error(message)
 }
