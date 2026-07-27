@@ -22,6 +22,7 @@ setup_logging(settings.log_level)
 logger = get_logger(__name__)
 
 
+# lifespan: 生命周期管理
 @asynccontextmanager
 async def lifespan(_: FastAPI):
     logger.info(
