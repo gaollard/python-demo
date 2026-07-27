@@ -32,6 +32,12 @@ class Settings(BaseSettings):
     upload_max_files: int = 9
     upload_max_bytes: int = 5 * 1024 * 1024  # 5MB
 
+    redis_host: str = "127.0.0.1"
+    redis_port: int = 6379
+    redis_password: str = ""
+    redis_db: int = 0
+    redis_max_connections: int = 20
+
 
 @lru_cache
 def get_settings() -> Settings:

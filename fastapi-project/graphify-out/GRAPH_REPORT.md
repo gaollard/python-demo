@@ -1,16 +1,16 @@
 # Graph Report - fastapi-project  (2026-07-27)
 
 ## Corpus Check
-- 63 files · ~14,038 words
+- 64 files · ~38,434 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 300 nodes · 505 edges · 21 communities (20 shown, 1 thin omitted)
+- 309 nodes · 519 edges · 21 communities (20 shown, 1 thin omitted)
 - Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 20 edges (avg confidence: 0.68)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `83e59eaa`
+- Built from commit: `02be417c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -42,54 +42,54 @@
 10. `User` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `upload_images()` --calls--> `ImageUploadOut`  [INFERRED]
-  server/src/routers/uploads.py → server/src/schemas/auth.py
-- `create_post()` --calls--> `Post`  [INFERRED]
-  server/src/services/post_service.py → server/src/models/post.py
-- `like_post()` --calls--> `PostLike`  [INFERRED]
-  server/src/services/post_service.py → server/src/models/post.py
-- `favorite_post()` --calls--> `PostFavorite`  [INFERRED]
-  server/src/services/post_service.py → server/src/models/post.py
 - `register_user()` --calls--> `User`  [INFERRED]
   server/src/services/auth_service.py → server/src/models/user.py
+- `register()` --calls--> `ok()`  [EXTRACTED]
+  server/src/routers/auth.py → server/src/core/response.py
+- `login()` --calls--> `ok()`  [EXTRACTED]
+  server/src/routers/auth.py → server/src/core/response.py
+- `my_posts()` --calls--> `ok()`  [EXTRACTED]
+  server/src/routers/me.py → server/src/core/response.py
+- `my_favorites()` --calls--> `ok()`  [EXTRACTED]
+  server/src/routers/me.py → server/src/core/response.py
 
 ## Communities (21 total, 1 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.11
-Nodes (33): createPost(), favoritePost(), fetchPostDetail(), fetchPosts(), likePost(), unfavoritePost(), unlikePost(), EmptyIllustration() (+25 more)
+Cohesion: 0.08
+Nodes (44): register(), fetchMyFavorites(), fetchMyPosts(), createPost(), favoritePost(), fetchPostDetail(), fetchPosts(), likePost() (+36 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.08
-Nodes (32): BaseSettings, get_settings(), Settings, ApiResponse, fail(), ok(), PageData, create_access_token() (+24 more)
+Cohesion: 0.07
+Nodes (32): BaseModel, ApiResponse, ok(), PageData, create_access_token(), decode_access_token(), hash_password(), verify_password() (+24 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.08
-Nodes (31): login(), register(), fetchMyFavorites(), fetchMyPosts(), attachAuthHeader(), BIZ_SUCCESS_CODES, BizApiError, envelopeMessage() (+23 more)
-
-### Community 3 - "Community 3"
 Cohesion: 0.06
 Nodes (31): 1.1 背景, 1.2 目标, 1.3 非目标（本期不做）, 1. 背景与目标, 2.1 角色, 2.2 核心用户旅程, 2. 用户与场景, 3.1 用户注册 (+23 more)
 
-### Community 4 - "Community 4"
+### Community 3 - "Community 3"
 Cohesion: 0.07
 Nodes (27): 1. 从最小到规范：按规模演进, 2. 官方推荐的多文件结构（起步版）, 3. 中型项目推荐结构（业务分层）, 4. 关键文件示例, 5. 实践建议, 6. 常见反模式, 7. 与本仓库 `fastapi-demo` 的关系, `app/dependencies.py`：共享依赖 (+19 more)
 
+### Community 4 - "Community 4"
+Cohesion: 0.15
+Nodes (22): Base, DeclarativeBase, Base, TimestampMixin, Post, PostFavorite, PostLike, User (+14 more)
+
 ### Community 5 - "Community 5"
-Cohesion: 0.14
-Nodes (22): BaseModel, AuthorOut, ImageUploadOut, InteractionOut, PostCreate, PostDetail, PostListItem, TokenOut (+14 more)
+Cohesion: 0.11
+Nodes (20): login(), attachAuthHeader(), BIZ_SUCCESS_CODES, BizApiError, envelopeMessage(), httpClient, IRequestOptions, isBizSuccess() (+12 more)
 
 ### Community 6 - "Community 6"
+Cohesion: 0.14
+Nodes (16): BaseSettings, get_settings(), Settings, fail(), resolve_upload_dir(), save_images(), http_exception_handler(), lifespan() (+8 more)
+
+### Community 7 - "Community 7"
 Cohesion: 0.11
 Nodes (18): 1. 一句话区别, 2. 为什么 FastAPI 更推荐 aiomysql, 3.1 同步：PyMySQL, 3.2 异步：aiomysql（本项目）, 3. 与 SQLAlchemy 的对接方式, 4. 对比一览, 5. 选型建议, 6. 常见踩坑 (+10 more)
 
-### Community 7 - "Community 7"
-Cohesion: 0.33
-Nodes (9): Base, DeclarativeBase, Base, TimestampMixin, Post, PostFavorite, PostLike, User (+1 more)
-
 ### Community 8 - "Community 8"
-Cohesion: 0.2
-Nodes (9): code:bash (cd fastapi-demo), code:bash (uvicorn src.main:app --reload --app-dir .), code:json ({ "code": 0, "message": "ok", "data": {} }), code:text (src/), Forum API (FastAPI Demo), 主要接口, 快速开始, 环境变量 (+1 more)
+Cohesion: 0.18
+Nodes (10): code:bash (cd fastapi-demo), code:bash (uvicorn src.main:app --reload --app-dir .), code:json ({ "code": 0, "message": "ok", "data": {} }), code:text (src/), code:python (from fastapi import Depends), Forum API (FastAPI Demo), 主要接口, 快速开始 (+2 more)
 
 ### Community 9 - "Community 9"
 Cohesion: 0.31
@@ -104,24 +104,24 @@ Cohesion: 0.33
 Nodes (5): code:bash (pnpm install), 功能, 开发, 脚本, 鱼泡论坛 Client
 
 ## Knowledge Gaps
-- **79 isolated node(s):** `env`, `BIZ_SUCCESS_CODES`, `httpClient`, `IRequestOptions`, `AuthorInfo` (+74 more)
+- **82 isolated node(s):** `Create the shared async Redis client (call once on app startup).`, `Close Redis client and connection pool on app shutdown.`, `FastAPI dependency that yields the shared Redis client.`, `env`, `BIZ_SUCCESS_CODES` (+77 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `register_user()` connect `Community 1` to `Community 7`?**
-  _High betweenness centrality (0.011) - this node is a cross-community bridge._
-- **Why does `User` connect `Community 7` to `Community 1`?**
-  _High betweenness centrality (0.011) - this node is a cross-community bridge._
-- **What connects `env`, `BIZ_SUCCESS_CODES`, `httpClient` to the rest of the system?**
-  _79 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `InteractionOut` connect `Community 4` to `Community 1`?**
+  _High betweenness centrality (0.014) - this node is a cross-community bridge._
+- **Why does `register_user()` connect `Community 1` to `Community 4`?**
+  _High betweenness centrality (0.012) - this node is a cross-community bridge._
+- **Why does `User` connect `Community 4` to `Community 1`?**
+  _High betweenness centrality (0.012) - this node is a cross-community bridge._
+- **What connects `Create the shared async Redis client (call once on app startup).`, `Close Redis client and connection pool on app shutdown.`, `FastAPI dependency that yields the shared Redis client.` to the rest of the system?**
+  _82 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.11 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
-- **Should `Community 3` be split into smaller, more focused modules?**
   _Cohesion score 0.06 - nodes in this community are weakly interconnected._

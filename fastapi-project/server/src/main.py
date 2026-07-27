@@ -1,15 +1,17 @@
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, Request
+from fastapi import Depends, FastAPI, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
+from redis.asyncio import Redis
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
 from .core.config import get_settings
 from .core.response import fail
 from .database import engine
 from .models import Base
+from .redis_client import close_redis, get_redis, init_redis
 from .routers import auth, me, posts, uploads
 from .services.upload_service import resolve_upload_dir
 
@@ -19,7 +21,11 @@ async def lifespan(_: FastAPI):
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
     resolve_upload_dir(settings)
-    yield
+    await init_redis()
+    try:
+        yield
+    finally:
+        await close_redis()
 
 
 settings = get_settings()
@@ -43,8 +49,18 @@ app.mount(
 
 
 @app.get("/")
-async def health():
-    return {"status": "ok", "service": settings.app_title, "version": settings.app_version}
+async def health(redis: Redis = Depends(get_redis)):
+    redis_ok = False
+    try:
+        redis_ok = bool(await redis.ping())
+    except Exception:
+        redis_ok = False
+    return {
+        "status": "ok" if redis_ok else "degraded",
+        "service": settings.app_title,
+        "version": settings.app_version,
+        "redis": "ok" if redis_ok else "unavailable",
+    }
 
 
 @app.exception_handler(StarletteHTTPException)

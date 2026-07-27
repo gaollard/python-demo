@@ -9,7 +9,7 @@ cd fastapi-demo
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env   # 填写数据库与 JWT 配置
+cp .env.example .env   # 填写数据库、Redis 与 JWT 配置
 ```
 
 启动：
@@ -24,6 +24,7 @@ fastapi dev src/main.py
 - 健康检查：http://127.0.0.1:8000/
 
 首次启动会通过 SQLAlchemy `create_all` 自动建表；也可手动执行 `sql/schema.sql`。
+启动时会连接 Redis（`init_redis`），关闭时释放连接池。
 
 > 若库中已有旧版 `user_tab(id, name)`，需先按新结构重建表（见 `sql/schema.sql`），否则字段不匹配。
 
@@ -55,6 +56,7 @@ fastapi dev src/main.py
 src/
   main.py            # 应用入口、异常处理、挂载路由
   database.py        # 异步引擎 / Session
+  redis_client.py    # 异步 Redis 客户端 / 连接池
   dependencies.py    # JWT 鉴权依赖
   core/              # 配置、安全、统一响应
   models/            # SQLAlchemy ORM
@@ -67,4 +69,18 @@ sql/schema.sql       # MySQL 建表脚本
 
 ## 环境变量
 
-见 `.env.example`：`DB_*` 与 `JWT_*`。
+见 `.env.example`：`DB_*`、`REDIS_*` 与 `JWT_*`。
+
+业务代码中注入 Redis：
+
+```python
+from fastapi import Depends
+from redis.asyncio import Redis
+
+from src.redis_client import get_redis
+
+@router.get("/example")
+async def example(redis: Redis = Depends(get_redis)):
+    await redis.set("key", "value", ex=60)
+    return await redis.get("key")
+```
