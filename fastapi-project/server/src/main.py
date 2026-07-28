@@ -1,4 +1,5 @@
 import time
+import uuid
 from contextlib import asynccontextmanager
 
 from fastapi import Depends, FastAPI, Request
@@ -9,13 +10,15 @@ from redis.asyncio import Redis
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
 from .core.config import get_settings
-from .core.logging import get_logger, setup_logging
+from .core.logging import get_logger, set_request_id, setup_logging
 from .core.response import fail
 from .database import engine
 from .models import Base
 from .redis_client import close_redis, get_redis, init_redis
 from .routers import auth, me, posts, uploads
 from .services.upload_service import resolve_upload_dir
+
+REQUEST_ID_HEADER = "X-Request-ID"
 
 settings = get_settings()
 setup_logging(settings.log_level)
@@ -72,10 +75,16 @@ app.mount(
 
 
 @app.middleware("http")
-async def log_requests(request: Request, call_next):
+async def request_id_and_log(request: Request, call_next):
+    incoming = request.headers.get(REQUEST_ID_HEADER, "").strip()
+    request_id = incoming or uuid.uuid4().hex
+    set_request_id(request_id)
+    request.state.request_id = request_id
+
     start = time.perf_counter()
     response = await call_next(request)
     duration_ms = (time.perf_counter() - start) * 1000
+    response.headers[REQUEST_ID_HEADER] = request_id
     logger.info(
         "%s %s -> %s %.1fms",
         request.method,

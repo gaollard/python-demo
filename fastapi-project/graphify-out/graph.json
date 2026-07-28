@@ -9,7 +9,7 @@
       "source_file": "server/src/database.py",
       "source_location": "L1",
       "id": "server_src_database_py",
-      "community": 2,
+      "community": 3,
       "norm_label": "database.py"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "server/src/database.py",
       "source_location": "L29",
       "id": "src_database_get_db",
-      "community": 2,
+      "community": 3,
       "norm_label": "get_db()"
     },
     {
@@ -115,25 +115,25 @@
       "label": "lifespan()",
       "file_type": "code",
       "source_file": "server/src/main.py",
-      "source_location": "L26",
+      "source_location": "L30",
       "id": "src_main_lifespan",
       "community": 1,
       "norm_label": "lifespan()"
     },
     {
-      "label": "log_requests()",
+      "label": "request_id_and_log()",
       "file_type": "code",
       "source_file": "server/src/main.py",
-      "source_location": "L74",
-      "id": "src_main_log_requests",
+      "source_location": "L78",
+      "id": "src_main_request_id_and_log",
       "community": 1,
-      "norm_label": "log_requests()"
+      "norm_label": "request_id_and_log()"
     },
     {
       "label": "health()",
       "file_type": "code",
       "source_file": "server/src/main.py",
-      "source_location": "L89",
+      "source_location": "L99",
       "id": "src_main_health",
       "community": 1,
       "norm_label": "health()"
@@ -142,7 +142,7 @@
       "label": "http_exception_handler()",
       "file_type": "code",
       "source_file": "server/src/main.py",
-      "source_location": "L107",
+      "source_location": "L117",
       "id": "src_main_http_exception_handler",
       "community": 1,
       "norm_label": "http_exception_handler()"
@@ -151,7 +151,7 @@
       "label": "validation_exception_handler()",
       "file_type": "code",
       "source_file": "server/src/main.py",
-      "source_location": "L125",
+      "source_location": "L135",
       "id": "src_main_validation_exception_handler",
       "community": 1,
       "norm_label": "validation_exception_handler()"
@@ -162,7 +162,7 @@
       "source_file": "server/src/dependencies.py",
       "source_location": "L1",
       "id": "server_src_dependencies_py",
-      "community": 2,
+      "community": 1,
       "norm_label": "dependencies.py"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "server/src/dependencies.py",
       "source_location": "L14",
       "id": "src_dependencies_get_current_user",
-      "community": 2,
+      "community": 1,
       "norm_label": "get_current_user()"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "server/src/dependencies.py",
       "source_location": "L44",
       "id": "src_dependencies_get_optional_user",
-      "community": 2,
+      "community": 1,
       "norm_label": "get_optional_user()"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "server/src/routers/auth.py",
       "source_location": "L1",
       "id": "server_src_routers_auth_py",
-      "community": 2,
+      "community": 3,
       "norm_label": "auth.py"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "server/src/routers/auth.py",
       "source_location": "L13",
       "id": "routers_auth_register",
-      "community": 2,
+      "community": 3,
       "norm_label": "register()"
     },
     {
@@ -207,7 +207,7 @@
       "source_file": "server/src/routers/auth.py",
       "source_location": "L19",
       "id": "routers_auth_login",
-      "community": 2,
+      "community": 3,
       "norm_label": "login()"
     },
     {
@@ -216,7 +216,7 @@
       "source_file": "server/src/routers/me.py",
       "source_location": "L1",
       "id": "server_src_routers_me_py",
-      "community": 2,
+      "community": 3,
       "norm_label": "me.py"
     },
     {
@@ -225,7 +225,7 @@
       "source_file": "server/src/routers/me.py",
       "source_location": "L19",
       "id": "routers_me_my_posts",
-      "community": 2,
+      "community": 3,
       "norm_label": "my_posts()"
     },
     {
@@ -234,7 +234,7 @@
       "source_file": "server/src/routers/me.py",
       "source_location": "L42",
       "id": "routers_me_my_favorites",
-      "community": 2,
+      "community": 3,
       "norm_label": "my_favorites()"
     },
     {
@@ -243,7 +243,7 @@
       "source_file": "server/src/routers/posts.py",
       "source_location": "L1",
       "id": "server_src_routers_posts_py",
-      "community": 2,
+      "community": 3,
       "norm_label": "posts.py"
     },
     {
@@ -252,7 +252,7 @@
       "source_file": "server/src/routers/posts.py",
       "source_location": "L20",
       "id": "routers_posts_list_posts",
-      "community": 2,
+      "community": 3,
       "norm_label": "list_posts()"
     },
     {
@@ -261,7 +261,7 @@
       "source_file": "server/src/routers/posts.py",
       "source_location": "L37",
       "id": "routers_posts_get_post",
-      "community": 2,
+      "community": 3,
       "norm_label": "get_post()"
     },
     {
@@ -270,7 +270,7 @@
       "source_file": "server/src/routers/posts.py",
       "source_location": "L47",
       "id": "routers_posts_create_post",
-      "community": 2,
+      "community": 3,
       "norm_label": "create_post()"
     },
     {
@@ -279,7 +279,7 @@
       "source_file": "server/src/routers/posts.py",
       "source_location": "L57",
       "id": "routers_posts_like_post",
-      "community": 2,
+      "community": 3,
       "norm_label": "like_post()"
     },
     {
@@ -288,7 +288,7 @@
       "source_file": "server/src/routers/posts.py",
       "source_location": "L67",
       "id": "routers_posts_unlike_post",
-      "community": 2,
+      "community": 3,
       "norm_label": "unlike_post()"
     },
     {
@@ -297,7 +297,7 @@
       "source_file": "server/src/routers/posts.py",
       "source_location": "L77",
       "id": "routers_posts_favorite_post",
-      "community": 2,
+      "community": 3,
       "norm_label": "favorite_post()"
     },
     {
@@ -306,7 +306,7 @@
       "source_file": "server/src/routers/posts.py",
       "source_location": "L87",
       "id": "routers_posts_unfavorite_post",
-      "community": 2,
+      "community": 3,
       "norm_label": "unfavorite_post()"
     },
     {
@@ -324,7 +324,7 @@
       "source_file": "server/src/routers/uploads.py",
       "source_location": "L1",
       "id": "server_src_routers_uploads_py",
-      "community": 2,
+      "community": 3,
       "norm_label": "uploads.py"
     },
     {
@@ -333,7 +333,7 @@
       "source_file": "server/src/routers/uploads.py",
       "source_location": "L14",
       "id": "routers_uploads_upload_images",
-      "community": 2,
+      "community": 3,
       "norm_label": "upload_images()"
     },
     {
@@ -346,10 +346,28 @@
       "norm_label": "logging.py"
     },
     {
+      "label": "RequestIdFilter",
+      "file_type": "code",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L10",
+      "id": "core_logging_requestidfilter",
+      "community": 1,
+      "norm_label": "requestidfilter"
+    },
+    {
+      "label": ".filter()",
+      "file_type": "code",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L13",
+      "id": "core_logging_requestidfilter_filter",
+      "community": 1,
+      "norm_label": ".filter()"
+    },
+    {
       "label": "setup_logging()",
       "file_type": "code",
       "source_file": "server/src/core/logging.py",
-      "source_location": "L7",
+      "source_location": "L18",
       "id": "core_logging_setup_logging",
       "community": 1,
       "norm_label": "setup_logging()"
@@ -358,17 +376,44 @@
       "label": "get_logger()",
       "file_type": "code",
       "source_file": "server/src/core/logging.py",
-      "source_location": "L34",
+      "source_location": "L46",
       "id": "core_logging_get_logger",
       "community": 1,
       "norm_label": "get_logger()"
     },
     {
+      "label": "get_request_id()",
+      "file_type": "code",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L50",
+      "id": "core_logging_get_request_id",
+      "community": 1,
+      "norm_label": "get_request_id()"
+    },
+    {
+      "label": "set_request_id()",
+      "file_type": "code",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L54",
+      "id": "core_logging_set_request_id",
+      "community": 1,
+      "norm_label": "set_request_id()"
+    },
+    {
+      "label": "Inject the current request id into every log record.",
+      "file_type": "rationale",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L11",
+      "id": "core_logging_rationale_11",
+      "community": 1,
+      "norm_label": "inject the current request id into every log record."
+    },
+    {
       "label": "Configure root logging once for the application.",
       "file_type": "rationale",
       "source_file": "server/src/core/logging.py",
-      "source_location": "L8",
-      "id": "core_logging_rationale_8",
+      "source_location": "L19",
+      "id": "core_logging_rationale_19",
       "community": 1,
       "norm_label": "configure root logging once for the application."
     },
@@ -468,7 +513,7 @@
       "source_file": "server/src/core/response.py",
       "source_location": "L1",
       "id": "server_src_core_response_py",
-      "community": 2,
+      "community": 3,
       "norm_label": "response.py"
     },
     {
@@ -477,7 +522,7 @@
       "source_file": "server/src/core/response.py",
       "source_location": "L8",
       "id": "core_response_apiresponse",
-      "community": 2,
+      "community": 3,
       "norm_label": "apiresponse"
     },
     {
@@ -486,7 +531,7 @@
       "source_file": "",
       "source_location": "",
       "id": "basemodel",
-      "community": 2,
+      "community": 3,
       "norm_label": "basemodel"
     },
     {
@@ -495,7 +540,7 @@
       "source_file": "server/src/core/response.py",
       "source_location": "L14",
       "id": "core_response_pagedata",
-      "community": 2,
+      "community": 3,
       "norm_label": "pagedata"
     },
     {
@@ -504,7 +549,7 @@
       "source_file": "server/src/core/response.py",
       "source_location": "L21",
       "id": "core_response_ok",
-      "community": 2,
+      "community": 3,
       "norm_label": "ok()"
     },
     {
@@ -639,7 +684,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L1",
       "id": "server_src_schemas_auth_py",
-      "community": 2,
+      "community": 3,
       "norm_label": "auth.py"
     },
     {
@@ -648,7 +693,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L10",
       "id": "schemas_auth_userregister",
-      "community": 2,
+      "community": 3,
       "norm_label": "userregister"
     },
     {
@@ -657,7 +702,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L15",
       "id": "schemas_auth_userlogin",
-      "community": 2,
+      "community": 3,
       "norm_label": "userlogin"
     },
     {
@@ -666,7 +711,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L20",
       "id": "schemas_auth_userout",
-      "community": 2,
+      "community": 3,
       "norm_label": "userout"
     },
     {
@@ -684,7 +729,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L34",
       "id": "schemas_auth_postcreate",
-      "community": 2,
+      "community": 3,
       "norm_label": "postcreate"
     },
     {
@@ -693,7 +738,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L41",
       "id": "schemas_auth_strip_text",
-      "community": 2,
+      "community": 3,
       "norm_label": "strip_text()"
     },
     {
@@ -702,7 +747,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L49",
       "id": "schemas_auth_validate_images",
-      "community": 2,
+      "community": 3,
       "norm_label": "validate_images()"
     },
     {
@@ -720,7 +765,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L70",
       "id": "schemas_auth_postlistitem",
-      "community": 2,
+      "community": 3,
       "norm_label": "postlistitem"
     },
     {
@@ -729,7 +774,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L82",
       "id": "schemas_auth_imageuploadout",
-      "community": 2,
+      "community": 3,
       "norm_label": "imageuploadout"
     },
     {
@@ -738,7 +783,7 @@
       "source_file": "server/src/schemas/auth.py",
       "source_location": "L86",
       "id": "schemas_auth_postdetail",
-      "community": 2,
+      "community": 3,
       "norm_label": "postdetail"
     },
     {
@@ -756,7 +801,7 @@
       "source_file": "server/src/schemas/__init__.py",
       "source_location": "L1",
       "id": "server_src_schemas_init_py",
-      "community": 2,
+      "community": 3,
       "norm_label": "__init__.py"
     },
     {
@@ -990,7 +1035,7 @@
       "source_file": "client/src/apis/uploads.ts",
       "source_location": "L1",
       "id": "client_src_apis_uploads_ts",
-      "community": 0,
+      "community": 2,
       "norm_label": "uploads.ts"
     },
     {
@@ -999,7 +1044,7 @@
       "source_file": "client/src/apis/uploads.ts",
       "source_location": "L4",
       "id": "apis_uploads_uploadimages",
-      "community": 0,
+      "community": 2,
       "norm_label": "uploadimages()"
     },
     {
@@ -1008,7 +1053,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L1",
       "id": "client_src_apis_request_ts",
-      "community": 4,
+      "community": 2,
       "norm_label": "request.ts"
     },
     {
@@ -1017,7 +1062,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L11",
       "id": "apis_request_ibaseres",
-      "community": 4,
+      "community": 2,
       "norm_label": "ibaseres"
     },
     {
@@ -1026,7 +1071,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L18",
       "id": "apis_request_bizapierror",
-      "community": 0,
+      "community": 2,
       "norm_label": "bizapierror"
     },
     {
@@ -1035,7 +1080,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L21",
       "id": "apis_request_bizapierror_constructor",
-      "community": 0,
+      "community": 2,
       "norm_label": ".constructor()"
     },
     {
@@ -1044,7 +1089,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L31",
       "id": "apis_request_biz_success_codes",
-      "community": 4,
+      "community": 2,
       "norm_label": "biz_success_codes"
     },
     {
@@ -1053,7 +1098,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L33",
       "id": "apis_request_isbizsuccess",
-      "community": 4,
+      "community": 2,
       "norm_label": "isbizsuccess()"
     },
     {
@@ -1062,7 +1107,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L37",
       "id": "apis_request_isenvelope",
-      "community": 4,
+      "community": 2,
       "norm_label": "isenvelope()"
     },
     {
@@ -1071,7 +1116,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L45",
       "id": "apis_request_envelopemessage",
-      "community": 4,
+      "community": 2,
       "norm_label": "envelopemessage()"
     },
     {
@@ -1080,7 +1125,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L49",
       "id": "apis_request_rejectifbizfailed",
-      "community": 4,
+      "community": 2,
       "norm_label": "rejectifbizfailed()"
     },
     {
@@ -1089,7 +1134,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L58",
       "id": "apis_request_attachauthheader",
-      "community": 4,
+      "community": 2,
       "norm_label": "attachauthheader()"
     },
     {
@@ -1098,7 +1143,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L69",
       "id": "apis_request_httpclient",
-      "community": 4,
+      "community": 2,
       "norm_label": "httpclient"
     },
     {
@@ -1107,7 +1152,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L98",
       "id": "apis_request_irequestoptions",
-      "community": 4,
+      "community": 2,
       "norm_label": "irequestoptions"
     },
     {
@@ -1116,7 +1161,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L102",
       "id": "apis_request_request",
-      "community": 4,
+      "community": 2,
       "norm_label": "request()"
     },
     {
@@ -1125,7 +1170,7 @@
       "source_file": "client/src/apis/request.ts",
       "source_location": "L145",
       "id": "apis_request_notifyglobalerror",
-      "community": 4,
+      "community": 2,
       "norm_label": "notifyglobalerror()"
     },
     {
@@ -1206,7 +1251,7 @@
       "source_file": "client/src/apis/me.ts",
       "source_location": "L1",
       "id": "client_src_apis_me_ts",
-      "community": 0,
+      "community": 2,
       "norm_label": "me.ts"
     },
     {
@@ -1215,7 +1260,7 @@
       "source_file": "client/src/apis/me.ts",
       "source_location": "L4",
       "id": "apis_me_fetchmyposts",
-      "community": 0,
+      "community": 2,
       "norm_label": "fetchmyposts()"
     },
     {
@@ -1224,7 +1269,7 @@
       "source_file": "client/src/apis/me.ts",
       "source_location": "L15",
       "id": "apis_me_fetchmyfavorites",
-      "community": 0,
+      "community": 2,
       "norm_label": "fetchmyfavorites()"
     },
     {
@@ -1233,7 +1278,7 @@
       "source_file": "client/src/apis/auth.ts",
       "source_location": "L1",
       "id": "client_src_apis_auth_ts",
-      "community": 4,
+      "community": 2,
       "norm_label": "auth.ts"
     },
     {
@@ -1242,7 +1287,7 @@
       "source_file": "client/src/apis/auth.ts",
       "source_location": "L4",
       "id": "apis_auth_login",
-      "community": 4,
+      "community": 2,
       "norm_label": "login()"
     },
     {
@@ -1251,7 +1296,7 @@
       "source_file": "client/src/apis/auth.ts",
       "source_location": "L12",
       "id": "apis_auth_register",
-      "community": 0,
+      "community": 2,
       "norm_label": "register()"
     },
     {
@@ -1260,7 +1305,7 @@
       "source_file": "client/src/types/api.ts",
       "source_location": "L1",
       "id": "client_src_types_api_ts",
-      "community": 4,
+      "community": 2,
       "norm_label": "api.ts"
     },
     {
@@ -1269,7 +1314,7 @@
       "source_file": "client/src/types/api.ts",
       "source_location": "L3",
       "id": "types_api_loginpayload",
-      "community": 4,
+      "community": 2,
       "norm_label": "loginpayload"
     },
     {
@@ -1278,7 +1323,7 @@
       "source_file": "client/src/types/api.ts",
       "source_location": "L8",
       "id": "types_api_registerpayload",
-      "community": 4,
+      "community": 2,
       "norm_label": "registerpayload"
     },
     {
@@ -1287,7 +1332,7 @@
       "source_file": "client/src/types/api.ts",
       "source_location": "L13",
       "id": "types_api_iuserinfo",
-      "community": 4,
+      "community": 2,
       "norm_label": "iuserinfo"
     },
     {
@@ -1296,7 +1341,7 @@
       "source_file": "client/src/types/api.ts",
       "source_location": "L19",
       "id": "types_api_loginresdata",
-      "community": 4,
+      "community": 2,
       "norm_label": "loginresdata"
     },
     {
@@ -1305,7 +1350,7 @@
       "source_file": "client/src/types/api.ts",
       "source_location": "L27",
       "id": "types_api_authorinfo",
-      "community": 4,
+      "community": 2,
       "norm_label": "authorinfo"
     },
     {
@@ -1332,7 +1377,7 @@
       "source_file": "client/src/types/api.ts",
       "source_location": "L48",
       "id": "types_api_postcreatepayload",
-      "community": 4,
+      "community": 2,
       "norm_label": "postcreatepayload"
     },
     {
@@ -1341,7 +1386,7 @@
       "source_file": "client/src/types/api.ts",
       "source_location": "L54",
       "id": "types_api_imageuploadresult",
-      "community": 0,
+      "community": 2,
       "norm_label": "imageuploadresult"
     },
     {
@@ -1350,7 +1395,7 @@
       "source_file": "client/src/types/api.ts",
       "source_location": "L58",
       "id": "types_api_interactionresult",
-      "community": 4,
+      "community": 2,
       "norm_label": "interactionresult"
     },
     {
@@ -1359,7 +1404,7 @@
       "source_file": "client/src/types/api.ts",
       "source_location": "L66",
       "id": "types_api_pageparams",
-      "community": 0,
+      "community": 2,
       "norm_label": "pageparams"
     },
     {
@@ -1368,7 +1413,7 @@
       "source_file": "client/src/types/api.ts",
       "source_location": "L71",
       "id": "types_api_pagedata",
-      "community": 0,
+      "community": 2,
       "norm_label": "pagedata"
     },
     {
@@ -1476,7 +1521,7 @@
       "source_file": "client/src/utils/auth.ts",
       "source_location": "L1",
       "id": "client_src_utils_auth_ts",
-      "community": 4,
+      "community": 2,
       "norm_label": "auth.ts"
     },
     {
@@ -1485,7 +1530,7 @@
       "source_file": "client/src/utils/auth.ts",
       "source_location": "L3",
       "id": "utils_auth_getauthtoken",
-      "community": 4,
+      "community": 2,
       "norm_label": "getauthtoken()"
     },
     {
@@ -1494,7 +1539,7 @@
       "source_file": "client/src/utils/auth.ts",
       "source_location": "L7",
       "id": "utils_auth_setauthtoken",
-      "community": 4,
+      "community": 2,
       "norm_label": "setauthtoken()"
     },
     {
@@ -1503,7 +1548,7 @@
       "source_file": "client/src/utils/auth.ts",
       "source_location": "L11",
       "id": "utils_auth_removeauthtoken",
-      "community": 4,
+      "community": 2,
       "norm_label": "removeauthtoken()"
     },
     {
@@ -1818,7 +1863,7 @@
       "source_file": "client/src/store/user-store.ts",
       "source_location": "L1",
       "id": "client_src_store_user_store_ts",
-      "community": 4,
+      "community": 0,
       "norm_label": "user-store.ts"
     },
     {
@@ -1827,7 +1872,7 @@
       "source_file": "client/src/store/user-store.ts",
       "source_location": "L8",
       "id": "store_user_store_readstoreduser",
-      "community": 4,
+      "community": 0,
       "norm_label": "readstoreduser()"
     },
     {
@@ -1836,7 +1881,7 @@
       "source_file": "client/src/store/user-store.ts",
       "source_location": "L18",
       "id": "store_user_store_writestoreduser",
-      "community": 4,
+      "community": 0,
       "norm_label": "writestoreduser()"
     },
     {
@@ -1845,7 +1890,7 @@
       "source_file": "client/src/store/user-store.ts",
       "source_location": "L26",
       "id": "store_user_store_iuserstore",
-      "community": 4,
+      "community": 0,
       "norm_label": "iuserstore"
     },
     {
@@ -2502,7 +2547,7 @@
       "source_file": "prd/README.md",
       "source_location": "L1",
       "id": "prd_readme_md",
-      "community": 3,
+      "community": 4,
       "norm_label": "readme.md"
     },
     {
@@ -2511,7 +2556,7 @@
       "source_file": "prd/README.md",
       "source_location": "L1",
       "id": "prd_readme_\u8bba\u575b\u7cfb\u7edf_prd",
-      "community": 3,
+      "community": 4,
       "norm_label": "\u8bba\u575b\u7cfb\u7edf prd"
     },
     {
@@ -2520,7 +2565,7 @@
       "source_file": "prd/README.md",
       "source_location": "L7",
       "id": "prd_readme_1_\u80cc\u666f\u4e0e\u76ee\u6807",
-      "community": 3,
+      "community": 4,
       "norm_label": "1. \u80cc\u666f\u4e0e\u76ee\u6807"
     },
     {
@@ -2529,7 +2574,7 @@
       "source_file": "prd/README.md",
       "source_location": "L9",
       "id": "prd_readme_1_1_\u80cc\u666f",
-      "community": 3,
+      "community": 4,
       "norm_label": "1.1 \u80cc\u666f"
     },
     {
@@ -2538,7 +2583,7 @@
       "source_file": "prd/README.md",
       "source_location": "L13",
       "id": "prd_readme_1_2_\u76ee\u6807",
-      "community": 3,
+      "community": 4,
       "norm_label": "1.2 \u76ee\u6807"
     },
     {
@@ -2547,7 +2592,7 @@
       "source_file": "prd/README.md",
       "source_location": "L19",
       "id": "prd_readme_1_3_\u975e\u76ee\u6807_\u672c\u671f\u4e0d\u505a",
-      "community": 3,
+      "community": 4,
       "norm_label": "1.3 \u975e\u76ee\u6807(\u672c\u671f\u4e0d\u505a)"
     },
     {
@@ -2556,7 +2601,7 @@
       "source_file": "prd/README.md",
       "source_location": "L31",
       "id": "prd_readme_2_\u7528\u6237\u4e0e\u573a\u666f",
-      "community": 3,
+      "community": 4,
       "norm_label": "2. \u7528\u6237\u4e0e\u573a\u666f"
     },
     {
@@ -2565,7 +2610,7 @@
       "source_file": "prd/README.md",
       "source_location": "L33",
       "id": "prd_readme_2_1_\u89d2\u8272",
-      "community": 3,
+      "community": 4,
       "norm_label": "2.1 \u89d2\u8272"
     },
     {
@@ -2574,7 +2619,7 @@
       "source_file": "prd/README.md",
       "source_location": "L40",
       "id": "prd_readme_2_2_\u6838\u5fc3\u7528\u6237\u65c5\u7a0b",
-      "community": 3,
+      "community": 4,
       "norm_label": "2.2 \u6838\u5fc3\u7528\u6237\u65c5\u7a0b"
     },
     {
@@ -2583,7 +2628,7 @@
       "source_file": "prd/README.md",
       "source_location": "L42",
       "id": "prd_readme_codeblock_1",
-      "community": 3,
+      "community": 4,
       "norm_label": "code:text (\u6ce8\u518c\u8d26\u53f7)"
     },
     {
@@ -2592,7 +2637,7 @@
       "source_file": "prd/README.md",
       "source_location": "L56",
       "id": "prd_readme_3_\u529f\u80fd\u9700\u6c42",
-      "community": 3,
+      "community": 4,
       "norm_label": "3. \u529f\u80fd\u9700\u6c42"
     },
     {
@@ -2601,7 +2646,7 @@
       "source_file": "prd/README.md",
       "source_location": "L58",
       "id": "prd_readme_3_1_\u7528\u6237\u6ce8\u518c",
-      "community": 3,
+      "community": 4,
       "norm_label": "3.1 \u7528\u6237\u6ce8\u518c"
     },
     {
@@ -2610,7 +2655,7 @@
       "source_file": "prd/README.md",
       "source_location": "L69",
       "id": "prd_readme_3_2_\u7528\u6237\u767b\u5f55",
-      "community": 3,
+      "community": 4,
       "norm_label": "3.2 \u7528\u6237\u767b\u5f55"
     },
     {
@@ -2619,7 +2664,7 @@
       "source_file": "prd/README.md",
       "source_location": "L79",
       "id": "prd_readme_3_3_\u67e5\u770b\u5e16\u5b50",
-      "community": 3,
+      "community": 4,
       "norm_label": "3.3 \u67e5\u770b\u5e16\u5b50"
     },
     {
@@ -2628,7 +2673,7 @@
       "source_file": "prd/README.md",
       "source_location": "L81",
       "id": "prd_readme_3_3_1_\u5e16\u5b50\u5217\u8868",
-      "community": 3,
+      "community": 4,
       "norm_label": "3.3.1 \u5e16\u5b50\u5217\u8868"
     },
     {
@@ -2637,7 +2682,7 @@
       "source_file": "prd/README.md",
       "source_location": "L90",
       "id": "prd_readme_3_3_2_\u5e16\u5b50\u8be6\u60c5",
-      "community": 3,
+      "community": 4,
       "norm_label": "3.3.2 \u5e16\u5b50\u8be6\u60c5"
     },
     {
@@ -2646,7 +2691,7 @@
       "source_file": "prd/README.md",
       "source_location": "L98",
       "id": "prd_readme_3_4_\u53d1\u5e03\u5e16\u5b50",
-      "community": 3,
+      "community": 4,
       "norm_label": "3.4 \u53d1\u5e03\u5e16\u5b50"
     },
     {
@@ -2655,7 +2700,7 @@
       "source_file": "prd/README.md",
       "source_location": "L108",
       "id": "prd_readme_3_4_1_\u5e16\u5b50\u56fe\u7247\u4e0a\u4f20",
-      "community": 3,
+      "community": 4,
       "norm_label": "3.4.1 \u5e16\u5b50\u56fe\u7247\u4e0a\u4f20"
     },
     {
@@ -2664,7 +2709,7 @@
       "source_file": "prd/README.md",
       "source_location": "L120",
       "id": "prd_readme_3_5_\u70b9\u8d5e",
-      "community": 3,
+      "community": 4,
       "norm_label": "3.5 \u70b9\u8d5e"
     },
     {
@@ -2673,7 +2718,7 @@
       "source_file": "prd/README.md",
       "source_location": "L130",
       "id": "prd_readme_3_6_\u6536\u85cf",
-      "community": 3,
+      "community": 4,
       "norm_label": "3.6 \u6536\u85cf"
     },
     {
@@ -2682,7 +2727,7 @@
       "source_file": "prd/README.md",
       "source_location": "L141",
       "id": "prd_readme_3_7_\u6211\u7684\u5185\u5bb9_\u5efa\u8bae\u672c\u671f\u5305\u542b",
-      "community": 3,
+      "community": 4,
       "norm_label": "3.7 \u6211\u7684\u5185\u5bb9(\u5efa\u8bae\u672c\u671f\u5305\u542b)"
     },
     {
@@ -2691,7 +2736,7 @@
       "source_file": "prd/README.md",
       "source_location": "L150",
       "id": "prd_readme_4_api_\u4e00\u89c8",
-      "community": 3,
+      "community": 4,
       "norm_label": "4. api \u4e00\u89c8"
     },
     {
@@ -2700,7 +2745,7 @@
       "source_file": "prd/README.md",
       "source_location": "L169",
       "id": "prd_readme_codeblock_2",
-      "community": 3,
+      "community": 4,
       "norm_label": "code:json ({)"
     },
     {
@@ -2709,7 +2754,7 @@
       "source_file": "prd/README.md",
       "source_location": "L181",
       "id": "prd_readme_5_\u6570\u636e\u6a21\u578b_\u8349\u6848",
-      "community": 3,
+      "community": 4,
       "norm_label": "5. \u6570\u636e\u6a21\u578b(\u8349\u6848)"
     },
     {
@@ -2718,7 +2763,7 @@
       "source_file": "prd/README.md",
       "source_location": "L183",
       "id": "prd_readme_5_1_user_tab_\u7528\u6237",
-      "community": 3,
+      "community": 4,
       "norm_label": "5.1 `user_tab` \u7528\u6237"
     },
     {
@@ -2727,7 +2772,7 @@
       "source_file": "prd/README.md",
       "source_location": "L195",
       "id": "prd_readme_5_2_post_tab_\u5e16\u5b50",
-      "community": 3,
+      "community": 4,
       "norm_label": "5.2 `post_tab` \u5e16\u5b50"
     },
     {
@@ -2736,7 +2781,7 @@
       "source_file": "prd/README.md",
       "source_location": "L209",
       "id": "prd_readme_5_3_post_like_tab_\u70b9\u8d5e\u5173\u7cfb",
-      "community": 3,
+      "community": 4,
       "norm_label": "5.3 `post_like_tab` \u70b9\u8d5e\u5173\u7cfb"
     },
     {
@@ -2745,7 +2790,7 @@
       "source_file": "prd/README.md",
       "source_location": "L219",
       "id": "prd_readme_5_4_post_favorite_tab_\u6536\u85cf\u5173\u7cfb",
-      "community": 3,
+      "community": 4,
       "norm_label": "5.4 `post_favorite_tab` \u6536\u85cf\u5173\u7cfb"
     },
     {
@@ -2754,7 +2799,7 @@
       "source_file": "prd/README.md",
       "source_location": "L231",
       "id": "prd_readme_6_\u975e\u529f\u80fd\u9700\u6c42",
-      "community": 3,
+      "community": 4,
       "norm_label": "6. \u975e\u529f\u80fd\u9700\u6c42"
     },
     {
@@ -2763,7 +2808,7 @@
       "source_file": "prd/README.md",
       "source_location": "L244",
       "id": "prd_readme_7_\u9a8c\u6536\u6807\u51c6",
-      "community": 3,
+      "community": 4,
       "norm_label": "7. \u9a8c\u6536\u6807\u51c6"
     },
     {
@@ -2772,7 +2817,7 @@
       "source_file": "prd/README.md",
       "source_location": "L258",
       "id": "prd_readme_8_\u91cc\u7a0b\u7891\u5efa\u8bae",
-      "community": 3,
+      "community": 4,
       "norm_label": "8. \u91cc\u7a0b\u7891\u5efa\u8bae"
     },
     {
@@ -2781,7 +2826,7 @@
       "source_file": "prd/README.md",
       "source_location": "L270",
       "id": "prd_readme_9_\u5f00\u653e\u95ee\u9898",
-      "community": 3,
+      "community": 4,
       "norm_label": "9. \u5f00\u653e\u95ee\u9898"
     },
     {
@@ -2837,6 +2882,24 @@
       "id": "client_readme_\u811a\u672c",
       "community": 11,
       "norm_label": "\u811a\u672c"
+    },
+    {
+      "label": "log_requests()",
+      "file_type": "code",
+      "source_file": "server/src/main.py",
+      "source_location": "L74",
+      "community": 1,
+      "norm_label": "log_requests()",
+      "id": "src_main_log_requests"
+    },
+    {
+      "label": "Configure root logging once for the application.",
+      "file_type": "rationale",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L8",
+      "community": 1,
+      "norm_label": "configure root logging once for the application.",
+      "id": "core_logging_rationale_8"
     },
     {
       "label": "Create the shared async Redis client (call once on app startup).",
@@ -2961,9 +3024,9 @@
       "source_file": "server/src/redis_client.py",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_src_redis_client_py",
-      "target": "server_src_core_logging_py",
-      "confidence_score": 1.0
+      "target": "server_src_core_logging_py"
     },
     {
       "relation": "contains",
@@ -3023,9 +3086,9 @@
       "source_file": "server/src/redis_client.py",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_redis_client_init_redis",
-      "target": "src_redis_client_close_redis",
-      "confidence_score": 1.0
+      "target": "src_redis_client_close_redis"
     },
     {
       "relation": "rationale_for",
@@ -3033,9 +3096,9 @@
       "source_file": "server/src/redis_client.py",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_redis_client_rationale_13",
-      "target": "src_redis_client_init_redis",
-      "confidence_score": 1.0
+      "target": "src_redis_client_init_redis"
     },
     {
       "relation": "calls",
@@ -3075,9 +3138,9 @@
       "source_file": "server/src/redis_client.py",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_redis_client_rationale_45",
-      "target": "src_redis_client_close_redis",
-      "confidence_score": 1.0
+      "target": "src_redis_client_close_redis"
     },
     {
       "relation": "calls",
@@ -3117,9 +3180,9 @@
       "source_file": "server/src/redis_client.py",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_redis_client_rationale_63",
-      "target": "src_redis_client_get_redis",
-      "confidence_score": 1.0
+      "target": "src_redis_client_get_redis"
     },
     {
       "relation": "rationale_for",
@@ -3149,9 +3212,9 @@
       "source_file": "server/src/main.py",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_src_main_py",
-      "target": "server_src_core_logging_py",
-      "confidence_score": 1.0
+      "target": "server_src_core_logging_py"
     },
     {
       "relation": "imports_from",
@@ -3189,10 +3252,10 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "server/src/main.py",
-      "source_location": "L74",
+      "source_location": "L78",
       "weight": 1.0,
       "source": "server_src_main_py",
-      "target": "src_main_log_requests",
+      "target": "src_main_request_id_and_log",
       "confidence_score": 1.0
     },
     {
@@ -3226,6 +3289,16 @@
       "target": "src_main_validation_exception_handler"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/main.py",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_src_main_py",
+      "target": "src_main_log_requests"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -3235,6 +3308,17 @@
       "weight": 1.0,
       "source": "src_main_lifespan",
       "target": "services_upload_service_resolve_upload_dir"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "server/src/main.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "src_main_request_id_and_log",
+      "target": "core_logging_set_request_id"
     },
     {
       "relation": "calls",
@@ -3677,11 +3761,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "server/src/core/logging.py",
-      "source_location": "L7",
+      "source_location": "L10",
       "weight": 1.0,
       "source": "server_src_core_logging_py",
-      "target": "core_logging_setup_logging",
+      "target": "core_logging_requestidfilter",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_src_core_logging_py",
+      "target": "core_logging_setup_logging"
     },
     {
       "relation": "contains",
@@ -3689,8 +3783,28 @@
       "source_file": "server/src/core/logging.py",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_src_core_logging_py",
-      "target": "core_logging_get_logger",
+      "target": "core_logging_get_logger"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "server_src_core_logging_py",
+      "target": "core_logging_get_request_id",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "server_src_core_logging_py",
+      "target": "core_logging_set_request_id",
       "confidence_score": 1.0
     },
     {
@@ -3700,9 +3814,9 @@
       "source_file": "server/src/core/__init__.py",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_src_core_init_py",
-      "target": "server_src_core_logging_py",
-      "confidence_score": 1.0
+      "target": "server_src_core_logging_py"
     },
     {
       "relation": "imports_from",
@@ -3711,9 +3825,9 @@
       "source_file": "server/src/services/auth_service.py",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_src_services_auth_service_py",
-      "target": "server_src_core_logging_py",
-      "confidence_score": 1.0
+      "target": "server_src_core_logging_py"
     },
     {
       "relation": "imports_from",
@@ -3722,9 +3836,9 @@
       "source_file": "server/src/services/post_service.py",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_src_services_post_service_py",
-      "target": "server_src_core_logging_py",
-      "confidence_score": 1.0
+      "target": "server_src_core_logging_py"
     },
     {
       "relation": "imports_from",
@@ -3733,8 +3847,49 @@
       "source_file": "server/src/services/upload_service.py",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_src_services_upload_service_py",
-      "target": "server_src_core_logging_py",
+      "target": "server_src_core_logging_py"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "core_logging_requestidfilter",
+      "target": "core_logging_requestidfilter_filter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "core_logging_setup_logging",
+      "target": "core_logging_requestidfilter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "core_logging_rationale_11",
+      "target": "core_logging_requestidfilter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "server/src/core/logging.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "core_logging_rationale_19",
+      "target": "core_logging_setup_logging",
       "confidence_score": 1.0
     },
     {
@@ -3743,9 +3898,9 @@
       "source_file": "server/src/core/logging.py",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "core_logging_rationale_8",
-      "target": "core_logging_setup_logging",
-      "confidence_score": 1.0
+      "target": "core_logging_setup_logging"
     },
     {
       "relation": "contains",
@@ -8455,5 +8610,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "14e0f7763213aff1e6670f402f2e3cad51b5024d"
+  "built_at_commit": "8a12e908ac5c4afefdd89291313c862ea7dd92a4"
 }
