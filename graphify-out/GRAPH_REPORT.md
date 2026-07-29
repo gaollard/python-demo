@@ -1,16 +1,16 @@
-# Graph Report - pythons  (2026-07-27)
+# Graph Report - pythons  (2026-07-29)
 
 ## Corpus Check
-- 298 files · ~67,680 words
+- 306 files · ~93,381 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2466 nodes · 2363 edges · 619 communities (537 shown, 82 thin omitted)
-- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 36 edges (avg confidence: 0.68)
+- 2499 nodes · 2421 edges · 621 communities (539 shown, 82 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 37 edges (avg confidence: 0.69)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `06c1e301`
+- Built from commit: `1410c37e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -185,16 +185,16 @@
 - [[_COMMUNITY_Community 212|Community 212]]
 - [[_COMMUNITY_Community 291|Community 291]]
 - [[_COMMUNITY_Community 292|Community 292]]
-- [[_COMMUNITY_Community 577|Community 577]]
-- [[_COMMUNITY_Community 578|Community 578]]
+- [[_COMMUNITY_Community 579|Community 579]]
+- [[_COMMUNITY_Community 580|Community 580]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `MiniHTTP` - 20 edges
 2. `Streamlit` - 18 edges
 3. `useUserStore` - 15 edges
-4. `集合（Set）` - 14 edges
-5. `Response` - 13 edges
-6. `ok()` - 13 edges
+4. `ok()` - 14 edges
+5. `集合（Set）` - 14 edges
+6. `Response` - 13 edges
 7. `Python HTTP Server Docker 部署指南` - 13 edges
 8. `pathlib` - 13 edges
 9. `dataclasses` - 13 edges
@@ -202,25 +202,25 @@
 
 ## Surprising Connections (you probably didn't know these)
 - `plain()` --calls--> `text_response()`  [INFERRED]
-  04-http框架/example.py → 04-http框架原理及实现/minihttp/response.py
+  03-http框架/example.py → 04-http框架原理及实现/minihttp/response.py
 - `index()` --calls--> `html_response()`  [INFERRED]
-  04-http框架/example.py → 04-http框架原理及实现/minihttp/response.py
+  03-http框架/example.py → 04-http框架原理及实现/minihttp/response.py
 - `读取一个完整 HTTP 请求（含 body）。` --rationale_for--> `_recv_request()`  [EXTRACTED]
   03-http框架/minihttp/server.py → 04-http框架原理及实现/minihttp/server.py
 - `阻塞式启动 TCP 服务器；每个连接在独立线程中处理。` --rationale_for--> `serve()`  [EXTRACTED]
   03-http框架/minihttp/server.py → 04-http框架原理及实现/minihttp/server.py
 - `plain()` --calls--> `text_response()`  [INFERRED]
-  03-http框架/example.py → 04-http框架原理及实现/minihttp/response.py
+  04-http框架/example.py → 04-http框架原理及实现/minihttp/response.py
 
-## Communities (619 total, 82 thin omitted)
+## Communities (621 total, 82 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.06
-Nodes (61): login(), register(), fetchMyFavorites(), fetchMyPosts(), createPost(), favoritePost(), fetchPostDetail(), fetchPosts() (+53 more)
+Nodes (64): login(), register(), fetchMyFavorites(), fetchMyPosts(), createPost(), favoritePost(), fetchPostDetail(), fetchPosts() (+56 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.08
-Nodes (33): BaseSettings, get_settings(), Settings, ApiResponse, fail(), ok(), PageData, create_access_token() (+25 more)
+Cohesion: 0.05
+Nodes (48): BaseSettings, get_settings(), Settings, Inject the current request id into every log record., Configure root logging once for the application., RequestIdFilter, set_request_id(), setup_logging() (+40 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.05
@@ -251,52 +251,52 @@ Cohesion: 0.06
 Nodes (34): code:block1 (系统 Python（只当「底座」）), code:bash (source .venv/bin/activate), code:bash (# 导出当前环境已装包（应用/部署常用）), code:bash (deactivate          # 若已激活，先退出), code:gitignore (.venv/), code:block14 (.venv/), code:bash (python3 -m venv .venv), code:bash (which python) (+26 more)
 
 ### Community 9 - "Community 9"
-Cohesion: 0.06
-Nodes (31): code:block1 (类型注解字段), code:python (from dataclasses import dataclass, field), code:python (from dataclasses import dataclass, field), code:python (from dataclasses import dataclass, field), code:python (from dataclasses import dataclass, InitVar, field), code:python (from dataclasses import dataclass, asdict, astuple, replace), code:python (from dataclasses import dataclass), code:python (class User:) (+23 more)
+Cohesion: 0.09
+Nodes (20): Exception, MethodNotAllowed, 路由表：支持精确路径与 /users/<id> 动态参数。  路由规则在注册时编译成正则，匹配时抽出命名捕获组作为 path_params。, 路径存在、但当前 HTTP 方法未注册时抛出。, 单条路由：HTTP 方法集合 + 路径模板 + 处理函数。, /users/<id>      -> ^/users/(?P<id>[^/]+)$         /files/<path:p>  -> ^/files/(, 把路径模板编译成正则。          示例：             /users/<id>       -> ^/users/(?P<id>[^/]+)$, 方法与路径都匹配时返回参数字典，否则 None。 (+12 more)
 
 ### Community 10 - "Community 10"
 Cohesion: 0.06
-Nodes (30): 1.1 背景, 1.2 目标, 1.3 非目标（本期不做）, 1. 背景与目标, 2.1 角色, 2.2 核心用户旅程, 2. 用户与场景, 3.1 用户注册 (+22 more)
+Nodes (31): 1.1 背景, 1.2 目标, 1.3 非目标（本期不做）, 1. 背景与目标, 2.1 角色, 2.2 核心用户旅程, 2. 用户与场景, 3.1 用户注册 (+23 more)
 
 ### Community 11 - "Community 11"
 Cohesion: 0.06
-Nodes (30): code:block1 (字符串 / 其它 Path), code:python (from pathlib import Path), code:python (from pathlib import Path), code:python (from pathlib import Path), code:python (from pathlib import Path), code:python (from pathlib import Path), code:python (import shutil), code:python (from pathlib import Path) (+22 more)
+Nodes (31): code:block1 (类型注解字段), code:python (from dataclasses import dataclass, field), code:python (from dataclasses import dataclass, field), code:python (from dataclasses import dataclass, field), code:python (from dataclasses import dataclass, InitVar, field), code:python (from dataclasses import dataclass, asdict, astuple, replace), code:python (from dataclasses import dataclass), code:python (class User:) (+23 more)
 
 ### Community 12 - "Community 12"
-Cohesion: 0.07
-Nodes (27): code:python (# 花括号字面量), code:python (nums = [1, 2, 2, 3, 3, 3]), code:python (allowed = {"admin", "editor", "viewer"}), code:python (users_a = ["Alice", "Bob", "Carol"]), code:python (squares = {x * x for x in range(6)}), code:python (lst = [1, 2, 2, 3]), code:python (ok = {1, "a", (1, 2)}), code:python (s = {1, 2, 3}) (+19 more)
+Cohesion: 0.06
+Nodes (30): code:block1 (字符串 / 其它 Path), code:python (from pathlib import Path), code:python (from pathlib import Path), code:python (from pathlib import Path), code:python (from pathlib import Path), code:python (from pathlib import Path), code:python (import shutil), code:python (from pathlib import Path) (+22 more)
 
 ### Community 13 - "Community 13"
-Cohesion: 0.07
-Nodes (27): 1. 从最小到规范：按规模演进, 2. 官方推荐的多文件结构（起步版）, 3. 中型项目推荐结构（业务分层）, 4. 关键文件示例, 5. 实践建议, 6. 常见反模式, 7. 与本仓库 `fastapi-demo` 的关系, `app/dependencies.py`：共享依赖 (+19 more)
+Cohesion: 0.17
+Nodes (23): BaseModel, AuthorOut, ImageUploadOut, InteractionOut, PostCreate, PostDetail, PostListItem, strip_text() (+15 more)
 
 ### Community 14 - "Community 14"
 Cohesion: 0.07
-Nodes (26): `async with`（异步上下文管理器）, code:block1 (with 表达式 as 变量:), code:python (with open("a.txt", "w", encoding="utf-8") as fa, open("b.txt), code:python (with open("a.txt", "w", encoding="utf-8") as fa:), code:python (# 文件), code:python (from contextlib import ExitStack), code:python (class AsyncCM:), code:python (from contextlib import asynccontextmanager) (+18 more)
+Nodes (27): code:python (# 花括号字面量), code:python (nums = [1, 2, 2, 3, 3, 3]), code:python (allowed = {"admin", "editor", "viewer"}), code:python (users_a = ["Alice", "Bob", "Carol"]), code:python (squares = {x * x for x in range(6)}), code:python (lst = [1, 2, 2, 3]), code:python (ok = {1, "a", (1, 2)}), code:python (s = {1, 2, 3}) (+19 more)
 
 ### Community 15 - "Community 15"
 Cohesion: 0.07
-Nodes (27): code:python (# 花括号字面量), code:python (nums = [1, 2, 2, 3, 3, 3]), code:python (allowed = {"admin", "editor", "viewer"}), code:python (users_a = ["Alice", "Bob", "Carol"]), code:python (squares = {x * x for x in range(6)}), code:python (lst = [1, 2, 2, 3]), code:python (ok = {1, "a", (1, 2)}), code:python (s = {1, 2, 3}) (+19 more)
+Nodes (27): 1. 从最小到规范：按规模演进, 2. 官方推荐的多文件结构（起步版）, 3. 中型项目推荐结构（业务分层）, 4. 关键文件示例, 5. 实践建议, 6. 常见反模式, 7. 与本仓库 `fastapi-demo` 的关系, `app/dependencies.py`：共享依赖 (+19 more)
 
 ### Community 16 - "Community 16"
-Cohesion: 0.19
-Nodes (21): BaseModel, AuthorOut, InteractionOut, PostCreate, PostDetail, PostListItem, strip_text(), UserLogin (+13 more)
+Cohesion: 0.07
+Nodes (26): `async with`（异步上下文管理器）, code:block1 (with 表达式 as 变量:), code:python (with open("a.txt", "w", encoding="utf-8") as fa, open("b.txt), code:python (with open("a.txt", "w", encoding="utf-8") as fa:), code:python (# 文件), code:python (from contextlib import ExitStack), code:python (class AsyncCM:), code:python (from contextlib import asynccontextmanager) (+18 more)
 
 ### Community 17 - "Community 17"
 Cohesion: 0.07
-Nodes (26): code:block1 (可迭代对象 ──iter()──▶ 迭代器 ──next()──▶ 下一个值), code:python (def read_lines(path: str):), code:python (def naturals():), code:python (def flatten(items):), code:python (def echo():), code:python (# enumerate / zip / map / filter 都返回迭代器), code:python (nums = [10, 20, 30]          # 可迭代对象（不是迭代器）), code:python (from collections.abc import Iterable, Iterator) (+18 more)
+Nodes (27): code:python (# 花括号字面量), code:python (nums = [1, 2, 2, 3, 3, 3]), code:python (allowed = {"admin", "editor", "viewer"}), code:python (users_a = ["Alice", "Bob", "Carol"]), code:python (squares = {x * x for x in range(6)}), code:python (lst = [1, 2, 2, 3]), code:python (ok = {1, "a", (1, 2)}), code:python (s = {1, 2, 3}) (+19 more)
 
 ### Community 18 - "Community 18"
 Cohesion: 0.07
 Nodes (26): code:block1 (可迭代对象 ──iter()──▶ 迭代器 ──next()──▶ 下一个值), code:python (def read_lines(path: str):), code:python (def naturals():), code:python (def flatten(items):), code:python (def echo():), code:python (# enumerate / zip / map / filter 都返回迭代器), code:python (nums = [10, 20, 30]          # 可迭代对象（不是迭代器）), code:python (from collections.abc import Iterable, Iterator) (+18 more)
 
 ### Community 19 - "Community 19"
-Cohesion: 0.13
-Nodes (13): Child1, Child2, Child2b, Child3, Child4, Father, Father2, Father4 (+5 more)
+Cohesion: 0.07
+Nodes (26): code:block1 (可迭代对象 ──iter()──▶ 迭代器 ──next()──▶ 下一个值), code:python (def read_lines(path: str):), code:python (def naturals():), code:python (def flatten(items):), code:python (def echo():), code:python (# enumerate / zip / map / filter 都返回迭代器), code:python (nums = [10, 20, 30]          # 可迭代对象（不是迭代器）), code:python (from collections.abc import Iterable, Iterator) (+18 more)
 
 ### Community 20 - "Community 20"
-Cohesion: 0.16
-Nodes (11): 应用入口：路由装饰器、中间件、请求分发。  调用链（自外向内）：      socket 收到字节       → Request.from_raw, 纯 Python 原生实现的迷你 HTTP 框架（仅依赖标准库）。  对外只暴露应用入口与请求/响应类型，内部模块拆分见同目录各文件。, HTTP 响应对象与常用响应构造函数。  组装后的字节流形态：      HTTP/1.1 200 OK\\r\\n     Content-Type: app, AppProtocol, _handle_connection(), 基于 socket 的 HTTP/1.1 服务器（仅标准库）。  职责很窄：accept 连接 → 读完整请求 → 调 app.handle → 写回响应。 协, server 只依赖 handle 方法，便于解耦（不必硬绑 MiniHTTP 类）。, 读取一个完整 HTTP 请求（含 body）。 (+3 more)
+Cohesion: 0.13
+Nodes (13): Child1, Child2, Child2b, Child3, Child4, Father, Father2, Father4 (+5 more)
 
 ### Community 21 - "Community 21"
 Cohesion: 0.08
@@ -319,16 +319,16 @@ Cohesion: 0.09
 Nodes (22): code:python (# 显式括号), code:python (points = [(0, 0), (1, 2), (3, 4)]), code:python (# 1. 数量不匹配), code:python (a, *rest = (1, 2, 3, 4)), code:python (def get_size():), code:python (point = (10, 20)), code:python (def get_user():), code:python (a, b = 1, 2) (+14 more)
 
 ### Community 26 - "Community 26"
-Cohesion: 0.13
-Nodes (11): Exception, MethodNotAllowed, 路由表：支持精确路径与 /users/<id> 动态参数。  路由规则在注册时编译成正则，匹配时抽出命名捕获组作为 path_params。, 路径存在、但当前 HTTP 方法未注册时抛出。, 单条路由：HTTP 方法集合 + 路径模板 + 处理函数。, /users/<id>      -> ^/users/(?P<id>[^/]+)$         /files/<path:p>  -> ^/files/(, 把路径模板编译成正则。          示例：             /users/<id>       -> ^/users/(?P<id>[^/]+)$, 方法与路径都匹配时返回参数字典，否则 None。 (+3 more)
-
-### Community 27 - "Community 27"
 Cohesion: 0.09
 Nodes (21): code:python (class Person:), code:python (@property), code:python (p.get_age()), code:python (print(p.age)   # 读：实际调用 getter), code:python (class Circle:), code:python (class Person:), code:python (class Person:), code:python (class Person:) (+13 more)
 
-### Community 28 - "Community 28"
+### Community 27 - "Community 27"
 Cohesion: 0.15
 Nodes (8): test_middlewares(), MiddlewareMixin, CustomErrorMiddleware, RateLimitMiddleware, 请求日志中间件 - 记录每个请求的详细信息, 安全头中间件 - 添加安全相关的HTTP头, RequestLoggingMiddleware, SecurityHeadersMiddleware
+
+### Community 28 - "Community 28"
+Cohesion: 0.14
+Nodes (11): MiniHTTP, 路由匹配 → 调 handler → 规范化返回值。, 把 handler 的多种返回值约定转成统一的 Response。          - Response          → 原样         - (b, 迷你 HTTP 框架，风格类似 Flask：          app = MiniHTTP("demo")          @app.get("/"), 迷你 HTTP 框架，风格类似 Flask：          app = MiniHTTP("demo")          @app.get("/"), 通用路由装饰器；get/post/... 都是它的语法糖。, 注册中间件：middleware(request, call_next) -> Response, 注册中间件：middleware(request, call_next) -> Response。          先注册的中间件在最外层（先看到请求、最后看 (+3 more)
 
 ### Community 29 - "Community 29"
 Cohesion: 0.1
@@ -355,28 +355,28 @@ Cohesion: 0.11
 Nodes (18): code:text (01module1/), code:python (from core import *), code:python (# core/__init__.py), code:python (import core), code:python (from core.logger import log), code:python (# 1. 导入包内模块，起别名), code:python (# core/app.py), code:bash (# 在项目根（能找到包的那一层）执行) (+10 more)
 
 ### Community 35 - "Community 35"
-Cohesion: 0.14
-Nodes (12): plain(), 演示显式构造 text Response。, 路由匹配 → 调 handler → 规范化返回值。, 把 handler 的多种返回值约定转成统一的 Response。          - Response          → 原样         - (b, 入口：包一层中间件链，再交给 _dispatch；未捕获异常统一 500。, json_response(), 封装状态码、响应头与响应体，最终通过 to_bytes() 写出到 socket。, 设置或覆盖单个响应头（如 405 时的 Allow）。 (+4 more)
+Cohesion: 0.27
+Nodes (10): Base, DeclarativeBase, Base, TimestampMixin, Post, PostFavorite, PostLike, Base (+2 more)
 
 ### Community 36 - "Community 36"
 Cohesion: 0.11
 Nodes (16): code:python (# 列表可以就地修改), code:python (t = ([1, 2], 3)), code:python (a = (1, 2, 3)), code:python (dimensions = (200, 50)), code:python (# 做字典的键), code:python (t = (10, 20, 30, 40)), code:python (lst = [1, 2, 3]), 何时用元组 (+8 more)
 
 ### Community 37 - "Community 37"
-Cohesion: 0.27
-Nodes (10): Base, DeclarativeBase, Base, TimestampMixin, Post, PostFavorite, PostLike, Base (+2 more)
-
-### Community 38 - "Community 38"
 Cohesion: 0.12
 Nodes (16): access_log(), boom(), echo(), get_user(), hello(), index(), 迷你 HTTP 框架示例。  运行：     cd 03-http框架     python example.py  测试：     curl http://1, 访问日志中间件：先放行到内层，再根据响应状态打印一行。 (+8 more)
 
-### Community 39 - "Community 39"
+### Community 38 - "Community 38"
 Cohesion: 0.12
 Nodes (16): code:python (class A: pass), code:block2 (A), code:text (D → B → C → A → object), code:python (class A:), code:python (class A:), code:python (class Father:), code:python (class Child(Father, Mother):), code:python (class Father:) (+8 more)
 
-### Community 40 - "Community 40"
+### Community 39 - "Community 39"
 Cohesion: 0.12
 Nodes (16): code:block1 (https://example.com/robots.txt), code:txt (# 对所有爬虫), code:block3 (开始爬站), code:python (from urllib.robotparser import RobotFileParser), code:python (from urllib.robotparser import RobotFileParser), code:txt (User-agent: *), code:txt (User-agent: *), Python 怎么读 (+8 more)
+
+### Community 40 - "Community 40"
+Cohesion: 0.12
+Nodes (16): code:python (# 列表可以就地修改), code:python (t = ([1, 2], 3)), code:python (a = (1, 2, 3)), code:python (dimensions = (200, 50)), code:python (# 做字典的键), code:python (t = (10, 20, 30, 40)), code:python (lst = [1, 2, 3]), 何时用元组 (+8 more)
 
 ### Community 41 - "Community 41"
 Cohesion: 0.12
@@ -384,35 +384,35 @@ Nodes (16): code:python (# 列表可以就地修改), code:python (t = ([1, 2], 
 
 ### Community 42 - "Community 42"
 Cohesion: 0.12
-Nodes (16): code:python (# 列表可以就地修改), code:python (t = ([1, 2], 3)), code:python (a = (1, 2, 3)), code:python (dimensions = (200, 50)), code:python (# 做字典的键), code:python (t = (10, 20, 30, 40)), code:python (lst = [1, 2, 3]), 何时用元组 (+8 more)
+Nodes (15): code:python (class Person:), code:python (class BankAccount:), code:python (class BankAccount:), code:python (class Animal:), code:python (class User:), code:python (class Person:), 公开属性, 单下划线 `_name`（内部约定） (+7 more)
 
 ### Community 43 - "Community 43"
 Cohesion: 0.12
-Nodes (15): code:python (class Person:), code:python (class BankAccount:), code:python (class BankAccount:), code:python (class Animal:), code:python (class User:), code:python (class Person:), 公开属性, 单下划线 `_name`（内部约定） (+7 more)
-
-### Community 44 - "Community 44"
-Cohesion: 0.12
 Nodes (15): access_log(), boom(), echo(), get_user(), hello(), index(), plain(), 迷你 HTTP 框架示例。  运行：     cd 03-http框架     python example.py  测试：     curl http://1 (+7 more)
 
-### Community 45 - "Community 45"
+### Community 44 - "Community 44"
 Cohesion: 0.13
 Nodes (14): ABC 到底拦在哪一步, code:python (class Animal:), code:python (from abc import ABC, abstractmethod), code:python (from abc import ABC, abstractmethod), code:python (from abc import ABC, abstractmethod), code:python (from collections.abc import Iterable), 为什么需要它, 基本用法：ABC + @abstractmethod (+6 more)
 
-### Community 46 - "Community 46"
-Cohesion: 0.14
-Nodes (13): access_log(), boom(), echo(), get_user(), hello(), plain(), 迷你 HTTP 框架示例。  运行：     cd 03-http框架     python example.py  测试：     curl http://1, 访问日志中间件：先放行到内层，再根据响应状态打印一行。 (+5 more)
+### Community 45 - "Community 45"
+Cohesion: 0.22
+Nodes (8): AppProtocol, _handle_connection(), 基于 socket 的 HTTP/1.1 服务器（仅标准库）。  职责很窄：accept 连接 → 读完整请求 → 调 app.handle → 写回响应。 协, server 只依赖 handle 方法，便于解耦（不必硬绑 MiniHTTP 类）。, 读取一个完整 HTTP 请求（含 body）。, 读取一个完整 HTTP 请求（含 body）。      TCP 是流式协议，一次 recv 不一定拿到完整报文，因此：     1. 先循环读到出现头部结束标, _recv_request(), Protocol
 
-### Community 47 - "Community 47"
+### Community 46 - "Community 46"
 Cohesion: 0.15
 Nodes (12): code:python (from my import NAME          # 可以，即使 NAME 不在 __all__ 里), code:python (# my.py), code:python (# test.py), code:python (# utils.py（没有 __all__）), code:python (from utils import *), code:python (# mypkg/__init__.py), 作用, 包里的 `__all__` (+4 more)
 
-### Community 48 - "Community 48"
+### Community 47 - "Community 47"
 Cohesion: 0.15
 Nodes (12): code:python (# demo.py), code:bash (python demo.py          # 输出：__main__), code:python (# 在任意 .py 文件中), code:python (import math), code:python (# m.py), code:python (import m), `__dict__`：模块的命名空间, `__name__` 最常用 (+4 more)
 
+### Community 48 - "Community 48"
+Cohesion: 0.17
+Nodes (9): plain(), 演示显式构造 text Response。, plain(), 演示显式构造 text Response。, 封装状态码、响应头与响应体，最终通过 to_bytes() 写出到 socket。, 设置或覆盖单个响应头（如 405 时的 Allow）。, 拼成符合 HTTP/1.1 的完整响应字节：状态行 + 头部 + 空行 + body。, Response (+1 more)
+
 ### Community 49 - "Community 49"
-Cohesion: 0.23
-Nodes (6): MiniHTTP, 迷你 HTTP 框架，风格类似 Flask：          app = MiniHTTP("demo")          @app.get("/"), 迷你 HTTP 框架，风格类似 Flask：          app = MiniHTTP("demo")          @app.get("/"), 通用路由装饰器；get/post/... 都是它的语法糖。, 注册中间件：middleware(request, call_next) -> Response, 注册中间件：middleware(request, call_next) -> Response。          先注册的中间件在最外层（先看到请求、最后看
+Cohesion: 0.17
+Nodes (11): access_log(), boom(), echo(), get_user(), hello(), 迷你 HTTP 框架示例。  运行：     cd 03-http框架     python example.py  测试：     curl http://1, 访问日志中间件：先放行到内层，再根据响应状态打印一行。, 演示查询参数：dict 返回值会自动转成 JSON。 (+3 more)
 
 ### Community 50 - "Community 50"
 Cohesion: 0.17
@@ -423,16 +423,16 @@ Cohesion: 0.33
 Nodes (6): Calculator, call_math_function(), create_function_from_string(), create_function_with_exec(), create_partial_function(), 计算表达式，格式: 'a operator b
 
 ### Community 52 - "Community 52"
-Cohesion: 0.33
-Nodes (9): get_only_view(), hello_world(), post_only_view(), preview_view(), query_params(), submit_form(), submit_form_view(), test_middleware() (+1 more)
+Cohesion: 0.18
+Nodes (10): code:bash (cd fastapi-demo), code:bash (uvicorn src.main:app --reload --app-dir .), code:json ({ "code": 0, "message": "ok", "data": {} }), code:text (src/), code:python (from fastapi import Depends), Forum API (FastAPI Demo), 主要接口, 快速开始 (+2 more)
 
 ### Community 53 - "Community 53"
 Cohesion: 0.18
 Nodes (10): code:bash (cd fastapi-demo), code:bash (uvicorn src.main:app --reload --app-dir .), code:json ({ "code": 0, "message": "ok", "data": {} }), code:text (src/), FastAPI 项目, Forum API (FastAPI Demo), 主要接口, 快速开始 (+2 more)
 
 ### Community 54 - "Community 54"
-Cohesion: 0.2
-Nodes (9): code:bash (cd fastapi-demo), code:bash (uvicorn src.main:app --reload --app-dir .), code:json ({ "code": 0, "message": "ok", "data": {} }), code:text (src/), Forum API (FastAPI Demo), 主要接口, 快速开始, 环境变量 (+1 more)
+Cohesion: 0.31
+Nodes (3): 应用入口：路由装饰器、中间件、请求分发。  调用链（自外向内）：      socket 收到字节       → Request.from_raw, 纯 Python 原生实现的迷你 HTTP 框架（仅依赖标准库）。  对外只暴露应用入口与请求/响应类型，内部模块拆分见同目录各文件。, HTTP 响应对象与常用响应构造函数。  组装后的字节流形态：      HTTP/1.1 200 OK\\r\\n     Content-Type: app
 
 ### Community 55 - "Community 55"
 Cohesion: 0.2
@@ -575,24 +575,24 @@ Cohesion: 0.5
 Nodes (3): list_models(), 本地 Ollama 聊天 Demo（Streamlit）。  说明： - 通过 Ollama 的 OpenAI 兼容接口调用本地模型 - Streamlit 每, 从 Ollama 拉取本地模型；过滤掉 embedding 模型。失败则用默认列表。
 
 ## Knowledge Gaps
-- **679 isolated node(s):** `:param args: 每个参数都是商品信息 ("苹果", 200, 2) => 名称，价格，数量`, `返回姓名、朋友列表和其他信息      :param name: 姓名     :param args: 不定长位置参数，朋友名称，如 "朋友1", "朋友2"`, `计算圆的面积     :param radius: 圆的半径     :return: 圆的面积`, `统计文本中字母的个数和字母的组合     :param text: 文本     :return: 字母的个数和字母的组合`, `统计文本中元音字母的个数     :param text: 文本     :return: 元音字母的个数` (+674 more)
+- **686 isolated node(s):** `:param args: 每个参数都是商品信息 ("苹果", 200, 2) => 名称，价格，数量`, `返回姓名、朋友列表和其他信息      :param name: 姓名     :param args: 不定长位置参数，朋友名称，如 "朋友1", "朋友2"`, `计算圆的面积     :param radius: 圆的半径     :return: 圆的面积`, `统计文本中字母的个数和字母的组合     :param text: 文本     :return: 字母的个数和字母的组合`, `统计文本中元音字母的个数     :param text: 文本     :return: 元音字母的个数` (+681 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **82 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `MiniHTTP` connect `Community 49` to `Community 33`, `Community 35`, `Community 115`, `Community 20`, `Community 26`?**
-  _High betweenness centrality (0.004) - this node is a cross-community bridge._
-- **Why does `Request` connect `Community 33` to `Community 49`, `Community 20`?**
+- **Why does `MiniHTTP` connect `Community 28` to `Community 33`, `Community 9`, `Community 45`, `Community 48`, `Community 115`, `Community 54`?**
+  _High betweenness centrality (0.003) - this node is a cross-community bridge._
+- **Why does `text_response()` connect `Community 48` to `Community 43`, `Community 28`, `Community 45`, `Community 54`?**
   _High betweenness centrality (0.002) - this node is a cross-community bridge._
-- **Why does `Response` connect `Community 35` to `Community 49`, `Community 20`, `Community 38`?**
-  _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **Why does `Request` connect `Community 33` to `Community 28`, `Community 45`?**
+  _High betweenness centrality (0.002) - this node is a cross-community bridge._
 - **Are the 4 inferred relationships involving `MiniHTTP` (e.g. with `Request` and `Response`) actually correct?**
   _`MiniHTTP` has 4 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 2 inferred relationships involving `Response` (e.g. with `AppProtocol` and `MiniHTTP`) actually correct?**
-  _`Response` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `:param args: 每个参数都是商品信息 ("苹果", 200, 2) => 名称，价格，数量`, `返回姓名、朋友列表和其他信息      :param name: 姓名     :param args: 不定长位置参数，朋友名称，如 "朋友1", "朋友2"`, `计算圆的面积     :param radius: 圆的半径     :return: 圆的面积` to the rest of the system?**
-  _679 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _686 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.06 - nodes in this community are weakly interconnected._
+- **Should `Community 1` be split into smaller, more focused modules?**
+  _Cohesion score 0.05 - nodes in this community are weakly interconnected._
