@@ -4,12 +4,48 @@
   "graph": {},
   "nodes": [
     {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "06-sandbox/main.py",
+      "source_location": "L1",
+      "id": "06_sandbox_main_py",
+      "community": 6,
+      "norm_label": "main.py"
+    },
+    {
+      "label": "read_readme()",
+      "file_type": "code",
+      "source_file": "06-sandbox/main.py",
+      "source_location": "L34",
+      "id": "06_sandbox_main_read_readme",
+      "community": 6,
+      "norm_label": "read_readme()"
+    },
+    {
+      "label": "Sandbox \u793a\u4f8b\uff1a\u7528 ShellToolMiddleware \u7ed9 agent \u63d0\u4f9b\u53d7\u63a7 shell \u6267\u884c\u73af\u5883\u3002  \u5bf9\u6bd4 05\uff1a05 \u7528 subprocess",
+      "file_type": "rationale",
+      "source_file": "06-sandbox/main.py",
+      "source_location": "L1",
+      "id": "06_sandbox_main_rationale_1",
+      "community": 6,
+      "norm_label": "sandbox \u793a\u4f8b:\u7528 shelltoolmiddleware \u7ed9 agent \u63d0\u4f9b\u53d7\u63a7 shell \u6267\u884c\u73af\u5883\u3002  \u5bf9\u6bd4 05:05 \u7528 subprocess"
+    },
+    {
+      "label": "\u8bfb\u53d6\u672c\u793a\u4f8b\u76ee\u5f55\u4e0b\u7684 README.md\uff08\u4f4d\u4e8e\u6c99\u7bb1\u5de5\u4f5c\u533a\u4e4b\u5916\uff09\u3002      shell \u53ea\u80fd\u8bbf\u95ee workspace\uff1b\u8981\u7528\u6b64\u5de5\u5177\u8bfb\u53d6\u6c99\u7bb1\u5916\u7684 README\u3002",
+      "file_type": "rationale",
+      "source_file": "06-sandbox/main.py",
+      "source_location": "L35",
+      "id": "06_sandbox_main_rationale_35",
+      "community": 6,
+      "norm_label": "\u8bfb\u53d6\u672c\u793a\u4f8b\u76ee\u5f55\u4e0b\u7684 readme.md(\u4f4d\u4e8e\u6c99\u7bb1\u5de5\u4f5c\u533a\u4e4b\u5916)\u3002      shell \u53ea\u80fd\u8bbf\u95ee workspace;\u8981\u7528\u6b64\u5de5\u5177\u8bfb\u53d6\u6c99\u7bb1\u5916\u7684 readme\u3002"
+    },
+    {
       "label": "02-\u4ee3\u7801\u52a9\u624b.py",
       "file_type": "code",
       "source_file": "01-\u7b80\u7b54\u4f8b\u5b50/02-\u4ee3\u7801\u52a9\u624b.py",
       "source_location": "L1",
       "id": "01_\u7b80\u7b54\u4f8b\u5b50_02_\u4ee3\u7801\u52a9\u624b_py",
-      "community": 3,
+      "community": 11,
       "norm_label": "02-\u4ee3\u7801\u52a9\u624b.py"
     },
     {
@@ -18,35 +54,422 @@
       "source_file": "01-\u7b80\u7b54\u4f8b\u5b50/01-\u7ffb\u8bd1\u52a9\u624b.py",
       "source_location": "L1",
       "id": "01_\u7b80\u7b54\u4f8b\u5b50_01_\u7ffb\u8bd1\u52a9\u624b_py",
-      "community": 4,
+      "community": 12,
       "norm_label": "01-\u7ffb\u8bd1\u52a9\u624b.py"
     },
     {
       "label": "main.py",
       "file_type": "code",
-      "source_file": "02-agent/main.py",
+      "source_file": "03-agent-more-tools/main.py",
       "source_location": "L1",
-      "id": "02_agent_main_py",
-      "community": 2,
+      "id": "03_agent_more_tools_main_py",
+      "community": 1,
+      "norm_label": "main.py"
+    },
+    {
+      "label": "lookup_customer()",
+      "file_type": "code",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L78",
+      "id": "03_agent_more_tools_main_lookup_customer",
+      "community": 1,
+      "norm_label": "lookup_customer()"
+    },
+    {
+      "label": "get_orders()",
+      "file_type": "code",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L98",
+      "id": "03_agent_more_tools_main_get_orders",
+      "community": 1,
+      "norm_label": "get_orders()"
+    },
+    {
+      "label": "check_inventory()",
+      "file_type": "code",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L112",
+      "id": "03_agent_more_tools_main_check_inventory",
+      "community": 1,
+      "norm_label": "check_inventory()"
+    },
+    {
+      "label": "calculate_refund()",
+      "file_type": "code",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L126",
+      "id": "03_agent_more_tools_main_calculate_refund",
+      "community": 1,
+      "norm_label": "calculate_refund()"
+    },
+    {
+      "label": "create_support_ticket()",
+      "file_type": "code",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L179",
+      "id": "03_agent_more_tools_main_create_support_ticket",
+      "community": 1,
+      "norm_label": "create_support_ticket()"
+    },
+    {
+      "label": "\u591a\u5de5\u5177 Agent \u793a\u4f8b\uff1a\u5ba2\u670d\u573a\u666f\uff0c\u9700\u8981\u4e32\u8054\u67e5\u5ba2\u6237 \u2192 \u67e5\u8ba2\u5355 \u2192 \u67e5\u5e93\u5b58 \u2192 \u7b97\u9000\u6b3e \u2192 \u5efa\u5de5\u5355\u3002",
+      "file_type": "rationale",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L1",
+      "id": "03_agent_more_tools_main_rationale_1",
+      "community": 1,
+      "norm_label": "\u591a\u5de5\u5177 agent \u793a\u4f8b:\u5ba2\u670d\u573a\u666f,\u9700\u8981\u4e32\u8054\u67e5\u5ba2\u6237 \u2192 \u67e5\u8ba2\u5355 \u2192 \u67e5\u5e93\u5b58 \u2192 \u7b97\u9000\u6b3e \u2192 \u5efa\u5de5\u5355\u3002"
+    },
+    {
+      "label": "\u6309\u5ba2\u6237\u59d3\u540d\u67e5\u627e\u5ba2\u6237\u6863\u6848\uff08id / email / \u4f1a\u5458\u7b49\u7ea7 / \u57ce\u5e02\uff09\u3002      Args:         name: \u5ba2\u6237\u59d3\u540d\uff0c\u652f\u6301\u6a21\u7cca\u5339\u914d\uff0c\u5982 Alic",
+      "file_type": "rationale",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L79",
+      "id": "03_agent_more_tools_main_rationale_79",
+      "community": 1,
+      "norm_label": "\u6309\u5ba2\u6237\u59d3\u540d\u67e5\u627e\u5ba2\u6237\u6863\u6848(id / email / \u4f1a\u5458\u7b49\u7ea7 / \u57ce\u5e02)\u3002      args:         name: \u5ba2\u6237\u59d3\u540d,\u652f\u6301\u6a21\u7cca\u5339\u914d,\u5982 alic"
+    },
+    {
+      "label": "\u6309\u5ba2\u6237 ID \u62c9\u53d6\u5386\u53f2\u8ba2\u5355\u5217\u8868\u3002      Args:         customer_id: \u5ba2\u6237 ID\uff0c\u4f8b\u5982 C001",
+      "file_type": "rationale",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L99",
+      "id": "03_agent_more_tools_main_rationale_99",
+      "community": 1,
+      "norm_label": "\u6309\u5ba2\u6237 id \u62c9\u53d6\u5386\u53f2\u8ba2\u5355\u5217\u8868\u3002      args:         customer_id: \u5ba2\u6237 id,\u4f8b\u5982 c001"
+    },
+    {
+      "label": "\u67e5\u8be2\u5546\u54c1\u5e93\u5b58\u4e0e\u6240\u5728\u4ed3\u5e93\u3002      Args:         product_id: \u5546\u54c1 SKU\uff0c\u4f8b\u5982 SKU-WATCH",
+      "file_type": "rationale",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L113",
+      "id": "03_agent_more_tools_main_rationale_113",
+      "community": 1,
+      "norm_label": "\u67e5\u8be2\u5546\u54c1\u5e93\u5b58\u4e0e\u6240\u5728\u4ed3\u5e93\u3002      args:         product_id: \u5546\u54c1 sku,\u4f8b\u5982 sku-watch"
+    },
+    {
+      "label": "\u6839\u636e\u5355\u4ef7\u3001\u6570\u91cf\u3001\u4f1a\u5458\u7b49\u7ea7\u548c\u9000\u6b3e\u539f\u56e0\u8ba1\u7b97\u5e94\u9000\u91d1\u989d\u3002      \u89c4\u5219\uff1a     - defect / wrong_item: \u5168\u989d\u9000\u6b3e + \u4f1a\u5458\u52a0\u6210     - c",
+      "file_type": "rationale",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L132",
+      "id": "03_agent_more_tools_main_rationale_132",
+      "community": 1,
+      "norm_label": "\u6839\u636e\u5355\u4ef7\u3001\u6570\u91cf\u3001\u4f1a\u5458\u7b49\u7ea7\u548c\u9000\u6b3e\u539f\u56e0\u8ba1\u7b97\u5e94\u9000\u91d1\u989d\u3002      \u89c4\u5219:     - defect / wrong_item: \u5168\u989d\u9000\u6b3e + \u4f1a\u5458\u52a0\u6210     - c"
+    },
+    {
+      "label": "\u521b\u5efa\u5ba2\u670d\u5de5\u5355\uff0c\u8bb0\u5f55\u9000\u6b3e\u5904\u7406\u7ed3\u679c\u3002      Args:         customer_id: \u5ba2\u6237 ID         order_id: \u8ba2\u5355 ID",
+      "file_type": "rationale",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L186",
+      "id": "03_agent_more_tools_main_rationale_186",
+      "community": 1,
+      "norm_label": "\u521b\u5efa\u5ba2\u670d\u5de5\u5355,\u8bb0\u5f55\u9000\u6b3e\u5904\u7406\u7ed3\u679c\u3002      args:         customer_id: \u5ba2\u6237 id         order_id: \u8ba2\u5355 id"
+    },
+    {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L1",
+      "id": "05_agent_use_skill_script_main_py",
+      "community": 0,
+      "norm_label": "main.py"
+    },
+    {
+      "label": "Skill",
+      "file_type": "code",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L26",
+      "id": "05_agent_use_skill_script_main_skill",
+      "community": 0,
+      "norm_label": "skill"
+    },
+    {
+      "label": "root()",
+      "file_type": "code",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L34",
+      "id": "05_agent_use_skill_script_main_root",
+      "community": 0,
+      "norm_label": "root()"
+    },
+    {
+      "label": "_parse_frontmatter()",
+      "file_type": "code",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L38",
+      "id": "05_agent_use_skill_script_main_parse_frontmatter",
+      "community": 0,
+      "norm_label": "_parse_frontmatter()"
+    },
+    {
+      "label": "_discover_scripts()",
+      "file_type": "code",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L61",
+      "id": "05_agent_use_skill_script_main_discover_scripts",
+      "community": 0,
+      "norm_label": "_discover_scripts()"
+    },
+    {
+      "label": "discover_skills()",
+      "file_type": "code",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L68",
+      "id": "05_agent_use_skill_script_main_discover_skills",
+      "community": 0,
+      "norm_label": "discover_skills()"
+    },
+    {
+      "label": "skills_catalog()",
+      "file_type": "code",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L94",
+      "id": "05_agent_use_skill_script_main_skills_catalog",
+      "community": 0,
+      "norm_label": "skills_catalog()"
+    },
+    {
+      "label": "_scripts_help()",
+      "file_type": "code",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L106",
+      "id": "05_agent_use_skill_script_main_scripts_help",
+      "community": 0,
+      "norm_label": "_scripts_help()"
+    },
+    {
+      "label": "load_skill()",
+      "file_type": "code",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L117",
+      "id": "05_agent_use_skill_script_main_load_skill",
+      "community": 0,
+      "norm_label": "load_skill()"
+    },
+    {
+      "label": "run_skill_script()",
+      "file_type": "code",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L142",
+      "id": "05_agent_use_skill_script_main_run_skill_script",
+      "community": 0,
+      "norm_label": "run_skill_script()"
+    },
+    {
+      "label": "Agent Skills + Scripts \u793a\u4f8b\uff1a\u6bcf\u4e2a skill \u81ea\u5e26 scripts/\uff0c load_skill \u6309\u9700\u52a0\u8f7d\u6307\u4ee4\uff0crun_skill_scri",
+      "file_type": "rationale",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L1",
+      "id": "05_agent_use_skill_script_main_rationale_1",
+      "community": 0,
+      "norm_label": "agent skills + scripts \u793a\u4f8b:\u6bcf\u4e2a skill \u81ea\u5e26 scripts/, load_skill \u6309\u9700\u52a0\u8f7d\u6307\u4ee4,run_skill_scri"
+    },
+    {
+      "label": "Parse YAML-ish frontmatter without requiring a full YAML dependency.",
+      "file_type": "rationale",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L39",
+      "id": "05_agent_use_skill_script_main_rationale_39",
+      "community": 0,
+      "norm_label": "parse yaml-ish frontmatter without requiring a full yaml dependency."
+    },
+    {
+      "label": "Scan skills/*/SKILL.md and return skills keyed by name.",
+      "file_type": "rationale",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L69",
+      "id": "05_agent_use_skill_script_main_rationale_69",
+      "community": 0,
+      "norm_label": "scan skills/*/skill.md and return skills keyed by name."
+    },
+    {
+      "label": "Load a specialized skill's full instructions and list its scripts.      Call thi",
+      "file_type": "rationale",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L118",
+      "id": "05_agent_use_skill_script_main_rationale_118",
+      "community": 0,
+      "norm_label": "load a specialized skill's full instructions and list its scripts.      call thi"
+    },
+    {
+      "label": "Run a Python script bundled under skills/<skill>/scripts/.      Only scripts dis",
+      "file_type": "rationale",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L143",
+      "id": "05_agent_use_skill_script_main_rationale_143",
+      "community": 0,
+      "norm_label": "run a python script bundled under skills/<skill>/scripts/.      only scripts dis"
+    },
+    {
+      "label": "calculate_refund.py",
+      "file_type": "code",
+      "source_file": "05-agent-use-skill-script/skills/refund-policy/scripts/calculate_refund.py",
+      "source_location": "L1",
+      "id": "05_agent_use_skill_script_skills_refund_policy_scripts_calculate_refund_py",
+      "community": 7,
+      "norm_label": "calculate_refund.py"
+    },
+    {
+      "label": "calculate()",
+      "file_type": "code",
+      "source_file": "05-agent-use-skill-script/skills/refund-policy/scripts/calculate_refund.py",
+      "source_location": "L24",
+      "id": "scripts_calculate_refund_calculate",
+      "community": 7,
+      "norm_label": "calculate()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "05-agent-use-skill-script/skills/refund-policy/scripts/calculate_refund.py",
+      "source_location": "L66",
+      "id": "scripts_calculate_refund_main",
+      "community": 7,
+      "norm_label": "main()"
+    },
+    {
+      "label": "draft_reply.py",
+      "file_type": "code",
+      "source_file": "05-agent-use-skill-script/skills/support-reply/scripts/draft_reply.py",
+      "source_location": "L1",
+      "id": "05_agent_use_skill_script_skills_support_reply_scripts_draft_reply_py",
+      "community": 8,
+      "norm_label": "draft_reply.py"
+    },
+    {
+      "label": "draft()",
+      "file_type": "code",
+      "source_file": "05-agent-use-skill-script/skills/support-reply/scripts/draft_reply.py",
+      "source_location": "L24",
+      "id": "scripts_draft_reply_draft",
+      "community": 8,
+      "norm_label": "draft()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "05-agent-use-skill-script/skills/support-reply/scripts/draft_reply.py",
+      "source_location": "L35",
+      "id": "scripts_draft_reply_main",
+      "community": 8,
+      "norm_label": "main()"
+    },
+    {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "02-easy-agent/main.py",
+      "source_location": "L1",
+      "id": "02_easy_agent_main_py",
+      "community": 9,
       "norm_label": "main.py"
     },
     {
       "label": "search_database()",
       "file_type": "code",
-      "source_file": "02-agent/main.py",
-      "source_location": "L11",
-      "id": "02_agent_main_search_database",
-      "community": 2,
+      "source_file": "02-easy-agent/main.py",
+      "source_location": "L12",
+      "id": "02_easy_agent_main_search_database",
+      "community": 9,
       "norm_label": "search_database()"
     },
     {
       "label": "Search the customer database for records matching the query.      Args:",
       "file_type": "rationale",
-      "source_file": "02-agent/main.py",
-      "source_location": "L12",
-      "id": "02_agent_main_rationale_12",
-      "community": 2,
+      "source_file": "02-easy-agent/main.py",
+      "source_location": "L13",
+      "id": "02_easy_agent_main_rationale_13",
+      "community": 9,
       "norm_label": "search the customer database for records matching the query.      args:"
+    },
+    {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L1",
+      "id": "04_agent_use_skill_main_py",
+      "community": 2,
+      "norm_label": "main.py"
+    },
+    {
+      "label": "Skill",
+      "file_type": "code",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L23",
+      "id": "04_agent_use_skill_main_skill",
+      "community": 2,
+      "norm_label": "skill"
+    },
+    {
+      "label": "_parse_frontmatter()",
+      "file_type": "code",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L30",
+      "id": "04_agent_use_skill_main_parse_frontmatter",
+      "community": 2,
+      "norm_label": "_parse_frontmatter()"
+    },
+    {
+      "label": "discover_skills()",
+      "file_type": "code",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L53",
+      "id": "04_agent_use_skill_main_discover_skills",
+      "community": 2,
+      "norm_label": "discover_skills()"
+    },
+    {
+      "label": "skills_catalog()",
+      "file_type": "code",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L72",
+      "id": "04_agent_use_skill_main_skills_catalog",
+      "community": 2,
+      "norm_label": "skills_catalog()"
+    },
+    {
+      "label": "load_skill()",
+      "file_type": "code",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L82",
+      "id": "04_agent_use_skill_main_load_skill",
+      "community": 2,
+      "norm_label": "load_skill()"
+    },
+    {
+      "label": "Agent Skills \u793a\u4f8b\uff1a\u626b\u63cf skills/*/SKILL.md\uff0c\u628a name/description \u6ce8\u5165 system prompt\uff0c \u9700\u8981\u65f6\u901a\u8fc7",
+      "file_type": "rationale",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L1",
+      "id": "04_agent_use_skill_main_rationale_1",
+      "community": 2,
+      "norm_label": "agent skills \u793a\u4f8b:\u626b\u63cf skills/*/skill.md,\u628a name/description \u6ce8\u5165 system prompt, \u9700\u8981\u65f6\u901a\u8fc7"
+    },
+    {
+      "label": "Parse YAML-ish frontmatter without requiring a full YAML dependency.",
+      "file_type": "rationale",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L31",
+      "id": "04_agent_use_skill_main_rationale_31",
+      "community": 2,
+      "norm_label": "parse yaml-ish frontmatter without requiring a full yaml dependency."
+    },
+    {
+      "label": "Scan skills/*/SKILL.md and return skills keyed by name.",
+      "file_type": "rationale",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L54",
+      "id": "04_agent_use_skill_main_rationale_54",
+      "community": 2,
+      "norm_label": "scan skills/*/skill.md and return skills keyed by name."
+    },
+    {
+      "label": "Load a specialized skill's full instructions by name.      Call this when the us",
+      "file_type": "rationale",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L83",
+      "id": "04_agent_use_skill_main_rationale_83",
+      "community": 2,
+      "norm_label": "load a specialized skill's full instructions by name.      call this when the us"
     },
     {
       "label": "README.md",
@@ -54,7 +477,7 @@
       "source_file": "README.md",
       "source_location": "L1",
       "id": "readme_md",
-      "community": 1,
+      "community": 3,
       "norm_label": "readme.md"
     },
     {
@@ -63,7 +486,7 @@
       "source_file": "README.md",
       "source_location": "L1",
       "id": "llm_demo_readme_llm_demo",
-      "community": 1,
+      "community": 3,
       "norm_label": "llm-demo"
     },
     {
@@ -72,7 +495,7 @@
       "source_file": "README.md",
       "source_location": "L5",
       "id": "llm_demo_readme_\u4f9d\u8d56\u8bf4\u660e",
-      "community": 0,
+      "community": 3,
       "norm_label": "\u4f9d\u8d56\u8bf4\u660e"
     },
     {
@@ -81,7 +504,7 @@
       "source_file": "README.md",
       "source_location": "L7",
       "id": "llm_demo_readme_langchain_core",
-      "community": 0,
+      "community": 3,
       "norm_label": "`langchain_core`"
     },
     {
@@ -90,7 +513,7 @@
       "source_file": "README.md",
       "source_location": "L19",
       "id": "llm_demo_readme_langchain_openai",
-      "community": 0,
+      "community": 3,
       "norm_label": "`langchain_openai`"
     },
     {
@@ -99,7 +522,7 @@
       "source_file": "README.md",
       "source_location": "L25",
       "id": "llm_demo_readme_codeblock_1",
-      "community": 0,
+      "community": 3,
       "norm_label": "code:python (chatopenai()"
     },
     {
@@ -108,7 +531,7 @@
       "source_file": "README.md",
       "source_location": "L35",
       "id": "llm_demo_readme_\u4e8c\u8005\u5173\u7cfb",
-      "community": 1,
+      "community": 3,
       "norm_label": "\u4e8c\u8005\u5173\u7cfb"
     },
     {
@@ -117,30 +540,708 @@
       "source_file": "README.md",
       "source_location": "L37",
       "id": "llm_demo_readme_codeblock_2",
-      "community": 1,
+      "community": 3,
       "norm_label": "code:block2 (langchain_core          \u2192  \u62bd\u8c61:prompt / parser / chain)"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "06-sandbox/README.md",
+      "source_location": "L1",
+      "id": "06_sandbox_readme_md",
+      "community": 13,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": "05-agent-use-skill-script/skills/refund-policy/SKILL.md",
+      "source_location": "L1",
+      "id": "05_agent_use_skill_script_skills_refund_policy_skill_md",
+      "community": 4,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Refund Policy Skill",
+      "file_type": "document",
+      "source_file": "04-agent-use-skill/skills/refund-policy/SKILL.md",
+      "source_location": "L8",
+      "id": "refund_policy_skill_refund_policy_skill",
+      "community": 4,
+      "norm_label": "refund policy skill"
+    },
+    {
+      "label": "Workflow",
+      "file_type": "document",
+      "source_file": "05-agent-use-skill-script/skills/refund-policy/SKILL.md",
+      "source_location": "L11",
+      "id": "refund_policy_skill_workflow",
+      "community": 4,
+      "norm_label": "workflow"
+    },
+    {
+      "label": "code:bash (python scripts/calculate_refund.py \\)",
+      "file_type": "document",
+      "source_file": "05-agent-use-skill-script/skills/refund-policy/SKILL.md",
+      "source_location": "L16",
+      "id": "refund_policy_skill_codeblock_1",
+      "community": 4,
+      "norm_label": "code:bash (python scripts/calculate_refund.py \\)"
+    },
+    {
+      "label": "Allowed values",
+      "file_type": "document",
+      "source_file": "05-agent-use-skill-script/skills/refund-policy/SKILL.md",
+      "source_location": "L23",
+      "id": "refund_policy_skill_allowed_values",
+      "community": 4,
+      "norm_label": "allowed values"
+    },
+    {
+      "label": "Output format",
+      "file_type": "document",
+      "source_file": "04-agent-use-skill/skills/refund-policy/SKILL.md",
+      "source_location": "L26",
+      "id": "refund_policy_skill_output_format",
+      "community": 4,
+      "norm_label": "output format"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": "05-agent-use-skill-script/skills/support-reply/SKILL.md",
+      "source_location": "L1",
+      "id": "05_agent_use_skill_script_skills_support_reply_skill_md",
+      "community": 5,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Support Reply Skill",
+      "file_type": "document",
+      "source_file": "04-agent-use-skill/skills/support-reply/SKILL.md",
+      "source_location": "L8",
+      "id": "support_reply_skill_support_reply_skill",
+      "community": 5,
+      "norm_label": "support reply skill"
+    },
+    {
+      "label": "Workflow",
+      "file_type": "document",
+      "source_file": "05-agent-use-skill-script/skills/support-reply/SKILL.md",
+      "source_location": "L11",
+      "id": "support_reply_skill_workflow",
+      "community": 5,
+      "norm_label": "workflow"
+    },
+    {
+      "label": "code:block1 (\u5c0a\u656c\u7684 {name}\uff1a)",
+      "file_type": "document",
+      "source_file": "04-agent-use-skill/skills/support-reply/SKILL.md",
+      "source_location": "L17",
+      "id": "support_reply_skill_codeblock_1",
+      "community": 5,
+      "norm_label": "code:block1 (\u5c0a\u656c\u7684 {name}:)"
+    },
+    {
+      "label": "Tone",
+      "file_type": "document",
+      "source_file": "04-agent-use-skill/skills/support-reply/SKILL.md",
+      "source_location": "L10",
+      "id": "support_reply_skill_tone",
+      "community": 5,
+      "norm_label": "tone"
+    },
+    {
+      "label": "Constraints",
+      "file_type": "document",
+      "source_file": "04-agent-use-skill/skills/support-reply/SKILL.md",
+      "source_location": "L31",
+      "id": "support_reply_skill_constraints",
+      "community": 5,
+      "norm_label": "constraints"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": "04-agent-use-skill/skills/refund-policy/SKILL.md",
+      "source_location": "L1",
+      "id": "04_agent_use_skill_skills_refund_policy_skill_md",
+      "community": 4,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Rules",
+      "file_type": "document",
+      "source_file": "04-agent-use-skill/skills/refund-policy/SKILL.md",
+      "source_location": "L10",
+      "id": "refund_policy_skill_rules",
+      "community": 4,
+      "norm_label": "rules"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": "04-agent-use-skill/skills/support-reply/SKILL.md",
+      "source_location": "L1",
+      "id": "04_agent_use_skill_skills_support_reply_skill_md",
+      "community": 5,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Template",
+      "file_type": "document",
+      "source_file": "04-agent-use-skill/skills/support-reply/SKILL.md",
+      "source_location": "L15",
+      "id": "support_reply_skill_template",
+      "community": 5,
+      "norm_label": "template"
+    },
+    {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "02-agent/main.py",
+      "source_location": "L1",
+      "community": 10,
+      "norm_label": "main.py",
+      "id": "02_agent_main_py"
+    },
+    {
+      "label": "search_database()",
+      "file_type": "code",
+      "source_file": "02-agent/main.py",
+      "source_location": "L11",
+      "community": 10,
+      "norm_label": "search_database()",
+      "id": "02_agent_main_search_database"
+    },
+    {
+      "label": "Search the customer database for records matching the query.      Args:",
+      "file_type": "rationale",
+      "source_file": "02-agent/main.py",
+      "source_location": "L12",
+      "community": 10,
+      "norm_label": "search the customer database for records matching the query.      args:",
+      "id": "02_agent_main_rationale_12"
     }
   ],
   "links": [
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "02-agent/main.py",
-      "source_location": "L11",
+      "source_file": "06-sandbox/main.py",
+      "source_location": "L34",
       "weight": 1.0,
-      "source": "02_agent_main_py",
-      "target": "02_agent_main_search_database",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "06_sandbox_main_py",
+      "target": "06_sandbox_main_read_readme"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
-      "source_file": "02-agent/main.py",
+      "source_file": "06-sandbox/main.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "06_sandbox_main_rationale_1",
+      "target": "06_sandbox_main_py"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "06-sandbox/main.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "06_sandbox_main_rationale_35",
+      "target": "06_sandbox_main_read_readme"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "03_agent_more_tools_main_py",
+      "target": "03_agent_more_tools_main_lookup_customer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "03_agent_more_tools_main_py",
+      "target": "03_agent_more_tools_main_get_orders"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "03_agent_more_tools_main_py",
+      "target": "03_agent_more_tools_main_check_inventory"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L126",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "03_agent_more_tools_main_py",
+      "target": "03_agent_more_tools_main_calculate_refund"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L179",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "03_agent_more_tools_main_py",
+      "target": "03_agent_more_tools_main_create_support_ticket"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "03_agent_more_tools_main_rationale_1",
+      "target": "03_agent_more_tools_main_py"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "03_agent_more_tools_main_rationale_79",
+      "target": "03_agent_more_tools_main_lookup_customer"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L99",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "03_agent_more_tools_main_rationale_99",
+      "target": "03_agent_more_tools_main_get_orders"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L113",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "03_agent_more_tools_main_rationale_113",
+      "target": "03_agent_more_tools_main_check_inventory"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "03_agent_more_tools_main_rationale_132",
+      "target": "03_agent_more_tools_main_calculate_refund"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "03-agent-more-tools/main.py",
+      "source_location": "L186",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "03_agent_more_tools_main_rationale_186",
+      "target": "03_agent_more_tools_main_create_support_ticket"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_main_py",
+      "target": "05_agent_use_skill_script_main_skill"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_main_py",
+      "target": "05_agent_use_skill_script_main_root"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_main_py",
+      "target": "05_agent_use_skill_script_main_parse_frontmatter"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_main_py",
+      "target": "05_agent_use_skill_script_main_discover_scripts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_main_py",
+      "target": "05_agent_use_skill_script_main_discover_skills"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_main_py",
+      "target": "05_agent_use_skill_script_main_skills_catalog"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L106",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_main_py",
+      "target": "05_agent_use_skill_script_main_scripts_help"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L117",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_main_py",
+      "target": "05_agent_use_skill_script_main_load_skill"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L142",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_main_py",
+      "target": "05_agent_use_skill_script_main_run_skill_script"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_main_rationale_1",
+      "target": "05_agent_use_skill_script_main_py"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_main_discover_skills",
+      "target": "05_agent_use_skill_script_main_skill"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_main_discover_skills",
+      "target": "05_agent_use_skill_script_main_parse_frontmatter"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_main_rationale_39",
+      "target": "05_agent_use_skill_script_main_parse_frontmatter"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_main_discover_skills",
+      "target": "05_agent_use_skill_script_main_discover_scripts"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_main_rationale_69",
+      "target": "05_agent_use_skill_script_main_discover_skills"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L136",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_main_load_skill",
+      "target": "05_agent_use_skill_script_main_scripts_help"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_main_rationale_118",
+      "target": "05_agent_use_skill_script_main_load_skill"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/main.py",
+      "source_location": "L143",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_main_rationale_143",
+      "target": "05_agent_use_skill_script_main_run_skill_script"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/skills/refund-policy/scripts/calculate_refund.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_skills_refund_policy_scripts_calculate_refund_py",
+      "target": "scripts_calculate_refund_calculate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/skills/refund-policy/scripts/calculate_refund.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_skills_refund_policy_scripts_calculate_refund_py",
+      "target": "scripts_calculate_refund_main"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/skills/refund-policy/scripts/calculate_refund.py",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_calculate_refund_main",
+      "target": "scripts_calculate_refund_calculate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/skills/support-reply/scripts/draft_reply.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_skills_support_reply_scripts_draft_reply_py",
+      "target": "scripts_draft_reply_draft"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/skills/support-reply/scripts/draft_reply.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_skills_support_reply_scripts_draft_reply_py",
+      "target": "scripts_draft_reply_main"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/skills/support-reply/scripts/draft_reply.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_draft_reply_main",
+      "target": "scripts_draft_reply_draft"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "02-easy-agent/main.py",
       "source_location": "L12",
       "weight": 1.0,
-      "source": "02_agent_main_rationale_12",
-      "target": "02_agent_main_search_database",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "02_easy_agent_main_py",
+      "target": "02_easy_agent_main_search_database"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "02-easy-agent/main.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "02_easy_agent_main_rationale_13",
+      "target": "02_easy_agent_main_search_database"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "04_agent_use_skill_main_py",
+      "target": "04_agent_use_skill_main_skill"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "04_agent_use_skill_main_py",
+      "target": "04_agent_use_skill_main_parse_frontmatter"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "04_agent_use_skill_main_py",
+      "target": "04_agent_use_skill_main_discover_skills"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "04_agent_use_skill_main_py",
+      "target": "04_agent_use_skill_main_skills_catalog"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "04_agent_use_skill_main_py",
+      "target": "04_agent_use_skill_main_load_skill"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "04_agent_use_skill_main_rationale_1",
+      "target": "04_agent_use_skill_main_py"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "04_agent_use_skill_main_discover_skills",
+      "target": "04_agent_use_skill_main_skill"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "04_agent_use_skill_main_discover_skills",
+      "target": "04_agent_use_skill_main_parse_frontmatter"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "04_agent_use_skill_main_rationale_31",
+      "target": "04_agent_use_skill_main_parse_frontmatter"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "04_agent_use_skill_main_rationale_54",
+      "target": "04_agent_use_skill_main_discover_skills"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "04-agent-use-skill/main.py",
+      "source_location": "L83",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "04_agent_use_skill_main_rationale_83",
+      "target": "04_agent_use_skill_main_load_skill"
     },
     {
       "relation": "contains",
@@ -148,9 +1249,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "llm_demo_readme_llm_demo",
-      "confidence_score": 1.0
+      "target": "llm_demo_readme_llm_demo"
     },
     {
       "relation": "contains",
@@ -158,9 +1259,9 @@
       "source_file": "README.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_demo_readme_llm_demo",
-      "target": "llm_demo_readme_\u4f9d\u8d56\u8bf4\u660e",
-      "confidence_score": 1.0
+      "target": "llm_demo_readme_\u4f9d\u8d56\u8bf4\u660e"
     },
     {
       "relation": "contains",
@@ -168,9 +1269,9 @@
       "source_file": "README.md",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_demo_readme_llm_demo",
-      "target": "llm_demo_readme_\u4e8c\u8005\u5173\u7cfb",
-      "confidence_score": 1.0
+      "target": "llm_demo_readme_\u4e8c\u8005\u5173\u7cfb"
     },
     {
       "relation": "contains",
@@ -178,9 +1279,9 @@
       "source_file": "README.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_demo_readme_\u4f9d\u8d56\u8bf4\u660e",
-      "target": "llm_demo_readme_langchain_core",
-      "confidence_score": 1.0
+      "target": "llm_demo_readme_langchain_core"
     },
     {
       "relation": "contains",
@@ -188,9 +1289,9 @@
       "source_file": "README.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_demo_readme_\u4f9d\u8d56\u8bf4\u660e",
-      "target": "llm_demo_readme_langchain_openai",
-      "confidence_score": 1.0
+      "target": "llm_demo_readme_langchain_openai"
     },
     {
       "relation": "contains",
@@ -198,9 +1299,9 @@
       "source_file": "README.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_demo_readme_langchain_openai",
-      "target": "llm_demo_readme_codeblock_1",
-      "confidence_score": 1.0
+      "target": "llm_demo_readme_codeblock_1"
     },
     {
       "relation": "contains",
@@ -208,11 +1309,181 @@
       "source_file": "README.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_demo_readme_\u4e8c\u8005\u5173\u7cfb",
-      "target": "llm_demo_readme_codeblock_2",
-      "confidence_score": 1.0
+      "target": "llm_demo_readme_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/skills/refund-policy/SKILL.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_skills_refund_policy_skill_md",
+      "target": "refund_policy_skill_refund_policy_skill"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/skills/refund-policy/SKILL.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "refund_policy_skill_refund_policy_skill",
+      "target": "refund_policy_skill_workflow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/skills/refund-policy/SKILL.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "refund_policy_skill_refund_policy_skill",
+      "target": "refund_policy_skill_allowed_values"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "04-agent-use-skill/skills/refund-policy/SKILL.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "refund_policy_skill_refund_policy_skill",
+      "target": "refund_policy_skill_output_format"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "04-agent-use-skill/skills/refund-policy/SKILL.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "04_agent_use_skill_skills_refund_policy_skill_md",
+      "target": "refund_policy_skill_refund_policy_skill"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "04-agent-use-skill/skills/refund-policy/SKILL.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "refund_policy_skill_refund_policy_skill",
+      "target": "refund_policy_skill_rules"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/skills/refund-policy/SKILL.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "refund_policy_skill_workflow",
+      "target": "refund_policy_skill_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/skills/support-reply/SKILL.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "05_agent_use_skill_script_skills_support_reply_skill_md",
+      "target": "support_reply_skill_support_reply_skill"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/skills/support-reply/SKILL.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "support_reply_skill_support_reply_skill",
+      "target": "support_reply_skill_workflow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "04-agent-use-skill/skills/support-reply/SKILL.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "support_reply_skill_support_reply_skill",
+      "target": "support_reply_skill_tone"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "04-agent-use-skill/skills/support-reply/SKILL.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "support_reply_skill_support_reply_skill",
+      "target": "support_reply_skill_constraints"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "04-agent-use-skill/skills/support-reply/SKILL.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "04_agent_use_skill_skills_support_reply_skill_md",
+      "target": "support_reply_skill_support_reply_skill"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "04-agent-use-skill/skills/support-reply/SKILL.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "support_reply_skill_support_reply_skill",
+      "target": "support_reply_skill_template"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "05-agent-use-skill-script/skills/support-reply/SKILL.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "support_reply_skill_workflow",
+      "target": "support_reply_skill_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "04-agent-use-skill/skills/support-reply/SKILL.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "support_reply_skill_template",
+      "target": "support_reply_skill_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "02-agent/main.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "02_agent_main_py",
+      "target": "02_agent_main_search_database"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "02-agent/main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "02_agent_main_rationale_12",
+      "target": "02_agent_main_search_database"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "96867b42716bbb3edf6f720ece684a8b79c78f9b"
+  "built_at_commit": "01aeb9c0b07d985281b163490e33ec3a9677425f"
 }
