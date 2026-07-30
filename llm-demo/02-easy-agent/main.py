@@ -31,7 +31,14 @@ llm = ChatOpenAI(
 
 agent = create_agent(model=llm, tools=[search_database])
 response = agent.invoke(
-    {"messages": [{"role": "user", "content": "Search the database for customer Alice"}]}
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Search the database for customer Alice, return the results in JSON format"
+            }
+        ]
+    }
 )
 
 print(type(response))  # <class 'dict'>
