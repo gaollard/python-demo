@@ -947,6 +947,10 @@
     "mtime": 1760884922.7289476,
     "hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
+  "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/06-sandbox/main.py": {
+    "mtime": 1785422135.5414252,
+    "hash": "26723543b24cb568be037b78ba9a58f4"
+  },
   "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/01-\u7b80\u7b54\u4f8b\u5b50/02-\u4ee3\u7801\u52a9\u624b.py": {
     "mtime": 1785335729.0212007,
     "hash": "d9827d972a226e224646e86eca58edd5"
@@ -959,13 +963,29 @@
     "mtime": 1785419655.9587872,
     "hash": "f6d88181a9e6a3216f012d6d3097a78d"
   },
+  "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/05-agent-use-skill-script/main.py": {
+    "mtime": 1785420947.9710262,
+    "hash": "0f2157e8094c870cd861fa06e38c4bc3"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/05-agent-use-skill-script/skills/refund-policy/scripts/calculate_refund.py": {
+    "mtime": 1785420765.8455644,
+    "hash": "53d16572da7ed5b998be0fd880b52d34"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/05-agent-use-skill-script/skills/support-reply/scripts/draft_reply.py": {
+    "mtime": 1785420768.1453478,
+    "hash": "b04bebb6082b3a9687cb906a530f70ad"
+  },
   "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/02-easy-agent/main.py": {
     "mtime": 1785419449.944804,
     "hash": "4ab4cc7672e11bef62871b72ae2050c0"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/04-agent-use-skill/main.py": {
-    "mtime": 1785420396.1058211,
-    "hash": "63ba284bfa46fda9602fd3532d530edc"
+    "mtime": 1785420643.8762493,
+    "hash": "7c10b93d2de81affdecf89b28d1a5556"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/07-plan-and-excute/main.py": {
+    "mtime": 1785468638.2501101,
+    "hash": "149814041532fcf6bf7646de9b13c27a"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/README.md": {
     "mtime": 1785035426.7773082,
@@ -1267,6 +1287,22 @@
     "mtime": 1785335492.0090098,
     "hash": "9f54a237f4800518ff0da619597e6c14"
   },
+  "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/06-sandbox/README.md": {
+    "mtime": 1785422238.4035282,
+    "hash": "3a41270a2bb63dd4bb143c11af5b6c3f"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/06-sandbox/workspace/sum.txt": {
+    "mtime": 1785422156.5056407,
+    "hash": "9fdc03fef9ff73d752cddfe000401e74"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/05-agent-use-skill-script/skills/refund-policy/SKILL.md": {
+    "mtime": 1785420770.239938,
+    "hash": "52702c06fe4682525c404583cdd15aa2"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/05-agent-use-skill-script/skills/support-reply/SKILL.md": {
+    "mtime": 1785420770.6853201,
+    "hash": "c68645c9a8487f4c9b1f76ec5f5668dc"
+  },
   "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/04-agent-use-skill/skills/refund-policy/SKILL.md": {
     "mtime": 1785420386.1357698,
     "hash": "fa5b249850ba3bb0e06d65e653f1ea7d"
@@ -1274,6 +1310,10 @@
   "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/04-agent-use-skill/skills/support-reply/SKILL.md": {
     "mtime": 1785420395.831,
     "hash": "485cc3c7da8dc013147319b9526f05cb"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/07-plan-and-excute/README.md": {
+    "mtime": 1785468531.99742,
+    "hash": "3c32fe63b4513b1c2096466af6b4f33b"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/django-demo/2090267746155371565.pdf": {
     "mtime": 1760927639.597832,
