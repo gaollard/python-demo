@@ -7,5 +7,8 @@
 # Agent 调用 MCP 工具
 # ./.venv/bin/python3 08-agent-call-mcp/main.py
 
-# 多轮记忆 / Checkpoint
-./.venv/bin/python3 09-多伦记忆/main.py
+# 多轮记忆 / Checkpoint（内存）
+# ./.venv/bin/python3 09-多伦记忆/main.py
+
+# 多轮记忆 / Checkpoint 持久化（SqliteSaver）
+./.venv/bin/python3 10-多伦记忆-checkpoint持久化/main.py

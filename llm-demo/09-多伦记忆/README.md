@@ -27,7 +27,7 @@
 1. **checkpointer**：存「这个图跑到哪、messages 有哪些」
 2. **thread_id**：会话主键；相同 = 续聊，不同 = 隔离
 
-`MemorySaver` 只在进程内存里；进程退出即丢。生产可换 `SqliteSaver` / `PostgresSaver`。
+`MemorySaver` 只在进程内存里；进程退出即丢。落盘续聊见 [`10-多伦记忆-checkpoint持久化`](../10-多伦记忆-checkpoint持久化/)（`SqliteSaver`）。
 
 ## 运行
 

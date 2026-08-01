@@ -18,10 +18,22 @@ import os
 from dotenv import load_dotenv
 from langchain.agents import create_agent
 from langchain.tools import tool
+from langchain_core.callbacks import BaseCallbackHandler
 from langchain_openai import ChatOpenAI
 from langgraph.checkpoint.memory import MemorySaver
 
 load_dotenv()
+
+
+class PrintPromptHandler(BaseCallbackHandler):
+    """打印每次真正发给 LLM 的完整 messages（含 system + 历史）。"""
+
+    def on_chat_model_start(self, serialized, messages, **kwargs):
+        print("\n===== LLM input messages =====")
+        for batch in messages:
+            for m in batch:
+                print(f"[{m.type}] {m.content}")
+        print("===== end =====\n")
 
 
 @tool
@@ -42,6 +54,10 @@ def lookup_order(order_id: str) -> str:
 def _print_reply(label: str, result: dict) -> None:
     print(f"\n--- {label} ---")
     print(result["messages"][-1].content)
+
+
+def _with_prompt_logger(thread_config: dict) -> dict:
+    return {**thread_config, "callbacks": [PrintPromptHandler()]}
 
 
 def main() -> None:
@@ -83,7 +99,7 @@ def main() -> None:
                 }
             ]
         },
-        config=thread_a,
+        config=_with_prompt_logger(thread_a),
     )
     _print_reply("轮次1 · thread=alice", r1)
 
@@ -97,7 +113,7 @@ def main() -> None:
                 }
             ]
         },
-        config=thread_a,
+        config=_with_prompt_logger(thread_a),
     )
     _print_reply("轮次2 · thread=alice（应记住姓名/订单并调工具）", r2)
 
@@ -114,7 +130,7 @@ def main() -> None:
                 }
             ]
         },
-        config=thread_b,
+        config=_with_prompt_logger(thread_b),
     )
     _print_reply("轮次3 · thread=bob（应表示不知道）", r3)
 
