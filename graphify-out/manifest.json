@@ -979,6 +979,18 @@
     "mtime": 1785419449.944804,
     "hash": "4ab4cc7672e11bef62871b72ae2050c0"
   },
+  "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/08-agent-call-mcp/main.py": {
+    "mtime": 1785548018.9057703,
+    "hash": "edf659cb36e114c25622bd983129ffa4"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/08-agent-call-mcp/servers/math_server.py": {
+    "mtime": 1785548012.6741123,
+    "hash": "908e0349620d3a7ad22d4e3f847f510a"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/08-agent-call-mcp/servers/weather_server.py": {
+    "mtime": 1785548015.4432845,
+    "hash": "598fe100e941633a8ca93b564660a70d"
+  },
   "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/04-agent-use-skill/main.py": {
     "mtime": 1785420643.8762493,
     "hash": "7c10b93d2de81affdecf89b28d1a5556"
@@ -1303,6 +1315,10 @@
     "mtime": 1785420770.6853201,
     "hash": "c68645c9a8487f4c9b1f76ec5f5668dc"
   },
+  "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/08-agent-call-mcp/README.md": {
+    "mtime": 1785547991.145303,
+    "hash": "deb78b176aad4aa25de3095cbb4f2823"
+  },
   "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/04-agent-use-skill/skills/refund-policy/SKILL.md": {
     "mtime": 1785420386.1357698,
     "hash": "fa5b249850ba3bb0e06d65e653f1ea7d"
@@ -1310,6 +1326,10 @@
   "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/04-agent-use-skill/skills/support-reply/SKILL.md": {
     "mtime": 1785420395.831,
     "hash": "485cc3c7da8dc013147319b9526f05cb"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/07-plan-and-excute/plan-and-excute vs ReAct.md": {
+    "mtime": 1785470166.2542317,
+    "hash": "243b857a4aa5d66a69f7eeeb34a04dcc"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/07-plan-and-excute/README.md": {
     "mtime": 1785468531.99742,
