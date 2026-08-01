@@ -1,16 +1,16 @@
 # Graph Report - pythons  (2026-08-01)
 
 ## Corpus Check
-- 327 files · ~98,427 words
+- 330 files · ~99,017 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2641 nodes · 2560 edges · 639 communities (553 shown, 86 thin omitted)
+- 2659 nodes · 2576 edges · 642 communities (556 shown, 86 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 37 edges (avg confidence: 0.69)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2ebd18f4`
+- Built from commit: `e7c76771`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -147,9 +147,9 @@
 - [[_COMMUNITY_Community 129|Community 129]]
 - [[_COMMUNITY_Community 130|Community 130]]
 - [[_COMMUNITY_Community 131|Community 131]]
+- [[_COMMUNITY_Community 132|Community 132]]
 - [[_COMMUNITY_Community 133|Community 133]]
 - [[_COMMUNITY_Community 134|Community 134]]
-- [[_COMMUNITY_Community 135|Community 135]]
 - [[_COMMUNITY_Community 136|Community 136]]
 - [[_COMMUNITY_Community 137|Community 137]]
 - [[_COMMUNITY_Community 138|Community 138]]
@@ -161,12 +161,12 @@
 - [[_COMMUNITY_Community 144|Community 144]]
 - [[_COMMUNITY_Community 145|Community 145]]
 - [[_COMMUNITY_Community 146|Community 146]]
+- [[_COMMUNITY_Community 147|Community 147]]
 - [[_COMMUNITY_Community 148|Community 148]]
-- [[_COMMUNITY_Community 150|Community 150]]
-- [[_COMMUNITY_Community 152|Community 152]]
-- [[_COMMUNITY_Community 154|Community 154]]
+- [[_COMMUNITY_Community 149|Community 149]]
+- [[_COMMUNITY_Community 151|Community 151]]
+- [[_COMMUNITY_Community 153|Community 153]]
 - [[_COMMUNITY_Community 155|Community 155]]
-- [[_COMMUNITY_Community 156|Community 156]]
 - [[_COMMUNITY_Community 157|Community 157]]
 - [[_COMMUNITY_Community 158|Community 158]]
 - [[_COMMUNITY_Community 159|Community 159]]
@@ -175,9 +175,9 @@
 - [[_COMMUNITY_Community 162|Community 162]]
 - [[_COMMUNITY_Community 163|Community 163]]
 - [[_COMMUNITY_Community 164|Community 164]]
+- [[_COMMUNITY_Community 165|Community 165]]
+- [[_COMMUNITY_Community 166|Community 166]]
 - [[_COMMUNITY_Community 167|Community 167]]
-- [[_COMMUNITY_Community 168|Community 168]]
-- [[_COMMUNITY_Community 169|Community 169]]
 - [[_COMMUNITY_Community 170|Community 170]]
 - [[_COMMUNITY_Community 171|Community 171]]
 - [[_COMMUNITY_Community 172|Community 172]]
@@ -189,19 +189,22 @@
 - [[_COMMUNITY_Community 178|Community 178]]
 - [[_COMMUNITY_Community 179|Community 179]]
 - [[_COMMUNITY_Community 180|Community 180]]
+- [[_COMMUNITY_Community 181|Community 181]]
 - [[_COMMUNITY_Community 182|Community 182]]
+- [[_COMMUNITY_Community 183|Community 183]]
 - [[_COMMUNITY_Community 185|Community 185]]
-- [[_COMMUNITY_Community 190|Community 190]]
-- [[_COMMUNITY_Community 198|Community 198]]
-- [[_COMMUNITY_Community 202|Community 202]]
-- [[_COMMUNITY_Community 203|Community 203]]
-- [[_COMMUNITY_Community 204|Community 204]]
+- [[_COMMUNITY_Community 188|Community 188]]
+- [[_COMMUNITY_Community 193|Community 193]]
+- [[_COMMUNITY_Community 201|Community 201]]
+- [[_COMMUNITY_Community 205|Community 205]]
 - [[_COMMUNITY_Community 206|Community 206]]
-- [[_COMMUNITY_Community 227|Community 227]]
-- [[_COMMUNITY_Community 306|Community 306]]
-- [[_COMMUNITY_Community 307|Community 307]]
-- [[_COMMUNITY_Community 597|Community 597]]
-- [[_COMMUNITY_Community 598|Community 598]]
+- [[_COMMUNITY_Community 207|Community 207]]
+- [[_COMMUNITY_Community 209|Community 209]]
+- [[_COMMUNITY_Community 230|Community 230]]
+- [[_COMMUNITY_Community 309|Community 309]]
+- [[_COMMUNITY_Community 310|Community 310]]
+- [[_COMMUNITY_Community 600|Community 600]]
+- [[_COMMUNITY_Community 601|Community 601]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `MiniHTTP` - 20 edges
@@ -227,7 +230,7 @@
 - `读取一个完整 HTTP 请求（含 body）。` --rationale_for--> `_recv_request()`  [EXTRACTED]
   03-http框架/minihttp/server.py → 04-http框架原理及实现/minihttp/server.py
 
-## Communities (639 total, 86 thin omitted)
+## Communities (642 total, 86 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.06
@@ -235,11 +238,11 @@ Nodes (64): login(), register(), fetchMyFavorites(), fetchMyPosts(), createPost(
 
 ### Community 1 - "Community 1"
 Cohesion: 0.05
-Nodes (50): BaseSettings, get_settings(), Settings, Inject the current request id into every log record., Configure root logging once for the application., RequestIdFilter, set_request_id(), setup_logging() (+42 more)
+Nodes (48): BaseSettings, get_settings(), Settings, Inject the current request id into every log record., Configure root logging once for the application., RequestIdFilter, set_request_id(), setup_logging() (+40 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.06
-Nodes (48): estimate_budget(), FinalAnswer, get_weather(), Plan, plan_node(), PlanExecuteState, Plan-and-Execute 示例：先规划完整步骤，再逐步执行，必要时重规划。  对比 02/03 的 ReAct（每步边想边调工具）： - ReAct：思, 重规划结果：要么继续执行剩余步骤，要么给出最终答复。 (+40 more)
+Cohesion: 0.08
+Nodes (40): estimate_budget(), FinalAnswer, get_weather(), Plan, plan_node(), PlanExecuteState, Plan-and-Execute 示例：先规划完整步骤，再逐步执行，必要时重规划。  对比 02/03 的 ReAct（每步边想边调工具）： - ReAct：思, 重规划结果：要么继续执行剩余步骤，要么给出最终答复。 (+32 more)
 
 ### Community 3 - "Community 3"
 Cohesion: 0.05
@@ -270,16 +273,16 @@ Cohesion: 0.06
 Nodes (34): code:block1 (系统 Python（只当「底座」）), code:bash (source .venv/bin/activate), code:bash (# 导出当前环境已装包（应用/部署常用）), code:bash (deactivate          # 若已激活，先退出), code:gitignore (.venv/), code:block14 (.venv/), code:bash (python3 -m venv .venv), code:bash (which python) (+26 more)
 
 ### Community 10 - "Community 10"
-Cohesion: 0.09
-Nodes (20): Exception, MethodNotAllowed, 路由表：支持精确路径与 /users/<id> 动态参数。  路由规则在注册时编译成正则，匹配时抽出命名捕获组作为 path_params。, 路径存在、但当前 HTTP 方法未注册时抛出。, 单条路由：HTTP 方法集合 + 路径模板 + 处理函数。, /users/<id>      -> ^/users/(?P<id>[^/]+)$         /files/<path:p>  -> ^/files/(, 把路径模板编译成正则。          示例：             /users/<id>       -> ^/users/(?P<id>[^/]+)$, 方法与路径都匹配时返回参数字典，否则 None。 (+12 more)
-
-### Community 11 - "Community 11"
 Cohesion: 0.06
 Nodes (31): 1.1 背景, 1.2 目标, 1.3 非目标（本期不做）, 1. 背景与目标, 2.1 角色, 2.2 核心用户旅程, 2. 用户与场景, 3.1 用户注册 (+23 more)
 
-### Community 12 - "Community 12"
+### Community 11 - "Community 11"
 Cohesion: 0.06
 Nodes (31): code:block1 (类型注解字段), code:python (from dataclasses import dataclass, field), code:python (from dataclasses import dataclass, field), code:python (from dataclasses import dataclass, field), code:python (from dataclasses import dataclass, InitVar, field), code:python (from dataclasses import dataclass, asdict, astuple, replace), code:python (from dataclasses import dataclass), code:python (class User:) (+23 more)
+
+### Community 12 - "Community 12"
+Cohesion: 0.11
+Nodes (17): index(), plain(), 首页：直接返回 HTML Response。, 演示显式构造 text Response。, 路由匹配 → 调 handler → 规范化返回值。, 把 handler 的多种返回值约定转成统一的 Response。          - Response          → 原样         - (b, 入口：包一层中间件链，再交给 _dispatch；未捕获异常统一 500。, 纯 Python 原生实现的迷你 HTTP 框架（仅依赖标准库）。  对外只暴露应用入口与请求/响应类型，内部模块拆分见同目录各文件。 (+9 more)
 
 ### Community 13 - "Community 13"
 Cohesion: 0.06
@@ -314,20 +317,20 @@ Cohesion: 0.13
 Nodes (13): Child1, Child2, Child2b, Child3, Child4, Father, Father2, Father4 (+5 more)
 
 ### Community 21 - "Community 21"
+Cohesion: 0.12
+Nodes (12): Exception, 应用入口：路由装饰器、中间件、请求分发。  调用链（自外向内）：      socket 收到字节       → Request.from_raw, MethodNotAllowed, 路由表：支持精确路径与 /users/<id> 动态参数。  路由规则在注册时编译成正则，匹配时抽出命名捕获组作为 path_params。, 路径存在、但当前 HTTP 方法未注册时抛出。, 单条路由：HTTP 方法集合 + 路径模板 + 处理函数。, /users/<id>      -> ^/users/(?P<id>[^/]+)$         /files/<path:p>  -> ^/files/(, 把路径模板编译成正则。          示例：             /users/<id>       -> ^/users/(?P<id>[^/]+)$ (+4 more)
+
+### Community 22 - "Community 22"
 Cohesion: 0.08
 Nodes (22): code:python (# 显式括号), code:python (points = [(0, 0), (1, 2), (3, 4)]), code:python (# 1. 数量不匹配), code:python (a, *rest = (1, 2, 3, 4)), code:python (def get_size():), code:python (point = (10, 20)), code:python (def get_user():), code:python (a, b = 1, 2) (+14 more)
 
-### Community 22 - "Community 22"
+### Community 23 - "Community 23"
 Cohesion: 0.09
 Nodes (22): code:block1 (请求 ──► [中间件 A] ──► [中间件 B] ──► handler), code:block10 (server.accept → Request.from_raw → app.handle（洋葱）→ Response.), code:python (def middleware(request, call_next) -> Response:), code:python (@app.middleware), code:block4 (请求进入), code:python (@app.middleware), code:python (def handle(self, request: Request) -> Response:), code:python (# 注册顺序 [A, B]) (+14 more)
 
-### Community 23 - "Community 23"
-Cohesion: 0.09
-Nodes (22): 1. 系统与运行环境, 2. 时间与日期, 3. 数学与随机, 4. 字符串与数据格式, 5. 数据结构与迭代工具, 6. 文件、压缩与序列化, 7. 网络与并发, 8. 日志、调试与测试 (+14 more)
-
 ### Community 24 - "Community 24"
 Cohesion: 0.09
-Nodes (22): code:python (# 显式括号), code:python (points = [(0, 0), (1, 2), (3, 4)]), code:python (# 1. 数量不匹配), code:python (a, *rest = (1, 2, 3, 4)), code:python (def get_size():), code:python (point = (10, 20)), code:python (def get_user():), code:python (a, b = 1, 2) (+14 more)
+Nodes (22): 1. 系统与运行环境, 2. 时间与日期, 3. 数学与随机, 4. 字符串与数据格式, 5. 数据结构与迭代工具, 6. 文件、压缩与序列化, 7. 网络与并发, 8. 日志、调试与测试 (+14 more)
 
 ### Community 25 - "Community 25"
 Cohesion: 0.09
@@ -335,91 +338,91 @@ Nodes (22): code:python (# 显式括号), code:python (points = [(0, 0), (1, 2),
 
 ### Community 26 - "Community 26"
 Cohesion: 0.09
-Nodes (21): code:python (class Person:), code:python (@property), code:python (p.get_age()), code:python (print(p.age)   # 读：实际调用 getter), code:python (class Circle:), code:python (class Person:), code:python (class Person:), code:python (class Person:) (+13 more)
+Nodes (22): code:python (# 显式括号), code:python (points = [(0, 0), (1, 2), (3, 4)]), code:python (# 1. 数量不匹配), code:python (a, *rest = (1, 2, 3, 4)), code:python (def get_size():), code:python (point = (10, 20)), code:python (def get_user():), code:python (a, b = 1, 2) (+14 more)
 
 ### Community 27 - "Community 27"
+Cohesion: 0.09
+Nodes (21): code:python (class Person:), code:python (@property), code:python (p.get_age()), code:python (print(p.age)   # 读：实际调用 getter), code:python (class Circle:), code:python (class Person:), code:python (class Person:), code:python (class Person:) (+13 more)
+
+### Community 28 - "Community 28"
 Cohesion: 0.15
 Nodes (8): test_middlewares(), MiddlewareMixin, CustomErrorMiddleware, RateLimitMiddleware, 请求日志中间件 - 记录每个请求的详细信息, 安全头中间件 - 添加安全相关的HTTP头, RequestLoggingMiddleware, SecurityHeadersMiddleware
 
-### Community 28 - "Community 28"
-Cohesion: 0.1
-Nodes (19): 03 · 纯 Python 实现 HTTP 框架, code:block1 (03-http框架/), code:sh (cd 03-http框架), code:sh (curl http://127.0.0.1:8000/), code:python (from minihttp import MiniHTTP), code:python (def get(self, path: str):), code:python (def route(self, path: str, methods: list[str] | None = None)), code:python (@app.get("/")) (+11 more)
-
 ### Community 29 - "Community 29"
 Cohesion: 0.1
-Nodes (18): 1. 一句话区别, 2. 为什么 FastAPI 更推荐 aiomysql, 3.1 同步：PyMySQL, 3.2 异步：aiomysql（本项目）, 3. 与 SQLAlchemy 的对接方式, 4. 对比一览, 5. 选型建议, 6. 常见踩坑 (+10 more)
+Nodes (19): 03 · 纯 Python 实现 HTTP 框架, code:block1 (03-http框架/), code:sh (cd 03-http框架), code:sh (curl http://127.0.0.1:8000/), code:python (from minihttp import MiniHTTP), code:python (def get(self, path: str):), code:python (def route(self, path: str, methods: list[str] | None = None)), code:python (@app.get("/")) (+11 more)
 
 ### Community 30 - "Community 30"
 Cohesion: 0.1
-Nodes (19): 03 · 纯 Python 实现 HTTP 框架, code:block1 (03-http框架/), code:sh (cd 03-http框架), code:sh (curl http://127.0.0.1:8000/), code:python (from minihttp import MiniHTTP), code:python (def get(self, path: str):), code:python (def route(self, path: str, methods: list[str] | None = None)), code:python (@app.get("/")) (+11 more)
+Nodes (18): 1. 一句话区别, 2. 为什么 FastAPI 更推荐 aiomysql, 3.1 同步：PyMySQL, 3.2 异步：aiomysql（本项目）, 3. 与 SQLAlchemy 的对接方式, 4. 对比一览, 5. 选型建议, 6. 常见踩坑 (+10 more)
 
 ### Community 31 - "Community 31"
 Cohesion: 0.1
 Nodes (19): 03 · 纯 Python 实现 HTTP 框架, code:block1 (03-http框架/), code:sh (cd 03-http框架), code:sh (curl http://127.0.0.1:8000/), code:python (from minihttp import MiniHTTP), code:python (def get(self, path: str):), code:python (def route(self, path: str, methods: list[str] | None = None)), code:python (@app.get("/")) (+11 more)
 
 ### Community 32 - "Community 32"
+Cohesion: 0.1
+Nodes (19): 03 · 纯 Python 实现 HTTP 框架, code:block1 (03-http框架/), code:sh (cd 03-http框架), code:sh (curl http://127.0.0.1:8000/), code:python (from minihttp import MiniHTTP), code:python (def get(self, path: str):), code:python (def route(self, path: str, methods: list[str] | None = None)), code:python (@app.get("/")) (+11 more)
+
+### Community 33 - "Community 33"
 Cohesion: 0.16
 Nodes (11): args(), content_length(), content_type(), from_raw(), HTTP 请求对象：解析请求行、请求头、查询参数与请求体。  一次完整请求在 TCP 字节流中的大致形态：      GET /api/hello?name=P, 封装一次 HTTP 请求的解析结果，供路由处理函数使用。, 取某个查询参数的第一个值（多值时常用这种简化接口）。, 解析 application/x-www-form-urlencoded 表单。 (+3 more)
 
-### Community 33 - "Community 33"
+### Community 34 - "Community 34"
 Cohesion: 0.11
 Nodes (18): code:text (01module1/), code:python (from core import *), code:python (# core/__init__.py), code:python (import core), code:python (from core.logger import log), code:python (# 1. 导入包内模块，起别名), code:python (# core/app.py), code:bash (# 在项目根（能找到包的那一层）执行) (+10 more)
 
-### Community 34 - "Community 34"
+### Community 35 - "Community 35"
+Cohesion: 0.27
+Nodes (10): Base, DeclarativeBase, Base, TimestampMixin, Post, PostFavorite, PostLike, Base (+2 more)
+
+### Community 36 - "Community 36"
 Cohesion: 0.11
 Nodes (16): code:python (# 列表可以就地修改), code:python (t = ([1, 2], 3)), code:python (a = (1, 2, 3)), code:python (dimensions = (200, 50)), code:python (# 做字典的键), code:python (t = (10, 20, 30, 40)), code:python (lst = [1, 2, 3]), 何时用元组 (+8 more)
 
-### Community 35 - "Community 35"
+### Community 37 - "Community 37"
 Cohesion: 0.12
 Nodes (16): code:python (class A: pass), code:block2 (A), code:text (D → B → C → A → object), code:python (class A:), code:python (class A:), code:python (class Father:), code:python (class Child(Father, Mother):), code:python (class Father:) (+8 more)
 
-### Community 36 - "Community 36"
+### Community 38 - "Community 38"
 Cohesion: 0.12
 Nodes (16): code:block1 (https://example.com/robots.txt), code:txt (# 对所有爬虫), code:block3 (开始爬站), code:python (from urllib.robotparser import RobotFileParser), code:python (from urllib.robotparser import RobotFileParser), code:txt (User-agent: *), code:txt (User-agent: *), Python 怎么读 (+8 more)
 
-### Community 37 - "Community 37"
-Cohesion: 0.12
-Nodes (16): code:python (# 列表可以就地修改), code:python (t = ([1, 2], 3)), code:python (a = (1, 2, 3)), code:python (dimensions = (200, 50)), code:python (# 做字典的键), code:python (t = (10, 20, 30, 40)), code:python (lst = [1, 2, 3]), 何时用元组 (+8 more)
-
-### Community 38 - "Community 38"
-Cohesion: 0.12
-Nodes (16): code:python (# 列表可以就地修改), code:python (t = ([1, 2], 3)), code:python (a = (1, 2, 3)), code:python (dimensions = (200, 50)), code:python (# 做字典的键), code:python (t = (10, 20, 30, 40)), code:python (lst = [1, 2, 3]), 何时用元组 (+8 more)
-
 ### Community 39 - "Community 39"
-Cohesion: 0.16
-Nodes (11): plain(), 演示显式构造 text Response。, 路由匹配 → 调 handler → 规范化返回值。, 把 handler 的多种返回值约定转成统一的 Response。          - Response          → 原样         - (b, json_response(), 封装状态码、响应头与响应体，最终通过 to_bytes() 写出到 socket。, 设置或覆盖单个响应头（如 405 时的 Allow）。, 拼成符合 HTTP/1.1 的完整响应字节：状态行 + 头部 + 空行 + body。 (+3 more)
+Cohesion: 0.12
+Nodes (16): code:python (# 列表可以就地修改), code:python (t = ([1, 2], 3)), code:python (a = (1, 2, 3)), code:python (dimensions = (200, 50)), code:python (# 做字典的键), code:python (t = (10, 20, 30, 40)), code:python (lst = [1, 2, 3]), 何时用元组 (+8 more)
 
 ### Community 40 - "Community 40"
 Cohesion: 0.12
-Nodes (15): code:python (class Person:), code:python (class BankAccount:), code:python (class BankAccount:), code:python (class Animal:), code:python (class User:), code:python (class Person:), 公开属性, 单下划线 `_name`（内部约定） (+7 more)
+Nodes (16): code:python (# 列表可以就地修改), code:python (t = ([1, 2], 3)), code:python (a = (1, 2, 3)), code:python (dimensions = (200, 50)), code:python (# 做字典的键), code:python (t = (10, 20, 30, 40)), code:python (lst = [1, 2, 3]), 何时用元组 (+8 more)
 
 ### Community 41 - "Community 41"
 Cohesion: 0.12
-Nodes (15): access_log(), boom(), echo(), get_user(), hello(), index(), plain(), 迷你 HTTP 框架示例。  运行：     cd 03-http框架     python example.py  测试：     curl http://1 (+7 more)
+Nodes (15): code:python (class Person:), code:python (class BankAccount:), code:python (class BankAccount:), code:python (class Animal:), code:python (class User:), code:python (class Person:), 公开属性, 单下划线 `_name`（内部约定） (+7 more)
 
 ### Community 42 - "Community 42"
 Cohesion: 0.12
 Nodes (15): access_log(), boom(), echo(), get_user(), hello(), index(), plain(), 迷你 HTTP 框架示例。  运行：     cd 03-http框架     python example.py  测试：     curl http://1 (+7 more)
 
 ### Community 43 - "Community 43"
+Cohesion: 0.12
+Nodes (15): access_log(), boom(), echo(), get_user(), hello(), index(), plain(), 迷你 HTTP 框架示例。  运行：     cd 03-http框架     python example.py  测试：     curl http://1 (+7 more)
+
+### Community 44 - "Community 44"
+Cohesion: 0.23
+Nodes (11): AppProtocol, _handle_connection(), 基于 socket 的 HTTP/1.1 服务器（仅标准库）。  职责很窄：accept 连接 → 读完整请求 → 调 app.handle → 写回响应。 协, 阻塞式启动 TCP 服务器；每个连接在独立线程中处理。      SO_REUSEADDR：进程退出后端口可立即再绑定（开发时常用）。     daemon 线, server 只依赖 handle 方法，便于解耦（不必硬绑 MiniHTTP 类）。, 读取一个完整 HTTP 请求（含 body）。, 读取一个完整 HTTP 请求（含 body）。      TCP 是流式协议，一次 recv 不一定拿到完整报文，因此：     1. 先循环读到出现头部结束标, 阻塞式启动 TCP 服务器；每个连接在独立线程中处理。 (+3 more)
+
+### Community 45 - "Community 45"
 Cohesion: 0.17
 Nodes (12): _discover_scripts(), discover_skills(), load_skill(), _parse_frontmatter(), Agent Skills + Scripts 示例：每个 skill 自带 scripts/， load_skill 按需加载指令，run_skill_scri, Load a specialized skill's full instructions and list its scripts.      Call thi, Run a Python script bundled under skills/<skill>/scripts/.      Only scripts dis, Parse YAML-ish frontmatter without requiring a full YAML dependency. (+4 more)
 
-### Community 44 - "Community 44"
+### Community 46 - "Community 46"
 Cohesion: 0.13
 Nodes (14): ABC 到底拦在哪一步, code:python (class Animal:), code:python (from abc import ABC, abstractmethod), code:python (from abc import ABC, abstractmethod), code:python (from abc import ABC, abstractmethod), code:python (from collections.abc import Iterable), 为什么需要它, 基本用法：ABC + @abstractmethod (+6 more)
 
-### Community 45 - "Community 45"
-Cohesion: 0.19
-Nodes (7): MiniHTTP, 迷你 HTTP 框架，风格类似 Flask：          app = MiniHTTP("demo")          @app.get("/"), 迷你 HTTP 框架，风格类似 Flask：          app = MiniHTTP("demo")          @app.get("/"), 通用路由装饰器；get/post/... 都是它的语法糖。, 注册中间件：middleware(request, call_next) -> Response, 注册中间件：middleware(request, call_next) -> Response。          先注册的中间件在最外层（先看到请求、最后看, 入口：包一层中间件链，再交给 _dispatch；未捕获异常统一 500。
-
-### Community 46 - "Community 46"
-Cohesion: 0.22
-Nodes (8): AppProtocol, _handle_connection(), 基于 socket 的 HTTP/1.1 服务器（仅标准库）。  职责很窄：accept 连接 → 读完整请求 → 调 app.handle → 写回响应。 协, server 只依赖 handle 方法，便于解耦（不必硬绑 MiniHTTP 类）。, 读取一个完整 HTTP 请求（含 body）。, 读取一个完整 HTTP 请求（含 body）。      TCP 是流式协议，一次 recv 不一定拿到完整报文，因此：     1. 先循环读到出现头部结束标, _recv_request(), Protocol
-
 ### Community 47 - "Community 47"
-Cohesion: 0.23
-Nodes (6): index(), 首页：直接返回 HTML Response。, 应用入口：路由装饰器、中间件、请求分发。  调用链（自外向内）：      socket 收到字节       → Request.from_raw, 纯 Python 原生实现的迷你 HTTP 框架（仅依赖标准库）。  对外只暴露应用入口与请求/响应类型，内部模块拆分见同目录各文件。, html_response(), HTTP 响应对象与常用响应构造函数。  组装后的字节流形态：      HTTP/1.1 200 OK\\r\\n     Content-Type: app
+Cohesion: 0.19
+Nodes (7): MiniHTTP, 阻塞启动内置 socket 服务器（Ctrl+C 结束）。, 迷你 HTTP 框架，风格类似 Flask：          app = MiniHTTP("demo")          @app.get("/"), 迷你 HTTP 框架，风格类似 Flask：          app = MiniHTTP("demo")          @app.get("/"), 通用路由装饰器；get/post/... 都是它的语法糖。, 注册中间件：middleware(request, call_next) -> Response, 注册中间件：middleware(request, call_next) -> Response。          先注册的中间件在最外层（先看到请求、最后看
 
 ### Community 48 - "Community 48"
 Cohesion: 0.15
@@ -446,60 +449,60 @@ Cohesion: 0.33
 Nodes (6): Calculator, call_math_function(), create_function_from_string(), create_function_with_exec(), create_partial_function(), 计算表达式，格式: 'a operator b
 
 ### Community 54 - "Community 54"
-Cohesion: 0.18
-Nodes (10): code:bash (cd fastapi-demo), code:bash (uvicorn src.main:app --reload --app-dir .), code:json ({ "code": 0, "message": "ok", "data": {} }), code:text (src/), code:python (from fastapi import Depends), Forum API (FastAPI Demo), 主要接口, 快速开始 (+2 more)
+Cohesion: 0.33
+Nodes (9): get_only_view(), hello_world(), post_only_view(), preview_view(), query_params(), submit_form(), submit_form_view(), test_middleware() (+1 more)
 
 ### Community 55 - "Community 55"
 Cohesion: 0.18
-Nodes (10): code:bash (cd fastapi-demo), code:bash (uvicorn src.main:app --reload --app-dir .), code:json ({ "code": 0, "message": "ok", "data": {} }), code:text (src/), FastAPI 项目, Forum API (FastAPI Demo), 主要接口, 快速开始 (+2 more)
+Nodes (10): code:bash (cd fastapi-demo), code:bash (uvicorn src.main:app --reload --app-dir .), code:json ({ "code": 0, "message": "ok", "data": {} }), code:text (src/), code:python (from fastapi import Depends), Forum API (FastAPI Demo), 主要接口, 快速开始 (+2 more)
 
 ### Community 56 - "Community 56"
+Cohesion: 0.18
+Nodes (10): code:bash (cd fastapi-demo), code:bash (uvicorn src.main:app --reload --app-dir .), code:json ({ "code": 0, "message": "ok", "data": {} }), code:text (src/), FastAPI 项目, Forum API (FastAPI Demo), 主要接口, 快速开始 (+2 more)
+
+### Community 57 - "Community 57"
 Cohesion: 0.24
 Nodes (8): discover_skills(), load_skill(), _parse_frontmatter(), Agent Skills 示例：扫描 skills/*/SKILL.md，把 name/description 注入 system prompt， 需要时通过, Parse YAML-ish frontmatter without requiring a full YAML dependency., Scan skills/*/SKILL.md and return skills keyed by name., Load a specialized skill's full instructions by name.      Call this when the us, Skill
 
-### Community 57 - "Community 57"
+### Community 58 - "Community 58"
 Cohesion: 0.2
 Nodes (9): del t[0]      # TypeError, print(u.name)  # AttributeError, print(x)  # NameError: name 'x' is not defined, 但可以删整个名字, 元组不能删元素（不可变）, 删切片、步长切片, 多目标一起删, 正确写法 (+1 more)
 
-### Community 58 - "Community 58"
+### Community 59 - "Community 59"
 Cohesion: 0.2
 Nodes (9): code:block1 (ReAct:), code:block2 (用户目标), Plan-and-Execute vs ReAct, Plan-and-Execute 三个角色, 一句话, 两种能混合吗？, 哪种更好？, 对比表 (+1 more)
 
-### Community 61 - "Community 61"
+### Community 62 - "Community 62"
 Cohesion: 0.28
 Nodes (3): Animal, Cat, Dog
 
-### Community 62 - "Community 62"
+### Community 63 - "Community 63"
 Cohesion: 0.56
 Nodes (5): circle_area(), circle_diameter(), circle_perimeter(), define_val(), update_val()
 
-### Community 63 - "Community 63"
+### Community 64 - "Community 64"
 Cohesion: 0.31
 Nodes (5): copyTextToClipboard(), CheckGlyph(), CopyGlyph(), iconProps, CopyButtonProps
 
-### Community 64 - "Community 64"
+### Community 65 - "Community 65"
 Cohesion: 0.31
 Nodes (8): add(), divide(), _log(), multiply(), 本地 MCP Server：数学工具（stdio 传输）。  注意：stdio 模式下 stdout 专供 JSON-RPC，调试日志必须打到 stderr。, 两数相加。      Args:         a: 第一个数         b: 第二个数, 两数相乘。      Args:         a: 第一个数         b: 第二个数, 两数相除。      Args:         a: 被除数         b: 除数（不能为 0）
 
-### Community 65 - "Community 65"
+### Community 66 - "Community 66"
 Cohesion: 0.22
 Nodes (8): code:python (class Animal:), code:python (class Dog(Animal):), 在子类中如何调用父类的方法, 多继承时, 小结, 方式一：`super()`（推荐）, 方式二：父类名.方法名(self, ...), 概念
 
-### Community 66 - "Community 66"
+### Community 67 - "Community 67"
 Cohesion: 0.31
 Nodes (7): code:shell (./.venv/bin/python3 -m pip install "fastapi[standard]" uvico), code:shell (fastapi dev), Linux/macOS, 创建虚拟环境, 启动项目, 安装依赖, 激活虚拟环境
 
-### Community 67 - "Community 67"
+### Community 68 - "Community 68"
 Cohesion: 0.22
 Nodes (8): 08 · Agent 调用 MCP, code:block1 (用户问题), code:bash (pip install langchain-mcp-adapters 'mcp>=1.24,<2'), code:bash (# 需已配置 DEEPSEEK_API_KEY), 依赖, 和 02 / 03 的区别, 目录, 运行
 
-### Community 70 - "Community 70"
+### Community 71 - "Community 71"
 Cohesion: 0.32
 Nodes (6): count_alpha(), count_score(), count_vowel(), 统计文本中字母的个数和字母的组合     :param text: 文本     :return: 字母的个数和字母的组合, 统计文本中元音字母的个数     :param text: 文本     :return: 元音字母的个数, 统计分数列表中最高分 最低分 和平均分     :param scores: 分数列表     :return: 最高分 最低分 和平均分
-
-### Community 72 - "Community 72"
-Cohesion: 0.54
-Nodes (5): critical(), error(), info(), log(), warning()
 
 ### Community 73 - "Community 73"
 Cohesion: 0.54
@@ -507,150 +510,162 @@ Nodes (5): critical(), error(), info(), log(), warning()
 
 ### Community 74 - "Community 74"
 Cohesion: 0.54
-Nodes (5): circle_area(), circle_diameter(), circle_perimeter(), define_val(), update_val()
+Nodes (5): critical(), error(), info(), log(), warning()
 
 ### Community 75 - "Community 75"
-Cohesion: 0.25
-Nodes (7): code:sh (pip freeze > requirements.txt), code:block2 (python your_script.py &), code:block3 (nohup python your_script.py &), code:python (import subprocess), 作用域, 依赖生成, 后台运行
+Cohesion: 0.54
+Nodes (5): circle_area(), circle_diameter(), circle_perimeter(), define_val(), update_val()
 
 ### Community 76 - "Community 76"
 Cohesion: 0.25
-Nodes (6): code:block2 (langchain_core          →  抽象：Prompt / Parser / Chain), `langchain_core`, `langchain_openai`, llm-demo, 二者关系, 依赖说明
+Nodes (7): code:sh (pip freeze > requirements.txt), code:block2 (python your_script.py &), code:block3 (nohup python your_script.py &), code:python (import subprocess), 作用域, 依赖生成, 后台运行
 
 ### Community 77 - "Community 77"
 Cohesion: 0.25
-Nodes (6): Allowed values, code:bash (python scripts/calculate_refund.py \), Output format, Refund Policy Skill, Rules, Workflow
+Nodes (6): code:block2 (langchain_core          →  抽象：Prompt / Parser / Chain), `langchain_core`, `langchain_openai`, llm-demo, 二者关系, 依赖说明
 
 ### Community 78 - "Community 78"
+Cohesion: 0.25
+Nodes (6): Allowed values, code:bash (python scripts/calculate_refund.py \), Output format, Refund Policy Skill, Rules, Workflow
+
+### Community 79 - "Community 79"
 Cohesion: 0.29
 Nodes (6): code:block1 (尊敬的 {name}：), Constraints, Support Reply Skill, Template, Tone, Workflow
 
-### Community 82 - "Community 82"
+### Community 83 - "Community 83"
 Cohesion: 0.36
-Nodes (3): CustomHTTPRequestHandler, get_local_ip(), start_server()
-
-### Community 84 - "Community 84"
-Cohesion: 0.33
 Nodes (3): CustomHTTPRequestHandler, get_local_ip(), start_server()
 
 ### Community 85 - "Community 85"
 Cohesion: 0.33
 Nodes (3): CustomHTTPRequestHandler, get_local_ip(), start_server()
 
-### Community 89 - "Community 89"
-Cohesion: 0.38
-Nodes (6): convert_currency(), get_weather(), _log(), 本地 MCP Server：天气 / 汇率工具（stdio 传输）。  注意：stdio 模式下 stdout 专供 JSON-RPC，调试日志必须打到 std, 查询城市当前天气（模拟数据）。      Args:         city: 城市名，如 东京 / Tokyo / 新加坡, 按模拟汇率兑换货币。      Args:         amount: 金额         from_currency: 源币种，如 USD / CNY
-
-### Community 90 - "Community 90"
-Cohesion: 0.48
-Nodes (5): code:shell (./ll_env/bin/python -m pip install Django), code:shell (./ll_env/bin/django-admin startproject hello_world .), code:shell (./ll_env/bin/python manage.py runserver), code:shell (python manage.py startapp polls), code:block5 (app_name/)
-
-### Community 91 - "Community 91"
-Cohesion: 0.29
-Nodes (6): code:python (match 表达式:), code:python (status = 404), code:python (day = "Sat"), code:python (point = (3, 5)), code:python (age = 20), code:python (# 序列)
-
-### Community 92 - "Community 92"
-Cohesion: 0.29
-Nodes (6): 07 · Plan-and-Execute, code:block1 (用户目标), code:bash (# 需已配置 DEEPSEEK_API_KEY（见仓库根或 llm-demo 的 .env）), 三个角色, 和 ReAct（02 / 03）的区别, 运行
-
-### Community 93 - "Community 93"
-Cohesion: 0.48
-Nodes (3): A, B, C
-
-### Community 94 - "Community 94"
-Cohesion: 0.38
-Nodes (5): getProductPrice(), getProductPrice2(), getProductPrice3(), 返回姓名、朋友列表和其他信息      :param name: 姓名     :param args: 不定长位置参数，朋友名称，如 "朋友1", "朋友2", :param args: 每个参数都是商品信息 ("苹果", 200, 2) => 名称，价格，数量
-
-### Community 96 - "Community 96"
+### Community 86 - "Community 86"
 Cohesion: 0.33
 Nodes (3): CustomHTTPRequestHandler, get_local_ip(), start_server()
 
-### Community 97 - "Community 97"
+### Community 90 - "Community 90"
+Cohesion: 0.38
+Nodes (6): convert_currency(), get_weather(), _log(), 本地 MCP Server：天气 / 汇率工具（stdio 传输）。  注意：stdio 模式下 stdout 专供 JSON-RPC，调试日志必须打到 std, 查询城市当前天气（模拟数据）。      Args:         city: 城市名，如 东京 / Tokyo / 新加坡, 按模拟汇率兑换货币。      Args:         amount: 金额         from_currency: 源币种，如 USD / CNY
+
+### Community 91 - "Community 91"
+Cohesion: 0.48
+Nodes (5): code:shell (./ll_env/bin/python -m pip install Django), code:shell (./ll_env/bin/django-admin startproject hello_world .), code:shell (./ll_env/bin/python manage.py runserver), code:shell (python manage.py startapp polls), code:block5 (app_name/)
+
+### Community 92 - "Community 92"
 Cohesion: 0.29
-Nodes (6): count_alpha(), count_score(), count_vowel(), 统计文本中字母的个数和字母的组合     :param text: 文本     :return: 字母的个数和字母的组合, 统计文本中元音字母的个数     :param text: 文本     :return: 元音字母的个数, 统计分数列表中最高分 最低分 和平均分     :param scores: 分数列表     :return: 最高分 最低分 和平均分
+Nodes (6): code:python (match 表达式:), code:python (status = 404), code:python (day = "Sat"), code:python (point = (3, 5)), code:python (age = 20), code:python (# 序列)
+
+### Community 93 - "Community 93"
+Cohesion: 0.29
+Nodes (6): 09 · 多轮记忆 / Checkpoint, code:block1 (轮次 N 的 messages（仅新用户话）), code:bash (# 需已配置 DEEPSEEK_API_KEY), 两个概念, 和 02 的区别, 运行
+
+### Community 94 - "Community 94"
+Cohesion: 0.29
+Nodes (6): 07 · Plan-and-Execute, code:block1 (用户目标), code:bash (# 需已配置 DEEPSEEK_API_KEY（见仓库根或 llm-demo 的 .env）), 三个角色, 和 ReAct（02 / 03）的区别, 运行
+
+### Community 95 - "Community 95"
+Cohesion: 0.48
+Nodes (3): A, B, C
+
+### Community 96 - "Community 96"
+Cohesion: 0.38
+Nodes (5): getProductPrice(), getProductPrice2(), getProductPrice3(), 返回姓名、朋友列表和其他信息      :param name: 姓名     :param args: 不定长位置参数，朋友名称，如 "朋友1", "朋友2", :param args: 每个参数都是商品信息 ("苹果", 200, 2) => 名称，价格，数量
 
 ### Community 98 - "Community 98"
 Cohesion: 0.33
 Nodes (3): CustomHTTPRequestHandler, get_local_ip(), start_server()
 
-### Community 101 - "Community 101"
+### Community 99 - "Community 99"
+Cohesion: 0.29
+Nodes (6): count_alpha(), count_score(), count_vowel(), 统计文本中字母的个数和字母的组合     :param text: 文本     :return: 字母的个数和字母的组合, 统计文本中元音字母的个数     :param text: 文本     :return: 元音字母的个数, 统计分数列表中最高分 最低分 和平均分     :param scores: 分数列表     :return: 最高分 最低分 和平均分
+
+### Community 100 - "Community 100"
 Cohesion: 0.33
 Nodes (3): CustomHTTPRequestHandler, get_local_ip(), start_server()
 
-### Community 102 - "Community 102"
+### Community 103 - "Community 103"
+Cohesion: 0.33
+Nodes (3): CustomHTTPRequestHandler, get_local_ip(), start_server()
+
+### Community 104 - "Community 104"
 Cohesion: 0.29
 Nodes (6): code:python (match 表达式:), code:python (status = 404), code:python (day = "Sat"), code:python (point = (3, 5)), code:python (age = 20), code:python (# 序列)
 
-### Community 103 - "Community 103"
+### Community 105 - "Community 105"
 Cohesion: 0.33
 Nodes (4): getProductPrice(), getProductPrice3(), 返回姓名、朋友列表和其他信息      :param name: 姓名     :param args: 不定长位置参数，朋友名称，如 "朋友1", "朋友2", :param args: 每个参数都是商品信息 ("苹果", 200, 2) => 名称，价格，数量
 
-### Community 104 - "Community 104"
+### Community 106 - "Community 106"
 Cohesion: 0.6
 Nodes (3): add(), greet(), multiply()
 
-### Community 105 - "Community 105"
+### Community 107 - "Community 107"
 Cohesion: 0.47
 Nodes (3): A, B, C
 
-### Community 108 - "Community 108"
+### Community 110 - "Community 110"
+Cohesion: 0.4
+Nodes (5): lookup_order(), main(), _print_reply(), 多轮记忆示例：用 Checkpointer 让 Agent 跨轮记住对话。  对比 02（单次 invoke，无状态）： - 02：每次 invoke 只带当前, 查询订单状态（演示：记忆与工具可同时使用）。      Args:         order_id: 订单号，如 ORD-1001
+
+### Community 111 - "Community 111"
 Cohesion: 0.33
 Nodes (5): code:bash (pnpm install), 功能, 开发, 脚本, 鱼泡论坛 Client
 
-### Community 113 - "Community 113"
+### Community 116 - "Community 116"
 Cohesion: 0.33
 Nodes (4): getProductPrice(), getProductPrice3(), 返回姓名、朋友列表和其他信息      :param name: 姓名     :param args: 不定长位置参数，朋友名称，如 "朋友1", "朋友2", :param args: 每个参数都是商品信息 ("苹果", 200, 2) => 名称，价格，数量
 
-### Community 118 - "Community 118"
+### Community 121 - "Community 121"
 Cohesion: 0.6
 Nodes (3): add(), execute_func(), sub()
 
-### Community 119 - "Community 119"
+### Community 122 - "Community 122"
 Cohesion: 0.5
 Nodes (3): calc_sum(), print_person(), 打印个人信息     :param name: 姓名     :param age: 年龄     :param args: 不定长参数     :param
 
-### Community 125 - "Community 125"
-Cohesion: 0.4
-Nodes (4): 阻塞启动内置 socket 服务器（Ctrl+C 结束）。, 阻塞式启动 TCP 服务器；每个连接在独立线程中处理。      SO_REUSEADDR：进程退出后端口可立即再绑定（开发时常用）。     daemon 线, 阻塞式启动 TCP 服务器；每个连接在独立线程中处理。, serve()
-
-### Community 127 - "Community 127"
+### Community 129 - "Community 129"
 Cohesion: 0.4
 Nodes (4): 内置模块有哪些, 模块的定义, 模块的导入, 软件包 package
 
-### Community 128 - "Community 128"
+### Community 130 - "Community 130"
 Cohesion: 0.4
 Nodes (4): 修改已有全局变量, 可变对象：改内容不需要 global, 在函数里「创建」全局变量（模块里原先没有也可以）, 正确：
 
-### Community 130 - "Community 130"
+### Community 131 - "Community 131"
+Cohesion: 0.4
+Nodes (4): llm-demo 待实践知识点, 优先（承接现有 demo）, 建议顺序, 进阶（系统感更强）
+
+### Community 133 - "Community 133"
 Cohesion: 0.6
 Nodes (3): calc(), calc2(), calc3()
 
-### Community 142 - "Community 142"
+### Community 145 - "Community 145"
 Cohesion: 0.5
 Nodes (3): list_models(), 本地 Ollama 聊天 Demo（Streamlit）。  说明： - 通过 Ollama 的 OpenAI 兼容接口调用本地模型 - Streamlit 每, 从 Ollama 拉取本地模型；过滤掉 embedding 模型。失败则用默认列表。
 
-### Community 145 - "Community 145"
+### Community 148 - "Community 148"
 Cohesion: 0.5
 Nodes (3): Sandbox 示例：用 ShellToolMiddleware 给 agent 提供受控 shell 执行环境。  对比 05：05 用 subprocess, 读取本示例目录下的 README.md（位于沙箱工作区之外）。      shell 只能访问 workspace；要用此工具读取沙箱外的 README。, read_readme()
 
 ## Knowledge Gaps
-- **741 isolated node(s):** `:param args: 每个参数都是商品信息 ("苹果", 200, 2) => 名称，价格，数量`, `返回姓名、朋友列表和其他信息      :param name: 姓名     :param args: 不定长位置参数，朋友名称，如 "朋友1", "朋友2"`, `计算圆的面积     :param radius: 圆的半径     :return: 圆的面积`, `统计文本中字母的个数和字母的组合     :param text: 文本     :return: 字母的个数和字母的组合`, `统计文本中元音字母的个数     :param text: 文本     :return: 元音字母的个数` (+736 more)
+- **749 isolated node(s):** `:param args: 每个参数都是商品信息 ("苹果", 200, 2) => 名称，价格，数量`, `返回姓名、朋友列表和其他信息      :param name: 姓名     :param args: 不定长位置参数，朋友名称，如 "朋友1", "朋友2"`, `计算圆的面积     :param radius: 圆的半径     :return: 圆的面积`, `统计文本中字母的个数和字母的组合     :param text: 文本     :return: 字母的个数和字母的组合`, `统计文本中元音字母的个数     :param text: 文本     :return: 元音字母的个数` (+744 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **86 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `MiniHTTP` connect `Community 45` to `Community 32`, `Community 39`, `Community 10`, `Community 46`, `Community 47`, `Community 125`?**
+- **Why does `MiniHTTP` connect `Community 47` to `Community 33`, `Community 12`, `Community 21`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
-- **Why does `text_response()` connect `Community 39` to `Community 41`, `Community 42`, `Community 46`, `Community 47`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
-- **Why does `Request` connect `Community 32` to `Community 45`, `Community 46`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
+- **Why does `Request` connect `Community 33` to `Community 44`, `Community 47`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **Why does `text_response()` connect `Community 12` to `Community 42`, `Community 43`, `Community 44`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **Are the 4 inferred relationships involving `MiniHTTP` (e.g. with `Request` and `Response`) actually correct?**
   _`MiniHTTP` has 4 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `:param args: 每个参数都是商品信息 ("苹果", 200, 2) => 名称，价格，数量`, `返回姓名、朋友列表和其他信息      :param name: 姓名     :param args: 不定长位置参数，朋友名称，如 "朋友1", "朋友2"`, `计算圆的面积     :param radius: 圆的半径     :return: 圆的面积` to the rest of the system?**
-  _741 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _749 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.06 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
