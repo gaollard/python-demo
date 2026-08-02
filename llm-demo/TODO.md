@@ -1,6 +1,6 @@
 # llm-demo 待实践知识点
 
-已完成：`01` LCEL → `02/03` ReAct → `04/05` Skill → `06` Sandbox → `07` Plan-and-Execute → `08` MCP → `09` 多轮记忆 → `10` Checkpoint 持久化。
+已完成：`01` LCEL → `02/03` ReAct → `04/05` Skill → `06` Sandbox → `07` Plan-and-Execute → `08` MCP → `09` 多轮记忆 → `10` Checkpoint 持久化 → `11` HITL。
 
 ## 优先（承接现有 demo）
 
@@ -8,7 +8,7 @@
 |------|------|--------|--------------|------|
 | 09 | 多轮记忆 / Checkpoint | `MemorySaver`，同一 `thread_id` 多轮对话 | 02–08 基本都是单次 `invoke`，缺状态 | ✅ `09-多伦记忆/` |
 | 10 | Checkpoint 持久化 | `SqliteSaver` 落盘；关连接 / 重启后同 `thread_id` 仍能续聊 | 接 09：换 checkpointer 实现，API 不变 | ✅ `10-多伦记忆-checkpoint持久化/` |
-| 11 | Human-in-the-loop | LangGraph `interrupt`：敏感操作前人工确认再继续 | 接 06 middleware、07 状态机 | 待做 |
+| 11 | Human-in-the-loop | LangGraph `interrupt`：敏感操作前人工确认再继续 | 接 06 middleware、07 状态机 | ✅ `11-agent-human-in-the-loop/` |
 | 12 | 结构化输出 | `with_structured_output` / Pydantic，强制 JSON Schema | 07 已有 Planner schema，可单独拆成最小 demo | 待做 |
 | 13 | Streaming | `astream` / token 流 / 工具调用事件流 | 生产里几乎必备，现有 demo 都是整包返回 | 待做 |
 | 14 | RAG + Agent | 本地文档切块 → 向量检索 tool → Agent 问答 | 和 03 多工具、04 Skill 互补 | 待做 |
