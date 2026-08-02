@@ -14,4 +14,7 @@
 # ./.venv/bin/python3 10-多伦记忆-checkpoint持久化/main.py
 
 # Human-in-the-loop（敏感工具 interrupt + 人工 approve/reject）
-./.venv/bin/python3 11-agent-human-in-the-loop/main.py
+# ./.venv/bin/python3 11-agent-human-in-the-loop/main.py
+
+# LangSmith Tracing + Eval
+./.venv/bin/python3 12-LangSmith/main.py

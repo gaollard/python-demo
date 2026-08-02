@@ -955,6 +955,10 @@
     "mtime": 1785422135.5414252,
     "hash": "26723543b24cb568be037b78ba9a58f4"
   },
+  "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/12-LangSmith/main.py": {
+    "mtime": 1785635658.1861696,
+    "hash": "6def3aeba27f3c3296fd243267263772"
+  },
   "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/01-\u7b80\u7b54\u4f8b\u5b50/02-\u4ee3\u7801\u52a9\u624b.py": {
     "mtime": 1785335729.0212007,
     "hash": "d9827d972a226e224646e86eca58edd5"
@@ -1308,8 +1312,8 @@
     "hash": "c0eb1faab3bc203748b335b7bec48a89"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/TODO.md": {
-    "mtime": 1785633810.958743,
-    "hash": "cc8e11d649aa46e68829a48e79831ec8"
+    "mtime": 1785635566.7672424,
+    "hash": "85424caa217783d532ae3b95ee5959e9"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/README.md": {
     "mtime": 1785335492.0090098,
@@ -1326,6 +1330,10 @@
   "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/06-sandbox/workspace/sum.txt": {
     "mtime": 1785422156.5056407,
     "hash": "9fdc03fef9ff73d752cddfe000401e74"
+  },
+  "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/12-LangSmith/README.md": {
+    "mtime": 1785635542.2087145,
+    "hash": "fe1821a5bd955aaceb51c3a45041646b"
   },
   "/Users/xiong.gao/code/GITHUB/pythons/llm-demo/09-\u591a\u4f26\u8bb0\u5fc6/README.md": {
     "mtime": 1785575840.2456262,
