@@ -1,0 +1,4851 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "test_safety.py",
+      "file_type": "code",
+      "source_file": "tests/test_safety.py",
+      "source_location": "L1",
+      "id": "tests_test_safety_py",
+      "community": 0,
+      "norm_label": "test_safety.py"
+    },
+    {
+      "label": "test_resolve_under_root_ok()",
+      "file_type": "code",
+      "source_file": "tests/test_safety.py",
+      "source_location": "L8",
+      "id": "tests_test_safety_test_resolve_under_root_ok",
+      "community": 0,
+      "norm_label": "test_resolve_under_root_ok()"
+    },
+    {
+      "label": "test_resolve_blocks_escape()",
+      "file_type": "code",
+      "source_file": "tests/test_safety.py",
+      "source_location": "L16",
+      "id": "tests_test_safety_test_resolve_blocks_escape",
+      "community": 0,
+      "norm_label": "test_resolve_blocks_escape()"
+    },
+    {
+      "label": "test_truncate()",
+      "file_type": "code",
+      "source_file": "tests/test_safety.py",
+      "source_location": "L21",
+      "id": "tests_test_safety_test_truncate",
+      "community": 0,
+      "norm_label": "test_truncate()"
+    },
+    {
+      "label": "test_agent_loop.py",
+      "file_type": "code",
+      "source_file": "tests/test_agent_loop.py",
+      "source_location": "L1",
+      "id": "tests_test_agent_loop_py",
+      "community": 2,
+      "norm_label": "test_agent_loop.py"
+    },
+    {
+      "label": "_settings()",
+      "file_type": "code",
+      "source_file": "tests/test_agent_loop.py",
+      "source_location": "L9",
+      "id": "tests_test_agent_loop_settings",
+      "community": 2,
+      "norm_label": "_settings()"
+    },
+    {
+      "label": "test_agent_uses_tools_then_answers()",
+      "file_type": "code",
+      "source_file": "tests/test_agent_loop.py",
+      "source_location": "L25",
+      "id": "tests_test_agent_loop_test_agent_uses_tools_then_answers",
+      "community": 2,
+      "norm_label": "test_agent_uses_tools_then_answers()"
+    },
+    {
+      "label": "test_agent_prints_assistant_content_with_tool_calls()",
+      "file_type": "code",
+      "source_file": "tests/test_agent_loop.py",
+      "source_location": "L60",
+      "id": "tests_test_agent_loop_test_agent_prints_assistant_content_with_tool_calls",
+      "community": 2,
+      "norm_label": "test_agent_prints_assistant_content_with_tool_calls()"
+    },
+    {
+      "label": "test_tools.py",
+      "file_type": "code",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L1",
+      "id": "tests_test_tools_py",
+      "community": 0,
+      "norm_label": "test_tools.py"
+    },
+    {
+      "label": "test_outline_and_symbol()",
+      "file_type": "code",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L9",
+      "id": "tests_test_tools_test_outline_and_symbol",
+      "community": 6,
+      "norm_label": "test_outline_and_symbol()"
+    },
+    {
+      "label": "test_list_dir_and_grep()",
+      "file_type": "code",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L33",
+      "id": "tests_test_tools_test_list_dir_and_grep",
+      "community": 0,
+      "norm_label": "test_list_dir_and_grep()"
+    },
+    {
+      "label": "test_find_definition()",
+      "file_type": "code",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L43",
+      "id": "tests_test_tools_test_find_definition",
+      "community": 0,
+      "norm_label": "test_find_definition()"
+    },
+    {
+      "label": "config.py",
+      "file_type": "code",
+      "source_file": "src/code_wiki/config.py",
+      "source_location": "L1",
+      "id": "src_code_wiki_config_py",
+      "community": 13,
+      "norm_label": "config.py"
+    },
+    {
+      "label": "_env_int()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/config.py",
+      "source_location": "L7",
+      "id": "code_wiki_config_env_int",
+      "community": 13,
+      "norm_label": "_env_int()"
+    },
+    {
+      "label": "_env_bool()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/config.py",
+      "source_location": "L14",
+      "id": "code_wiki_config_env_bool",
+      "community": 13,
+      "norm_label": "_env_bool()"
+    },
+    {
+      "label": "Settings",
+      "file_type": "code",
+      "source_file": "src/code_wiki/config.py",
+      "source_location": "L26",
+      "id": "code_wiki_config_settings",
+      "community": 2,
+      "norm_label": "settings"
+    },
+    {
+      "label": "from_env()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/config.py",
+      "source_location": "L38",
+      "id": "code_wiki_config_from_env",
+      "community": 13,
+      "norm_label": "from_env()"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "src/code_wiki/__init__.py",
+      "source_location": "L1",
+      "id": "src_code_wiki_init_py",
+      "community": 14,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "Code Wiki \u2014 read-only code analysis agent.",
+      "file_type": "rationale",
+      "source_file": "src/code_wiki/__init__.py",
+      "source_location": "L1",
+      "id": "code_wiki_init_rationale_1",
+      "community": 14,
+      "norm_label": "code wiki \u2014 read-only code analysis agent."
+    },
+    {
+      "label": "llm.py",
+      "file_type": "code",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L1",
+      "id": "src_code_wiki_llm_py",
+      "community": 2,
+      "norm_label": "llm.py"
+    },
+    {
+      "label": "LLMResponse",
+      "file_type": "code",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L11",
+      "id": "code_wiki_llm_llmresponse",
+      "community": 2,
+      "norm_label": "llmresponse"
+    },
+    {
+      "label": "LLMClient",
+      "file_type": "code",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L17",
+      "id": "code_wiki_llm_llmclient",
+      "community": 2,
+      "norm_label": "llmclient"
+    },
+    {
+      "label": "Protocol",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "protocol",
+      "community": 3,
+      "norm_label": "protocol"
+    },
+    {
+      "label": ".chat()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L18",
+      "id": "code_wiki_llm_llmclient_chat",
+      "community": 2,
+      "norm_label": ".chat()"
+    },
+    {
+      "label": "OpenAICompatibleClient",
+      "file_type": "code",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L25",
+      "id": "code_wiki_llm_openaicompatibleclient",
+      "community": 2,
+      "norm_label": "openaicompatibleclient"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L26",
+      "id": "code_wiki_llm_openaicompatibleclient_init",
+      "community": 2,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".chat()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L35",
+      "id": "code_wiki_llm_openaicompatibleclient_chat",
+      "community": 2,
+      "norm_label": ".chat()"
+    },
+    {
+      "label": "MockLLMClient",
+      "file_type": "code",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L81",
+      "id": "code_wiki_llm_mockllmclient",
+      "community": 2,
+      "norm_label": "mockllmclient"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L84",
+      "id": "code_wiki_llm_mockllmclient_init",
+      "community": 2,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".chat()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L88",
+      "id": "code_wiki_llm_mockllmclient_chat",
+      "community": 2,
+      "norm_label": ".chat()"
+    },
+    {
+      "label": "Deterministic client for tests: scripted responses.",
+      "file_type": "rationale",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L82",
+      "id": "code_wiki_llm_rationale_82",
+      "community": 2,
+      "norm_label": "deterministic client for tests: scripted responses."
+    },
+    {
+      "label": "prompts.py",
+      "file_type": "code",
+      "source_file": "src/code_wiki/prompts.py",
+      "source_location": "L1",
+      "id": "src_code_wiki_prompts_py",
+      "community": 7,
+      "norm_label": "prompts.py"
+    },
+    {
+      "label": "system_prompt()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/prompts.py",
+      "source_location": "L6",
+      "id": "code_wiki_prompts_system_prompt",
+      "community": 7,
+      "norm_label": "system_prompt()"
+    },
+    {
+      "label": "user_prompt()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/prompts.py",
+      "source_location": "L27",
+      "id": "code_wiki_prompts_user_prompt",
+      "community": 7,
+      "norm_label": "user_prompt()"
+    },
+    {
+      "label": "bootstrap_context()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/prompts.py",
+      "source_location": "L31",
+      "id": "code_wiki_prompts_bootstrap_context",
+      "community": 7,
+      "norm_label": "bootstrap_context()"
+    },
+    {
+      "label": "Cheap first-turn context: top-level listing + README snippet.",
+      "file_type": "rationale",
+      "source_file": "src/code_wiki/prompts.py",
+      "source_location": "L32",
+      "id": "code_wiki_prompts_rationale_32",
+      "community": 7,
+      "norm_label": "cheap first-turn context: top-level listing + readme snippet."
+    },
+    {
+      "label": "outline.py",
+      "file_type": "code",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L1",
+      "id": "src_code_wiki_outline_py",
+      "community": 6,
+      "norm_label": "outline.py"
+    },
+    {
+      "label": "SymbolSpan",
+      "file_type": "code",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L45",
+      "id": "code_wiki_outline_symbolspan",
+      "community": 6,
+      "norm_label": "symbolspan"
+    },
+    {
+      "label": "_kind_from_sig()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L55",
+      "id": "code_wiki_outline_kind_from_sig",
+      "community": 6,
+      "norm_label": "_kind_from_sig()"
+    },
+    {
+      "label": "_name_from_sig()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L70",
+      "id": "code_wiki_outline_name_from_sig",
+      "community": 6,
+      "norm_label": "_name_from_sig()"
+    },
+    {
+      "label": "extract_symbols()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L77",
+      "id": "code_wiki_outline_extract_symbols",
+      "community": 6,
+      "norm_label": "extract_symbols()"
+    },
+    {
+      "label": "_fix_end_lines()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L148",
+      "id": "code_wiki_outline_fix_end_lines",
+      "community": 6,
+      "norm_label": "_fix_end_lines()"
+    },
+    {
+      "label": "extract_imports()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L176",
+      "id": "code_wiki_outline_extract_imports",
+      "community": 6,
+      "norm_label": "extract_imports()"
+    },
+    {
+      "label": "format_outline()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L190",
+      "id": "code_wiki_outline_format_outline",
+      "community": 6,
+      "norm_label": "format_outline()"
+    },
+    {
+      "label": "find_symbol_span()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L223",
+      "id": "code_wiki_outline_find_symbol_span",
+      "community": 6,
+      "norm_label": "find_symbol_span()"
+    },
+    {
+      "label": "format_symbol_body()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L237",
+      "id": "code_wiki_outline_format_symbol_body",
+      "community": 6,
+      "norm_label": "format_symbol_body()"
+    },
+    {
+      "label": "Extract top-level / nested signatures via indent heuristics.",
+      "file_type": "rationale",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L78",
+      "id": "code_wiki_outline_rationale_78",
+      "community": 6,
+      "norm_label": "extract top-level / nested signatures via indent heuristics."
+    },
+    {
+      "label": "cli.py",
+      "file_type": "code",
+      "source_file": "src/code_wiki/cli.py",
+      "source_location": "L1",
+      "id": "src_code_wiki_cli_py",
+      "community": 7,
+      "norm_label": "cli.py"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/cli.py",
+      "source_location": "L17",
+      "id": "code_wiki_cli_main",
+      "community": 7,
+      "norm_label": "main()"
+    },
+    {
+      "label": "app()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/cli.py",
+      "source_location": "L56",
+      "id": "code_wiki_cli_app",
+      "community": 7,
+      "norm_label": "app()"
+    },
+    {
+      "label": "Code Wiki \u2014 analyze a workspace with an LLM agent.",
+      "file_type": "rationale",
+      "source_file": "src/code_wiki/cli.py",
+      "source_location": "L26",
+      "id": "code_wiki_cli_rationale_26",
+      "community": 7,
+      "norm_label": "code wiki \u2014 analyze a workspace with an llm agent."
+    },
+    {
+      "label": "agent.py",
+      "file_type": "code",
+      "source_file": "src/code_wiki/agent.py",
+      "source_location": "L1",
+      "id": "src_code_wiki_agent_py",
+      "community": 7,
+      "norm_label": "agent.py"
+    },
+    {
+      "label": "run_agent()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/agent.py",
+      "source_location": "L16",
+      "id": "code_wiki_agent_run_agent",
+      "community": 7,
+      "norm_label": "run_agent()"
+    },
+    {
+      "label": "Run the analysis agent and return the final answer text.",
+      "file_type": "rationale",
+      "source_file": "src/code_wiki/agent.py",
+      "source_location": "L26",
+      "id": "code_wiki_agent_rationale_26",
+      "community": 7,
+      "norm_label": "run the analysis agent and return the final answer text."
+    },
+    {
+      "label": "safety.py",
+      "file_type": "code",
+      "source_file": "src/code_wiki/safety.py",
+      "source_location": "L1",
+      "id": "src_code_wiki_safety_py",
+      "community": 0,
+      "norm_label": "safety.py"
+    },
+    {
+      "label": "PathEscapeError",
+      "file_type": "code",
+      "source_file": "src/code_wiki/safety.py",
+      "source_location": "L80",
+      "id": "code_wiki_safety_pathescapeerror",
+      "community": 0,
+      "norm_label": "pathescapeerror"
+    },
+    {
+      "label": "ValueError",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "valueerror",
+      "community": 0,
+      "norm_label": "valueerror"
+    },
+    {
+      "label": "resolve_under_root()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/safety.py",
+      "source_location": "L84",
+      "id": "code_wiki_safety_resolve_under_root",
+      "community": 0,
+      "norm_label": "resolve_under_root()"
+    },
+    {
+      "label": "is_ignored_name()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/safety.py",
+      "source_location": "L95",
+      "id": "code_wiki_safety_is_ignored_name",
+      "community": 0,
+      "norm_label": "is_ignored_name()"
+    },
+    {
+      "label": "should_skip_dir()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/safety.py",
+      "source_location": "L99",
+      "id": "code_wiki_safety_should_skip_dir",
+      "community": 0,
+      "norm_label": "should_skip_dir()"
+    },
+    {
+      "label": "is_probably_text_file()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/safety.py",
+      "source_location": "L103",
+      "id": "code_wiki_safety_is_probably_text_file",
+      "community": 0,
+      "norm_label": "is_probably_text_file()"
+    },
+    {
+      "label": "truncate()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/safety.py",
+      "source_location": "L112",
+      "id": "code_wiki_safety_truncate",
+      "community": 0,
+      "norm_label": "truncate()"
+    },
+    {
+      "label": "truncate_lines()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/safety.py",
+      "source_location": "L118",
+      "id": "code_wiki_safety_truncate_lines",
+      "community": 0,
+      "norm_label": "truncate_lines()"
+    },
+    {
+      "label": "Resolve path and ensure it stays inside root.",
+      "file_type": "rationale",
+      "source_file": "src/code_wiki/safety.py",
+      "source_location": "L85",
+      "id": "code_wiki_safety_rationale_85",
+      "community": 0,
+      "norm_label": "resolve path and ensure it stays inside root."
+    },
+    {
+      "label": "git_tools.py",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L1",
+      "id": "src_code_wiki_tools_git_tools_py",
+      "community": 8,
+      "norm_label": "git_tools.py"
+    },
+    {
+      "label": "_git_env()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L16",
+      "id": "tools_git_tools_git_env",
+      "community": 8,
+      "norm_label": "_git_env()"
+    },
+    {
+      "label": "_find_git_root()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L23",
+      "id": "tools_git_tools_find_git_root",
+      "community": 8,
+      "norm_label": "_find_git_root()"
+    },
+    {
+      "label": "_run_git()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L52",
+      "id": "tools_git_tools_run_git",
+      "community": 8,
+      "norm_label": "_run_git()"
+    },
+    {
+      "label": "_safe_rel_path()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L80",
+      "id": "tools_git_tools_safe_rel_path",
+      "community": 8,
+      "norm_label": "_safe_rel_path()"
+    },
+    {
+      "label": "git_status()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L88",
+      "id": "tools_git_tools_git_status",
+      "community": 8,
+      "norm_label": "git_status()"
+    },
+    {
+      "label": "git_log()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L98",
+      "id": "tools_git_tools_git_log",
+      "community": 8,
+      "norm_label": "git_log()"
+    },
+    {
+      "label": "git_blame()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L127",
+      "id": "tools_git_tools_git_blame",
+      "community": 8,
+      "norm_label": "git_blame()"
+    },
+    {
+      "label": "_format_blame_porcelain()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L167",
+      "id": "tools_git_tools_format_blame_porcelain",
+      "community": 8,
+      "norm_label": "_format_blame_porcelain()"
+    },
+    {
+      "label": "git_show()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L195",
+      "id": "tools_git_tools_git_show",
+      "community": 8,
+      "norm_label": "git_show()"
+    },
+    {
+      "label": "git_diff()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L216",
+      "id": "tools_git_tools_git_diff",
+      "community": 8,
+      "norm_label": "git_diff()"
+    },
+    {
+      "label": "git_tools()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L244",
+      "id": "tools_git_tools_git_tools",
+      "community": 3,
+      "norm_label": "git_tools()"
+    },
+    {
+      "label": "filesystem.py",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L1",
+      "id": "src_code_wiki_tools_filesystem_py",
+      "community": 0,
+      "norm_label": "filesystem.py"
+    },
+    {
+      "label": "_rel()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L23",
+      "id": "tools_filesystem_rel",
+      "community": 0,
+      "norm_label": "_rel()"
+    },
+    {
+      "label": "list_dir()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L27",
+      "id": "tools_filesystem_list_dir",
+      "community": 0,
+      "norm_label": "list_dir()"
+    },
+    {
+      "label": "glob_files()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L59",
+      "id": "tools_filesystem_glob_files",
+      "community": 0,
+      "norm_label": "glob_files()"
+    },
+    {
+      "label": "_read_lines()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L82",
+      "id": "tools_filesystem_read_lines",
+      "community": 0,
+      "norm_label": "_read_lines()"
+    },
+    {
+      "label": "read_file()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L94",
+      "id": "tools_filesystem_read_file",
+      "community": 0,
+      "norm_label": "read_file()"
+    },
+    {
+      "label": "filesystem_tools()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L149",
+      "id": "tools_filesystem_filesystem_tools",
+      "community": 3,
+      "norm_label": "filesystem_tools()"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L1",
+      "id": "src_code_wiki_tools_init_py",
+      "community": 3,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "ToolCall",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L19",
+      "id": "tools_init_toolcall",
+      "community": 2,
+      "norm_label": "toolcall"
+    },
+    {
+      "label": "ToolResult",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L26",
+      "id": "tools_init_toolresult",
+      "community": 3,
+      "norm_label": "toolresult"
+    },
+    {
+      "label": "ToolRegistry",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L31",
+      "id": "tools_init_toolregistry",
+      "community": 3,
+      "norm_label": "toolregistry"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L32",
+      "id": "tools_init_toolregistry_init",
+      "community": 3,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": "from_settings()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L38",
+      "id": "tools_init_from_settings",
+      "community": 3,
+      "norm_label": "from_settings()"
+    },
+    {
+      "label": ".openai_tools()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L52",
+      "id": "tools_init_toolregistry_openai_tools",
+      "community": 3,
+      "norm_label": ".openai_tools()"
+    },
+    {
+      "label": ".run_one()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L55",
+      "id": "tools_init_toolregistry_run_one",
+      "community": 3,
+      "norm_label": ".run_one()"
+    },
+    {
+      "label": ".run_one_timed()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L58",
+      "id": "tools_init_toolregistry_run_one_timed",
+      "community": 3,
+      "norm_label": ".run_one_timed()"
+    },
+    {
+      "label": ".execute_many()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L70",
+      "id": "tools_init_toolregistry_execute_many",
+      "community": 3,
+      "norm_label": ".execute_many()"
+    },
+    {
+      "label": "parse_tool_arguments()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L104",
+      "id": "tools_init_parse_tool_arguments",
+      "community": 2,
+      "norm_label": "parse_tool_arguments()"
+    },
+    {
+      "label": "grep.py",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/grep.py",
+      "source_location": "L1",
+      "id": "src_code_wiki_tools_grep_py",
+      "community": 0,
+      "norm_label": "grep.py"
+    },
+    {
+      "label": "_rg_available()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/grep.py",
+      "source_location": "L22",
+      "id": "tools_grep_rg_available",
+      "community": 0,
+      "norm_label": "_rg_available()"
+    },
+    {
+      "label": "_grep_rg()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/grep.py",
+      "source_location": "L26",
+      "id": "tools_grep_grep_rg",
+      "community": 0,
+      "norm_label": "_grep_rg()"
+    },
+    {
+      "label": "_grep_python()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/grep.py",
+      "source_location": "L97",
+      "id": "tools_grep_grep_python",
+      "community": 0,
+      "norm_label": "_grep_python()"
+    },
+    {
+      "label": "grep_code()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/grep.py",
+      "source_location": "L152",
+      "id": "tools_grep_grep_code",
+      "community": 0,
+      "norm_label": "grep_code()"
+    },
+    {
+      "label": "grep_tools()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/grep.py",
+      "source_location": "L181",
+      "id": "tools_grep_grep_tools",
+      "community": 3,
+      "norm_label": "grep_tools()"
+    },
+    {
+      "label": "symbols.py",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/symbols.py",
+      "source_location": "L1",
+      "id": "src_code_wiki_tools_symbols_py",
+      "community": 0,
+      "norm_label": "symbols.py"
+    },
+    {
+      "label": "_iter_source_files()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/symbols.py",
+      "source_location": "L27",
+      "id": "tools_symbols_iter_source_files",
+      "community": 0,
+      "norm_label": "_iter_source_files()"
+    },
+    {
+      "label": "find_definition()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/symbols.py",
+      "source_location": "L42",
+      "id": "tools_symbols_find_definition",
+      "community": 0,
+      "norm_label": "find_definition()"
+    },
+    {
+      "label": "find_references()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/symbols.py",
+      "source_location": "L87",
+      "id": "tools_symbols_find_references",
+      "community": 0,
+      "norm_label": "find_references()"
+    },
+    {
+      "label": "symbol_tools()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/symbols.py",
+      "source_location": "L147",
+      "id": "tools_symbols_symbol_tools",
+      "community": 3,
+      "norm_label": "symbol_tools()"
+    },
+    {
+      "label": "base.py",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/base.py",
+      "source_location": "L1",
+      "id": "src_code_wiki_tools_base_py",
+      "community": 3,
+      "norm_label": "base.py"
+    },
+    {
+      "label": "ToolSpec",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/base.py",
+      "source_location": "L9",
+      "id": "tools_base_toolspec",
+      "community": 3,
+      "norm_label": "toolspec"
+    },
+    {
+      "label": ".openai_schema()",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/base.py",
+      "source_location": "L15",
+      "id": "tools_base_toolspec_openai_schema",
+      "community": 3,
+      "norm_label": ".openai_schema()"
+    },
+    {
+      "label": "ToolContext",
+      "file_type": "code",
+      "source_file": "src/code_wiki/tools/base.py",
+      "source_location": "L26",
+      "id": "tools_base_toolcontext",
+      "community": 3,
+      "norm_label": "toolcontext"
+    },
+    {
+      "label": "tech-design.md",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L1",
+      "id": "tech_design_md",
+      "community": 1,
+      "norm_label": "tech-design.md"
+    },
+    {
+      "label": "Code Wiki \u2014 AI Technical Design",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L1",
+      "id": "code_wiki_tech_design_code_wiki_ai_technical_design",
+      "community": 1,
+      "norm_label": "code wiki \u2014 ai technical design"
+    },
+    {
+      "label": "1. \u80cc\u666f\u4e0e\u76ee\u6807",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L3",
+      "id": "code_wiki_tech_design_1_\u80cc\u666f\u4e0e\u76ee\u6807",
+      "community": 1,
+      "norm_label": "1. \u80cc\u666f\u4e0e\u76ee\u6807"
+    },
+    {
+      "label": "1.1 \u4ea7\u54c1\u76ee\u6807",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L5",
+      "id": "code_wiki_tech_design_1_1_\u4ea7\u54c1\u76ee\u6807",
+      "community": 1,
+      "norm_label": "1.1 \u4ea7\u54c1\u76ee\u6807"
+    },
+    {
+      "label": "1.2 \u6210\u529f\u6807\u51c6\uff08MVP\uff09",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L9",
+      "id": "code_wiki_tech_design_1_2_\u6210\u529f\u6807\u51c6_mvp",
+      "community": 1,
+      "norm_label": "1.2 \u6210\u529f\u6807\u51c6(mvp)"
+    },
+    {
+      "label": "1.3 \u975e\u76ee\u6807\uff08MVP \u4e0d\u505a\uff09",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L20",
+      "id": "code_wiki_tech_design_1_3_\u975e\u76ee\u6807_mvp_\u4e0d\u505a",
+      "community": 1,
+      "norm_label": "1.3 \u975e\u76ee\u6807(mvp \u4e0d\u505a)"
+    },
+    {
+      "label": "2. \u603b\u4f53\u67b6\u6784",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L30",
+      "id": "code_wiki_tech_design_2_\u603b\u4f53\u67b6\u6784",
+      "community": 1,
+      "norm_label": "2. \u603b\u4f53\u67b6\u6784"
+    },
+    {
+      "label": "code:block1 (\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500)",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L32",
+      "id": "code_wiki_tech_design_codeblock_1",
+      "community": 1,
+      "norm_label": "code:block1 (\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500)"
+    },
+    {
+      "label": "3. \u6838\u5fc3\u6d41\u7a0b",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L67",
+      "id": "code_wiki_tech_design_3_\u6838\u5fc3\u6d41\u7a0b",
+      "community": 9,
+      "norm_label": "3. \u6838\u5fc3\u6d41\u7a0b"
+    },
+    {
+      "label": "code:block2 (1. \u6821\u9a8c workspace \u5b58\u5728\u4e14\u4e3a\u76ee\u5f55)",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L69",
+      "id": "code_wiki_tech_design_codeblock_2",
+      "community": 9,
+      "norm_label": "code:block2 (1. \u6821\u9a8c workspace \u5b58\u5728\u4e14\u4e3a\u76ee\u5f55)"
+    },
+    {
+      "label": "3.1 Agent \u7b56\u7565\uff08\u5199\u5165 System Prompt\uff09",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L79",
+      "id": "code_wiki_tech_design_3_1_agent_\u7b56\u7565_\u5199\u5165_system_prompt",
+      "community": 9,
+      "norm_label": "3.1 agent \u7b56\u7565(\u5199\u5165 system prompt)"
+    },
+    {
+      "label": "3.2 \u5e76\u884c Tool Calls",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L88",
+      "id": "code_wiki_tech_design_3_2_\u5e76\u884c_tool_calls",
+      "community": 9,
+      "norm_label": "3.2 \u5e76\u884c tool calls"
+    },
+    {
+      "label": "\u884c\u4e3a\u7ea6\u5b9a",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L92",
+      "id": "code_wiki_tech_design_\u884c\u4e3a\u7ea6\u5b9a",
+      "community": 9,
+      "norm_label": "\u884c\u4e3a\u7ea6\u5b9a"
+    },
+    {
+      "label": "\u4f2a\u4ee3\u7801",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L103",
+      "id": "code_wiki_tech_design_\u4f2a\u4ee3\u7801",
+      "community": 9,
+      "norm_label": "\u4f2a\u4ee3\u7801"
+    },
+    {
+      "label": "code:python (def execute_tool_calls(tool_calls: list[ToolCall], workspace)",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L105",
+      "id": "code_wiki_tech_design_codeblock_3",
+      "community": 9,
+      "norm_label": "code:python (def execute_tool_calls(tool_calls: list[toolcall], workspace)"
+    },
+    {
+      "label": "code:python (if resp.tool_calls:)",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L118",
+      "id": "code_wiki_tech_design_codeblock_4",
+      "community": 9,
+      "norm_label": "code:python (if resp.tool_calls:)"
+    },
+    {
+      "label": "Prompt \u4fa7\u5f15\u5bfc\uff08\u53ef\u9009\uff09",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L126",
+      "id": "code_wiki_tech_design_prompt_\u4fa7\u5f15\u5bfc_\u53ef\u9009",
+      "community": 9,
+      "norm_label": "prompt \u4fa7\u5f15\u5bfc(\u53ef\u9009)"
+    },
+    {
+      "label": "\u6ce8\u610f\u4e8b\u9879",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L132",
+      "id": "code_wiki_tech_design_\u6ce8\u610f\u4e8b\u9879",
+      "community": 9,
+      "norm_label": "\u6ce8\u610f\u4e8b\u9879"
+    },
+    {
+      "label": "\u914d\u7f6e",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L139",
+      "id": "code_wiki_tech_design_\u914d\u7f6e",
+      "community": 9,
+      "norm_label": "\u914d\u7f6e"
+    },
+    {
+      "label": "4. \u6a21\u5757\u8bbe\u8ba1",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L148",
+      "id": "code_wiki_tech_design_4_\u6a21\u5757\u8bbe\u8ba1",
+      "community": 1,
+      "norm_label": "4. \u6a21\u5757\u8bbe\u8ba1"
+    },
+    {
+      "label": "4.1 \u5efa\u8bae\u76ee\u5f55\u7ed3\u6784",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L150",
+      "id": "code_wiki_tech_design_4_1_\u5efa\u8bae\u76ee\u5f55\u7ed3\u6784",
+      "community": 1,
+      "norm_label": "4.1 \u5efa\u8bae\u76ee\u5f55\u7ed3\u6784"
+    },
+    {
+      "label": "code:block5 (code-wiki/)",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L152",
+      "id": "code_wiki_tech_design_codeblock_5",
+      "community": 1,
+      "norm_label": "code:block5 (code-wiki/)"
+    },
+    {
+      "label": "4.2 \u6a21\u5757\u804c\u8d23",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L180",
+      "id": "code_wiki_tech_design_4_2_\u6a21\u5757\u804c\u8d23",
+      "community": 1,
+      "norm_label": "4.2 \u6a21\u5757\u804c\u8d23"
+    },
+    {
+      "label": "5. Tool \u89c4\u683c",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L196",
+      "id": "code_wiki_tech_design_5_tool_\u89c4\u683c",
+      "community": 4,
+      "norm_label": "5. tool \u89c4\u683c"
+    },
+    {
+      "label": "5.1 MVP \u5de5\u5177\u96c6",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L198",
+      "id": "code_wiki_tech_design_5_1_mvp_\u5de5\u5177\u96c6",
+      "community": 4,
+      "norm_label": "5.1 mvp \u5de5\u5177\u96c6"
+    },
+    {
+      "label": "`list_dir`",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L200",
+      "id": "code_wiki_tech_design_list_dir",
+      "community": 4,
+      "norm_label": "`list_dir`"
+    },
+    {
+      "label": "`glob`",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L208",
+      "id": "code_wiki_tech_design_glob",
+      "community": 4,
+      "norm_label": "`glob`"
+    },
+    {
+      "label": "`grep`",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L216",
+      "id": "code_wiki_tech_design_grep",
+      "community": 4,
+      "norm_label": "`grep`"
+    },
+    {
+      "label": "`read_file`",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L225",
+      "id": "code_wiki_tech_design_read_file",
+      "community": 4,
+      "norm_label": "`read_file`"
+    },
+    {
+      "label": "\u5206\u5c42\u8bfb\uff08`mode`\uff09",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L233",
+      "id": "code_wiki_tech_design_\u5206\u5c42\u8bfb_mode",
+      "community": 4,
+      "norm_label": "\u5206\u5c42\u8bfb(`mode`)"
+    },
+    {
+      "label": "`outline` \u8f93\u51fa\u793a\u4f8b",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L251",
+      "id": "code_wiki_tech_design_outline_\u8f93\u51fa\u793a\u4f8b",
+      "community": 4,
+      "norm_label": "`outline` \u8f93\u51fa\u793a\u4f8b"
+    },
+    {
+      "label": "code:block6 (# src/auth/service.py  (342 lines))",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L253",
+      "id": "code_wiki_tech_design_codeblock_6",
+      "community": 4,
+      "norm_label": "code:block6 (# src/auth/service.py  (342 lines))"
+    },
+    {
+      "label": "code:block7 (read_file(path=\"src/auth/service.py\", mode=\"symbol\", symbol=)",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L267",
+      "id": "code_wiki_tech_design_codeblock_7",
+      "community": 4,
+      "norm_label": "code:block7 (read_file(path=\"src/auth/service.py\", mode=\"symbol\", symbol=)"
+    },
+    {
+      "label": "\u89e3\u6790\u5b9e\u73b0\u7b56\u7565",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L273",
+      "id": "code_wiki_tech_design_\u89e3\u6790\u5b9e\u73b0\u7b56\u7565",
+      "community": 4,
+      "norm_label": "\u89e3\u6790\u5b9e\u73b0\u7b56\u7565"
+    },
+    {
+      "label": "Prompt \u4fa7\u7b56\u7565\uff08\u5199\u5165 System Prompt\uff09",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L283",
+      "id": "code_wiki_tech_design_prompt_\u4fa7\u7b56\u7565_\u5199\u5165_system_prompt",
+      "community": 4,
+      "norm_label": "prompt \u4fa7\u7b56\u7565(\u5199\u5165 system prompt)"
+    },
+    {
+      "label": "\u4e0e\u5176\u5b83\u5de5\u5177\u7684\u5173\u7cfb",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L289",
+      "id": "code_wiki_tech_design_\u4e0e\u5176\u5b83\u5de5\u5177\u7684\u5173\u7cfb",
+      "community": 4,
+      "norm_label": "\u4e0e\u5176\u5b83\u5de5\u5177\u7684\u5173\u7cfb"
+    },
+    {
+      "label": "5.2 \u7b26\u53f7\u5bfc\u822a\uff08\u4f18\u5148\u4e8e\u5168\u6587 grep\uff09",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L296",
+      "id": "code_wiki_tech_design_5_2_\u7b26\u53f7\u5bfc\u822a_\u4f18\u5148\u4e8e\u5168\u6587_grep",
+      "community": 11,
+      "norm_label": "5.2 \u7b26\u53f7\u5bfc\u822a(\u4f18\u5148\u4e8e\u5168\u6587 grep)"
+    },
+    {
+      "label": "\u5de5\u5177\u89c4\u683c",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L300",
+      "id": "code_wiki_tech_design_\u5de5\u5177\u89c4\u683c",
+      "community": 11,
+      "norm_label": "\u5de5\u5177\u89c4\u683c"
+    },
+    {
+      "label": "`find_definition`",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L302",
+      "id": "code_wiki_tech_design_find_definition",
+      "community": 11,
+      "norm_label": "`find_definition`"
+    },
+    {
+      "label": "`find_references`",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L310",
+      "id": "code_wiki_tech_design_find_references",
+      "community": 11,
+      "norm_label": "`find_references`"
+    },
+    {
+      "label": "code:block8 (find_definition(\"login\"))",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L320",
+      "id": "code_wiki_tech_design_codeblock_8",
+      "community": 11,
+      "norm_label": "code:block8 (find_definition(\"login\"))"
+    },
+    {
+      "label": "\u68c0\u7d22\u4f18\u5148\u7ea7\uff08\u5199\u5165 System Prompt\uff09",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L329",
+      "id": "code_wiki_tech_design_\u68c0\u7d22\u4f18\u5148\u7ea7_\u5199\u5165_system_prompt",
+      "community": 11,
+      "norm_label": "\u68c0\u7d22\u4f18\u5148\u7ea7(\u5199\u5165 system prompt)"
+    },
+    {
+      "label": "\u540e\u7aef\u5b9e\u73b0\u5206\u5c42",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L340",
+      "id": "code_wiki_tech_design_\u540e\u7aef\u5b9e\u73b0\u5206\u5c42",
+      "community": 11,
+      "norm_label": "\u540e\u7aef\u5b9e\u73b0\u5206\u5c42"
+    },
+    {
+      "label": "\u8f93\u51fa\u793a\u4f8b",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L355",
+      "id": "code_wiki_tech_design_\u8f93\u51fa\u793a\u4f8b",
+      "community": 11,
+      "norm_label": "\u8f93\u51fa\u793a\u4f8b"
+    },
+    {
+      "label": "code:block9 (# find_definition(\"AuthService.login\"))",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L357",
+      "id": "code_wiki_tech_design_codeblock_9",
+      "community": 11,
+      "norm_label": "code:block9 (# find_definition(\"authservice.login\"))"
+    },
+    {
+      "label": "\u914d\u7f6e",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L369",
+      "id": "code_wiki_tech_design_\u914d\u7f6e_369",
+      "community": 11,
+      "norm_label": "\u914d\u7f6e"
+    },
+    {
+      "label": "5.3 \u53ea\u8bfb Git \u5de5\u5177\uff08\u767d\u540d\u5355\uff0c\u975e\u4efb\u610f shell\uff09",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L378",
+      "id": "code_wiki_tech_design_5_3_\u53ea\u8bfb_git_\u5de5\u5177_\u767d\u540d\u5355_\u975e\u4efb\u610f_shell",
+      "community": 5,
+      "norm_label": "5.3 \u53ea\u8bfb git \u5de5\u5177(\u767d\u540d\u5355,\u975e\u4efb\u610f shell)"
+    },
+    {
+      "label": "\u4f55\u65f6\u4f7f\u7528",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L382",
+      "id": "code_wiki_tech_design_\u4f55\u65f6\u4f7f\u7528",
+      "community": 5,
+      "norm_label": "\u4f55\u65f6\u4f7f\u7528"
+    },
+    {
+      "label": "\u5de5\u5177\u89c4\u683c",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L394",
+      "id": "code_wiki_tech_design_\u5de5\u5177\u89c4\u683c_394",
+      "community": 5,
+      "norm_label": "\u5de5\u5177\u89c4\u683c"
+    },
+    {
+      "label": "`git_status`",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L396",
+      "id": "code_wiki_tech_design_git_status",
+      "community": 5,
+      "norm_label": "`git_status`"
+    },
+    {
+      "label": "`git_log`",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L404",
+      "id": "code_wiki_tech_design_git_log",
+      "community": 5,
+      "norm_label": "`git_log`"
+    },
+    {
+      "label": "`git_blame`",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L412",
+      "id": "code_wiki_tech_design_git_blame",
+      "community": 5,
+      "norm_label": "`git_blame`"
+    },
+    {
+      "label": "`git_show`",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L421",
+      "id": "code_wiki_tech_design_git_show",
+      "community": 5,
+      "norm_label": "`git_show`"
+    },
+    {
+      "label": "`git_diff`",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L430",
+      "id": "code_wiki_tech_design_git_diff",
+      "community": 5,
+      "norm_label": "`git_diff`"
+    },
+    {
+      "label": "\u5b89\u5168\u7ea6\u5b9a\uff08\u5f3a\u5236\uff09",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L439",
+      "id": "code_wiki_tech_design_\u5b89\u5168\u7ea6\u5b9a_\u5f3a\u5236",
+      "community": 5,
+      "norm_label": "\u5b89\u5168\u7ea6\u5b9a(\u5f3a\u5236)"
+    },
+    {
+      "label": "\u5b9e\u73b0\u8981\u70b9",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L451",
+      "id": "code_wiki_tech_design_\u5b9e\u73b0\u8981\u70b9",
+      "community": 5,
+      "norm_label": "\u5b9e\u73b0\u8981\u70b9"
+    },
+    {
+      "label": "code:python (# \u4f2a\u4ee3\u7801\uff1a\u7981\u6b62 shell=True\uff0c\u7981\u6b62\u5b57\u7b26\u4e32\u62fc\u63a5\u6574\u6761\u547d\u4ee4)",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L453",
+      "id": "code_wiki_tech_design_codeblock_10",
+      "community": 5,
+      "norm_label": "code:python (# \u4f2a\u4ee3\u7801:\u7981\u6b62 shell=true,\u7981\u6b62\u5b57\u7b26\u4e32\u62fc\u63a5\u6574\u6761\u547d\u4ee4)"
+    },
+    {
+      "label": "Prompt \u4fa7",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L467",
+      "id": "code_wiki_tech_design_prompt_\u4fa7",
+      "community": 5,
+      "norm_label": "prompt \u4fa7"
+    },
+    {
+      "label": "\u914d\u7f6e",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L473",
+      "id": "code_wiki_tech_design_\u914d\u7f6e_473",
+      "community": 5,
+      "norm_label": "\u914d\u7f6e"
+    },
+    {
+      "label": "5.4 \u5176\u5b83\u589e\u5f3a\u5de5\u5177\uff08Phase 2+\uff09",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L480",
+      "id": "code_wiki_tech_design_5_4_\u5176\u5b83\u589e\u5f3a\u5de5\u5177_phase_2",
+      "community": 4,
+      "norm_label": "5.4 \u5176\u5b83\u589e\u5f3a\u5de5\u5177(phase 2+)"
+    },
+    {
+      "label": "5.5 Tool Schema \u7ea6\u5b9a",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L487",
+      "id": "code_wiki_tech_design_5_5_tool_schema_\u7ea6\u5b9a",
+      "community": 4,
+      "norm_label": "5.5 tool schema \u7ea6\u5b9a"
+    },
+    {
+      "label": "6. \u5b89\u5168\u4e0e\u8fb9\u754c",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L493",
+      "id": "code_wiki_tech_design_6_\u5b89\u5168\u4e0e\u8fb9\u754c",
+      "community": 1,
+      "norm_label": "6. \u5b89\u5168\u4e0e\u8fb9\u754c"
+    },
+    {
+      "label": "7. LLM \u4e0e\u914d\u7f6e",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L507",
+      "id": "code_wiki_tech_design_7_llm_\u4e0e\u914d\u7f6e",
+      "community": 1,
+      "norm_label": "7. llm \u4e0e\u914d\u7f6e"
+    },
+    {
+      "label": "7.1 \u63a5\u53e3\u62bd\u8c61",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L509",
+      "id": "code_wiki_tech_design_7_1_\u63a5\u53e3\u62bd\u8c61",
+      "community": 1,
+      "norm_label": "7.1 \u63a5\u53e3\u62bd\u8c61"
+    },
+    {
+      "label": "code:python (class LLMClient(Protocol):)",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L511",
+      "id": "code_wiki_tech_design_codeblock_11",
+      "community": 1,
+      "norm_label": "code:python (class llmclient(protocol):)"
+    },
+    {
+      "label": "7.2 \u914d\u7f6e\u9879",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L521",
+      "id": "code_wiki_tech_design_7_2_\u914d\u7f6e\u9879",
+      "community": 1,
+      "norm_label": "7.2 \u914d\u7f6e\u9879"
+    },
+    {
+      "label": "8. \u63a5\u53e3\u8bbe\u8ba1",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L540",
+      "id": "code_wiki_tech_design_8_\u63a5\u53e3\u8bbe\u8ba1",
+      "community": 12,
+      "norm_label": "8. \u63a5\u53e3\u8bbe\u8ba1"
+    },
+    {
+      "label": "8.1 CLI\uff08MVP\uff09",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L542",
+      "id": "code_wiki_tech_design_8_1_cli_mvp",
+      "community": 12,
+      "norm_label": "8.1 cli(mvp)"
+    },
+    {
+      "label": "code:bash (code-wiki /path/to/repo \"\u767b\u5f55\u9274\u6743\u662f\u600e\u4e48\u505a\u7684\uff1f\")",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L544",
+      "id": "code_wiki_tech_design_codeblock_12",
+      "community": 12,
+      "norm_label": "code:bash (code-wiki /path/to/repo \"\u767b\u5f55\u9274\u6743\u662f\u600e\u4e48\u505a\u7684?\")"
+    },
+    {
+      "label": "8.2 \u7a0b\u5e8f API\uff08\u5185\u90e8\uff09",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L558",
+      "id": "code_wiki_tech_design_8_2_\u7a0b\u5e8f_api_\u5185\u90e8",
+      "community": 12,
+      "norm_label": "8.2 \u7a0b\u5e8f api(\u5185\u90e8)"
+    },
+    {
+      "label": "code:python (def run_agent()",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L560",
+      "id": "code_wiki_tech_design_codeblock_13",
+      "community": 12,
+      "norm_label": "code:python (def run_agent()"
+    },
+    {
+      "label": "8.3 \u540e\u7eed HTTP\uff08\u975e MVP\uff09",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L571",
+      "id": "code_wiki_tech_design_8_3_\u540e\u7eed_http_\u975e_mvp",
+      "community": 12,
+      "norm_label": "8.3 \u540e\u7eed http(\u975e mvp)"
+    },
+    {
+      "label": "code:block14 (POST /v1/ask)",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L573",
+      "id": "code_wiki_tech_design_codeblock_14",
+      "community": 12,
+      "norm_label": "code:block14 (post /v1/ask)"
+    },
+    {
+      "label": "9. Prompt \u8bbe\u8ba1\u8981\u70b9",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L581",
+      "id": "code_wiki_tech_design_9_prompt_\u8bbe\u8ba1\u8981\u70b9",
+      "community": 1,
+      "norm_label": "9. prompt \u8bbe\u8ba1\u8981\u70b9"
+    },
+    {
+      "label": "code:block15 (\u5de5\u4f5c\u7a7a\u95f4: {workspace})",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L593",
+      "id": "code_wiki_tech_design_codeblock_15",
+      "community": 1,
+      "norm_label": "code:block15 (\u5de5\u4f5c\u7a7a\u95f4: {workspace})"
+    },
+    {
+      "label": "10. \u5206\u9636\u6bb5\u8ba1\u5212",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L600",
+      "id": "code_wiki_tech_design_10_\u5206\u9636\u6bb5\u8ba1\u5212",
+      "community": 1,
+      "norm_label": "10. \u5206\u9636\u6bb5\u8ba1\u5212"
+    },
+    {
+      "label": "11. \u6d4b\u8bd5\u7b56\u7565",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L611",
+      "id": "code_wiki_tech_design_11_\u6d4b\u8bd5\u7b56\u7565",
+      "community": 1,
+      "norm_label": "11. \u6d4b\u8bd5\u7b56\u7565"
+    },
+    {
+      "label": "12. \u98ce\u9669\u4e0e\u5bf9\u7b56",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L622",
+      "id": "code_wiki_tech_design_12_\u98ce\u9669\u4e0e\u5bf9\u7b56",
+      "community": 1,
+      "norm_label": "12. \u98ce\u9669\u4e0e\u5bf9\u7b56"
+    },
+    {
+      "label": "13. \u4f9d\u8d56\uff08MVP\uff09",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L639",
+      "id": "code_wiki_tech_design_13_\u4f9d\u8d56_mvp",
+      "community": 1,
+      "norm_label": "13. \u4f9d\u8d56(mvp)"
+    },
+    {
+      "label": "code:block16 (# \u8fd0\u884c\u65f6)",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L641",
+      "id": "code_wiki_tech_design_codeblock_16",
+      "community": 1,
+      "norm_label": "code:block16 (# \u8fd0\u884c\u65f6)"
+    },
+    {
+      "label": "14. \u5f00\u653e\u95ee\u9898",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L656",
+      "id": "code_wiki_tech_design_14_\u5f00\u653e\u95ee\u9898",
+      "community": 1,
+      "norm_label": "14. \u5f00\u653e\u95ee\u9898"
+    },
+    {
+      "label": "15. \u9644\u5f55\uff1a\u4e0e README \u7684\u5bf9\u5e94\u5173\u7cfb",
+      "file_type": "document",
+      "source_file": "tech-design.md",
+      "source_location": "L664",
+      "id": "code_wiki_tech_design_15_\u9644\u5f55_\u4e0e_readme_\u7684\u5bf9\u5e94\u5173\u7cfb",
+      "community": 1,
+      "norm_label": "15. \u9644\u5f55:\u4e0e readme \u7684\u5bf9\u5e94\u5173\u7cfb"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 10,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Code Wiki",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "code_wiki_readme_code_wiki",
+      "community": 10,
+      "norm_label": "code wiki"
+    },
+    {
+      "label": "\u5173\u6ce8\u7ef4\u5ea6",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "id": "code_wiki_readme_\u5173\u6ce8\u7ef4\u5ea6",
+      "community": 10,
+      "norm_label": "\u5173\u6ce8\u7ef4\u5ea6"
+    },
+    {
+      "label": "\u5b89\u88c5",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "id": "code_wiki_readme_\u5b89\u88c5",
+      "community": 10,
+      "norm_label": "\u5b89\u88c5"
+    },
+    {
+      "label": "code:bash (cd code-wiki)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L15",
+      "id": "code_wiki_readme_codeblock_1",
+      "community": 10,
+      "norm_label": "code:bash (cd code-wiki)"
+    },
+    {
+      "label": "\u914d\u7f6e",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "id": "code_wiki_readme_\u914d\u7f6e",
+      "community": 10,
+      "norm_label": "\u914d\u7f6e"
+    },
+    {
+      "label": "\u4f7f\u7528",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "id": "code_wiki_readme_\u4f7f\u7528",
+      "community": 10,
+      "norm_label": "\u4f7f\u7528"
+    },
+    {
+      "label": "code:bash (export DEEPSEEK_API_KEY=sk-...)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L36",
+      "id": "code_wiki_readme_codeblock_2",
+      "community": 10,
+      "norm_label": "code:bash (export deepseek_api_key=sk-...)"
+    },
+    {
+      "label": "\u80fd\u529b\uff08P0\uff09",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "id": "code_wiki_readme_\u80fd\u529b_p0",
+      "community": 10,
+      "norm_label": "\u80fd\u529b(p0)"
+    },
+    {
+      "label": "\u5f00\u53d1",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L52",
+      "id": "code_wiki_readme_\u5f00\u53d1",
+      "community": 10,
+      "norm_label": "\u5f00\u53d1"
+    },
+    {
+      "label": "code:bash (pytest)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L54",
+      "id": "code_wiki_readme_codeblock_3",
+      "community": 10,
+      "norm_label": "code:bash (pytest)"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_safety.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_safety_py",
+      "target": "tests_test_safety_test_resolve_under_root_ok"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_safety.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_safety_py",
+      "target": "tests_test_safety_test_resolve_blocks_escape"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_safety.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_safety_py",
+      "target": "tests_test_safety_test_truncate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_safety.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "tests_test_safety_test_resolve_under_root_ok",
+      "target": "code_wiki_safety_resolve_under_root"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_safety.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "tests_test_safety_test_resolve_blocks_escape",
+      "target": "code_wiki_safety_resolve_under_root"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_safety.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "tests_test_safety_test_truncate",
+      "target": "code_wiki_safety_truncate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_agent_loop.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "tests_test_agent_loop_py",
+      "target": "tests_test_agent_loop_settings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_agent_loop.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_agent_loop_py",
+      "target": "tests_test_agent_loop_test_agent_uses_tools_then_answers"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_agent_loop.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "tests_test_agent_loop_py",
+      "target": "tests_test_agent_loop_test_agent_prints_assistant_content_with_tool_calls",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_agent_loop.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "tests_test_agent_loop_test_agent_uses_tools_then_answers",
+      "target": "tests_test_agent_loop_settings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_agent_loop.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "tests_test_agent_loop_test_agent_prints_assistant_content_with_tool_calls",
+      "target": "tests_test_agent_loop_settings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_agent_loop.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "tests_test_agent_loop_settings",
+      "target": "code_wiki_config_settings"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_agent_loop.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "tests_test_agent_loop_test_agent_uses_tools_then_answers",
+      "target": "code_wiki_llm_llmresponse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_agent_loop.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "tests_test_agent_loop_test_agent_uses_tools_then_answers",
+      "target": "tools_init_toolcall"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_agent_loop.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "tests_test_agent_loop_test_agent_uses_tools_then_answers",
+      "target": "code_wiki_agent_run_agent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_agent_loop.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "tests_test_agent_loop_test_agent_uses_tools_then_answers",
+      "target": "code_wiki_llm_mockllmclient"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_agent_loop.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "tests_test_agent_loop_test_agent_uses_tools_then_answers",
+      "target": "code_wiki_config_settings"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_agent_loop.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "tests_test_agent_loop_test_agent_prints_assistant_content_with_tool_calls",
+      "target": "code_wiki_llm_llmresponse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_agent_loop.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "tests_test_agent_loop_test_agent_prints_assistant_content_with_tool_calls",
+      "target": "tools_init_toolcall"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_agent_loop.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "tests_test_agent_loop_test_agent_prints_assistant_content_with_tool_calls",
+      "target": "code_wiki_agent_run_agent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_agent_loop.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "tests_test_agent_loop_test_agent_prints_assistant_content_with_tool_calls",
+      "target": "code_wiki_llm_mockllmclient"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_tools_py",
+      "target": "tests_test_tools_test_outline_and_symbol"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_tools_py",
+      "target": "tests_test_tools_test_list_dir_and_grep"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_tools_py",
+      "target": "tests_test_tools_test_find_definition"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_tools.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "tests_test_tools_test_outline_and_symbol",
+      "target": "code_wiki_outline_extract_symbols"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_tools.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "tests_test_tools_test_outline_and_symbol",
+      "target": "code_wiki_outline_format_outline"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_tools.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "tests_test_tools_test_outline_and_symbol",
+      "target": "tools_filesystem_read_file"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_tools.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "tests_test_tools_test_list_dir_and_grep",
+      "target": "tools_filesystem_list_dir"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_tools.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "tests_test_tools_test_list_dir_and_grep",
+      "target": "tools_grep_grep_code"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_tools.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "tests_test_tools_test_find_definition",
+      "target": "tools_symbols_find_definition"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/config.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_config_py",
+      "target": "code_wiki_config_env_int"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/config.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_config_py",
+      "target": "code_wiki_config_env_bool"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/config.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_config_py",
+      "target": "code_wiki_config_settings"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/config.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_config_py",
+      "target": "code_wiki_config_from_env"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/config.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_config_from_env",
+      "target": "code_wiki_config_env_int"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/config.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_config_from_env",
+      "target": "code_wiki_config_env_bool"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "tools_init_toolcall",
+      "target": "code_wiki_config_settings"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "source": "tools_init_toolresult",
+      "target": "code_wiki_config_settings",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "tools_init_toolregistry",
+      "target": "code_wiki_config_settings"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_init_rationale_1",
+      "target": "src_code_wiki_init_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_llm_py",
+      "target": "code_wiki_llm_llmresponse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_llm_py",
+      "target": "code_wiki_llm_llmclient"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_llm_py",
+      "target": "code_wiki_llm_openaicompatibleclient"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_llm_py",
+      "target": "code_wiki_llm_mockllmclient"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_llm_openaicompatibleclient_chat",
+      "target": "code_wiki_llm_llmresponse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_llm_mockllmclient_chat",
+      "target": "code_wiki_llm_llmresponse"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_llm_llmclient",
+      "target": "protocol"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_llm_llmclient",
+      "target": "code_wiki_llm_llmclient_chat"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/base.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_base_toolcontext",
+      "target": "protocol"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_llm_openaicompatibleclient",
+      "target": "code_wiki_llm_openaicompatibleclient_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_llm_openaicompatibleclient",
+      "target": "code_wiki_llm_openaicompatibleclient_chat"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/agent.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "code_wiki_agent_run_agent",
+      "target": "code_wiki_llm_openaicompatibleclient"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "code_wiki_llm_openaicompatibleclient_chat",
+      "target": "tools_init_toolcall"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "code_wiki_llm_openaicompatibleclient_chat",
+      "target": "tools_init_parse_tool_arguments"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_llm_mockllmclient",
+      "target": "code_wiki_llm_mockllmclient_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_llm_mockllmclient",
+      "target": "code_wiki_llm_mockllmclient_chat"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/llm.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_llm_rationale_82",
+      "target": "code_wiki_llm_mockllmclient"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/prompts.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_prompts_py",
+      "target": "code_wiki_prompts_system_prompt"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/prompts.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_prompts_py",
+      "target": "code_wiki_prompts_user_prompt"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/prompts.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_prompts_py",
+      "target": "code_wiki_prompts_bootstrap_context"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/agent.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "code_wiki_agent_run_agent",
+      "target": "code_wiki_prompts_system_prompt"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/agent.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "code_wiki_agent_run_agent",
+      "target": "code_wiki_prompts_user_prompt"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/prompts.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_prompts_rationale_32",
+      "target": "code_wiki_prompts_bootstrap_context"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/agent.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "code_wiki_agent_run_agent",
+      "target": "code_wiki_prompts_bootstrap_context"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_outline_py",
+      "target": "code_wiki_outline_symbolspan"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_outline_py",
+      "target": "code_wiki_outline_kind_from_sig"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_outline_py",
+      "target": "code_wiki_outline_name_from_sig"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_outline_py",
+      "target": "code_wiki_outline_extract_symbols"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L148",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_outline_py",
+      "target": "code_wiki_outline_fix_end_lines"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L176",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_outline_py",
+      "target": "code_wiki_outline_extract_imports"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L190",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_outline_py",
+      "target": "code_wiki_outline_format_outline"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L223",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_outline_py",
+      "target": "code_wiki_outline_find_symbol_span"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L237",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_outline_py",
+      "target": "code_wiki_outline_format_symbol_body"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L100",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_outline_extract_symbols",
+      "target": "code_wiki_outline_symbolspan"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L163",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_outline_fix_end_lines",
+      "target": "code_wiki_outline_symbolspan"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_outline_extract_symbols",
+      "target": "code_wiki_outline_kind_from_sig"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L83",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_outline_extract_symbols",
+      "target": "code_wiki_outline_name_from_sig"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L145",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_outline_extract_symbols",
+      "target": "code_wiki_outline_fix_end_lines"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L197",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_outline_format_outline",
+      "target": "code_wiki_outline_extract_symbols"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L224",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_outline_find_symbol_span",
+      "target": "code_wiki_outline_extract_symbols"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L240",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_outline_format_symbol_body",
+      "target": "code_wiki_outline_extract_symbols"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_outline_rationale_78",
+      "target": "code_wiki_outline_extract_symbols"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/symbols.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "tools_symbols_find_definition",
+      "target": "code_wiki_outline_extract_symbols"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/symbols.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "tools_symbols_find_references",
+      "target": "code_wiki_outline_extract_symbols"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L196",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_outline_format_outline",
+      "target": "code_wiki_outline_extract_imports"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "tools_filesystem_read_file",
+      "target": "code_wiki_outline_format_outline"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/outline.py",
+      "source_location": "L238",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_outline_format_symbol_body",
+      "target": "code_wiki_outline_find_symbol_span"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "tools_filesystem_read_file",
+      "target": "code_wiki_outline_format_symbol_body"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/cli.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_cli_py",
+      "target": "code_wiki_cli_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/cli.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_cli_py",
+      "target": "code_wiki_cli_app"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/cli.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_cli_rationale_26",
+      "target": "code_wiki_cli_main"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/cli.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "code_wiki_cli_main",
+      "target": "code_wiki_agent_run_agent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/agent.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_agent_py",
+      "target": "code_wiki_agent_run_agent"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/agent.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_agent_rationale_26",
+      "target": "code_wiki_agent_run_agent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/safety.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_safety_py",
+      "target": "code_wiki_safety_pathescapeerror"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/safety.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_safety_py",
+      "target": "code_wiki_safety_resolve_under_root"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/safety.py",
+      "source_location": "L95",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_safety_py",
+      "target": "code_wiki_safety_is_ignored_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/safety.py",
+      "source_location": "L99",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_safety_py",
+      "target": "code_wiki_safety_should_skip_dir"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/safety.py",
+      "source_location": "L103",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_safety_py",
+      "target": "code_wiki_safety_is_probably_text_file"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/safety.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_safety_py",
+      "target": "code_wiki_safety_truncate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/safety.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_safety_py",
+      "target": "code_wiki_safety_truncate_lines"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/safety.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_safety_pathescapeerror",
+      "target": "valueerror"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/safety.py",
+      "source_location": "L91",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_safety_resolve_under_root",
+      "target": "code_wiki_safety_pathescapeerror"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/safety.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_safety_rationale_85",
+      "target": "code_wiki_safety_resolve_under_root"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "tools_git_tools_safe_rel_path",
+      "target": "code_wiki_safety_resolve_under_root"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "tools_filesystem_list_dir",
+      "target": "code_wiki_safety_resolve_under_root"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "tools_filesystem_read_file",
+      "target": "code_wiki_safety_resolve_under_root"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/grep.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "tools_grep_grep_rg",
+      "target": "code_wiki_safety_resolve_under_root"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/grep.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "tools_grep_grep_python",
+      "target": "code_wiki_safety_resolve_under_root"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/symbols.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "tools_symbols_find_definition",
+      "target": "code_wiki_safety_resolve_under_root"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/symbols.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "tools_symbols_find_references",
+      "target": "code_wiki_safety_resolve_under_root"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "tools_filesystem_list_dir",
+      "target": "code_wiki_safety_should_skip_dir"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/grep.py",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "tools_grep_grep_python",
+      "target": "code_wiki_safety_should_skip_dir"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "tools_filesystem_read_lines",
+      "target": "code_wiki_safety_is_probably_text_file"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "tools_git_tools_run_git",
+      "target": "code_wiki_safety_truncate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L164",
+      "weight": 1.0,
+      "source": "tools_git_tools_git_blame",
+      "target": "code_wiki_safety_truncate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "tools_filesystem_read_file",
+      "target": "code_wiki_safety_truncate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/grep.py",
+      "source_location": "L161",
+      "weight": 1.0,
+      "source": "tools_grep_grep_code",
+      "target": "code_wiki_safety_truncate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/symbols.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "tools_symbols_find_definition",
+      "target": "code_wiki_safety_truncate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/symbols.py",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "tools_symbols_find_references",
+      "target": "code_wiki_safety_truncate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "tools_filesystem_read_file",
+      "target": "code_wiki_safety_truncate_lines"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_git_tools_py",
+      "target": "tools_git_tools_git_env"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_git_tools_py",
+      "target": "tools_git_tools_find_git_root"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_git_tools_py",
+      "target": "tools_git_tools_run_git"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_git_tools_py",
+      "target": "tools_git_tools_safe_rel_path"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_git_tools_py",
+      "target": "tools_git_tools_git_status"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_git_tools_py",
+      "target": "tools_git_tools_git_log"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L127",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_git_tools_py",
+      "target": "tools_git_tools_git_blame"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L167",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_git_tools_py",
+      "target": "tools_git_tools_format_blame_porcelain"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L195",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_git_tools_py",
+      "target": "tools_git_tools_git_show"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L216",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_git_tools_py",
+      "target": "tools_git_tools_git_diff"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L244",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_git_tools_py",
+      "target": "tools_git_tools_git_tools"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_git_tools_find_git_root",
+      "target": "tools_git_tools_git_env"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_git_tools_run_git",
+      "target": "tools_git_tools_git_env"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_git_tools_git_status",
+      "target": "tools_git_tools_find_git_root"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L99",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_git_tools_git_log",
+      "target": "tools_git_tools_find_git_root"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L128",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_git_tools_git_blame",
+      "target": "tools_git_tools_find_git_root"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L196",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_git_tools_git_show",
+      "target": "tools_git_tools_find_git_root"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L217",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_git_tools_git_diff",
+      "target": "tools_git_tools_find_git_root"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_git_tools_git_status",
+      "target": "tools_git_tools_run_git"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_git_tools_git_log",
+      "target": "tools_git_tools_run_git"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_git_tools_git_blame",
+      "target": "tools_git_tools_run_git"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L213",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_git_tools_git_show",
+      "target": "tools_git_tools_run_git"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L241",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_git_tools_git_diff",
+      "target": "tools_git_tools_run_git"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L119",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_git_tools_git_log",
+      "target": "tools_git_tools_safe_rel_path"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_git_tools_git_blame",
+      "target": "tools_git_tools_safe_rel_path"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L208",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_git_tools_git_show",
+      "target": "tools_git_tools_safe_rel_path"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L236",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_git_tools_git_diff",
+      "target": "tools_git_tools_safe_rel_path"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L164",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_git_tools_git_blame",
+      "target": "tools_git_tools_format_blame_porcelain"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/git_tools.py",
+      "source_location": "L249",
+      "weight": 1.0,
+      "source": "tools_git_tools_git_tools",
+      "target": "tools_base_toolspec"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "tools_init_from_settings",
+      "target": "tools_git_tools_git_tools"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_filesystem_py",
+      "target": "tools_filesystem_rel"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_filesystem_py",
+      "target": "tools_filesystem_list_dir"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_filesystem_py",
+      "target": "tools_filesystem_glob_files"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_filesystem_py",
+      "target": "tools_filesystem_read_lines"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_filesystem_py",
+      "target": "tools_filesystem_read_file"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L149",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_filesystem_py",
+      "target": "tools_filesystem_filesystem_tools"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_filesystem_list_dir",
+      "target": "tools_filesystem_rel"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L110",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_filesystem_read_file",
+      "target": "tools_filesystem_rel"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L106",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_filesystem_read_file",
+      "target": "tools_filesystem_read_lines"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/filesystem.py",
+      "source_location": "L151",
+      "weight": 1.0,
+      "source": "tools_filesystem_filesystem_tools",
+      "target": "tools_base_toolspec"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "tools_init_from_settings",
+      "target": "tools_filesystem_filesystem_tools"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_init_py",
+      "target": "tools_init_toolcall"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "src_code_wiki_tools_init_py",
+      "target": "tools_init_toolresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_init_py",
+      "target": "tools_init_toolregistry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_init_py",
+      "target": "tools_init_from_settings"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L90",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_init_py",
+      "target": "tools_init_parse_tool_arguments"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "tools_init_toolcall",
+      "target": "tools_base_toolspec"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "tools_init_toolregistry_run_one_timed",
+      "target": "tools_init_toolresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "tools_init_toolregistry_execute_many",
+      "target": "tools_init_toolresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L11",
+      "weight": 0.8,
+      "source": "tools_init_toolresult",
+      "target": "tools_base_toolspec",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_init_toolregistry",
+      "target": "tools_init_toolregistry_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_init_toolregistry",
+      "target": "tools_init_toolregistry_openai_tools"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_init_toolregistry",
+      "target": "tools_init_toolregistry_run_one"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "tools_init_toolregistry",
+      "target": "tools_init_toolregistry_run_one_timed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_init_toolregistry",
+      "target": "tools_init_toolregistry_execute_many"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "tools_init_toolregistry",
+      "target": "tools_base_toolspec"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "tools_init_from_settings",
+      "target": "tools_grep_grep_tools"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "tools_init_from_settings",
+      "target": "tools_symbols_symbol_tools"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "tools_init_toolregistry_run_one",
+      "target": "tools_init_toolregistry_run_one_timed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_init_toolregistry_execute_many",
+      "target": "tools_init_toolregistry_run_one"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/__init__.py",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "tools_init_toolregistry_execute_many",
+      "target": "tools_init_toolregistry_run_one_timed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/grep.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_grep_py",
+      "target": "tools_grep_rg_available"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/grep.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_grep_py",
+      "target": "tools_grep_grep_rg"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/grep.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_grep_py",
+      "target": "tools_grep_grep_python"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/grep.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_grep_py",
+      "target": "tools_grep_grep_code"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/grep.py",
+      "source_location": "L181",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_grep_py",
+      "target": "tools_grep_grep_tools"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/grep.py",
+      "source_location": "L160",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_grep_grep_code",
+      "target": "tools_grep_rg_available"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/grep.py",
+      "source_location": "L162",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_grep_grep_code",
+      "target": "tools_grep_grep_rg"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/grep.py",
+      "source_location": "L171",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_grep_grep_code",
+      "target": "tools_grep_grep_python"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/grep.py",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "tools_grep_grep_tools",
+      "target": "tools_base_toolspec"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/symbols.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_symbols_py",
+      "target": "tools_symbols_iter_source_files"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/symbols.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_symbols_py",
+      "target": "tools_symbols_find_definition"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/symbols.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_symbols_py",
+      "target": "tools_symbols_find_references"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/symbols.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_symbols_py",
+      "target": "tools_symbols_symbol_tools"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/symbols.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_symbols_find_definition",
+      "target": "tools_symbols_iter_source_files"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/symbols.py",
+      "source_location": "L108",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_symbols_find_references",
+      "target": "tools_symbols_iter_source_files"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/code_wiki/tools/symbols.py",
+      "source_location": "L149",
+      "weight": 1.0,
+      "source": "tools_symbols_symbol_tools",
+      "target": "tools_base_toolspec"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/base.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_base_py",
+      "target": "tools_base_toolspec"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/base.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_code_wiki_tools_base_py",
+      "target": "tools_base_toolcontext"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/code_wiki/tools/base.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_base_toolspec",
+      "target": "tools_base_toolspec_openai_schema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tech_design_md",
+      "target": "code_wiki_tech_design_code_wiki_ai_technical_design"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_code_wiki_ai_technical_design",
+      "target": "code_wiki_tech_design_1_\u80cc\u666f\u4e0e\u76ee\u6807"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_code_wiki_ai_technical_design",
+      "target": "code_wiki_tech_design_2_\u603b\u4f53\u67b6\u6784"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_code_wiki_ai_technical_design",
+      "target": "code_wiki_tech_design_3_\u6838\u5fc3\u6d41\u7a0b"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L148",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_code_wiki_ai_technical_design",
+      "target": "code_wiki_tech_design_4_\u6a21\u5757\u8bbe\u8ba1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L196",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_code_wiki_ai_technical_design",
+      "target": "code_wiki_tech_design_5_tool_\u89c4\u683c"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L493",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_code_wiki_ai_technical_design",
+      "target": "code_wiki_tech_design_6_\u5b89\u5168\u4e0e\u8fb9\u754c"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L507",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_code_wiki_ai_technical_design",
+      "target": "code_wiki_tech_design_7_llm_\u4e0e\u914d\u7f6e"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L540",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_code_wiki_ai_technical_design",
+      "target": "code_wiki_tech_design_8_\u63a5\u53e3\u8bbe\u8ba1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L581",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_code_wiki_ai_technical_design",
+      "target": "code_wiki_tech_design_9_prompt_\u8bbe\u8ba1\u8981\u70b9"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L600",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_code_wiki_ai_technical_design",
+      "target": "code_wiki_tech_design_10_\u5206\u9636\u6bb5\u8ba1\u5212"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L611",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_code_wiki_ai_technical_design",
+      "target": "code_wiki_tech_design_11_\u6d4b\u8bd5\u7b56\u7565"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L622",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_code_wiki_ai_technical_design",
+      "target": "code_wiki_tech_design_12_\u98ce\u9669\u4e0e\u5bf9\u7b56"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L639",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_code_wiki_ai_technical_design",
+      "target": "code_wiki_tech_design_13_\u4f9d\u8d56_mvp"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L656",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_code_wiki_ai_technical_design",
+      "target": "code_wiki_tech_design_14_\u5f00\u653e\u95ee\u9898"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L664",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_code_wiki_ai_technical_design",
+      "target": "code_wiki_tech_design_15_\u9644\u5f55_\u4e0e_readme_\u7684\u5bf9\u5e94\u5173\u7cfb"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_1_\u80cc\u666f\u4e0e\u76ee\u6807",
+      "target": "code_wiki_tech_design_1_1_\u4ea7\u54c1\u76ee\u6807"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_1_\u80cc\u666f\u4e0e\u76ee\u6807",
+      "target": "code_wiki_tech_design_1_2_\u6210\u529f\u6807\u51c6_mvp"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_1_\u80cc\u666f\u4e0e\u76ee\u6807",
+      "target": "code_wiki_tech_design_1_3_\u975e\u76ee\u6807_mvp_\u4e0d\u505a"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_2_\u603b\u4f53\u67b6\u6784",
+      "target": "code_wiki_tech_design_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_3_\u6838\u5fc3\u6d41\u7a0b",
+      "target": "code_wiki_tech_design_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_3_\u6838\u5fc3\u6d41\u7a0b",
+      "target": "code_wiki_tech_design_3_1_agent_\u7b56\u7565_\u5199\u5165_system_prompt"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_3_\u6838\u5fc3\u6d41\u7a0b",
+      "target": "code_wiki_tech_design_3_2_\u5e76\u884c_tool_calls"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_3_2_\u5e76\u884c_tool_calls",
+      "target": "code_wiki_tech_design_\u884c\u4e3a\u7ea6\u5b9a"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_3_2_\u5e76\u884c_tool_calls",
+      "target": "code_wiki_tech_design_\u4f2a\u4ee3\u7801"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L126",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_3_2_\u5e76\u884c_tool_calls",
+      "target": "code_wiki_tech_design_prompt_\u4fa7\u5f15\u5bfc_\u53ef\u9009"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L132",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_3_2_\u5e76\u884c_tool_calls",
+      "target": "code_wiki_tech_design_\u6ce8\u610f\u4e8b\u9879"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L139",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_3_2_\u5e76\u884c_tool_calls",
+      "target": "code_wiki_tech_design_\u914d\u7f6e"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_\u4f2a\u4ee3\u7801",
+      "target": "code_wiki_tech_design_codeblock_3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L118",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_\u4f2a\u4ee3\u7801",
+      "target": "code_wiki_tech_design_codeblock_4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L150",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_4_\u6a21\u5757\u8bbe\u8ba1",
+      "target": "code_wiki_tech_design_4_1_\u5efa\u8bae\u76ee\u5f55\u7ed3\u6784"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L180",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_4_\u6a21\u5757\u8bbe\u8ba1",
+      "target": "code_wiki_tech_design_4_2_\u6a21\u5757\u804c\u8d23"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L152",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_4_1_\u5efa\u8bae\u76ee\u5f55\u7ed3\u6784",
+      "target": "code_wiki_tech_design_codeblock_5"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L198",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_tool_\u89c4\u683c",
+      "target": "code_wiki_tech_design_5_1_mvp_\u5de5\u5177\u96c6"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L296",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_tool_\u89c4\u683c",
+      "target": "code_wiki_tech_design_5_2_\u7b26\u53f7\u5bfc\u822a_\u4f18\u5148\u4e8e\u5168\u6587_grep"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L378",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_tool_\u89c4\u683c",
+      "target": "code_wiki_tech_design_5_3_\u53ea\u8bfb_git_\u5de5\u5177_\u767d\u540d\u5355_\u975e\u4efb\u610f_shell"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L480",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_tool_\u89c4\u683c",
+      "target": "code_wiki_tech_design_5_4_\u5176\u5b83\u589e\u5f3a\u5de5\u5177_phase_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L487",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_tool_\u89c4\u683c",
+      "target": "code_wiki_tech_design_5_5_tool_schema_\u7ea6\u5b9a"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L200",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_1_mvp_\u5de5\u5177\u96c6",
+      "target": "code_wiki_tech_design_list_dir"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L208",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_1_mvp_\u5de5\u5177\u96c6",
+      "target": "code_wiki_tech_design_glob"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L216",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_1_mvp_\u5de5\u5177\u96c6",
+      "target": "code_wiki_tech_design_grep"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L225",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_1_mvp_\u5de5\u5177\u96c6",
+      "target": "code_wiki_tech_design_read_file"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L233",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_read_file",
+      "target": "code_wiki_tech_design_\u5206\u5c42\u8bfb_mode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L251",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_read_file",
+      "target": "code_wiki_tech_design_outline_\u8f93\u51fa\u793a\u4f8b"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L273",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_read_file",
+      "target": "code_wiki_tech_design_\u89e3\u6790\u5b9e\u73b0\u7b56\u7565"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L283",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_read_file",
+      "target": "code_wiki_tech_design_prompt_\u4fa7\u7b56\u7565_\u5199\u5165_system_prompt"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L289",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_read_file",
+      "target": "code_wiki_tech_design_\u4e0e\u5176\u5b83\u5de5\u5177\u7684\u5173\u7cfb"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L253",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_outline_\u8f93\u51fa\u793a\u4f8b",
+      "target": "code_wiki_tech_design_codeblock_6"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L267",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_outline_\u8f93\u51fa\u793a\u4f8b",
+      "target": "code_wiki_tech_design_codeblock_7"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L300",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_2_\u7b26\u53f7\u5bfc\u822a_\u4f18\u5148\u4e8e\u5168\u6587_grep",
+      "target": "code_wiki_tech_design_\u5de5\u5177\u89c4\u683c"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L329",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_2_\u7b26\u53f7\u5bfc\u822a_\u4f18\u5148\u4e8e\u5168\u6587_grep",
+      "target": "code_wiki_tech_design_\u68c0\u7d22\u4f18\u5148\u7ea7_\u5199\u5165_system_prompt"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L340",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_2_\u7b26\u53f7\u5bfc\u822a_\u4f18\u5148\u4e8e\u5168\u6587_grep",
+      "target": "code_wiki_tech_design_\u540e\u7aef\u5b9e\u73b0\u5206\u5c42"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L355",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_2_\u7b26\u53f7\u5bfc\u822a_\u4f18\u5148\u4e8e\u5168\u6587_grep",
+      "target": "code_wiki_tech_design_\u8f93\u51fa\u793a\u4f8b"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L369",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_2_\u7b26\u53f7\u5bfc\u822a_\u4f18\u5148\u4e8e\u5168\u6587_grep",
+      "target": "code_wiki_tech_design_\u914d\u7f6e_369"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L302",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_\u5de5\u5177\u89c4\u683c",
+      "target": "code_wiki_tech_design_find_definition"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L310",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_\u5de5\u5177\u89c4\u683c",
+      "target": "code_wiki_tech_design_find_references"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L320",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_find_references",
+      "target": "code_wiki_tech_design_codeblock_8"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L357",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_\u8f93\u51fa\u793a\u4f8b",
+      "target": "code_wiki_tech_design_codeblock_9"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L382",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_3_\u53ea\u8bfb_git_\u5de5\u5177_\u767d\u540d\u5355_\u975e\u4efb\u610f_shell",
+      "target": "code_wiki_tech_design_\u4f55\u65f6\u4f7f\u7528"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L394",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_3_\u53ea\u8bfb_git_\u5de5\u5177_\u767d\u540d\u5355_\u975e\u4efb\u610f_shell",
+      "target": "code_wiki_tech_design_\u5de5\u5177\u89c4\u683c_394"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L439",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_3_\u53ea\u8bfb_git_\u5de5\u5177_\u767d\u540d\u5355_\u975e\u4efb\u610f_shell",
+      "target": "code_wiki_tech_design_\u5b89\u5168\u7ea6\u5b9a_\u5f3a\u5236"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L451",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_3_\u53ea\u8bfb_git_\u5de5\u5177_\u767d\u540d\u5355_\u975e\u4efb\u610f_shell",
+      "target": "code_wiki_tech_design_\u5b9e\u73b0\u8981\u70b9"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L467",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_3_\u53ea\u8bfb_git_\u5de5\u5177_\u767d\u540d\u5355_\u975e\u4efb\u610f_shell",
+      "target": "code_wiki_tech_design_prompt_\u4fa7"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L473",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_5_3_\u53ea\u8bfb_git_\u5de5\u5177_\u767d\u540d\u5355_\u975e\u4efb\u610f_shell",
+      "target": "code_wiki_tech_design_\u914d\u7f6e_473"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L396",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_\u5de5\u5177\u89c4\u683c_394",
+      "target": "code_wiki_tech_design_git_status"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L404",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_\u5de5\u5177\u89c4\u683c_394",
+      "target": "code_wiki_tech_design_git_log"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L412",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_\u5de5\u5177\u89c4\u683c_394",
+      "target": "code_wiki_tech_design_git_blame"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L421",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_\u5de5\u5177\u89c4\u683c_394",
+      "target": "code_wiki_tech_design_git_show"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L430",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_\u5de5\u5177\u89c4\u683c_394",
+      "target": "code_wiki_tech_design_git_diff"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L453",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_\u5b9e\u73b0\u8981\u70b9",
+      "target": "code_wiki_tech_design_codeblock_10"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L509",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_7_llm_\u4e0e\u914d\u7f6e",
+      "target": "code_wiki_tech_design_7_1_\u63a5\u53e3\u62bd\u8c61"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L521",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_7_llm_\u4e0e\u914d\u7f6e",
+      "target": "code_wiki_tech_design_7_2_\u914d\u7f6e\u9879"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L511",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_7_1_\u63a5\u53e3\u62bd\u8c61",
+      "target": "code_wiki_tech_design_codeblock_11"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L542",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_8_\u63a5\u53e3\u8bbe\u8ba1",
+      "target": "code_wiki_tech_design_8_1_cli_mvp"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L558",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_8_\u63a5\u53e3\u8bbe\u8ba1",
+      "target": "code_wiki_tech_design_8_2_\u7a0b\u5e8f_api_\u5185\u90e8"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L571",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_8_\u63a5\u53e3\u8bbe\u8ba1",
+      "target": "code_wiki_tech_design_8_3_\u540e\u7eed_http_\u975e_mvp"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L544",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_8_1_cli_mvp",
+      "target": "code_wiki_tech_design_codeblock_12"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L560",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_8_2_\u7a0b\u5e8f_api_\u5185\u90e8",
+      "target": "code_wiki_tech_design_codeblock_13"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L573",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_8_3_\u540e\u7eed_http_\u975e_mvp",
+      "target": "code_wiki_tech_design_codeblock_14"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L593",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_9_prompt_\u8bbe\u8ba1\u8981\u70b9",
+      "target": "code_wiki_tech_design_codeblock_15"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tech-design.md",
+      "source_location": "L641",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_tech_design_13_\u4f9d\u8d56_mvp",
+      "target": "code_wiki_tech_design_codeblock_16"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_md",
+      "target": "code_wiki_readme_code_wiki"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_readme_code_wiki",
+      "target": "code_wiki_readme_\u5173\u6ce8\u7ef4\u5ea6"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_readme_code_wiki",
+      "target": "code_wiki_readme_\u5b89\u88c5"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_readme_code_wiki",
+      "target": "code_wiki_readme_\u914d\u7f6e"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_readme_code_wiki",
+      "target": "code_wiki_readme_\u4f7f\u7528"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_readme_code_wiki",
+      "target": "code_wiki_readme_\u80fd\u529b_p0"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_readme_code_wiki",
+      "target": "code_wiki_readme_\u5f00\u53d1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_readme_\u5b89\u88c5",
+      "target": "code_wiki_readme_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_readme_\u4f7f\u7528",
+      "target": "code_wiki_readme_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "code_wiki_readme_\u5f00\u53d1",
+      "target": "code_wiki_readme_codeblock_3"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "2050ea166d8a36338f151b21ee6f5b0ca82b09ac"
+}
